@@ -1,0 +1,17 @@
+-> Reelaboração do mapa do site e Definição dos subtemas (levar em consideraçãoa quantidade de conteudo e a facilidade de encontrar imagens de dominio publico em boa qualidade)
+-> Criação de 3 Wireframes(mobile, medio, grande)
+-> Criação do logo
+-> Definindo padrões do projeto
+    -> Escolher cores, fonts padrões do site
+    -> Definido um Header/menu e footer
+    -> Padronização dos de codigo no php e entendimento do JSON
+
+Depois da elaboração dos padrões a serem seguidos, cada um ficará responsavel por sua pagina e também as paginas onde todos são responsaveis, 
+seguindo os padrões do projeto e também ao conteudo(apenas title, headings, alts nas imagens... pois o conteudo pode ser lorem ipsum), 
+tratamento das imagens da sua pagina, como também o html semantico e a programação.
+As páginas comuns a todos são:
+  home
+  quem somos
+  contato
+  normas de utilização
+
