@@ -12,17 +12,21 @@ tratamento das imagens da sua pagina, como também o html semantico e a programa
 do grupo caso tenha dificuldades em uma das tarefas).
 tarefas )
 As páginas comuns a todos são:
-  home
-  quem somos
-  contato
-  normas de utilização
+  home (Mateus)
+  quem somos (Rafael)
+  contato (José)
+  normas de utilização (Diego)
+  menu footer (Jeil)
 
+
+-> paginas individuais
 
 Temas:
--> manga
--> musica
--> dança
--> artes cenicas
--> origami
--> esculturas
+-> manga (Mateus)
+-> musica (Diego)
+-> dança (Jeiel)
+-> artes cenicas (José)
+-> origami (Rafael)
+-> esculturas 
+
 
