@@ -11,6 +11,8 @@ seguindo os padrões do projeto e também ao conteudo(apenas title, headings, al
 tratamento das imagens da sua pagina, como também o html semantico e a programação.(Nada impede que a pessoa peça ajuda para os demais integrantes
 do grupo caso tenha dificuldades em uma das tarefas).
 tarefas )
+
+
 As páginas comuns a todos são:
   home (Mateus)
   quem somos (Rafael)
@@ -26,6 +28,7 @@ Temas:
 -> musica (Diego)
 -> dança (Jeiel)
 -> artes cenicas (José)
+    Rakugo, Kabuki...
 -> origami (Rafael)
 -> esculturas 
 
