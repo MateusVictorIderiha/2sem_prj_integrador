@@ -1,35 +1,41 @@
--> Reelaboração do mapa do site e Definição dos subtemas (levar em consideraçãoa quantidade de conteudo e a facilidade de encontrar imagens de dominio publico em boa qualidade)
+-> Reelaboração do mapa do site e Definição dos subtemas 
+    (levar em consideraçãoa quantidade de conteudo e a facilidade 
+    de encontrar imagens de dominio publico em boa qualidade) OK
 -> Criação de 3 Wireframes(mobile, medio, grande)
 -> Criação do logo
--> Definindo padrões do projeto
+-> Definindo padrões do projeto 
     -> Escolher cores, fonts padrões do site
     -> Definido um Header/menu e footer
     -> Padronização de codigo no php e entendimento do JSON
+-> Colocando estrutura em html
+-> CSS e Designer
+-> Tratamento de imagens
+-> Alimentação dos dados
 
-Depois da elaboração dos padrões a serem seguidos, cada um ficará responsavel por sua pagina e também as paginas onde todos são responsaveis, 
-seguindo os padrões do projeto e também ao conteudo(apenas title, headings, alts nas imagens... pois o conteudo pode ser lorem ipsum), 
-tratamento das imagens da sua pagina, como também o html semantico e a programação.(Nada impede que a pessoa peça ajuda para os demais integrantes
-do grupo caso tenha dificuldades em uma das tarefas).
-tarefas )
+Mokup apenas mobile
 
+Tarefas:
+    Mateus:
+        WIREFRAME home (PQN)
+        manga (pagina individual)
+        Quem somos (HTML e php)
 
-As páginas comuns a todos são:
-  home (Mateus)
-  quem somos (Rafael)
-  contato (José)
-  normas de utilização (Diego)
-  menu footer (Jeil)
+    Rafael:
+        origami (pagina individual)
+        Inserir Estrutura em HTML5 das paginas já com o wireframe do desktop prontas (sem css)
+        WIREFRAME Quem somos
 
+    José:
+        WIREFRAME contato (PQN, MD, GRD)
+        artes cenicas
+        Aplicação do CSS
 
--> paginas individuais
+    Jeil:
+        WIREFRAME menu footer (PQN, MD, GRD)
+        Logo e cores
+        dança(pagina individual)
 
-Temas:
--> manga (Mateus)
--> musica (Diego)
--> dança (Jeiel)
--> artes cenicas (José)
-    Rakugo, Kabuki...
--> origami (Rafael)
--> esculturas 
-
-
+    Diego: 
+        musica(pagina individual)
+        normas de utilização (PQN)
+        Aplicação do CSS
