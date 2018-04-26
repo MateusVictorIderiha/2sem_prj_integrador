@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+
+/*Header e Footer*/
+
+header {
+    background-color: black;
+    height: 150px;
+}
+footer {
+    background-color: black;
+    height: 150px;
+}
+
+.line {
+    background-color: red;
+    height: 2px;
+    margin: 10px auto;
+    width: 300px;
+}
+h1, h2 {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px ;
+    text-align: center;
+}
+
+label {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+textarea {
+    display: block;
+    height: 150px;
+    width: 300px;
+    margin 0 auto;
+}
+.inpum {
+    width: 250px;
+    margin: 25px auto 10px auto;
+}
+.inpdois {
+    width: 250px;
+    margin: 10px auto 25px auto;
+}
+.send {
+    display: block;
+    margin: 25px auto;
+    width: 75px;
+}
+
