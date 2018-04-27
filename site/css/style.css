@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css?family=Roboto|Sanchez');
 
 /*Header e Footer*/
-
 header {
     background-color: black;
     height: 150px;
@@ -35,7 +35,7 @@ textarea {
     display: block;
     height: 150px;
     width: 300px;
-    margin 0 auto;
+    margin: 0 auto;
 }
 .inpum {
     width: 250px;

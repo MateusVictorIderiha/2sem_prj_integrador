@@ -7,7 +7,6 @@ LOCAIS dos arquuivos:
     Arquivos de midia já tratados, o nome do arquivo deve ser "nome_width" e sendo da pagina do responsavel deve ficar em "site/midia/nome_sua_categoria".
 Qualquer outro arquivo de midia não relacionado deve ir "site/midia/geral"
 
-
 HTML5:
     Não esquecer da semantica nas paginas e validar elas na w3c
     * Utilizar o elemento picture do html5 (Ele serve para as imagens ele deixa elas responsivas, 
@@ -29,6 +28,11 @@ assim deixando se encaixar melhor o layout e também o usuario baixar somente o 
 
 
 CSS e Design:
+    Cor 1: (#BC002C | #FF0000 | #DC143C)
+    Cor 2: #5F4B8B 
+    Cor 3: #ddcfce | #cedadd 
+    FONT: Roboto, Sanchez
+
 
     
 
