@@ -1,34 +1,24 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-<meta charset="UTF-8">
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/style.css">
-<title>Contato</title>
-</head>
-<body>
-    <header></header>
         <div class="container">
-                <div class="row">
-                    <div class="line"></div>
-                </div>
+            <div class="row">
+                <div class="line"></div>
+            </div>
             <div>
                 <h1>Mande um Feedback</h1>
             </div>
-                <div class="row">
-                    <div class="line"></div>
-                </div>
+            <div class="row">
+                <div class="line"></div>
+            </div>
             <form>
                 <div class="row">
                     <label class="inpum">
                         <!--Nome completo:-->
-                            <input type="text" name="Nome completo" class="form-control" value="" placeholder="Nome completo:"/>
+                        <input type="text" name="Nome completo" class="form-control" value="" placeholder="Nome completo:"/>
                     </label>
                 </div>
                 <div class="row">
                     <label class="inpdois">
                         <!--E-Mail-->
-                            <input type="text" name="E-mail" class="form-control" value="" placeholder="E-Mail"/>
+                        <input type="text" name="E-mail" class="form-control" value="" placeholder="E-Mail"/>
                     </label>
                 </div>
                 <div class="row">
@@ -43,7 +33,7 @@
                 <div class="row">
                     <label>
                         <!--Area de Texto-->
-                            <textarea></textarea>
+                        <textarea></textarea>
                     </label>
                 </div>
                 <div class="row">
@@ -53,6 +43,3 @@
                 </div>
             </form>
         </div>
-    <footer></footer>
-</body>
-</html>

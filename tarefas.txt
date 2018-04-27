@@ -1,35 +1,52 @@
--> Reelaboração do mapa do site e Definição dos subtemas (levar em consideraçãoa quantidade de conteudo e a facilidade de encontrar imagens de dominio publico em boa qualidade)
--> Criação de 3 Wireframes(mobile, medio, grande)
--> Criação do logo
--> Definindo padrões do projeto
-    -> Escolher cores, fonts padrões do site
-    -> Definido um Header/menu e footer
-    -> Padronização de codigo no php e entendimento do JSON
-
-Depois da elaboração dos padrões a serem seguidos, cada um ficará responsavel por sua pagina e também as paginas onde todos são responsaveis, 
-seguindo os padrões do projeto e também ao conteudo(apenas title, headings, alts nas imagens... pois o conteudo pode ser lorem ipsum), 
-tratamento das imagens da sua pagina, como também o html semantico e a programação.(Nada impede que a pessoa peça ajuda para os demais integrantes
-do grupo caso tenha dificuldades em uma das tarefas).
-tarefas )
-
+-> 1. Reelaboração do mapa do site e Definição dos subtemas 
+    (levar em consideraçãoa quantidade de conteudo e a facilidade 
+    de encontrar imagens de dominio publico em boa qualidade) OK
+-> 2. Criação de 3 Wireframes(mobile, medio, grande)
+-> 3. Criação do logo
+-> 4. Definindo padrões do projeto 
+    -> 4.1 Escolher cores, fonts padrões do site
+    -> 4.2 Definido um Header/menu e footer e a estrutura do portal
+    -> 4.3 Padronização de codigo no php e entendimento do JSON
+-> 5. Colocando estrutura em html
+-> 6. CSS e Designer
+-> 7. Tratamento de imagens e alimentação dos dados
 
 As páginas comuns a todos são:
-  home (Mateus)
-  quem somos (Rafael)
-  contato (José)
-  normas de utilização (Diego)
-  menu footer (Jeil)
+  home
+  quem somos
+  contato
+  normas de utilização
+  menu footer
 
 
--> paginas individuais
-
-Temas:
--> manga (Mateus)
--> musica (Diego)
--> dança (Jeiel)
--> artes cenicas (José)
-    Rakugo, Kabuki...
--> origami (Rafael)
--> esculturas 
+Tarefas:
+    Mateus:
+        WIREFRAME home (PQN, MD, GRD)
+        manga (pagina individual)
+        Quem somos (HTML e php)
+        Definindo padrões do projeto
 
 
+    Rafael:
+        origami (pagina individual)
+        Inserir Estrutura em HTML5
+        WIREFRAME Quem somos (PQN, MD, GRD)
+        Mokup apenas mobile
+
+
+    José:
+        WIREFRAME contato (PQN, MD, GRD)
+        artes cenicas
+        Aplicação do CSS
+
+
+    Jeil:
+        WIREFRAME menu footer (PQN, MD, GRD)
+        Logo e cores
+        dança(pagina individual)
+
+
+    Diego: 
+        musica(pagina individual)
+        normas de utilização (PQN)
+        Aplicação do CSS
