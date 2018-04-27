@@ -1,3 +1,6 @@
+<?php
+include './header.php';
+?>
         <div class="container">
             <div class="row">
                 <div class="line"></div>
@@ -43,3 +46,5 @@
                 </div>
             </form>
         </div>
+<?php
+include './footer.php';
