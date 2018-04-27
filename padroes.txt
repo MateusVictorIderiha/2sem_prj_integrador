@@ -1,9 +1,12 @@
 LOCAIS dos arquuivos: 
     Link GitHub: https://github.com/MateusVictorIderiha/2sem_prj_integrador
+    * TODOS OS NOME DE ARQUIVOS E PASTAS NÃO DEVEM CONTER ACENTO OU ESPAÇO
     Arquivos php devem ficar na raiz da pasta "site"
     Arquivos css devem ficar na pasta "site/css"
     Arquivos js devem ficar na pasta "site/js"
-    Arquivos de midia devem ficar na pasta "site/midia"
+    Arquivos de midia já tratados, o nome do arquivo deve ser "nome_width" e sendo da pagina do responsavel deve ficar em "site/midia/nome_sua_categoria".
+Qualquer outro arquivo de midia não relacionado deve ir "site/midia/geral"
+
 
 HTML5:
     Não esquecer da semantica nas paginas e validar elas na w3c

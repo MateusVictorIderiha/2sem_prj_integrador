@@ -11,6 +11,14 @@
 -> 6. CSS e Designer
 -> 7. Tratamento de imagens e alimentação dos dados
 
+As páginas comuns a todos são:
+  home
+  quem somos
+  contato
+  normas de utilização
+  menu footer
+
+
 Tarefas:
     Mateus:
         WIREFRAME home (PQN, MD, GRD)
