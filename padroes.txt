@@ -33,7 +33,9 @@ CSS e Design:
     Cor 3: #ddcfce | #cedadd 
     FONT: Roboto, Sanchez
 
-
+    No topo do css vem os estilos gerais referentes a todas as paginas ou um estilo que está em mais de uma
+    pagina, os demais estilos serão separados pode pagina, a ordem de cada css deve vir pela ordem da
+    estrutura do html.
     
 
 PHP:
