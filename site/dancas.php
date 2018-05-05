@@ -73,7 +73,7 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6 col-12">
-                    <section>
+                    <section class="sectionDanca">
                         <div class="row">
                             <div class="col-lg-4 col-md-4 col-4">
                                 <picture>
@@ -85,15 +85,15 @@
                             </div>
 
                             <div class="col-lg-8 col-md-8 col-8">
-                                <h1>Roupas tipicas</h1>
-                                <p>Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel, maximus pretium est. Maximus pretium est.</p>
+                                <h1 class="title">Roupas tipicas</h1>
+                                <p>Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel.</p>
                             </div>
                         </div>
                     </section>
                 </div>
 
                 <div class="col-lg-4 col-md-6 col-12">
-                    <section>
+                    <section class="sectionDanca">
                         <div class="row">
                             <div class="col-lg-4 col-md-4 col-4">
                                 <picture>
@@ -105,8 +105,8 @@
                             </div>
 
                             <div class="col-lg-8 col-md-8 col-8">
-                                <h1>Bon Odori</h1>
-                                <p>Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel, maximus pretium est. Maximus pretium est.</p>
+                                <h1 class="title">Bon Odori</h1>
+                                <p>Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel.</p>
                             </div>
                         </div>
                     </section>
@@ -116,12 +116,12 @@
             <div class="row">
                 <div class="col-lg-4 d-none d-lg-block">
                     <section>
-                        <p>Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel, maximus pretium est.</p>
+                        <p>Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel.</p>
                     </section>
                 </div>
 
                 <div class="col-lg-4 col-md-6 col-12">
-                    <section>
+                    <section class="sectionDanca">
                         <div class="row">
                             <div class="col-lg-4 col-md-4 col-4">
                                 <picture>
@@ -133,15 +133,15 @@
                             </div>
 
                             <div class="col-lg-8 col-md-8 col-8">
-                                <h1>Lenda da dança</h1>
-                                <p>Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel, maximus pretium est. Maximus pretium est.</p>
+                                <h1 class="title">Lenda dança</h1>
+                                <p>Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel.</p>
                             </div>
                         </div>
                     </section>
                 </div>
 
                 <div class="col-lg-4 col-md-6 col-12">
-                    <section>
+                    <section class="sectionDanca">
                         <div class="row">
                             <div class="col-lg-4 col-md-4 col-4">
                                 <picture>
@@ -153,8 +153,8 @@
                             </div>
 
                             <div class="col-lg-8 col-md-8 col-8">
-                                <h1>O livro Kojiki</h1>
-                                <p>Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel, maximus pretium est. Maximus pretium est.</p>
+                                <h1 class="title">O livro Kojiki</h1>
+                                <p>Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel.</p>
                             </div>
                         </div>
                     </section>
