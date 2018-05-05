@@ -10,7 +10,6 @@
  * $_COOKIE -> guarda os dados dos cookies
  */
 
-
 /**
  * "<?=" é o mesmo que "<?php echo" forma de mostrar o valor mais curto, 
  * muito usado entre tags html, aconselhavel a usar no meio do html

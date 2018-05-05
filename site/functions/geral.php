@@ -8,7 +8,7 @@
  */
 function formatPrefix($prefix) {
     $formatEspecial = preg_replace("[^a-Z]", "", $prefix);
-    return ucfirst($formatEspecial);
+    return strtolower($formatEspecial);
 }
 
 /** 
@@ -31,6 +31,7 @@ function setConfigPage($pageName) {
             setActivBtnMenu("quem_somos");
             break;
         default:
+            
             break;
     }
 }
@@ -38,14 +39,13 @@ function setConfigPage($pageName) {
 /** 
  * Inclui a pagina
  * 
- * @param string $myArgument Com uma * descrição * deste argumento, estes também podem 
- * abranger múltiplas linhas. 
+ * @param string $fileName o nome do arquivo sem o .php
  * 
  * @return void 
  */
 function includePage($fileName) {
     setConfigPage($fileName);
-    
+
     include_once "./header.php";
     include_once $fileName.".php";
     include_once "./footer.php";
@@ -59,7 +59,7 @@ function includePage($fileName) {
  * 
  * @return void
  */
-function setTitleHead(string $title): void {
+function setTitleHead(string $title) {
     $GLOBALS["titleHead"] = $title;
 }
 
@@ -83,7 +83,7 @@ function getTitleHead(): string {
  * 
  * @return void
  */
-function setActivBtnMenu(string $btn): void {
+function setActivBtnMenu(string $btn) {
     $GLOBALS["activeBtnMenu"] = $btn;
 }
 
@@ -97,4 +97,51 @@ function setActivBtnMenu(string $btn): void {
  */
 function getActivBtnMenu(): string {
     return $GLOBALS["activeBtnMenu"];
+}
+
+
+/** 
+ * Retorna um arrai com todos os itens do menu
+ * 
+ * @return matriz com todos os links do menu
+ */
+function getValuesMenu() {
+    $itensMenus = [
+        [
+            "nome" => "Músicas",
+            "subMenu" => [
+                [
+                    "nome" => "Noticias",
+                    "link" => ""
+                ],
+                [
+                    "nome" => "Bunraku",
+                    "link" => ""
+                ],
+                [
+                    "nome" => "Kabuki",
+                    "link" => ""
+                ],
+                [
+                    "nome" => "Recomendações",
+                    "link" => ""
+                ]
+            ],
+            "link" => "musica"
+        ],
+        [
+            "nome" => "Contato",
+            "link" => "contato"
+        ],
+        [
+            "nome" => "Dança",
+            "link" => "dancas"
+        ],
+        [
+            "nome" => "Quem Somos",
+            "link" => "quem_somos"
+        ]
+    ];
+    
+    return $itensMenus;
 }
