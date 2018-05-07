@@ -1,6 +1,3 @@
-<?php
-include './header.php';
-?>
         <div class="container">
             <div class="row">
                 <div class="line"></div>
@@ -46,5 +43,3 @@ include './header.php';
                 </div>
             </form>
         </div>
-<?php
-include './footer.php';
