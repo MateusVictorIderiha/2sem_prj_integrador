@@ -28,7 +28,7 @@
                             if(!isset($item["subMenu"][0])) {
                         ?>
                                 <li class="nav-item <?= $item["link"] == getActivBtnMenu() ? "active" : ""; ?>">
-                                    <a class="nav-link" href="#"><?= $item["nome"]; ?></a>
+                                    <a class="nav-link" href="<?= "index.php?pagina=".$item["link"]; ?>"> <?= $item["nome"]; ?></a>
                                 </li>
                         <?php
                             } else {

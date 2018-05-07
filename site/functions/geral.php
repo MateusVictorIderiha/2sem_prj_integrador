@@ -30,6 +30,10 @@ function setConfigPage($pageName) {
             setTitleHead("Quem Somos");
             setActivBtnMenu("quem_somos");
             break;
+        case "dancas":
+            setTitleHead("Dança");
+            setActivBtnMenu("dancas");
+            break;
         default:
             
             break;
