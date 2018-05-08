@@ -80,7 +80,7 @@ function setTitleHead(string $title) {
  * @param string $title Com uma * descrição * deste argumento, estes também podem 
  * abranger múltiplas linhas. 
  * 
- * @return void
+ * @return O valor da variavel global titleHead
  */
 function getTitleHead(): string {
     return $GLOBALS["titleHead"];
