@@ -44,7 +44,7 @@
                                     <source media="(max-width: 720px)" srcset="midia/danca/meioDesktopDanca_400.jpg">
                                     <source media="(min-width: 720px)" srcset="midia/danca/meioDesktopDanca_400.jpg">
                                     <source media="(min-width: 1200px)" srcset="midia/danca/meioDesktopDanca_400.jpg.">
-                                    <img class="img-fluid" src="midia/danca/meioDesktopDanca_400.jpg" alt="2 moças moças japonesas com roupas tipicas de dança japonesa" style="width:auto;">	
+                                    <img class="img-fluid" src="midia/danca/meioDesktopDanca_400.jpg" alt="duas moças moças japonesas com roupas tipicas de dança japonesa" style="width:auto;">	
                                 </picture>
                             </aside>
                         </div>
@@ -80,7 +80,7 @@
                                     <source media="(max-width: 720px)" srcset="midia/danca/topicoRoupaDanca_100.jpg">
                                     <source media="(min-width: 720px)" srcset="midia/danca/topicoRoupaDanca_100.jpg">
                                     <source media="(min-width: 1200px)" srcset="midia/danca/topicoRoupaDanca_100.jpg">
-                                    <img class="img-fluid" src="midia/danca/topicoRoupaDanca_100.jpg" alt="casal japones com guarda chuva tipico de dança" style="width:auto;">
+                                    <img class="img-fluid" src="midia/danca/topicoRoupaDanca_100.jpg" alt="Mulher asiatica usando vestido azul com flores e um leque" style="width:auto;">
                                 </picture>
                             </div>
 
@@ -100,7 +100,7 @@
                                     <source media="(max-width: 720px)" srcset="midia/danca/BonodriDanca_100.jpg">
                                     <source media="(min-width: 720px)" srcset="midia/danca/BonodriDanca_100.jpg">
                                     <source media="(min-width: 1200px)" srcset="midia/danca/BonodriDanca_100.jpg">
-                                    <img class="img-fluid" src="midia/danca/BonodriDanca_100.jpg" alt="casal japones com guarda chuva tipico de dança" style="width:auto;">
+                                    <img class="img-fluid" src="midia/danca/BonodriDanca_100.jpg" alt="Mulher tocando um tambor em um festival de dança japones" style="width:auto;">
                                 </picture>
                             </div>
 
@@ -128,7 +128,7 @@
                                     <source media="(max-width: 720px)" srcset="midia/danca/lendaDanca_100.jpg">
                                     <source media="(min-width: 720px)" srcset="midia/danca/lendaDanca_100.jpg">
                                     <source media="(min-width: 1200px)" srcset="midia/danca/lendaDanca_100.jpg">
-                                    <img class="img-fluid" src="midia/danca/lendaDanca_100.jpg" alt="casal japones com guarda chuva tipico de dança" style="width:auto;">	
+                                    <img class="img-fluid" src="midia/danca/lendaDanca_100.jpg" alt="Quadro da lenda japonesa sobre o nascimento da dança" style="width:auto;">	
                                 </picture>
                             </div>
 
@@ -148,7 +148,7 @@
                                     <source media="(max-width: 720px)" srcset="midia/danca/KojikiDanca_100.jpg">
                                     <source media="(min-width: 720px)" srcset="midia/danca/KojikiDanca_100.jpg">
                                     <source media="(min-width: 1200px)" srcset="midia/danca/KojikiDanca_100.jpg">
-                                    <img class="img-fluid" src="midia/danca/KojikiDanca_100.jpg" alt="casal japones com guarda chuva tipico de dança" style="width:auto;">
+                                    <img class="img-fluid" src="midia/danca/KojikiDanca_100.jpg" alt="Livros velhos" style="width:auto;">
                                 </picture>
                             </div>
 
