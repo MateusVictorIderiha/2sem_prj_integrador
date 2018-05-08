@@ -3,7 +3,7 @@
                 <div class="line"></div>
             </div>
             <div>
-                <h1>Mande um Feedback</h1>
+                <h1>Tá Funcionando</h1>
             </div>
             <div class="row">
                 <div class="line"></div>
@@ -12,7 +12,7 @@
                 <div class="row">
                     <label class="inpum">
                         <!--Nome completo:-->
-                        <input type="text" name="Nome completo" class="form-control" value="" placeholder="Nome completo:"/>
+                        <input type="text" name="Completo" class="form-control" value="" placeholder="Nome Completo:"/>
                     </label>
                 </div>
                 <div class="row">
