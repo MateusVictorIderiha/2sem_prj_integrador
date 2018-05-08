@@ -35,6 +35,9 @@ function setConfigPage($pageName) {
             setActivBtnMenu("dancas");
             break;
         default:
+            setTitleHead("Pagina 404");
+            setActivBtnMenu("arquivo_404");
+            
             
             break;
     }

@@ -61,3 +61,8 @@ textarea {
     margin: 5px;
 }
 
+.form-inline .formD {
+    width:700px; 
+    margin-left: 150px;
+}
+
