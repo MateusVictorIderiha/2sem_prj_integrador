@@ -34,6 +34,10 @@ function setConfigPage($pageName) {
             setTitleHead("Dança");
             setActivBtnMenu("dancas");
             break;
+        case "cenicas":
+            setTitleHead("Artes Cências");
+            setActivBtnMenu("cenicas");
+            break;
         default:
             setTitleHead("Pagina 404");
             setActivBtnMenu("arquivo_404");

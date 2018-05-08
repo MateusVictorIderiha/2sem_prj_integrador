@@ -61,6 +61,48 @@ textarea {
     margin: 5px;
 }
 
+/*O Meu Começa aqui*/
+
+.container {
+    margin: 50px 0;
+}
+
+article {
+    margin: 0 auto;
+    text-align: left;
+}
+h1, h2 {
+    color: red;
+    font-size: 24px;
+    margin: 25px auto;
+    text-align: center;
+}
+p {
+    margin: 10px 0;
+}
+img {
+    display: block;
+    margin: 10px auto;
+}
+.sec_um {
+    background-color: white;
+    border: solid black;
+    color: black;
+    margin: 5px 0;
+}
+h3 {
+    margin: 15px 0;
+    width: 300px;
+}
+section {
+    margin: 5px;
+}
+section p {
+    font-size: 16px;
+    margin: 5px 5px;
+}
+/*O meu acaba aqui*/
+
 .form-inline .formD {
     width:700px; 
     margin-left: 150px;
