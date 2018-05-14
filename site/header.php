@@ -19,9 +19,6 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
-<!--                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>-->
                         <?php
                         $itensMenu = getValuesMenu();
                         foreach ($itensMenu as $item) {
@@ -29,6 +26,7 @@
                         ?>
                                 <li class="nav-item <?= $item["link"] == getActivBtnMenu() ? "active" : ""; ?>">
                                     <a class="nav-link" href="<?= "index.php?pagina=".$item["link"]; ?>"> <?= $item["nome"]; ?></a>
+                                    <?= $item["link"] == getActivBtnMenu() ? ' <span class="sr-only">(current)</span></a>': ""; ?>
                                 </li>
                         <?php
                             } else {
@@ -38,10 +36,9 @@
                                         <?= $item["nome"]; ?>
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                        <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="#">Something else here</a>
+                                        <?php foreach ($item["submenu"] as $subItem) { ?>
+                                        <a class="dropdown-item" href="<?= "index.php?pagina=".$subItem["link"]; ?>"><?= $subItem["nome"]; ?></a>
+                                        <?php } ?>
                                     </div>
                                 </li>
                         <?php
