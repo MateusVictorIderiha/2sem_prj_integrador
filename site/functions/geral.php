@@ -21,28 +21,29 @@ function formatPrefix($prefix) {
  * @return void 
  */
 function setConfigPage($pageName) {
+    setInfoGrupo();    
+    $infoGrupo = getInfoGrupo();
+
     switch ($pageName) {
         case "contato":
-            setTitleHead("Contato");
+            setTitleHead($infoGrupo["nome_grupo"]." - Contato");
             setActivBtnMenu("contato");
             break;
         case "quem_somos":
-            setTitleHead("Quem Somos");
+            setTitleHead($infoGrupo["nome_grupo"]." - Quem Somos");
             setActivBtnMenu("quem_somos");
             break;
         case "dancas":
-            setTitleHead("Dança");
+            setTitleHead($infoGrupo["nome_grupo"]." - Dança");
             setActivBtnMenu("dancas");
             break;
         case "cenicas":
-            setTitleHead("Artes Cências");
+            setTitleHead($infoGrupo["nome_grupo"]." - Artes Cências");
             setActivBtnMenu("cenicas");
             break;
         default:
-            setTitleHead("Pagina 404");
+            setTitleHead($infoGrupo["nome_grupo"]." - Pagina 404");
             setActivBtnMenu("arquivo_404");
-            
-            
             break;
     }
 }
@@ -80,7 +81,7 @@ function setTitleHead(string $title) {
  * @param string $title Com uma * descrição * deste argumento, estes também podem 
  * abranger múltiplas linhas. 
  * 
- * @return O valor da variavel global titleHead
+ * @return string O valor da variavel global titleHead
  */
 function getTitleHead(): string {
     return $GLOBALS["titleHead"];
@@ -109,7 +110,6 @@ function setActivBtnMenu(string $btn) {
 function getActivBtnMenu(): string {
     return $GLOBALS["activeBtnMenu"];
 }
-
 
 /** 
  * Retorna um arrai com todos os itens do menu
@@ -156,3 +156,34 @@ function getValuesMenu() {
     
     return $itensMenus;
 }
+
+/** 
+ * Usado para retornar os dados de consultas aos arquivos json
+ * 
+ * @param $fileJsonName é o caminho e o nome do arquivo json
+ * 
+ * @return array os dados de um arquivo json em forma de array
+ */
+function getDadosJson($fileJsonName) {
+    $json = file_get_contents($fileJsonName);
+    return json_decode($json, true);
+}
+
+/** 
+ * Seta um array com as informções do grupo e dos integrantes em um array global $GLOBALS["infoGrupo"]
+ * 
+ * @return void
+ */
+function setInfoGrupo() {
+    $GLOBALS["infoGrupo"] = getDadosJson("dados/grupo.json");
+}
+
+/** 
+ * Retorna o valor setado pela função setInfoGrupo() de $GLOBALS["infoGrupo"]
+ * 
+ * @return array das informações do grupo como nome do grupo, e informações dos integrantes
+ */
+function getInfoGrupo() {
+    return $GLOBALS["infoGrupo"];
+}
+

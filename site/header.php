@@ -10,9 +10,14 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <header>
+        <header class="topo">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Navbar</a>
+                <?php
+                $infoGrupo = getInfoGrupo();
+                ?>
+                <a class="navbar-brand" href="<?= "index.php?pagina=home"; ?>">
+                    <img src="midia/geral/<?= $infoGrupo["logo"]; ?>" alt="<?= $infoGrupo["nome_grupo"]; ?>" class="logo">
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -36,7 +41,7 @@
                                         <?= $item["nome"]; ?>
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <?php foreach ($item["submenu"] as $subItem) { ?>
+                                        <?php foreach ($item["subMenu"] as $subItem) { ?>
                                         <a class="dropdown-item" href="<?= "index.php?pagina=".$subItem["link"]; ?>"><?= $subItem["nome"]; ?></a>
                                         <?php } ?>
                                     </div>
@@ -46,10 +51,6 @@
                         }
                         ?>
                     </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
                 </div>
             </nav>
         </header>
