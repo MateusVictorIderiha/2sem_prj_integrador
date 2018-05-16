@@ -1,0 +1,8 @@
+As pseudo-classes vem depois de um ou dois "dois pontos" (":" ou "::")
+
+selecionar elementos de forma estrutural:
+    nth-child
+    https://www.w3schools.com/cssref/sel_nth-child.asp
+
+    nth-of-type
+    https://www.w3schools.com/cssref/sel_nth-of-type.asp

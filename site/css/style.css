@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Roboto|Sanchez');
+
+/*Header e Footer*/
+header {
+    background-color: white;
+}
+footer {
+    background-color: black;
+    height: 150px;
+}
+
+.line {
+    background-color: red;
+    height: 2px;
+    margin: 10px auto;
+    width: 300px;
+}
+h1, h2 {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px ;
+    text-align: center;
+}
+
+label {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+textarea {
+    display: block;
+    height: 150px;
+    width: 300px;
+    margin: 0 auto;
+}
+.inpum {
+    width: 250px;
+    margin: 25px auto 10px auto;
+}
+.inpdois {
+    width: 250px;
+    margin: 10px auto 25px auto;
+}
+.send {
+    display: block;
+    margin: 25px auto;
+    width: 75px;
+}
+
+.title {
+    margin-top: 0px;
+}
+
+.topo {
+    height: 300px;
+}
+
+.topo .logo {
+    height: 142px;
+}
+
+.sectionDanca {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+/*O Meu Começa aqui*/
+article {
+    margin: 0 auto;
+    text-align: left;
+}
+h1, h2 {
+    color: red;
+    font-size: 24px;
+    margin: 25px auto;
+    text-align: center;
+}
+p {
+    margin: 10px 0;
+}
+img {
+    display: block;
+    margin: 10px auto;
+}
+.sec_um {
+    background-color: white;
+    border: solid black;
+    color: black;
+    margin: 5px 0;
+}
+h3 {
+    margin: 15px 0;
+    width: 300px;
+}
+section {
+    margin: 5px;
+}
+section p {
+    font-size: 16px;
+    margin: 5px 5px;
+}
+/*O meu acaba aqui*/
+
+.form-inline .formD {
+    width:700px; 
+    margin-left: 150px;
+}
+
+@media screen and (max-width: 1200px) {
+    .topo #navbarSupportedContent {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 200px;
+        background-color: #CCC;
+        height: 100vh;
+        max-width: 0;
+        transition: 0.5s max-width;
+    }
+
+    .topo #navbarSupportedContent.show {
+        max-width: 100%;        
+    }
+}
+@media screen and (min-width: 1200px) {
+    .topo {
+        height: 300px;
+    }
+
+    .topo .navbar {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: .5rem 1rem;
+    }
+ 
+    .topo .logo {
+        position: relative;
+        top: 50px;
+        height: 142px;
+    }
+
+    .topo #navbarSupportedContent {
+        font-size: 1.3em;
+        width: 100%;
+        position: relative;
+        top: 10px
+    }
+    
+    .topo #navbarSupportedContent .navbar-nav {
+        margin-left: auto;
+    }
+    
+    .topo #navbarSupportedContent .navbar-nav .nav-item {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
