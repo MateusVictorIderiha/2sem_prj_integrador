@@ -40,7 +40,7 @@ Tarefas:
         Aplicação do CSS
 
 
-    Jeil:
+    Jeiel:
         WIREFRAME menu footer (PQN, MD, GRD)
         Logo e cores
         dança(pagina individual)

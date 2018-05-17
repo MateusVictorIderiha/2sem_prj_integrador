@@ -4,8 +4,7 @@
 
 /*Header e Footer*/
 header {
-    background-color: black;
-    height: 150px;
+    background-color: white;
 }
 footer {
     background-color: black;
@@ -54,14 +53,22 @@ textarea {
     margin-top: 0px;
 }
 
+.topo {
+    height: 300px;
+}
+
+.topo .logo {
+    height: 142px;
+}
+
 .sectionDanca {
     border: 2px solid black;
     padding: 10px;
     margin: 5px;
 }
 
-/*O Meu Começa aqui*/
 
+/*O Meu Começa aqui*/
 article {
     margin: 0 auto;
     text-align: left;
@@ -122,4 +129,64 @@ section p {
     text-align: center;
     margin: 0 auto;
     font-size: 13px;
+}/*
+@media screen and (max-width: 1200px) {
+    .topo #navbarSupportedContent {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 200px;
+        background-color: #CCC;
+        height: 100vh;
+        max-width: 0;
+        transition: 0.5s max-width;
+    }
+
+    .topo #navbarSupportedContent.show {
+        max-width: 100%;        
+    }
 }
+@media screen and (min-width: 1200px) {
+    .topo {
+        height: 300px;
+    }
+
+    .topo .navbar {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: .5rem 1rem;
+    }
+ 
+    .topo .logo {
+        position: relative;
+        top: 50px;
+        height: 142px;
+    }
+
+    .topo #navbarSupportedContent {
+        font-size: 1.3em;
+        width: 100%;
+        position: relative;
+        top: 10px
+    }
+    
+    .topo #navbarSupportedContent .navbar-nav {
+        margin-left: auto;
+    }
+    
+    .topo #navbarSupportedContent .navbar-nav .nav-item {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+*/

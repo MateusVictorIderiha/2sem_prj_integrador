@@ -15,39 +15,12 @@
                     <?php
                         foreach ($item["subMenu"] as $subItem) { ?>
                     <li class=" foot_li"> <a href="#"></a><?= $subItem["nome"]; ?></li>
-                    
                     <?php } ?>
-                    <!--<li class=" foot_li"> <a href="#"></a>Página</li>
-                    <li class=" foot_li"> <a href="#"></a>Página</li>-->
                 </ul>
                 <?php
                      }
                 }
                 ?>
-                <!--<ul class="col-2">
-                    <li class=" foot_li_title"> <a href="#"></a>MÚSICA</li>
-                    <li class=" foot_li"> <a href="#"></a>Página</li>
-                    <li class=" foot_li"> <a href="#"></a>Página</li>
-                    <li class=" foot_li"> <a href="#"></a>Página</li>
-                </ul>
-                <ul class="col-2">
-                    <li class=" foot_li_title"> <a href="#"></a>DANÇA</li>
-                    <li class=" foot_li"> <a href="#"></a>Página</li>
-                    <li class=" foot_li"> <a href="#"></a>Página</li>
-                    <li class=" foot_li"> <a href="#"></a>Página</li>
-                </ul>
-                <ul class="col-2">
-                    <li class=" foot_li_title"> <a href="#"></a>MANGÁ</li>
-                    <li class=" foot_li"> <a href="#"></a>Página</li>
-                    <li class=" foot_li"> <a href="#"></a>Página</li>
-                    <li class=" foot_li"> <a href="#"></a>Página</li>
-                </ul>
-                <ul class="col-2">
-                    <li class=" foot_li_title"> <a href="#"></a>TEATRO</li>
-                    <li class=" foot_li"> <a href="#"></a>Página</li>
-                    <li class=" foot_li"> <a href="#"></a>Página</li>
-                    <li class=" foot_li"> <a href="#"></a>Página</li>
-                </ul>*/-->
             </div>
         </nav>
         </div>
