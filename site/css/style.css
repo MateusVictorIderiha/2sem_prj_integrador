@@ -9,7 +9,6 @@ header {
 }
 footer {
     background-color: black;
-    height: 150px;
 }
 
 .line {
@@ -85,6 +84,7 @@ img {
     border: solid black;
     color: black;
     margin: 5px 0;
+    width: 300px;
 }
 h3 {
     margin: 15px 0;
@@ -104,3 +104,22 @@ section p {
     margin-left: 150px;
 }
 
+/*FOOTER*/
+
+.foot_li {
+    list-style: none;
+}
+.foot_li_title {
+    list-style: none;
+    color: white
+}
+.simu_logo {
+    width: 50px;
+    margin: 10px;
+}
+.direito {
+    color: lightgray;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 13px;
+}

@@ -36,7 +36,7 @@
                                         <?= $item["nome"]; ?>
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <?php foreach ($item["submenu"] as $subItem) { ?>
+                                        <?php foreach ($item["subMenu"] as $subItem) { ?>
                                         <a class="dropdown-item" href="<?= "index.php?pagina=".$subItem["link"]; ?>"><?= $subItem["nome"]; ?></a>
                                         <?php } ?>
                                     </div>

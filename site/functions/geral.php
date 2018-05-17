@@ -119,7 +119,8 @@ function getActivBtnMenu(): string {
 function getValuesMenu() {
     $itensMenus = [
         [
-            "nome" => "Músicas",
+            "nome" => "Teatro Clássico",
+            "link" => "",
             "subMenu" => [
                 [
                     "nome" => "Noticias",
@@ -134,19 +135,59 @@ function getValuesMenu() {
                     "link" => ""
                 ],
                 [
+                    "nome" => "Kyogen",
+                    "link" => ""
+                ],
+                [
+                    "nome" => "Noh",
+                    "link" => ""
+                ],
+                [
                     "nome" => "Recomendações",
                     "link" => ""
                 ]
             ],
-            "link" => "musica"
+        ],
+        [
+            "nome" => "Música",
+            "link" => "",
+            "subMenu" => [
+                [
+                    "nome" => "Gênero 1",
+                    "link" => ""
+                ],
+                [
+                    "nome" => "Gênero 2",
+                    "link" => ""
+                ],
+                [
+                    "nome" => "Gênero 3",
+                    "link" => ""
+                ],
+            ]
+        ],
+        [
+            "nome" => "Danças",
+            "link" => "",
+            "subMenu" => [
+                [
+                    "nome" => "Dança Um",
+                    "link" => ""
+                ],
+                [
+                    "nome" => "Dança Dois",
+                    "link" => ""
+                ],
+                [
+                    "nome" => "Dança Três",
+                    "link" => ""
+                ],
+                
+            ]
         ],
         [
             "nome" => "Contato",
             "link" => "contato"
-        ],
-        [
-            "nome" => "Dança",
-            "link" => "dancas"
         ],
         [
             "nome" => "Quem Somos",
