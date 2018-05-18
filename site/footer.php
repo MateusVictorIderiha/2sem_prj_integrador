@@ -1,4 +1,3 @@
-<div class="container">
     <footer>
         <div class="row">
             <img class="col-1 simu_logo" src="midia/footer/50_50.png" alt="simulação de logo" height="50" width="50" />
@@ -28,7 +27,6 @@
             <h3 class="direito">Direitos Reservados</h3>
         </div>
     </footer>
-</div>
 
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>

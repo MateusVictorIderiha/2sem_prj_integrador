@@ -106,9 +106,13 @@ section p {
 }
 /*O meu acaba aqui*/
 
+.formG {
+    display: flex;
+    justify-content: center;
+}
+
 .form-inline .formD {
     width:700px; 
-    margin-left: 150px;
 }
 
 /*FOOTER*/
