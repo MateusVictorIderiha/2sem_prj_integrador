@@ -2,13 +2,45 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto|Sanchez');
 
-/*Header e Footer*/
-header {
+/**
+* INICIO GERAL
+*/
+body, html {
+    font-size: 12px;
+}
+
+/* inicio Header e Footer*/
+.topo, .rodape {
     background-color: white;
 }
-footer {
-    background-color: black;
+
+.foot_li {
+    list-style: none;
 }
+.foot_li_title {
+    list-style: none;
+    color: white
+}
+.simu_logo {
+    width: 70px;
+    margin: 10px;
+}
+.direito {
+    color: #777;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 13px;
+}
+.title {
+    margin-top: 0px;
+}
+.topo {
+    height: 300px;
+}
+.topo .logo {
+    height: 142px;
+}
+/* fim  Header e Footer */
 
 .line {
     background-color: red;
@@ -16,25 +48,41 @@ footer {
     margin: 10px auto;
     width: 300px;
 }
-h1, h2 {
+
+.border-line-top {
+    border-top: 2px solid red;
+}
+
+.border-line-bottom {
+    border-bottom: 2px solid red;
+}
+
+/**
+* FIM GERAL
+*/
+
+/*h1, h2 {
     color: black;
     font-size: 24px;
     font-weight: bold;
     margin: 10px ;
     text-align: center;
-}
-
-label {
+}*/
+/*label {
     width: 300px;
     display: block;
     margin: 0 auto;
-}
-textarea {
+}*/
+/*textarea {
     display: block;
     height: 150px;
     width: 300px;
     margin: 0 auto;
-}
+}*/
+
+/**
+* INICIO PÁGINA DE NÃO ENCONTRADO
+*/
 .inpum {
     width: 250px;
     margin: 25px auto 10px auto;
@@ -49,17 +97,16 @@ textarea {
     width: 75px;
 }
 
-.title {
-    margin-top: 0px;
+.formG {
+    display: flex;
+    justify-content: center;
 }
-
-.topo {
-    height: 300px;
+.form-inline .formD {
+    width:700px; 
 }
-
-.topo .logo {
-    height: 142px;
-}
+/**
+* FIM PÁGINA NÃO ENCONTRADA
+*/
 
 .sectionDanca {
     border: 2px solid black;
@@ -67,9 +114,8 @@ textarea {
     margin: 5px;
 }
 
-
-/*O Meu Começa aqui*/
-article {
+/* PÁGINA DE CONTATO */
+/*article {
     margin: 0 auto;
     text-align: left;
 }
@@ -85,7 +131,7 @@ p {
 img {
     display: block;
     margin: 10px auto;
-}
+}*/
 .sec_um {
     background-color: white;
     border: solid black;
@@ -93,7 +139,7 @@ img {
     margin: 5px 0;
     width: 300px;
 }
-h3 {
+/*h3 {
     margin: 15px 0;
     width: 300px;
 }
@@ -103,57 +149,75 @@ section {
 section p {
     font-size: 16px;
     margin: 5px 5px;
-}
+}*/
 /*O meu acaba aqui*/
 
-.formG {
-    display: flex;
-    justify-content: center;
-}
-
-.form-inline .formD {
-    width:700px; 
-}
-
-/*FOOTER*/
-
-.foot_li {
-    list-style: none;
-}
-.foot_li_title {
-    list-style: none;
-    color: white
-}
-.simu_logo {
-    width: 50px;
-    margin: 10px;
-}
-.direito {
-    color: lightgray;
-    text-align: center;
-    margin: 0 auto;
-    font-size: 13px;
-}
-
 @media screen and (max-width: 991px) {
+    /**
+    * INICIO TOPO
+    */
+    .topo {
+        height: 100px;
+    }    
+    .topo .logo {
+        height: 70px;
+    }
     .topo #navbarSupportedContent {
         position: absolute;
         right: 0;
         top: 0;
         width: 200px;
-        background-color: #CCC;
+        background-color: white;
         height: 100vh;
         max-width: 0;
         transition: 0.5s max-width;
     }
 
+    .topo .navbar-collapse .navbar-nav {
+        padding: 15px;
+    }
+
     .topo #navbarSupportedContent.show {
         max-width: 100%;        
     }
+
+    .topo > .navbar > button.navbar-toggler {
+        background-color: red;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+    }
+    
+    .topo .navbar-nav .dropdown-menu {
+        border: none;
+    }
+    
+    .topo > .navbar > button.navbar-toggler > .fas.fa-bars {
+        color: white;
+    }
+    /**
+    * FIM TOPO
+    */
+    
+    /**
+    * INICIO RODAPE
+    */
+    .simu_logo, #navbarSupportedContent .logo {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    /**
+    * FIM RODAPE
+    */
+    
 }
 @media screen and (min-width: 991px) {
+    /**
+    * INICIO TOPO TAMANHO LG
+    */
     .topo {
-        height: 300px;
+        height: 230px;
     }
 
     .topo .navbar {
@@ -182,7 +246,7 @@ section p {
         font-size: 1.3em;
         width: 100%;
         position: relative;
-        top: 10px
+        top: 33px;
     }
 
     .topo #navbarSupportedContent .navbar-nav {
@@ -193,5 +257,11 @@ section p {
         padding-left: 20px;
         padding-right: 20px;
     }
+    
+    .topo #navbarSupportedContent .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    /**
+    * FIM TOPO TAMANHO LG
+    */
 }
-

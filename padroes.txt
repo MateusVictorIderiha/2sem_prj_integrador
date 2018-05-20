@@ -25,6 +25,8 @@ assim deixando se encaixar melhor o layout e também o usuario baixar somente o 
         O mesmo ocorre com os demais tamanhos.
         Ref: https://www.w3schools.com/tags/tag_picture.asp
         -->
+        
+        LINK PARA REDIMENSIONAR IMAGENS: https://youtu.be/eRdZDuXWUjA
 
 
 CSS e Design:
@@ -36,7 +38,37 @@ CSS e Design:
     No topo do css vem os estilos gerais referentes a todas as paginas ou um estilo que está em mais de uma
     pagina, os demais estilos serão separados pode pagina, a ordem de cada css deve vir pela ordem da
     estrutura do html.
+
+    Todos os estilos devem estar em style.css, não se deve colocar css no html
+    é OBRIGATORIO o uso de css nos css que não são gerais
+    as regras css devem ter comentarios da onde eles se referem com um comentario indicando o inicio das regras de css
+    e outro indicando aonde as mesmas terminam.
+    O comentario principal é referente a pagina e deve estar todo em Maiusculo, 
+    caso haja a necessidade de mais um comentario ele deve ir todo em minusculo, 
+    o sub comentario é opcional devendo ser colocado apenas se necessario.
+    exemplo do comentario de separação
+    /**
+    * INICIO PAGINA TITULO PRINCIPAL
+    */
+    [... REGRAS ...]
+
+    /* inicio pagina subtitulo/subcomentario */
+    [... REGRAS ...] 
+    /* fim pagina subtitulo/subcomentario */
+
+    [... REGRAS ...]
+    /**
+    * FIM PAGINA TITULO PRINCIPAL
+    */
+
+    Quandos os css estão em mais de uma pagina devem ficar no geral com um subcomentario
     
+    Regras de css especificas para um tamanho de tela devem ir no final do style.css
+    seguindo uma ordem logica dos tamanhos
+    
+    Dica:
+        Para facilitar a sua manutenção das regras css, tente colocalas na ordem do html,
+        assim facilitando para voce encontra-los.
 
 PHP:
 alguns dos padrões do projeto estão sendo baseados nas PSR, php standard recomendations(recomendações de padrões php) não são obrigatorias a 

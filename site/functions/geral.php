@@ -1,13 +1,14 @@
 <?php
 /** 
- * Um resumo informando ao usuário o que o elemento associado faz. 
+ * Formata a string para permitir apenas letras no nome do arquivo e removendo 
+ * possiveis formas de trocar o caminho de origem como um "../" para sair da pasta site
  * 
- * @param string $prefix para ser formatado com apenas letras
+ * @param string $name a variavel a ser ser formatada com apenas letras
  * 
- * @return void 
+ * @return string o valor formatado apenas com letras 
  */
-function formatPrefix($prefix) {
-    $formatEspecial = preg_replace("[^a-Z]", "", $prefix);
+function formatName($name) {
+    $formatEspecial = preg_replace("[^a-Z]", "", $name);
     return strtolower($formatEspecial);
 }
 
@@ -24,26 +25,23 @@ function setConfigPage($pageName) {
     setInfoGrupo();    
     $infoGrupo = getInfoGrupo();
 
+    setActivBtnMenu($pageName);
+
     switch ($pageName) {
         case "contato":
             setTitleHead($infoGrupo["nome_grupo"]." - Contato");
-            setActivBtnMenu("contato");
             break;
         case "quem_somos":
             setTitleHead($infoGrupo["nome_grupo"]." - Quem Somos");
-            setActivBtnMenu("quem_somos");
             break;
         case "dancas":
             setTitleHead($infoGrupo["nome_grupo"]." - Dança");
-            setActivBtnMenu("dancas");
             break;
         case "cenicas":
             setTitleHead($infoGrupo["nome_grupo"]." - Artes Cências");
-            setActivBtnMenu("cenicas");
             break;
         default:
             setTitleHead($infoGrupo["nome_grupo"]." - Pagina 404");
-            setActivBtnMenu("arquivo_404");
             break;
     }
 }
@@ -51,23 +49,22 @@ function setConfigPage($pageName) {
 /** 
  * Inclui a pagina
  * 
- * @param string $fileName o nome do arquivo sem o .php
+ * @param string $pageName o nome do arquivo sem o .php
  * 
  * @return void 
  */
-function includePage($fileName) {
-    setConfigPage($fileName);
+function includePage($pageName) {
+    setConfigPage($pageName);
 
     include_once "./header.php";
-    include_once $fileName.".php";
+    include_once $pageName.".php";
     include_once "./footer.php";
 }
 
 /** 
  * escreve o valor do title para head e deixa ela global
  * 
- * @param string $title Com uma * descrição * deste argumento, estes também podem 
- * abranger múltiplas linhas. 
+ * @param string o valor a ser setado na variavel global titlehead
  * 
  * @return void
  */
@@ -77,10 +74,7 @@ function setTitleHead(string $title) {
 
 /** 
  * retorna o valor do title para o head
- * 
- * @param string $title Com uma * descrição * deste argumento, estes também podem 
- * abranger múltiplas linhas. 
- * 
+ *  
  * @return string O valor da variavel global titleHead
  */
 function getTitleHead(): string {
@@ -90,8 +84,7 @@ function getTitleHead(): string {
 /** 
  * escreve o valor do botão ativado no menu
  * 
- * @param string $btn Com uma * descrição * deste argumento, estes também podem 
- * abranger múltiplas linhas. 
+ * @param string $btn o nome do link do botão para ser ativado
  * 
  * @return void
  */
@@ -100,12 +93,9 @@ function setActivBtnMenu(string $btn) {
 }
 
 /** 
- * retorna o valor do title para o head
+ * retorna o valor do botão ativo
  * 
- * @param string $title Com uma * descrição * deste argumento, estes também podem 
- * abranger múltiplas linhas. 
- * 
- * @return void
+ * @return retorna o valor na variavel global activeBtnMenu que foi setada pela função setActivBtnMenu()
  */
 function getActivBtnMenu(): string {
     return $GLOBALS["activeBtnMenu"];
@@ -119,7 +109,11 @@ function getActivBtnMenu(): string {
 function getValuesMenu() {
     $itensMenus = [
         [
-            "nome" => "Teatro Clássico",
+            "nome" => "Quem Somos",
+            "link" => "quem_somos"
+        ],
+        [
+            "nome" => "Teatro",
             "link" => "",
             "subMenu" => [
                 [
@@ -167,6 +161,27 @@ function getValuesMenu() {
             ]
         ],
         [
+            "nome" => "Mangá",
+            "link" => "",
+            "subMenu" => [
+                [
+                    "nome" => "O mangá",
+                    "link" => "manags",
+                    "id" => "1"
+                ],
+                [
+                    "nome" => "Grandes obras",
+                    "link" => "mangas",
+                    "id" => "2"
+                ],
+                [
+                    "nome" => "Novidades",
+                    "link" => "mangas",
+                    "id" => "3"                    
+                ],
+            ]
+        ],
+        [
             "nome" => "Danças",
             "link" => "",
             "subMenu" => [
@@ -186,12 +201,12 @@ function getValuesMenu() {
             ]
         ],
         [
-            "nome" => "Contato",
-            "link" => "contato"
+            "nome" => "Termos",
+            "link" => ""
         ],
         [
-            "nome" => "Quem Somos",
-            "link" => "quem_somos"
+            "nome" => "Contato",
+            "link" => "contato"
         ]
     ];
     
@@ -216,6 +231,11 @@ function getDadosJson($fileJsonName) {
  * @return void
  */
 function setInfoGrupo() {
+    /**
+     * contem as informações do grupo
+     * @global array $GLOBALS['infoGrupo']
+     * @name $infoGrupo 
+     */
     $GLOBALS["infoGrupo"] = getDadosJson("dados/grupo.json");
 }
 
