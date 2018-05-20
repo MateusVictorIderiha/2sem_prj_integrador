@@ -111,7 +111,7 @@ section p {
     margin-left: 150px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 991px) {
     .topo #navbarSupportedContent {
         position: absolute;
         right: 0;
@@ -127,7 +127,7 @@ section p {
         max-width: 100%;        
     }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 991px) {
     .topo {
         height: 300px;
     }
@@ -147,7 +147,7 @@ section p {
         justify-content: space-between;
         padding: .5rem 1rem;
     }
- 
+
     .topo .logo {
         position: relative;
         top: 50px;
@@ -160,11 +160,11 @@ section p {
         position: relative;
         top: 10px
     }
-    
+
     .topo #navbarSupportedContent .navbar-nav {
         margin-left: auto;
     }
-    
+
     .topo #navbarSupportedContent .navbar-nav .nav-item {
         padding-left: 20px;
         padding-right: 20px;

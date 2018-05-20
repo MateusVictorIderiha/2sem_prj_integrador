@@ -186,4 +186,3 @@ function setInfoGrupo() {
 function getInfoGrupo() {
     return $GLOBALS["infoGrupo"];
 }
-
