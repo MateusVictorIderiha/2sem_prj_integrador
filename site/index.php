@@ -7,5 +7,5 @@ $namePage = formatPrefix($page);
 if(!empty($namePage) && file_exists($namePage.".php")) {
     includePage($namePage);
 } else {
-    includePage("arquivo_404");    
+    includePage("arquivo_404");
 }

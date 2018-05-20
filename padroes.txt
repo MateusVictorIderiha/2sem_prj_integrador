@@ -45,7 +45,7 @@ será estabelecidos este padrão.
     -> padrão de codificação dos arquivos é UTF-8
     -> as variaveis devem conter menos de 15 caracteres, tentar dar um nome pelo menos um pouco semantico a variavel
     -> Constantes devem estar com todas as letra em maiusculo e com underline nas palavras diferentes exemplo: VALOR_DE_PI
-    -> as variaveis e nomes de funções devem estar todas em minusculo, se houver mais de uma palavra devem conteum underline: $tempo_km
+    -> nas funções e a variaveis, a primeira letra da primeira palavra deve ser minúscula e as demais palavras terão a primeira letra maiúscula.
     -> não há necessidade de fechamento da tag php nos arquivos de php puro, e elas devem conter um espaço em branco na ultima linha
     -> Código deve usar 4 espaços para recuo (Tabulação/indentação)
     -> todas as funções e configurações do devem estar separadas da execução logica. (um ou mais arquivos apenas para declaração de funções e outros apenas executando(chamando), ou seja um arquivo não deve fazer as duas coisas ao mesmo tempo)
