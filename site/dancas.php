@@ -1,7 +1,7 @@
         <div class="container">
             <div class="row d-none d-lg-block">
                 <div class="col-lg-12 d-lg-block">
-                    <section>
+                    <section class="sectionImgDanca">
                         <picture>
                             <source media="(max-width: 720px)" srcset="midia/danca/topoDesktopDanca_1200.jpg">
                             <source media="(min-width: 720px)" srcset="midia/danca/topoDesktopDanca_1200.jpg">
@@ -52,7 +52,7 @@
                         <div class="col-lg-6 col-md-6">
                             <aside class="d-none d-sm-block">
                                 <p>
-                                    Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel, maximus pretium est. Donec non gravida ligula. Fusce ac imperdiet lorem. Mauris feugiat tortor libero, non tempus nibh mattis eu. Quisque rhoncus libero bibendum sodales dapibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer fermentum cursus pellentesque. Mauris eget elit rutrum, eleifend tortor sed, vehicula ante.
+                                    Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel, maximus pretium est. Donec non gravida ligula. Fusce ac imperdiet lorem. Mauris feugiat tortor libero, non tempus nibh mattis eu. Quisque rhoncus libero bibendum sodales dapibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer fermentum cursus pellentesque. Mauris eget elit rutrum, eleifend tortor sed, Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel, maximus pretium est. Donec non gravida ligula. Fusce ac imperdiet lorem. Mauris feugiat tortor libero, non tempus nibh mattis eu. Quisque rhoncus libero bibendum sodales dapibus. Orci.
                                 </p>
                             </aside>
                         </div>
@@ -77,15 +77,15 @@
                         <div class="row">
                             <div class="col-lg-4 col-md-4 col-4">
                                 <picture>
-                                    <source media="(max-width: 720px)" srcset="midia/danca/topicoRoupaDanca_100.jpg">
-                                    <source media="(min-width: 720px)" srcset="midia/danca/topicoRoupaDanca_100.jpg">
-                                    <source media="(min-width: 1200px)" srcset="midia/danca/topicoRoupaDanca_100.jpg">
-                                    <img class="img-fluid" src="midia/danca/topicoRoupaDanca_100.jpg" alt="Mulher asiatica usando vestido azul com flores e um leque" style="width:auto;">
+                                    <source media="(max-width: 720px)" srcset="midia/danca/RoupasDanca_100.jpg">
+                                    <source media="(min-width: 720px)" srcset="midia/danca/RoupasDanca_100.jpg">
+                                    <source media="(min-width: 1200px)" srcset="midia/danca/RoupasDanca_100.jpg">
+                                    <img class="img-fluid" src="midia/danca/RoupasDanca_100.jpg" alt="Mulher asiatica usando vestido azul com flores e um leque" style="width:auto;">
                                 </picture>
                             </div>
 
                             <div class="col-lg-8 col-md-8 col-8">
-                                <h1 class="title">Roupas tipicas</h1>
+                                <h1 class="title">Roupas</h1>
                                 <p>Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel.</p>
                             </div>
                         </div>
