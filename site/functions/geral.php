@@ -117,6 +117,10 @@ function getValuesMenu() {
             "link" => "",
             "subMenu" => [
                 [
+                    "nome" => "Artes cêncas",
+                    "link" => "cenicas"
+                ],
+                [
                     "nome" => "Noticias",
                     "link" => ""
                 ],
@@ -186,6 +190,10 @@ function getValuesMenu() {
             "link" => "",
             "subMenu" => [
                 [
+                    "nome" => "Danças",
+                    "link" => "dancas"
+                ],
+                [
                     "nome" => "Dança Um",
                     "link" => ""
                 ],
@@ -196,7 +204,7 @@ function getValuesMenu() {
                 [
                     "nome" => "Dança Três",
                     "link" => ""
-                ],
+                ]
                 
             ]
         ],
