@@ -24,7 +24,7 @@
 
         <div class="col-lg-8 col-md-12 col-xs-12">
             <article>
-                <h1>Dança como arte</h1>
+                <h1 class="text-danger">Dança como arte</h1>
                 <p>
                     Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel, maximus pretium est. Donec non gravida ligula. Fusce ac imperdiet lorem. Mauris feugiat tortor libero, non tempus nibh mattis eu. Quisque rhoncus libero bibendum sodales dapibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer fermentum cursus pellentesque. Mauris eget elit rutrum, eleifend tortor sed, vehicula ante. Cras sed orci vel purus malesuada ultricies. Sed quis porttitor nibh. Praesent in massa tellus. In eget hendrerit massa. Mauris ut leo a purus aliquet rutrum.
                     Sed tristique lectus commodo, scelerisque mauris a, porta odio. Vestibulum tincidunt libero id mi auctor, a elementum ligula pharetra. Ut finibus nibh a arcu suscipit, et vulputate leo semper. Fusce vulputate ipsum ac pellentesque hendrerit. Nullam pretium tincidunt mollis. Praesent nec lectus ac est commodo gravida ac ac orci. In elit arcu, porttitor in arcu et, ultrices viverra risus. Mauris a ante nibh. Praesent id sollicitudin magna, et eleifend elit. Aliquam a magna non tortor venenatis sollicitudin. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris a ante nibh. Praesent id sollicitudin magna, et eleifend elit. Aliquam a magna non tortor venenatis sollicitudin. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
@@ -61,13 +61,13 @@
     <div class="row">
         <div class="col-lg-4 d-none d-lg-block">
             <section>
-                <h1 class="text-danger"><u>Top 3 do site</u></h1>
+                <h1 class="text-danger">Top 3 do site</h1>
             </section>
         </div>
         
         <div  class="col-lg-8 col-md-12 col-xs-12 text-center">
             <section>
-                <h1 class="text-danger text-underlined"><u>Dança japonesa</u></h1>
+                <h1 class="text-danger text-underlined">Dança japonesa</h1>
             </section>
         </div>
     </div>
