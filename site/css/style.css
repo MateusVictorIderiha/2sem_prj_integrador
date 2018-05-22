@@ -68,6 +68,15 @@ body, html {
     font-size: 1.3rem;    
 }
 
+a {
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ef3341;
+}
+
 /**
 * FIM GERAL
 */
@@ -94,6 +103,11 @@ body, html {
 /**
 * INICIO PÁGINA DE NÃO ENCONTRADO
 */
+
+.asideImg404 {
+    margin-top: 30px;
+}
+
 .inpum {
     width: 250px;
     margin: 25px auto 10px auto;
@@ -122,7 +136,16 @@ body, html {
 /** INICIO PAGINA DANÇA
 */
 
+.hrDanca {
+    background-color: #ef3341;
+    height: 1.5px;
+}
+
 .sectionImgDanca {
+    margin-top: 30px;
+}
+
+.desktopTopo {
     margin-top: 30px;
 }
 
