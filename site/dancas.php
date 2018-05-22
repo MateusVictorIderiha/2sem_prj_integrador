@@ -3,8 +3,6 @@
         <div class="col-lg-12 d-lg-block">
             <section class="sectionImgDanca">
                 <picture>
-                    <source media="(max-width: 720px)" srcset="midia/danca/topoDesktopDanca_1200.jpg">
-                    <source media="(min-width: 720px)" srcset="midia/danca/topoDesktopDanca_1200.jpg">
                     <source media="(min-width: 1200px)" srcset="midia/danca/topoDesktopDanca_1200.jpg">
                     <img class="img-fluid" src="midia/danca/topoDesktopDanca_1200.jpg" alt="Dança tradicional japonesa, mulheres com roupa tradicional" style="width:auto;">
                 </picture>
@@ -18,8 +16,6 @@
         <div class="col-lg-4">
             <section class="d-none d-lg-block">
                 <picture>
-                    <source media="(max-width: 720px)" srcset="midia/danca/lateralDesktopDanca_300.jpg">
-                    <source media="(min-width: 720px)" srcset="midia/danca/lateralDesktopDanca_300.jpg">
                     <source media="(min-width: 1200px)" srcset="midia/danca/lateralDesktopDanca_300.jpg">
                     <img class="img-fluid" src="midia/danca/lateralDesktopDanca_300.jpg" alt="casal japones com guarda chuva tipico de dança" style="width:auto;">
                 </picture>
@@ -65,13 +61,13 @@
     <div class="row">
         <div class="col-lg-4 d-none d-lg-block">
             <section>
-                <h1>Top 3 do site</h1>
+                <h1 class="text-danger"><u>Top 3 do site</u></h1>
             </section>
         </div>
         
         <div  class="col-lg-8 col-md-12 col-xs-12 text-center">
             <section>
-                <h1>Dança japonesa</h1>
+                <h1 class="text-danger text-underlined"><u>Dança japonesa</u></h1>
             </section>
         </div>
     </div>
@@ -93,13 +89,13 @@
                             <source media="(max-width: 720px)" srcset="midia/danca/RoupasDanca_100.jpg">
                             <source media="(min-width: 720px)" srcset="midia/danca/RoupasDanca_100.jpg">
                             <source media="(min-width: 1200px)" srcset="midia/danca/RoupasDanca_100.jpg">
-                            <img class="img-fluid" src="midia/danca/RoupasDanca_100.jpg" alt="Mulher asiatica usando vestido azul com flores e um leque" style="width:auto;">
+                            <a href="<?= "index.php?pagina=#"; ?>"><img class="img-fluid aImgDanca" src="midia/danca/RoupasDanca_100.jpg" alt="Mulher asiatica usando vestido azul com flores e um leque" style="width:auto;"></a>
                         </picture>
                     </div>
 
                     <div class="col-lg-8 col-md-8 col-8">
-                        <h1 class="title">Roupas</h1>
-                        <p>Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel.</p>
+                        <h1 class="title"><a href="<?= "index.php?pagina=#"; ?>">Roupas</a></h1>
+                        <p>Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel. Sed est orci, facilisis eu metus vel, pellentesque molestie diam lacus.</p>
                     </div>
                 </div>
             </section>
@@ -113,13 +109,13 @@
                             <source media="(max-width: 720px)" srcset="midia/danca/BonodriDanca_100.jpg">
                             <source media="(min-width: 720px)" srcset="midia/danca/BonodriDanca_100.jpg">
                             <source media="(min-width: 1200px)" srcset="midia/danca/BonodriDanca_100.jpg">
-                            <img class="img-fluid" src="midia/danca/BonodriDanca_100.jpg" alt="Mulher tocando um tambor em um festival de dança japones" style="width:auto;">
+                            <a href="<?= "index.php?pagina=#"; ?>"><img class="img-fluid aImgDanca" src="midia/danca/BonodriDanca_100.jpg" alt="Mulher tocando um tambor em um festival de dança japones" style="width:auto;"></a>
                         </picture>
                     </div>
 
                     <div class="col-lg-8 col-md-8 col-8">
-                        <h1 class="title">Bon Odori</h1>
-                        <p>Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel.</p>
+                        <h1 class="title"><a href="<?= "index.php?pagina=#"; ?>">Bon Odori</a></h1>
+                        <p>Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel, ut sollicitudin mauris cursus vitae.</p>
                     </div>
                 </div>
             </section>
@@ -141,13 +137,13 @@
                             <source media="(max-width: 720px)" srcset="midia/danca/lendaDanca_100.jpg">
                             <source media="(min-width: 720px)" srcset="midia/danca/lendaDanca_100.jpg">
                             <source media="(min-width: 1200px)" srcset="midia/danca/lendaDanca_100.jpg">
-                            <img class="img-fluid" src="midia/danca/lendaDanca_100.jpg" alt="Quadro da lenda japonesa sobre o nascimento da dança" style="width:auto;">	
+                            <a href="<?= "index.php?pagina=#"; ?>"><img class="img-fluid aImgDanca" src="midia/danca/lendaDanca_100.jpg" alt="Quadro da lenda japonesa sobre o nascimento da dança" style="width:auto;"></a>	
                         </picture>
                     </div>
 
                     <div class="col-lg-8 col-md-8 col-8">
-                        <h1 class="title">Lenda dança</h1>
-                        <p>Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel.</p>
+                        <h1 class="title"><a href="<?= "index.php?pagina=#"; ?>">Lenda dança</a></h1>
+                        <p>Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus veloc.</p>
                     </div>
                 </div>
             </section>
@@ -161,12 +157,12 @@
                             <source media="(max-width: 720px)" srcset="midia/danca/KojikiDanca_100.jpg">
                             <source media="(min-width: 720px)" srcset="midia/danca/KojikiDanca_100.jpg">
                             <source media="(min-width: 1200px)" srcset="midia/danca/KojikiDanca_100.jpg">
-                            <img class="img-fluid" src="midia/danca/KojikiDanca_100.jpg" alt="Livros velhos" style="width:auto;">
+                            <a href="<?= "index.php?pagina=#"; ?>"><img class="img-fluid aImgDanca" src="midia/danca/KojikiDanca_100.jpg" alt="Livros velhos" style="width:auto;"></a>
                         </picture>
                     </div>
 
                     <div class="col-lg-8 col-md-8 col-8">
-                        <h1 class="title">O livro Kojiki</h1>
+                        <h1 class="title"><a href="<?= "index.php?pagina=#"; ?>">O livro Kojiki</a></h1>
                         <p>Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel.</p>
                     </div>
                 </div>

@@ -136,11 +136,6 @@ a:hover {
 /** INICIO PAGINA DANÇA
 */
 
-.hrDanca {
-    background-color: #ef3341;
-    height: 1.5px;
-}
-
 .sectionImgDanca {
     margin-top: 30px;
 }
@@ -149,10 +144,19 @@ a:hover {
     margin-top: 30px;
 }
 
+.hrDanca {
+    background-color: #ef3341;
+    height: 1.5px;
+}
+
 .sectionDanca {
     border: 2px solid black;
     padding: 10px;
     margin: 5px;
+}   
+
+.img-fluid.aImgDanca:hover {
+    opacity: 0.8;
 }
 
 /** FIM PAGINA DANÇA
