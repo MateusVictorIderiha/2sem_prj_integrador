@@ -72,7 +72,14 @@ body, html {
     font-size: 1.3rem;    
 }
 
+a {
+    color: inherit;
+}
 
+a:hover {
+    text-decoration: none;
+    color: #ef3341;
+}
 
 /**
 * FIM GERAL
@@ -100,6 +107,11 @@ body, html {
 /**
 * INICIO PÁGINA DE NÃO ENCONTRADO
 */
+
+.asideImg404 {
+    margin-top: 30px;
+}
+
 .inpum {
     width: 250px;
     margin: 25px auto 10px auto;
@@ -125,11 +137,42 @@ body, html {
 * FIM PÁGINA NÃO ENCONTRADA
 */
 
+/** INICIO PAGINA DANÇA
+*/
+
+.sectionImgDanca {
+    margin-top: 30px;
+}
+
+.desktopTopo {
+    margin-top: 30px;
+}
+
+.hrDanca {
+    background-color: #ef3341;
+    height: 1.5px;
+}
+
 .sectionDanca {
     border: 2px solid black;
     padding: 10px;
     margin: 5px;
+}   
+
+.img-fluid.aImgDanca:hover {
+    opacity: 0.8;
 }
+
+/* SUBPAGINA DANCA */
+
+.img-fluid.imgTopicoDanca {
+    margin: 10px 0px;
+}
+
+/* FIM SUBPAGINA DANCA */
+
+/** FIM PAGINA DANÇA
+*/
 
 /* PÁGINA DE CONTATO */
 /*article {
