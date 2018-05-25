@@ -23,8 +23,13 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <img src="midia/geral/<?= $infoGrupo["logo"]; ?>" alt="Logo <?= $infoGrupo["nome_grupo"]; ?>" class="logo d-block d-lg-none">
-                    
+                    <div class="text-center">
+                        <img src="midia/geral/<?= $infoGrupo["logo"]; ?>" alt="Logo <?= $infoGrupo["nome_grupo"]; ?>" class="logo d-block d-lg-none">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="fas fa-bars fa-lg"></span>
+                        </button>
+                    </div>
+
                     <ul class="navbar-nav mr-auto">
                         <?php
                         $itensMenu = getValuesMenu();
