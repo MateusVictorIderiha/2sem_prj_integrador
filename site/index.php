@@ -3,7 +3,7 @@ include_once './functions/geral.php';
 
 $page = $_GET["pagina"] ?? "home";
 
-$namePage = formatPrefix($page);
+$namePage = formatName($page);
 if(!empty($namePage) && file_exists($namePage.".php")) {
     includePage($namePage);
 } else {

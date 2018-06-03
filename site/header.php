@@ -8,21 +8,28 @@
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
+        
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     </head>
     <body>
-        <header class="topo">   
+        <header class="topo border-line-bottom">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <?php
-                $infoGrupo = getInfoGrupo();
-                ?>
+                <?php $infoGrupo = getInfoGrupo(); ?>
                 <a class="navbar-brand" href="<?= "index.php?pagina=home"; ?>">
-                    <img src="midia/geral/<?= $infoGrupo["logo"]; ?>" alt="<?= $infoGrupo["nome_grupo"]; ?>" class="logo">
+                    <img src="midia/geral/<?= $infoGrupo["logo"]; ?>" alt="Logo <?= $infoGrupo["nome_grupo"]; ?>" class="logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="fas fa-bars fa-lg"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="text-center">
+                        <img src="midia/geral/<?= $infoGrupo["logo"]; ?>" alt="Logo <?= $infoGrupo["nome_grupo"]; ?>" class="logo d-block d-lg-none">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="fas fa-bars fa-lg"></span>
+                        </button>
+                    </div>
+
                     <ul class="navbar-nav mr-auto">
                         <?php
                         $itensMenu = getValuesMenu();
@@ -37,7 +44,7 @@
                             } else {
                         ?>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <?= $item["nome"]; ?>
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
