@@ -81,6 +81,25 @@ a:hover {
     color: #ef3341;
 }
 
+/*INICIO fitler - overlay*/
+#filter-overlay {
+    width: 100%;
+    height: 100%;
+    max-width: 0;
+    max-height: 0;
+    transition: .15s max-width linear 0;
+}
+#filter-overlay.show {
+    max-width: 100vw;
+    max-height: 100vh;
+    z-index: 98;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+/*FIM fitler - overlay*/
+
 /**
 * FIM GERAL
 */
@@ -230,7 +249,7 @@ section p {
         background-color: white;
         height: 100vh;
         max-width: 0;
-        transition: 0.5s max-width;
+        transition: .15s max-width linear 0;
     }
 
     .topo .navbar-collapse .navbar-nav {
@@ -271,8 +290,8 @@ section p {
     /**
     * FIM RODAPE
     */
-    
 }
+
 @media screen and (min-width: 991px) {
     /**
     * INICIO TOPO TAMANHO LG
