@@ -104,7 +104,7 @@ function getActivBtnMenu(): string {
 /** 
  * Retorna um arrai com todos os itens do menu
  * 
- * @return matriz com todos os links do menu
+ * @return string[] com todos os links do menu
  */
 function getValuesMenu() {
     $itensMenus = [
@@ -254,4 +254,35 @@ function setInfoGrupo() {
  */
 function getInfoGrupo() {
     return $GLOBALS["infoGrupo"];
+}
+
+
+/**
+ * Pega uma matriz e retorna o array correspondente da chave e o valor procurado
+ * 
+ * @param string $needle O valor a ser procurado
+ * @param string $key A chave do array da matriz a ser comparada
+ * @param array $fetch_haystack A matriz a ser comparada
+ * @return array | bool Retorna a matriz correspondente a pesquisa, caso não 
+ *                      encontrado ou a chave de pesquisa não existir retorna false
+ */
+function getSearchArray(string $needle, string $key, array $fetch_haystack) {
+    foreach ($fetch_haystack as $indice => $item) {
+        if (isset($item[$key]) && $item[$key] == $needle) {
+            return $fetch_haystack[$indice];
+        }
+    }
+    return false;
+}
+
+/**
+ * Procura por um id em uma matriz e retorna o array correspondente
+ * 
+ * @param int $id O id a ser procurado
+ * @param array $fetch_haystack A matriz a ser comparada
+ * @return array | bool Retorna a matriz correspondente a pesquisa, caso não 
+ *                      encontrado ou a chave de pesquisa não existir retorna false
+ */
+function getIdArray(int $id, array $fetch_haystack) {
+    return getSearchArray($id, "id", $fetch_haystack);
 }

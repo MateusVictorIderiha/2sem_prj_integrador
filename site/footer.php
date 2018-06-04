@@ -47,6 +47,7 @@ foreach ($infoGrupo["integrantes"] as $integrante) {
         
         <script>
             $(document).ready(function() {
+//                INICIO MENU
                 $(".nav-item").mouseover(function () {
                     if (window.screen.width >= 991) {
                         var currentNav = this;
@@ -73,6 +74,11 @@ foreach ($infoGrupo["integrantes"] as $integrante) {
                 $("#filter-overlay").click(function() {
                     $(".navbar-collapse .navbar-toggler[data-target='#navbarSupportedContent']").trigger("click");
                 });
+//                FIM MENU
+                
+//                INICIO FORM CONTATO
+                
+//                FIM FORM CONTATO
             });
         </script>
     </body>
