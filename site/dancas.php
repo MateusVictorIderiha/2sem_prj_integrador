@@ -11,6 +11,51 @@
     </div>
 </div>
 
+<?php
+    $danca =
+        array(
+            array(
+                "titulo" => "Roupas",
+                "texto" => "Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus veloc.",
+                "imagem" => array(
+                    "nome" => "RoupasDanca",
+                    "ext" => ".jpg",
+                    "alt" => "duas moças moças japonesas com roupas tipicas de dança japonesa"
+                )
+            ),
+
+            array(
+                "titulo" => "Bon Odori",
+                "texto" => "Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus veloc.",
+                "imagem" => array(
+                    "nome" => "BonodriDanca",
+                    "ext" => ".jpg",
+                    "alt" => "Mulher tocando um tambor em um festival de dança japones"
+                )
+            ),
+
+            array(
+                "titulo" => "Lenda dança",
+                "texto" => "Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus veloc.",
+                "imagem" => array(
+                    "nome" => "lendaDanca",
+                    "ext" => ".jpg",
+                    "alt" => "Quadro da lenda japonesa sobre o nascimento da dança"
+                )
+            ),
+
+            array(
+                "titulo" => "O livro Kojiki",
+                "texto" => "Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus veloc.",
+                "imagem" => array(
+                    "nome" => "KojikiDanca",
+                    "ext" => ".jpg",
+                    "alt" => "Livros velhos"
+                )
+            )
+        );
+?>
+
 <div class="container desktopTopo">
     <div class="row">
         <div class="col-lg-4">
@@ -61,122 +106,47 @@
     <div class="row">
         <div class="col-lg-4 d-none d-lg-block">
             <section>
-                <h1 class="text-danger">Top 3 do site</h1>
+                <h1 class="text-danger">Visite outras categorias</h1>
             </section>
         </div>
-        
-        <div  class="col-lg-8 col-md-12 col-xs-12 text-center">
+
+        <div class="col-lg-8">
             <section>
-                <h1 class="text-danger text-underlined">Dança japonesa</h1>
-            </section>
-        </div>
+                <h1 class="text-danger text-underlined text-center">Dança japonesa</h1>
+            </section>    
+
+            <div class="row">
+                
+                <?php
+                    foreach ($danca as $valor) {
+                ?>                
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <section class="sectionDanca">
+                            <div class="row">
+                                <div class="col-lg- col-md-4 col-4">
+                                    <picture>
+                                        <source media="(max-width: 720px)" srcset="midia/danca/<?= $valor["imagem"]["nome"] . "_100" . $valor["imagem"]["ext"]; ?>">
+                                        <source media="(min-width: 720px)" srcset="midia/danca/<?= $valor["imagem"]["nome"] . "_100" . $valor["imagem"]["ext"]; ?>">
+                                        <source media="(min-width: 1200px)" srcset="midia/danca/<?= $valor["imagem"]["nome"] . "_100" . $valor["imagem"]["ext"]; ?>">
+                                        <a href="<?= "index.php?pagina=roupas"; ?>"><img class="img-fluid aImgDanca" src="midia/danca/<?= $valor["imagem"]["nome"] . "_100" . $valor["imagem"]["ext"]; ?>" alt=<?php $valor["imagem"]["alt"] ?> style="width:auto;"></a>
+                                    </picture>
+                                </div>
+
+                                <div class="col-lg-8 col-md-8 col-8">
+                                    <h1 class="title"><a href="<?= "index.php?pagina=roupas"; ?>"><?= $valor["titulo"]; ?></a></h1>
+                                    <p><?= $valor["texto"]; ?></p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>                
+                <?php
+                    }
+                ?>
+
+            </div>
+        </div>    
     </div>
 </div>
-
-<div class="container">
-    <div class="row">
-        <div class="col-lg-4 d-none d-lg-block">
-            <section>
-                <p>Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel, maximus pretium est.</p>
-            </section>
-        </div>
-
-        <div class="col-lg-4 col-md-6 col-12">
-            <section class="sectionDanca">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-4">
-                        <picture>
-                            <source media="(max-width: 720px)" srcset="midia/danca/RoupasDanca_100.jpg">
-                            <source media="(min-width: 720px)" srcset="midia/danca/RoupasDanca_100.jpg">
-                            <source media="(min-width: 1200px)" srcset="midia/danca/RoupasDanca_100.jpg">
-                            <a href="<?= "index.php?pagina=roupas"; ?>"><img class="img-fluid aImgDanca" src="midia/danca/RoupasDanca_100.jpg" alt="Mulher asiatica usando vestido azul com flores e um leque" style="width:auto;"></a>
-                        </picture>
-                    </div>
-
-                    <div class="col-lg-8 col-md-8 col-8">
-                        <h1 class="title"><a href="<?= "index.php?pagina=roupas"; ?>">Roupas</a></h1>
-                        <p>Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel. Sed est orci, facilisis eu metus vel, pellentesque molestie diam lacus.</p>
-                    </div>
-                </div>
-            </section>
-        </div>
-
-        <div class="col-lg-4 col-md-6 col-12">
-            <section class="sectionDanca">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-4">
-                        <picture>
-                            <source media="(max-width: 720px)" srcset="midia/danca/BonodriDanca_100.jpg">
-                            <source media="(min-width: 720px)" srcset="midia/danca/BonodriDanca_100.jpg">
-                            <source media="(min-width: 1200px)" srcset="midia/danca/BonodriDanca_100.jpg">
-                            <a href="<?= "index.php?pagina=#"; ?>"><img class="img-fluid aImgDanca" src="midia/danca/BonodriDanca_100.jpg" alt="Mulher tocando um tambor em um festival de dança japones" style="width:auto;"></a>
-                        </picture>
-                    </div>
-
-                    <div class="col-lg-8 col-md-8 col-8">
-                        <h1 class="title"><a href="<?= "index.php?pagina=#"; ?>">Bon Odori</a></h1>
-                        <p>Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel, ut sollicitudin mauris cursus vitae.</p>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-lg-4 d-none d-lg-block">
-            <section>
-                <p>Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel.</p>
-            </section>
-        </div>
-
-        <div class="col-lg-4 col-md-6 col-12">
-            <section class="sectionDanca">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-4">
-                        <picture>
-                            <source media="(max-width: 720px)" srcset="midia/danca/lendaDanca_100.jpg">
-                            <source media="(min-width: 720px)" srcset="midia/danca/lendaDanca_100.jpg">
-                            <source media="(min-width: 1200px)" srcset="midia/danca/lendaDanca_100.jpg">
-                            <a href="<?= "index.php?pagina=#"; ?>"><img class="img-fluid aImgDanca" src="midia/danca/lendaDanca_100.jpg" alt="Quadro da lenda japonesa sobre o nascimento da dança" style="width:auto;"></a>	
-                        </picture>
-                    </div>
-
-                    <div class="col-lg-8 col-md-8 col-8">
-                        <h1 class="title"><a href="<?= "index.php?pagina=#"; ?>">Lenda dança</a></h1>
-                        <p>Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus veloc.</p>
-                    </div>
-                </div>
-            </section>
-        </div>
-
-        <div class="col-lg-4 col-md-6 col-12">
-            <section class="sectionDanca">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-4">
-                        <picture>
-                            <source media="(max-width: 720px)" srcset="midia/danca/KojikiDanca_100.jpg">
-                            <source media="(min-width: 720px)" srcset="midia/danca/KojikiDanca_100.jpg">
-                            <source media="(min-width: 1200px)" srcset="midia/danca/KojikiDanca_100.jpg">
-                            <a href="<?= "index.php?pagina=#"; ?>"><img class="img-fluid aImgDanca" src="midia/danca/KojikiDanca_100.jpg" alt="Livros velhos" style="width:auto;"></a>
-                        </picture>
-                    </div>
-
-                    <div class="col-lg-8 col-md-8 col-8">
-                        <h1 class="title"><a href="<?= "index.php?pagina=#"; ?>">O livro Kojiki</a></h1>
-                        <p>Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel.</p>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-lg-4 d-none d-lg-block">
-            <section>
-                <p>
-                    Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel, maximus pretium est. Donec non gravida ligula.
-                </p>
-            </section>
-        </div>
-    </div>
-</div>
+            
+         
+    

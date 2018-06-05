@@ -8,7 +8,7 @@
                 </picture>
             </section>
         </div>
-
+        
         <div class="col-lg-8 col-md-12 col-xs-12">
             <article>
                 <h1 class="text-danger">Roupas</h1>
@@ -30,7 +30,7 @@
                     </aside>
                 </div>
             </div>
-            
+
             <div class="row">
                 <div class="col-lg-12 col-md-12">
                     <aside>
@@ -50,10 +50,10 @@
     <div class="row">
         <div class="col-lg-4 d-none d-lg-block">
             <section>
-                <h1 class="text-danger">Top 3 do site</h1>
+                <h1 class="text-danger">Visite outras categorias</h1>
             </section>
         </div>
-        
+
         <div  class="col-lg-8 col-md-12 col-xs-12 text-center">
             <section>
                 <h1 class="text-danger text-underlined">Dança japonesa</h1>
