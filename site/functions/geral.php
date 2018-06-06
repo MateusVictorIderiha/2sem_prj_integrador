@@ -36,6 +36,7 @@ function setConfigPage($pageName) {
             break;
         case "dancas":
             setTitleHead($infoGrupo["nome_grupo"]." - Dança");
+            include './functions/danca.php';
             break;
         case "cenicas":
             setTitleHead($infoGrupo["nome_grupo"]." - Artes Cências");
@@ -106,7 +107,7 @@ function getActivBtnMenu(): string {
  * 
  * @return string[] com todos os links do menu
  */
-function getValuesMenu() {
+function getValuesMenu() : array {
     $itensMenus = [
         [
             "nome" => "Quem Somos",

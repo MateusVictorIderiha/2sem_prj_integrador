@@ -12,48 +12,8 @@
 </div>
 
 <?php
-    $danca =
-        array(
-            array(
-                "titulo" => "Roupas",
-                "texto" => "Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus veloc.",
-                "imagem" => array(
-                    "nome" => "RoupasDanca",
-                    "ext" => ".jpg",
-                    "alt" => "duas moças moças japonesas com roupas tipicas de dança japonesa"
-                )
-            ),
-
-            array(
-                "titulo" => "Bon Odori",
-                "texto" => "Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus veloc.",
-                "imagem" => array(
-                    "nome" => "BonodriDanca",
-                    "ext" => ".jpg",
-                    "alt" => "Mulher tocando um tambor em um festival de dança japones"
-                )
-            ),
-
-            array(
-                "titulo" => "Lenda dança",
-                "texto" => "Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus veloc.",
-                "imagem" => array(
-                    "nome" => "lendaDanca",
-                    "ext" => ".jpg",
-                    "alt" => "Quadro da lenda japonesa sobre o nascimento da dança"
-                )
-            ),
-
-            array(
-                "titulo" => "O livro Kojiki",
-                "texto" => "Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus veloc.",
-                "imagem" => array(
-                    "nome" => "KojikiDanca",
-                    "ext" => ".jpg",
-                    "alt" => "Livros velhos"
-                )
-            )
-        );
+    $danca = dancaTopicos();
+    var_dump (getIdArray($_GET['id'], $danca));
 ?>
 
 <div class="container desktopTopo">
