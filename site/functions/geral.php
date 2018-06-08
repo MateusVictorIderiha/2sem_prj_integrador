@@ -26,7 +26,7 @@ function setConfigPage($pageName) {
     $infoGrupo = getInfoGrupo();
 
     setActivBtnMenu($pageName);
-
+    var_dump($pageName);
     switch ($pageName) {
         case "contato":
             setTitleHead($infoGrupo["nome_grupo"]." - Contato");
@@ -36,6 +36,10 @@ function setConfigPage($pageName) {
             break;
         case "dancas":
             setTitleHead($infoGrupo["nome_grupo"]." - Dança");
+            include './functions/danca.php';
+            break;
+        case "dancatopico":
+            setTitleHead($infoGrupo["nome_grupo"]." - Dança topico");
             include './functions/danca.php';
             break;
         case "cenicas":
@@ -171,7 +175,7 @@ function getValuesMenu() : array {
             "subMenu" => [
                 [
                     "nome" => "O mangá",
-                    "link" => "manags",
+                    "link" => "mangas",
                     "id" => "1"
                 ],
                 [
@@ -196,16 +200,24 @@ function getValuesMenu() : array {
                 ],
                 [
                     "nome" => "Roupas",
-                    "link" => "roupas"
+                    "link" => "dancatopico",
+                    "id" => "1"
                 ],
                 [
-                    "nome" => "Dança Dois",
-                    "link" => ""
+                    "nome" => "Bon Odori",
+                    "link" => "dancatopico",
+                    "id" => "2"
                 ],
                 [
-                    "nome" => "Dança Três",
-                    "link" => ""
-                ]
+                    "nome" => "Lenda dança",
+                    "link" => "dancatopico",
+                    "id" => "3"
+                ],
+                [
+                    "nome" => "O livro Kojiki",
+                    "link" => "dancatopico",
+                    "id" => "4"
+                ],
                 
             ]
         ],
