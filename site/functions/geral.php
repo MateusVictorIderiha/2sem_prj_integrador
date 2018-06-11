@@ -186,7 +186,7 @@ function getValuesMenu() : array {
         ],
         [
             "nome" => "Mangá",
-            "link" => "",
+            "link" => "index_mangas",
             "subMenu" => [
                 [
                     "nome" => "O mangá",

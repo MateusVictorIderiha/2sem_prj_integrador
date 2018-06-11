@@ -44,7 +44,7 @@ foreach ($infoGrupo["integrantes"] as $integrante) {
 
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        
+
         <script>
             $(document).ready(function() {
 //                INICIO MENU
@@ -62,7 +62,11 @@ foreach ($infoGrupo["integrantes"] as $integrante) {
                     }
                 });
                 
-                $(".navbar-toggler[data-target='#navbarSupportedContent']").click(function() {
+                $(".nav-item").click(function(event) {
+                    location.href = this.href;
+                });
+
+                $(".navbar-toggler[data-target='#navbarSupportedContent']").click(function(e) {
                     var targetMenu = $(this).data("target");
                     if(!$(targetMenu).hasClass("show")) {
                         $("#filter-overlay").addClass("show");
@@ -75,9 +79,9 @@ foreach ($infoGrupo["integrantes"] as $integrante) {
                     $(".navbar-collapse .navbar-toggler[data-target='#navbarSupportedContent']").trigger("click");
                 });
 //                FIM MENU
-                
+
 //                INICIO FORM CONTATO
-                
+
 //                FIM FORM CONTATO
             });
         </script>

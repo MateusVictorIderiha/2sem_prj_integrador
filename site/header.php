@@ -51,7 +51,7 @@
                             } else {
                         ?>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle" href="<?= "index.php?pagina=".$item["link"]; ?>" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <?= $item["nome"]; ?>
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
