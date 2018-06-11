@@ -41,22 +41,26 @@
                         <?php
                         $itensMenu = getValuesMenu();
                         foreach ($itensMenu as $item) {
+                            $id = isset($item["id"]) ? "&id=".$item["id"] : "";
                             if(!isset($item["subMenu"][0])) {
                         ?>
                                 <li class="nav-item <?= $item["link"] == getActivBtnMenu() ? "active" : ""; ?>">
-                                    <a class="nav-link" href="<?= "index.php?pagina=".$item["link"]; ?>"> <?= $item["nome"]; ?></a>
+                                    <a class="nav-link" href="<?= "index.php?pagina=".$item["link"].$id; ?>"> <?= $item["nome"]; ?></a>
                                     <?= $item["link"] == getActivBtnMenu() ? ' <span class="sr-only">(current)</span></a>': ""; ?>
                                 </li>
                         <?php
                             } else {
                         ?>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="<?= "index.php?pagina=".$item["link"]; ?>" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle" href="<?= "index.php?pagina=".$item["link"].$id; ?>" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <?= $item["nome"]; ?>
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <?php foreach ($item["subMenu"] as $subItem) { ?>
-                                        <a class="dropdown-item" href="<?= "index.php?pagina=".$subItem["link"]; ?>"><?= $subItem["nome"]; ?></a>
+                                        <?php 
+                                        foreach ($item["subMenu"] as $subItem) { 
+                                            $idSubMenu = isset($subItem["id"]) ? "&id=".$subItem["id"] : "";
+                                        ?>
+                                        <a class="dropdown-item" href="<?= "index.php?pagina=".$subItem["link"].$idSubMenu; ?>"><?= $subItem["nome"]; ?></a>
                                         <?php } ?>
                                     </div>
                                 </li>
