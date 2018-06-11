@@ -26,7 +26,6 @@ function setConfigPage($pageName) {
     $infoGrupo = getInfoGrupo();
 
     setActivBtnMenu($pageName);
-    var_dump($pageName);
     switch ($pageName) {
         case "contato":
             setTitleHead($infoGrupo["nome_grupo"]." - Contato");
@@ -237,13 +236,16 @@ function getValuesMenu() : array {
 /** 
  * Usado para retornar os dados de consultas aos arquivos json
  * 
- * @param $fileJsonName é o caminho e o nome do arquivo json
+ * @param string  $fileJsonName é o caminho e o nome do arquivo json
+ * @param string $formatArray O formato de retorno dos dados se for true retorna 
+ *                            em um array, caso seja false retorna um objeto, 
+ *                            o valor padrão é true um array
  * 
- * @return array os dados de um arquivo json em forma de array
+ * @return array os dados de um arquivo json
  */
-function getDadosJson($fileJsonName) {
+function getDadosJson($fileJsonName, $formatArray = true) {
     $json = file_get_contents($fileJsonName);
-    return json_decode($json, true);
+    return json_decode($json, $formatArray);
 }
 
 /** 
@@ -269,6 +271,28 @@ function getInfoGrupo() {
     return $GLOBALS["infoGrupo"];
 }
 
+/**
+ * Formata o array da imagem e retorna a tag img
+ * 
+ * @param array $img O array da imagem com os indices
+ *                  + nome
+ *                  + ext
+ *                  + alt
+ *                  + title
+ *                  + credito
+ * @return string A tag img formatada e se o credito foi definido retorna com um link para os creditos
+ */
+function returnHtmlImg(array $img): string {
+    $imagem = $img["nome"].$img["ext"];
+    $alt = $img["alt"];
+    $title = $img["title"] ?? "";
+    $tag = "<img src='midia/geral/$imagem' alt='$alt' title='$title' />";
+    if (isset($img["credito"]) && !empty($img["credito"])) {
+        $credito = $img["credito"];
+        $tag = "<a href='$credito' title='$title'>$tag</a>";
+    }
+    return $tag;
+}
 
 /**
  * Pega uma matriz e retorna o array correspondente da chave e o valor procurado

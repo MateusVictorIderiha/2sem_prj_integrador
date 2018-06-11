@@ -24,11 +24,11 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <div class="row container-navBarLogo">
-                        <div class="col-md-8">
+                        <div class="col-6">
                             <img src="midia/geral/<?= $infoGrupo["logo"]; ?>" alt="Logo <?= $infoGrupo["nome_grupo"]; ?>" class="logo d-block d-lg-none w-100">
                         </div>
-                        <div class="col-md-4">
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <div class="col-6">
+                            <button class="navbar-toggler float-right mr-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="fas fa-bars fa-lg"></span>
                             </button>
                         </div>

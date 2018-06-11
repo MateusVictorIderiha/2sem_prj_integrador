@@ -1,4 +1,4 @@
-LOCAIS dos arquuivos: 
+﻿LOCAIS dos arquuivos: 
     Link GitHub: https://github.com/MateusVictorIderiha/2sem_prj_integrador
     * TODOS OS NOME DE ARQUIVOS E PASTAS NÃO DEVEM CONTER ACENTO OU ESPAÇO
     Arquivos php devem ficar na raiz da pasta "site"
@@ -30,9 +30,9 @@ assim deixando se encaixar melhor o layout e também o usuario baixar somente o 
 
 
 CSS e Design:
-    Cor 1: (#BC002C | #FF0000 | #DC143C)
-    Cor 2: #5F4B8B 
-    Cor 3: #ddcfce | #cedadd 
+    Cor 1 (VERMELHO): EF3341 | A5020E
+    Cor 2 (ROXO): 5F4B8B | 281553
+    Cor 3 (XENO BLUE): BFC8E0
     FONT: Roboto, Sanchez
 
     No topo do css vem os estilos gerais referentes a todas as paginas ou um estilo que está em mais de uma
