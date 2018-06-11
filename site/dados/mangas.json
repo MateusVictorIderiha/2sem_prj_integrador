@@ -9,7 +9,7 @@
             "nome": "emakimon",
             "ext": ".jpg",
             "alt": "Emakimono schema",
-            "Title": "Imagem de um emakimon, mostrando ele fechado enrrolado e ele aberto. By User:Binabik155 (commons) [CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons",
+            "title": "Imagem de um emakimon, mostrando ele fechado enrrolado e ele aberto. By User:Binabik155 (commons) [CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons",
             "credito": "https://commons.wikimedia.org/wiki/File:Emakimono_schema.png"
         }
     },
@@ -80,20 +80,6 @@
             "alt": "Imagem do autor Osamu Tezuka 1951 Scan10008-2",
             "title": "See page for author [Public domain], via Wikimedia Commons",
             "credito": "https://commons.wikimedia.org/wiki/File:Tezuka_Osamu_Cultural_Prize_Ribbon.png"
-        }
-    },
-    {
-        "id": 6,
-        "titulo": "Seinen",
-        "subtitulo": "Conhaça a demografia ",
-        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque, sed suscipit nibh ullamcorper. Donec aliquet dapibus eros. Nullam pellentesque velit elit, eget Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque",
-        "categoria": 1,
-        "imagem": {
-            "nome": "seinen",
-            "ext": ".jpg",
-            "alt": "Um dos Pricipais seinen shingeki no kyojin",
-            "title": "By Kodansha (http://kyojinchu.tv/) [Public domain], via Wikimedia Commons",
-            "credito": "https://commons.wikimedia.org/wiki/File:Shingeki!_Kyojin_ch%C5%ABgakk%C5%8D_logo.png"
         }
     },
     {
@@ -184,7 +170,7 @@
         "id": 14,
         "titulo": "A cidade Akihabara",
         "subtitulo": "A cidade reconhecida internacionalmente como o centro otaku",
-        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque, sed suscipit nibh ullamcorper. Donec aliquet dapibus eros. Nullam pellentesque velit elit, eget Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque",
+        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque, sed suscipit nibh ullamcorper. Donec aliquet dapibus eros. Nullam pellentesque velit elit, eget Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. \n Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque, sed suscipit nibh ullamcorper. Donec aliquet dapibus eros. Nullam pellentesque velit elit, eget Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. \n Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque, sed suscipit nibh ullamcorper. Donec aliquet dapibus eros. Nullam pellentesque velit elit, eget Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. \n Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque, sed suscipit nibh ullamcorper. Donec aliquet dapibus eros. Nullam pellentesque velit elit, eget Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. \n",
         "categoria": 3,
         "imagem": {
             "nome": "akihabara",
@@ -213,7 +199,7 @@
         "titulo": "Eiichiro Oda",
         "subtitulo": "Conheça o autor criador de One Piece uma das maiores obras da atualizade",
         "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque, sed suscipit nibh ullamcorper. Donec aliquet dapibus eros. Nullam pellentesque velit elit, eget Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque",
-        "categoria": 1,
+        "categoria": 2,
         "imagem": {
             "nome": "sign_eiichiro_oda",
             "ext": ".svg",

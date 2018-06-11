@@ -18,7 +18,7 @@ $dadosGrupo = getInfoGrupo();
         </div>-->
     <?php foreach ($dadosGrupo["integrantes"] as $integrante) { ?>
     <ul class="border-line-top">
-        <li class="img"><?= returnHtmlImg($integrante["imagem"]); ?></li>
+        <li class="img"><?= returnHtmlImg("geral", $integrante["imagem"]); ?></li>
         <li><strong>Funções:</strong> <?= $integrante["funcoes"]; ?></li>
         <li>
             <strong>Áreas responsável:</strong> 

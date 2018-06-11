@@ -24,6 +24,7 @@ function formatName($name) {
 function setConfigPage($pageName) {
     setInfoGrupo();    
     $infoGrupo = getInfoGrupo();
+    $id = $_GET["id"] ?? 0;
 
     setActivBtnMenu($pageName);
     switch ($pageName) {
@@ -42,6 +43,21 @@ function setConfigPage($pageName) {
             include './functions/danca.php';
             break;
         case "cenicas":
+            setTitleHead($infoGrupo["nome_grupo"]." - Artes Cências");
+            break;
+        case "mangas":
+            include './functions/manga.php';
+            setDadosMangas();
+            setTitleHead($infoGrupo["nome_grupo"]." - Artes Cências");
+            break;
+        case "manga":
+            include './functions/manga.php';
+            setDadosMangas();
+            setDadosManga($id);
+            $manga = getDadosManga();
+            $img = $manga["imagem"];
+            $pathImg = "midia/manga/".$img["nome"]."_220".$img["ext"];
+            setMetaShared($manga, $pathImg);
             setTitleHead($infoGrupo["nome_grupo"]." - Artes Cências");
             break;
         default:
@@ -274,19 +290,21 @@ function getInfoGrupo() {
 /**
  * Formata o array da imagem e retorna a tag img
  * 
+ * @param string $path O nome da pasta em midia
  * @param array $img O array da imagem com os indices
  *                  + nome
  *                  + ext
  *                  + alt
  *                  + title
  *                  + credito
+ * @param string $tamanho O tamanho da imagem com underline no começo
  * @return string A tag img formatada e se o credito foi definido retorna com um link para os creditos
  */
-function returnHtmlImg(array $img): string {
-    $imagem = $img["nome"].$img["ext"];
+function returnHtmlImg(string $path, array $img, string $tamanho = null): string {
+    $imagem = $img["nome"].$tamanho.$img["ext"];
     $alt = $img["alt"];
     $title = $img["title"] ?? "";
-    $tag = "<img src='midia/geral/$imagem' alt='$alt' title='$title' />";
+    $tag = "<img src='midia/$path/$imagem' alt='$alt' title='$title' />";
     if (isset($img["credito"]) && !empty($img["credito"])) {
         $credito = $img["credito"];
         $tag = "<a href='$credito' title='$title'>$tag</a>";
@@ -322,4 +340,40 @@ function getSearchArray(string $needle, string $key, array $fetch_haystack) {
  */
 function getIdArray(int $id, array $fetch_haystack) {
     return getSearchArray($id, "id", $fetch_haystack);
+}
+
+/**
+ * Retorna os meta dados para o compartilhamento
+ * 
+ * @param array $dados Os dados a serem setados
+ * @param string $pathImagem O caminho da imagem
+ */
+function setMetaShared(array $dados, string $pathImagem) {
+    $url = $_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];
+    $infoGrupo = getInfoGrupo();
+    $nome_grupo = $infoGrupo["nome_grupo"];
+    $pathUrlImg = $pathImagem;
+    
+    $GLOBALS["metaShare"] = '<meta property="og:url" content="'.$url.' />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="'.$dados["titulo"].'" />
+        <meta property="og:description" content="'.$dados["texto"].'" />
+        <meta property="og:image" content="'.$pathUrlImg.'" />
+        
+        <!--whatsapp-->
+        <meta property="og:site_name" content="'.$nome_grupo.'">
+        <meta property="og:title" content="'.$dados["titulo"].'" />
+        <meta property="og:description" content="'.$dados["texto"].'" />
+        <meta property="og:image" itemprop="image" content="'.$pathUrlImg.'">
+        <meta property="og:type" content="website" />
+        <meta property="og:updated_time" content="'.strtotime("now").'" />';
+}
+
+/**
+ * Retorna os metadados setados pela função setMetaShared()
+ * 
+ * @return string As tags <meta>
+ */
+function getMetaShared(): string {
+    return $GLOBALS["metaShare"] ?? "";
 }
