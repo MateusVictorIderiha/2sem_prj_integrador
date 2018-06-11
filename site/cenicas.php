@@ -17,7 +17,7 @@
             </article>
         </div>
         <section class="row teatro_section">
-            <div class="col-12 col-md-6 col-xl-4 thumb_nail text-center">
+            <section class="col-12 col-md-6 col-xl-4 thumb_nail text-center">
                 <a href="http://localhost:8080/site/index.php?pagina=atores">    
                     <div class="circular">
                         <img class="thumb_img m-auto" src="midia/teatro/home/atores_300.jpg" alt="random img">                
@@ -29,8 +29,8 @@
                             </div>
                     </div>
                 </a>
-            </div>
-            <div class="col-12 col-md-6 col-xl-4 thumb_nail text-center">
+            </section>
+            <section class="col-12 col-md-6 col-xl-4 thumb_nail text-center">
                 <a href="http://localhost:8080/site/index.php?pagina=teatro_repeticao">
                     <div class="circular">
                         <img class="thumb_img m-auto" src="midia/teatro/home/bunraku_300.jpg" alt="random img">                
@@ -42,8 +42,8 @@
                             </div>
                     </div>
                 </a>
-            </div>
-            <div class="col-12 col-md-6 col-xl-4 thumb_nail text-center">
+            </section>
+            <section class="col-12 col-md-6 col-xl-4 thumb_nail text-center">
                 <a href="http://localhost:8080/site/index.php?pagina=teatro_repeticao">
                     <div class="circular">
                         <img class="thumb_img m-auto" src="midia/teatro/home/kabuki_300.jpg" alt="garoto encenando uma peça de kabuki em um festival">                
@@ -55,8 +55,8 @@
                             </div>
                     </div>
                 </a>
-            </div>
-            <div class="col-12 col-md-6 col-xl-4 thumb_nail text-center">
+            </section>
+            <section class="col-12 col-md-6 col-xl-4 thumb_nail text-center">
                 <a href="http://localhost:8080/site/index.php?pagina=teatro_repeticao">
                     <div class="circular">
                         <img class="thumb_img m-auto" src="midia/teatro/home/kyogen_300.jpg" alt="encenação de peça de kyogen">
@@ -68,8 +68,8 @@
                             </div>
                     </div> 
                </a>
-            </div>
-            <div class="col-12 col-md-6 col-xl-4 thumb_nail text-center">
+            </section>
+            <section class="col-12 col-md-6 col-xl-4 thumb_nail text-center">
                 <a href="http://localhost:8080/site/index.php?pagina=teatro_repeticao">
                     <div class="circular">
                         <img class="thumb_img m-auto" src="midia/teatro/home/noh_300.jpg" alt="encenação de uma peça de noh">                
@@ -81,19 +81,19 @@
                             </div>
                     </div>
                 </a>
-            </div>
-            <div class="col-12 col-md-6 col-xl-4 thumb_nail text-center">
+            </section>
+            <section class="col-12 col-md-6 col-xl-4 thumb_nail text-center">
                 <a href="http://localhost:8080/site/index.php?pagina=obras">
                     <div class="circular">
                         <img class="thumb_img m-auto" src="midia/teatro/home/pecas_300.jpg" alt="ilustração de uma peça de kabuki">                
                             <div class="over_title">
-                                <h3 class="text-danger sub_cab">Peças e Influências</h3>
+                                <h3 class="text-danger sub_cab">Grandes Clássicos</h3>
                             </div>
                             <div class="over_text">
                                 <p class="p_text">Lorem ipsum dolor sit amet, consectetur elit. Sed sit amet consequat tellus duis.</p>
                             </div>
                     </div>
                 </a>
-            </div>
+            </section>
         </section>
     </div>
