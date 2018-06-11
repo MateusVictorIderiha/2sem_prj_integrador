@@ -61,7 +61,7 @@ foreach ($infoGrupo["integrantes"] as $integrante) {
                         $(this).find(".nav-link.dropdown-toggle").attr("aria-expanded", true);
                     }
                 });
-                
+
                 $(".nav-item").click(function(event) {
                     location.href = this.href;
                 });
