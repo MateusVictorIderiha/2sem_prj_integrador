@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "nome": "O mangá",
+        "area": "mangas",
+        "descricao": "Conheça a estrura do mangá, sua história, grandes influenciadores como autores, obras, generos e dentre outras coisas",
+        "imagem": {
+            "nome": "capa1",
+            "ext": ".jpg",
+            "alt": "Emakimono schema",
+            "title": "Imagem de um emakimon, mostrando ele fechado enrrolado e ele aberto. By User:Binabik155 (commons) [CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons",
+            "credito": "https://commons.wikimedia.org/wiki/File:Emakimono_schema.png"
+        }
+    },
+    {
+        "id": 2,
+        "nome": "Grandes obras",
+        "area": "mangas",
+        "descricao": "Conheça grandes obras e seus autores, como obras populares, alguns generos, públicos de mangas, dicas de otímos mangas para leitura",
+        "imagem": {
+            "nome": "capa2",
+            "ext": ".jpg",
+            "alt": "Capa de grandes obras",
+            "title": "",
+            "credito": "https://commons.wikimedia.org/wiki/File:Emakimono_schema.png"
+        }
+    },
+    {
+        "id": 3,
+        "nome": "Novidades",
+        "area": "mangas",
+        "descricao": "As principais novidades no mundo dos mangás, conheça os principais prêmios dados aos mangakas e suas obras, e também os ganhadores desses prêios e além de algumas curiosidades sobre o mundo dos mangás",
+        "imagem": {
+            "nome": "capa3",
+            "ext": ".jpg",
+            "alt": "Emakimono schema",
+            "title": "Imagem de um emakimon, mostrando ele fechado enrrolado e ele aberto. By User:Binabik155 (commons) [CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons",
+            "credito": "https://commons.wikimedia.org/wiki/File:Emakimono_schema.png"
+        }
+    }
+]
