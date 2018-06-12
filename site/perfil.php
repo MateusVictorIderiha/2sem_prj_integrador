@@ -23,32 +23,32 @@
                         <div class="text-center col-12 col-md-6 col-xl-2">
                             <div class="line sub_line"></div>
                             <img class="img_perfil d-block mx-auto" src="midia/teatro/atores/2_Danjuro_Ichimura_VIII.jpg" alt="imagem teste" width="150" height="215">
-                            <a href="href="http://localhost:8080/site/index.php?pagina=perfil" > Danjuro Ichimura VIII </a>
+                            <a href="http://localhost:8080/site/index.php?pagina=perfil" > Danjuro Ichimura VIII </a>
                         </div>
                         <div class="col-12 col-md-6 col-xl-2">
                             <div class="line sub_line"></div>
                             <img class="img_perfil d-block mx-auto" src="midia/teatro/atores/3_Danzo_Ichikawa_V.jpg" alt="imagem teste" width="300" height="215">
-                            <a href="href="http://localhost:8080/site/index.php?pagina=perfil" >Danzo Ichikawa V</a>
+                            <a href="http://localhost:8080/site/index.php?pagina=perfil" >Danzo Ichikawa V</a>
                         </div>
                         <div class="col-12 col-md-6 col-xl-2">
                             <div class="line sub_line"></div>
                             <img class="img_perfil d-block mx-auto" src="midia/teatro/atores/4_Ebijuro_Ichikawa_I.jpg" alt="imagem teste" width="150" height="215">
-                            <a href="href="http://localhost:8080/site/index.php?pagina=perfil" >Ebijuro Ichikawa I</a>
+                            <a href="http://localhost:8080/site/index.php?pagina=perfil" >Ebijuro Ichikawa I</a>
                         </div>
                         <div class="col-12 col-md-6 col-xl-2">
                             <div class="line sub_line"></div>
                             <img class="img_perfil d-block mx-auto" src="midia/teatro/atores/5_Ichikawa_Danjuro_VIII.jpg" alt="imagem teste" width="150" height="215">
-                            <a href="href="http://localhost:8080/site/index.php?pagina=perfil" >Ichikawa Danjuro VIII</a>
+                            <a href="http://localhost:8080/site/index.php?pagina=perfil" >Ichikawa Danjuro VIII</a>
                         </div>
                         <div class="col-12 col-md-6 col-xl-2">
                             <div class="line sub_line"></div>
                             <img class="img_perfil d-block mx-auto" src="midia/teatro/atores/6_Iwai_Hanshiro.jpg" alt="imagem teste" width="150" height="215">
-                            <a href="href="http://localhost:8080/site/index.php?pagina=perfil" >Iwai Hanshiro</a>
+                            <a href="http://localhost:8080/site/index.php?pagina=perfil" >Iwai Hanshiro</a>
                         </div>
                         <div class="col-12 col-md-6 col-xl-2">
                         <div class="line sub_line"></div>
                             <img class="img_perfil d-block mx-auto" src="midia/teatro/atores/7_Kikujiro_Onoe_II.jpg" alt="imagem teste" width="150" height="215">
-                            <a href="href="http://localhost:8080/site/index.php?pagina=perfil" >Kikujiro Onoe II</a>
+                            <a href="http://localhost:8080/site/index.php?pagina=perfil" >Kikujiro Onoe II</a>
                         </div>
             </section>   
     </div>

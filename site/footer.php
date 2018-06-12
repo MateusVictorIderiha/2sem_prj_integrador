@@ -63,7 +63,9 @@ foreach ($infoGrupo["integrantes"] as $integrante) {
                 });
 
                 $(".nav-item").click(function(event) {
-                    location.href = this.href;
+                    if (window.screen.width >= 991) {
+                        location.href = this.href;
+                    }
                 });
 
                 $(".navbar-toggler[data-target='#navbarSupportedContent']").click(function(e) {
