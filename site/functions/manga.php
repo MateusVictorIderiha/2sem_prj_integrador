@@ -32,6 +32,30 @@ function getDadosMangas(): array {
 }
 
 /**
+ * Retorna os dados de todos os mangas de uma categoria da variavel global mangasCategoria que foi setada pela função setDadosMangas()
+ * 
+ * @return array[] Todos os mangas
+ */
+function setMangasCategoria(int $idCategoria = null): array {
+    $dadosMangas = getDadosMangas();
+    $categoriaMangas = [];
+    foreach ($dadosMangas as $manga) {
+        $categoriaMangas[] = $manga;
+    }
+
+    $GLOBALS["mangasCategoria"] = $categoriaMangas;
+}
+
+/**
+ * Retorna os dados de todos os mangas de uma categoria da variavel global mangasCategoria que foi setada pela função setDadosMangas()
+ * 
+ * @return array[] Todos os mangas
+ */
+function getMangasCategoria(): array {
+    return $GLOBALS["mangasCategoria"] ?? [];
+}
+
+/**
  * Seta os dados de um manga
  * 
  * @param int $idManga O id do manga
