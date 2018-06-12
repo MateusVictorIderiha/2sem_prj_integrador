@@ -1,7 +1,7 @@
     <div class="container">
         <h1 class="teatro_heading text-danger">Grandes Atores</h1>
             <div class="row justify-content-center">
-                <div class="col-12 col-md-6 col-xl-4 border border-danger content_border">
+                <section class="col-12 col-md-6 col-xl-4 border border-danger content_border">
                     <div class="row">
                         <div class="left_content text-center col-6">
                             <img clas="img_atores" src="midia/teatro/atores/1_Chojuro_Sawamura_V.jpg">
@@ -14,9 +14,9 @@
                             <a class="leiaMais" href="http://localhost:8080/site/index.php?pagina=perfil">Leia Mais..</a>
                         </div>
                     </div>
-                </div>
+                </section>
                 
-                <div class="col-12 col-md-6 col-xl-4 border border-danger content_border">
+                <section class="col-12 col-md-6 col-xl-4 border border-danger content_border">
                     <div class="row">
                         <div class="left_content text-center col-6">
                             <img clas="img_atores" src="midia/teatro/atores/2_Danjuro_Ichimura_VIII.jpg">
@@ -29,8 +29,8 @@
                             <a class="leiaMais" href="http://localhost:8080/site/index.php?pagina=perfil">Leia Mais..</a>
                         </div>
                     </div>
-                </div>  
-                <div class="col-12 col-md-6 col-xl-4 border border-danger content_border">
+                </section>  
+                <section class="col-12 col-md-6 col-xl-4 border border-danger content_border">
                     <div class="row">
                         <div class="left_content text-center col-6">
                             <img clas="img_atores" src="midia/teatro/atores/3_Danzo_Ichikawa_V.jpg">
@@ -43,8 +43,8 @@
                             <a class="leiaMais" href="http://localhost:8080/site/index.php?pagina=perfil">Leia Mais..</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-4 border border-danger content_border">
+                </section>
+                <section class="col-12 col-md-6 col-xl-4 border border-danger content_border">
                     <div class="row">
                         <div class="left_content text-center col-6">
                             <img clas="img_atores" src="midia/teatro/atores/4_Ebijuro_Ichikawa_I.jpg">
@@ -57,8 +57,8 @@
                             <a class="leiaMais" href="http://localhost:8080/site/index.php?pagina=perfil">Leia Mais..</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-4 border border-danger content_border">
+                </section>
+                <section class="col-12 col-md-6 col-xl-4 border border-danger content_border">
                     <div class="row">
                         <div class="left_content text-center col-6">
                             <img clas="img_atores" src="midia/teatro/atores/5_Ichikawa_Danjuro_VIII.jpg">
@@ -71,8 +71,8 @@
                             <a class="leiaMais" href="http://localhost:8080/site/index.php?pagina=perfil">Leia Mais..</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-4 border border-danger content_border">
+                </section>
+                <section class="col-12 col-md-6 col-xl-4 border border-danger content_border">
                     <div class="row">
                         <div class="left_content text-center col-6">
                             <img clas="img_atores" src="midia/teatro/atores/6_Iwai_Hanshiro.jpg">
@@ -85,8 +85,8 @@
                             <a class="leiaMais" href="http://localhost:8080/site/index.php?pagina=perfil">Leia Mais..</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-4 border border-danger content_border">
+                </section>
+                <section class="col-12 col-md-6 col-xl-4 border border-danger content_border">
                     <div class="row">
                         <div class="left_content text-center col-6">
                             <img clas="img_atores" src="midia/teatro/atores/7_Kikujiro_Onoe_II.jpg">
@@ -99,9 +99,9 @@
                             <a class="leiaMais" href="http://localhost:8080/site/index.php?pagina=perfil">Leia Mais..</a>
                         </div>
                     </div>
-                </div>
+                </section>
                 
-                <div class="col-12 col-md-6 col-xl-4 border border-danger content_border">
+                <section class="col-12 col-md-6 col-xl-4 border border-danger content_border">
                     <div class="row">
                         <div class="left_content text-center col-6">
                             <img clas="img_atores" src="midia/teatro/atores/8_Kumesaburo_Iwai_III.jpg">
@@ -114,8 +114,8 @@
                             <a class="leiaMais" href="http://localhost:8080/site/index.php?pagina=perfil">Leia Mais..</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-4 border border-danger content_border">
+                </section>
+                <section class="col-12 col-md-6 col-xl-4 border border-danger content_border">
                     <div class="row">
                         <div class="left_content text-center col-6">
                             <img clas="img_atores" src="midia/teatro/atores/9_Kuzo_Ichikawa_II.jpg">
@@ -128,8 +128,8 @@
                             <a class="leiaMais" href="http://localhost:8080/site/index.php?pagina=perfil">Leia Mais..</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-4 border border-danger content_border">
+                </section>
+                <section class="col-12 col-md-6 col-xl-4 border border-danger content_border">
                     <div class="row">
                         <div class="left_content text-center col-6">
                             <img clas="img_atores" src="midia/teatro/atores/10_Tomokichi_Fujikawa_II.jpg">
@@ -142,8 +142,8 @@
                             <a class="leiaMais" href="http://localhost:8080/site/index.php?pagina=perfil">Leia Mais..</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-4 border border-danger content_border">
+                </section>
+                <section class="col-12 col-md-6 col-xl-4 border border-danger content_border">
                     <div class="row">
                         <div class="left_content text-center col-6">
                             <img clas="img_atores" src="midia/teatro/atores/11_otani_oniji.jpg">
@@ -156,8 +156,8 @@
                             <a class="leiaMais" href="http://localhost:8080/site/index.php?pagina=perfil">Leia Mais..</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-4 border border-danger content_border">
+                </section>
+                <section class="col-12 col-md-6 col-xl-4 border border-danger content_border">
                     <div class="row">
                         <div class="left_content text-center col-6">
                             <img clas="img_atores" src="midia/teatro/atores/12_Utaemon_Nakamura_III.jpg">
@@ -170,6 +170,6 @@
                             <a class="leiaMais" href="http://localhost:8080/site/index.php?pagina=perfil">Leia Mais..</a>
                         </div>
                     </div>
-                </div>                                                                  
+                </section>                                                                  
             </div>
     </div>

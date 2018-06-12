@@ -111,24 +111,142 @@ a:hover {
 * FIM GERAL
 */
 
-/*h1, h2 {
-    color: black;
-    font-size: 24px;
-    font-weight: bold;
-    margin: 10px ;
+/**
+* INICIO PAGINA TEATRO
+**/
+.teatro_content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.teatro_article {
+    margin: 10px auto;
+}
+.teatro_heading {
     text-align: center;
-}*/
-/*label {
-    width: 300px;
+    margin: 25px 0;
+}
+.teatro_text {
+    color: #000000;
+    font-size: 16px;
+    margin: 25px 0;
+    text-align: left;
+}
+.thumb_img {
     display: block;
-    margin: 0 auto;
-}*/
-/*textarea {
+    position: relative;
+    width: 100%;
+    max-width: 360px;
+}
+.thumb_nail {
+    position: relative;
+    margin: 10px 0px;
+}
+.circular {
+    width: 100%;
+    max-width: 360px;
+    height: 222px;
+    margin: 0px auto;
+}
+.over_title {
+    position: absolute;
+    top: 10px;
+    text-align: left;
+    width: 100%;
+}
+.sub_cab {
+    margin: 0;
+    margin-left: 10px;
+}
+.over_text {
+    position: relative;
+    top: -40px;
+    text-align: left;
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+}
+.p_text {
+    margin: 5px;
+    width: 100%;
+}
+.teatro_section {
+    margin-bottom: 50px;
+}
+/* INICIO SUBPAGINA ATORES */
+
+.img_atores {
+    width: 150px;
+    max-width: 150px;
     display: block;
-    height: 150px;
-    width: 300px;
-    margin: 0 auto;
-}*/
+    margin: 25px;
+}
+.content_border {
+    padding: 10px;
+    margin: 5px;
+    max-width: 360px;
+}
+.right_content {
+    text-align: center;
+}
+.lineAtor {
+    width: 100px;
+}
+.leiaMais {
+     margin: 10px;
+}
+/* FIM SUBPAGINA ATORES */
+
+/* INICIO SUBPAGINA PERFIL_ATOR */
+.img_perfil {
+    max-width: 150px;
+    margin: 25px auto;
+}
+.line_perfil {
+    margin: 30px auto;
+    width: 200px;
+}
+.perfil_paragrafo {
+    margin: 25px auto 0;
+}
+.sub_line {
+    margin-top: 30px; 
+    width: 175px;
+}
+
+/* FIM SUBPAGINA PERFIL_ATOR */
+
+/* INICIO TEATRO PAGINAS DE REPETIÇÃO */
+.rep_heading {
+    text-align: center;
+}
+.rep_paragrafo {
+    margin: 10px 0;
+}
+.cat_img {
+    display: block;
+    margin: 25px auto;
+}
+/* FINAL TEATRO PAGINAS DE REPETIÇÃO */
+
+/* INICIO OBRAS E INFLUENCIAS */
+
+.pecas_img {
+    display: block;
+    margin: 25px auto;
+    max-width: 300px;
+}
+.line_obras {
+    margin-top: 50px;
+}
+.obras_sub_heading {
+    text-align: center;
+    margin: 25px 0;
+}
+
+/* FINAL OBRAS E INFLUENCIAS */
+
+/**FIM PAGINA TEATRO
+*/
 
 /**
 * INICIO PÁGINA DE NÃO ENCONTRADO
