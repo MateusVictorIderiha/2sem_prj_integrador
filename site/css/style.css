@@ -362,6 +362,7 @@ section p {
 .mangas .manga {
     display: flex;
     align-items: center;
+    height: 400px;
 }
 
 .mangas .manga .containerImg {
@@ -499,6 +500,16 @@ section p {
     }
     /**
     * FIM TOPO TAMANHO LG
+    */
+    
+    /**
+    * INICIO MANGAS
+    */
+    .mangas .manga .texto {
+        display: none;
+    }
+    /**
+    * FIM MANGAS
     */
 }
 

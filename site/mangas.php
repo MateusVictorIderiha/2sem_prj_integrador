@@ -15,12 +15,13 @@ $mangas = getDadosMangas();
         ?>
         <section class="col-12 col-md-3 manga">
             <div class="container">
-                <h2 class="titulo text-center"><?= $manga["titulo"]; ?></h2>
-                <p class="subtitulo text-center"><?= $manga["subtitulo"]; ?></p>
+                <a href="index.php?pagina=manga&id=<?= $manga["id"]; ?>" class=""><h2 class="titulo text-center"><?= $manga["titulo"]; ?></h2></a>
+                <a href="index.php?pagina=manga&id=<?= $manga["id"]; ?>" class=""><p class="subtitulo text-center"><?= $manga["subtitulo"]; ?></p></a>
                 <div class="containerImg text-center">
+                    <a href="index.php?pagina=manga&id=<?= $manga["id"]; ?>" class="">
                     <!--<a href="<?= $img["credito"] ?>" title="<?= $img["title"]; ?>" class="" target="_blank">-->
                     <?php if ($img["ext"] == ".svg") { ?>
-                        <img src="<?= "midia/manga/".$img["nome"]."_220".$img["ext"]; ?>" title="<?= $img["title"]; ?>" alt="<?= $img["alt"]; ?>" class="mw-100">
+                        <object type="image/svg+xml" data="<?= "midia/manga/".$img["nome"].$img["ext"]; ?>" title="<?= $img["title"]; ?>" alt="<?= $img["alt"]; ?>" class="mw-100"></object>
                     <?php } else { ?>
                         <picture class="">
                             <source media="(max-width: 960px)" srcset="<?= "midia/manga/".$img["nome"]."_220".$img["ext"]; ?>">
@@ -28,10 +29,11 @@ $mangas = getDadosMangas();
                             <img src="<?= "midia/manga/".$img["nome"]."_220".$img["ext"]; ?>" title="<?= $img["title"]; ?>" alt="<?= $img["alt"]; ?>" class="mw-100">
                         </picture>
                     <?php } ?>
+                    </a>
                     <!--</a>-->
                 </div>
-                <p class="text-justify"><?= $texto; ?></p>
-                <button class="btn btn-primary m-auto">Leia +</button>
+                <a href="index.php?pagina=manga&id=<?= $manga["id"]; ?>" class=""><p class="text-justify texto"><?= $texto; ?></p></a>
+                <a href="index.php?pagina=manga&id=<?= $manga["id"]; ?>" class="d-md-none"><button class="btn btn-primary m-auto">Leia +</button></a>
             </div>
         </section>
         <?php } ?>

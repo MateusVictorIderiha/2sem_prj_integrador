@@ -241,6 +241,14 @@ function getValuesMenu() : array {
             "link" => ""
         ],
         [
+            "nome" => "O japão",
+            "link" => ""
+        ],
+        [
+            "nome" => "A historia",
+            "link" => ""
+        ],
+        [
             "nome" => "Contato",
             "link" => "contato"
         ]
