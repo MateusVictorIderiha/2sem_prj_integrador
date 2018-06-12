@@ -134,8 +134,12 @@ function getValuesMenu() : array {
         ],
         [
             "nome" => "Teatro",
-            "link" => "teatro",
+            "link" => "",
             "subMenu" => [
+			    [
+                    "nome" => "Teatro",
+                    "link" => "teatro"
+                ],
 			    [
                     "nome" => "Atores",
                     "link" => "atores"
