@@ -42,8 +42,8 @@ function setConfigPage($pageName) {
             setTitleHead($infoGrupo["nome_grupo"]." - Dança topico");
             include './functions/danca.php';
             break;
-        case "cenicas":
-            setTitleHead($infoGrupo["nome_grupo"]." - Artes Cências");
+        case "teatro":
+            setTitleHead($infoGrupo["nome_grupo"]." - Teatro Clássico");
             break;
         case "mangas":
             include './functions/manga.php';
@@ -134,35 +134,31 @@ function getValuesMenu() : array {
         ],
         [
             "nome" => "Teatro",
-            "link" => "",
+            "link" => "teatro",
             "subMenu" => [
-                [
-                    "nome" => "Artes cêncas",
-                    "link" => "cenicas"
-                ],
-                [
-                    "nome" => "Noticias",
-                    "link" => ""
+			    [
+                    "nome" => "Atores",
+                    "link" => "atores"
                 ],
                 [
                     "nome" => "Bunraku",
-                    "link" => ""
+                    "link" => "teatro_repeticao"
                 ],
                 [
                     "nome" => "Kabuki",
-                    "link" => ""
+                    "link" => "teatro_repeticao"
                 ],
                 [
                     "nome" => "Kyogen",
-                    "link" => ""
+                    "link" => "teatro_repeticao"
                 ],
                 [
                     "nome" => "Noh",
-                    "link" => ""
+                    "link" => "teatro_repeticao"
                 ],
                 [
-                    "nome" => "Recomendações",
-                    "link" => ""
+                    "nome" => "Clássicos",
+                    "link" => "obras"
                 ]
             ],
         ],

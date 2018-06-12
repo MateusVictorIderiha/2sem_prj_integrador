@@ -17,6 +17,7 @@
             </article>
         </div>
         <section class="row teatro_section">
+
             <section class="col-12 col-md-6 col-xl-4 thumb_nail text-center">
                 <a href="http://localhost:8080/site/index.php?pagina=atores">    
                     <div class="circular">
