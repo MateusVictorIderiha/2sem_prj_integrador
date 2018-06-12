@@ -87,12 +87,12 @@
                                         <source media="(max-width: 720px)" srcset="midia/danca/<?= $valor["imagem"]["nome"] . "_100" . $valor["imagem"]["ext"]; ?>">
                                         <source media="(min-width: 720px)" srcset="midia/danca/<?= $valor["imagem"]["nome"] . "_100" . $valor["imagem"]["ext"]; ?>">
                                         <source media="(min-width: 1200px)" srcset="midia/danca/<?= $valor["imagem"]["nome"] . "_100" . $valor["imagem"]["ext"]; ?>">
-                                        <a href="<?= "index.php?pagina=dancatopico"; ?>"><img class="img-fluid aImgDanca" src="midia/danca/<?= $valor["imagem"]["nome"] . "_100" . $valor["imagem"]["ext"]; ?>" alt=<?php $valor["imagem"]["alt"] ?> style="width:auto;"></a>
+                                        <a href="<?= "index.php?pagina=dancatopico&id=".$valor["id"]; ?>"><img class="img-fluid aImgDanca" src="midia/danca/<?= $valor["imagem"]["nome"] . "_100" . $valor["imagem"]["ext"]; ?>" alt="<?= $valor["imagem"]["alt"]; ?>" style="width:auto;"></a>
                                     </picture>
                                 </div>
 
                                 <div class="col-lg-8 col-md-8 col-8">
-                                    <h1 class="title"><a href="<?= "index.php?pagina=dancaTopico&id=".$valor["id"]; ?>"><?= $valor["titulo"]; ?></a></h1>
+                                    <h1 class="title"><a href="<?= "index.php?pagina=dancatopico&id=".$valor["id"]; ?>"><?= $valor["titulo"]; ?></a></h1>
                                     <p><?= $valor["texto"]; ?></p>
                                 </div>
                             </div>
@@ -105,7 +105,5 @@
             </div>
         </div>    
     </div>
-</div>
-            
-         
+</div>                  
     
