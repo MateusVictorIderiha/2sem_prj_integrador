@@ -29,26 +29,6 @@
             </form>
         </div>
     </div>
-
+    
     <hr>
-
-    <div class="col-lg-4 col-md-6 col-12">
-        <section class="sectionDanca">
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-4">
-                    <picture>
-                        <source media="(max-width: 720px)" srcset="midia/danca/BonodriDanca_100.jpg">
-                        <source media="(min-width: 720px)" srcset="midia/danca/BonodriDanca_100.jpg">
-                        <source media="(min-width: 1200px)" srcset="midia/danca/BonodriDanca_100.jpg">
-                        <img class="img-fluid" src="midia/danca/BonodriDanca_100.jpg" alt="Mulher tocando um tambor em um festival de dança japones" style="width:auto;">
-                    </picture>
-                </div>
-
-                <div class="col-lg-8 col-md-8 col-8">
-                    <h1 class="title">Bon Odori</h1>
-                    <p>Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel.</p>
-                </div>
-            </div>
-        </section>
-    </div>
 </div>
