@@ -134,7 +134,7 @@ function getValuesMenu() : array {
         ],
         [
             "nome" => "Teatro",
-            "link" => "",
+            "link" => "teatro",
             "subMenu" => [
 			    [
                     "nome" => "Teatro",
@@ -207,7 +207,7 @@ function getValuesMenu() : array {
         ],
         [
             "nome" => "Danças",
-            "link" => "",
+            "link" => "dancas",
             "subMenu" => [
                 [
                     "nome" => "Danças",

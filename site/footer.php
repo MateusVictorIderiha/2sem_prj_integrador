@@ -64,8 +64,8 @@ foreach ($infoGrupo["integrantes"] as $integrante) {
                     }
                 });
 
-                $(".nav-item").click(function(event) {
-                    if (window.screen.width >= 991) {
+                $(".nav-link.dropdown-toggle").click(function(event) {
+                    if (window.screen.width >= 991 && this.href !== "") {
                         location.href = this.href;
                     }
                 });
