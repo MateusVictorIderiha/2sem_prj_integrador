@@ -72,6 +72,7 @@ body, html {
 
 a {
     color: inherit;
+    color: red;
 }
 
 a:hover {
@@ -513,6 +514,18 @@ section p {
     
     .topo #navbarSupportedContent .nav-item.dropdown:hover .dropdown-menu {
         display: block;
+    }
+    
+    .dropdown-menu{
+        background-color: #5F4B8B;
+    }
+    
+    .dropdown-menu .dropdown-item {
+        color: white;
+    }
+    
+    .dropdown-menu .dropdown-item:hover {
+        color: red;
     }
     /**
     * FIM TOPO TAMANHO LG
