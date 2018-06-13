@@ -375,6 +375,7 @@ section p {
 
 .mangas .manga .containerImg img {
     max-height: 300px;
+    transform: scale(0.9)
 }
 
 .mangas .manga .subtitulo {
@@ -507,6 +508,12 @@ section p {
     */
     .mangas .manga .texto {
         display: none;
+    }
+    .mangas .manga:hover {
+        color: #EF3341;
+    }
+    .mangas .manga .containerImg img:hover {
+        transform: scale(1);
     }
     /**
     * FIM MANGAS
