@@ -59,14 +59,6 @@ body, html {
     width: 300px;
 }
 
-.border-line-top {
-    border-top: 2px solid red;
-}
-
-.border-line-bottom {
-    border-bottom: 2px solid red;
-}
-
 .titulo, .subtitulo {
     font-family: arial, sans-serif;
     font-weight: 600;
@@ -84,7 +76,7 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: #ef3341;
+    color: #5F4B8B;
 }
 
 /*INICIO fitler - overlay*/
@@ -494,6 +486,11 @@ section p {
     .topo #navbarSupportedContent .navbar-nav .nav-item {
         padding-left: 20px;
         padding-right: 20px;
+        margin-top: 5px;
+    }
+    
+    .topo #navbarSupportedContent .navbar-nav .nav-item:hover {
+        border-top: 2px solid #5F4B8B;
     }
     
     .topo #navbarSupportedContent .nav-item.dropdown:hover .dropdown-menu {
