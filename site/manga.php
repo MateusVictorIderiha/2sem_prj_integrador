@@ -31,7 +31,7 @@ $img = $manga["imagem"];
             <?php 
             $url = "http://".$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];
             ?>
-            <a href="https://www.facebook.com/sharer/sharer.php?u=https://translate.google.com.br/?hl=pt-BR&tab=wT#en/pt/teste" target="_blank">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=<?= $url; ?>" target="_blank">
                 Share on Facebook
             </a>
             <a class="d-none d-md-block" href="https://api.whatsapp.com/send?text=<?= $url; ?>" target="_blank"><i class="fab fa-whatsapp"></i></a>

@@ -82,6 +82,14 @@ foreach ($infoGrupo["integrantes"] as $integrante) {
                 $("#filter-overlay").click(function() {
                     $(".navbar-collapse .navbar-toggler[data-target='#navbarSupportedContent']").trigger("click");
                 });
+                
+                $(".mangas .manga").mouseover(function() {
+                    var img = $(this).find(".containerImg").find("img, object");
+                    var manga = $(this).closest(".manga");
+                    if($(img).width() > $(manga).width() + 100) {
+                        $(this).find(".containerImg").addClass("doubleZoom");
+                    }
+                });
 //                FIM MENU
 
 //                INICIO FORM CONTATO
