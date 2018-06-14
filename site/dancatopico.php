@@ -8,8 +8,8 @@
         <div class="col-lg-4">
             <section class="d-none d-lg-block">
                 <picture>
-                    <source media="(min-width: 1200px)" srcset="midia/danca/lateralDesktopDanca_300.jpg">
-                    <img class="img-fluid" src="midia/danca/lateralDesktopDanca_300.jpg" alt="casal japones com guarda chuva tipico de dança" style="width:auto;">
+                    <source media="(min-width: 1200px)" srcset="midia/danca/bluedanca_300.jpg">
+                    <img class="img-fluid" src="midia/danca/bluedanca_300.jpg" alt="casal japones com guarda chuva tipico de dança" style="width:auto;">
                 </picture>
             </section>
         </div>
