@@ -16,6 +16,7 @@ function formatName($name) {
  * Cria as configurações da pagina como:
  *   Title no Head
  *   Botão ativado no menu
+ *   Incluir funções especificas de cada página
  * 
  * @param string $pageName o nome do arquivo/pagina a ser configurado
  * 
@@ -43,7 +44,20 @@ function setConfigPage($pageName) {
             include './functions/danca.php';
             break;
         case "teatro":
+            include './functions/teatroJapones.php';
             setTitleHead($infoGrupo["nome_grupo"]." - Teatro Clássico");
+            break;
+        case "teatro_internas":
+            include './functions/teatroJapones.php';
+            setTitleHead($infoGrupo["nome_grupo"]." - Teatro Interna");
+            break;
+        case "atores":
+            include './functions/teatroJapones.php';
+            setTitleHead($infoGrupo["nome_grupo"]." - Biografias");
+            break;
+        case "classicos":
+            include './functions/teatroJapones.php';
+            setTitleHead($infoGrupo["nome_grupo"]." - Clássicos do Teatro e Mais");
             break;
         case "mangas":
             include './functions/manga.php';
@@ -146,19 +160,23 @@ function getValuesMenu() : array {
                 ],
                 [
                     "nome" => "Bunraku",
-                    "link" => "teatro_repeticao"
+                    "link" => "teatro_internas",
+                    "id" => "2"
                 ],
                 [
                     "nome" => "Kabuki",
-                    "link" => "teatro_repeticao"
+                    "link" => "teatro_internas",
+                    "id" => "3"
                 ],
                 [
                     "nome" => "Kyogen",
-                    "link" => "teatro_repeticao"
+                    "link" => "teatro_internas",
+                    "id" => "4"
                 ],
                 [
                     "nome" => "Noh",
-                    "link" => "teatro_repeticao"
+                    "link" => "teatro_internas",
+                    "id" => "5"
                 ],
                 [
                     "nome" => "Clássicos",

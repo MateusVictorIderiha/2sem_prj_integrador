@@ -49,4 +49,4 @@ echo isset($existVariavel) ? $existVariavel : "Não existe";
 /**
  * Expressão para se a variavel foi escrita com um if ternario
  */
-echo isset($existVariavel) ?? "Não existe";
+echo $existVariavel ?? "Não existe";
