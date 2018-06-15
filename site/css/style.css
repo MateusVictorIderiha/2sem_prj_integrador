@@ -352,6 +352,7 @@ section p {
 /**
 * INICIO MANGAS
 */
+/* mangas */
 .mangas .manga {
     display: flex;
     align-items: center;
@@ -375,7 +376,6 @@ section p {
 .mangas .manga:hover .containerImg *, .mangas .manga .containerImg img:hover {
     transform: scale(0.9);
 }
-
 .mangas .manga .containerImg {
     height: 263px;
     display: flex;
@@ -383,18 +383,48 @@ section p {
     justify-content: center;
     /*box-shadow: 0px 0px 1px hsla(0, 0%, 0%, 0.25);*/
 }
-
 .mangas .manga .containerImg img {
     max-height: 300px;
     transform: scale(0.9)
 }
-
+.mangas .manga a {
+    color: #000;
+}
 .mangas .manga .subtitulo {
     font-size: 0.9em
 }
+/* fim mangas */
 
-.mangas .manga .subtitulo {
+/* manga interna */
+.contentManga.layoutManga1 {
+    display: flex;
+    flex-wrap: wrap;
 }
+.contentManga.layoutManga1 .buttons {
+    order: 4;
+    flex-basis: 100%;
+}
+.contentManga.layoutManga1 .orderTexto {
+    order: 3;
+    flex-basis: 100%;
+}
+.contentManga.layoutManga1 .imgManga {
+    order: 2;
+    margin-left: auto;
+    margin-right: auto;
+    flex-basis: 100%;
+}
+.contentManga.layoutManga1 .titulosManga {
+    order: 1;
+    flex-basis: 100%;
+}
+
+.contentManga.layoutManga2 .imgManga {
+    margin-right: 15px;
+    margin-bottom: 9px;
+}
+
+/* fim manga interna */
 /**
 * FIM MANGAS
 */
