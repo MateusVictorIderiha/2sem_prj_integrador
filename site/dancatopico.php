@@ -17,7 +17,7 @@
         
         <div class="col-lg-8 col-md-12 col-xs-12">
             <article>
-                <h1 class="text-danger"><?= $danca["titulo"]; ?></h1>
+                <h1 class="titulo"><?= $danca["titulo"]; ?></h1>
                 <p>
                     <?= $danca["textob"] ?>
                 </p>
@@ -55,7 +55,7 @@
     <div class="row">
         <div class="col-lg-4 d-none d-lg-block">
             <section>
-                <h1 class="text-danger">Visite outras categorias</h1>
+                <h2 class="subtitulo">Visite outras categorias</h2>
             </section>
             
             <div class="row">
@@ -71,7 +71,7 @@
 
         <div class="col-lg-8">
             <section>
-                <h1 class="text-danger text-underlined text-center">Dança japonesa</h1>
+                <h2 class="subtitulo text-center">Dança japonesa</h2>
             </section>    
 
             <div class="row">
@@ -92,7 +92,7 @@
                                 </div>
 
                                 <div class="col-lg-8 col-md-8 col-8">
-                                    <h1 class="title"><a href="<?= "index.php?pagina=dancatopico&id=".$valor["id"]; ?>"><?= $valor["titulo"]; ?></a></h1>
+                                    <h2 class="subtitulo"><a href="<?= "index.php?pagina=dancatopico&id=".$valor["id"]; ?>"><?= $valor["titulo"]; ?></a></h2>
                                     <p><?= $valor["texto"]; ?></p>
                                 </div>
                             </div>

@@ -64,15 +64,19 @@ body, html {
     font-weight: 600;
 }
 .titulo {
-    font-size: 1.7rem;
+    font-size: 2.5em;
+    color: #EF3341;
+    font-family: sans-serif;
 }
+
 .subtitulo {
-    font-size: 1.3rem;    
+    font-size: 2.3rem;
+    color: #EF3341;
+    font-family: sans-serif;
 }
 
 a {
-    color: inherit;
-    color: red;
+    color:black;
 }
 
 a:hover {
@@ -534,7 +538,7 @@ section p {
     }
     
     .dropdown-menu .dropdown-item:hover {
-        color: red;
+        color: #5F4B8B;
     }
     /**
     * FIM TOPO TAMANHO LG
