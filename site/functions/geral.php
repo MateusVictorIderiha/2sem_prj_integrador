@@ -63,6 +63,15 @@ function setConfigPage($pageName) {
             include './functions/japao.php';
             setTitleHead($infoGrupo["nome_grupo"]." - Japão");
             break;
+        case "termo_uso":
+            setTitleHead($infoGrupo["nome_grupo"]." - Termos de uso");
+            break;
+        case "musicas":
+            setTitleHead($infoGrupo["nome_grupo"]." - Músicas");
+            break;
+        case "musica":
+            setTitleHead($infoGrupo["nome_grupo"]." - Música");
+            break;
         case "mangas":
             include './functions/manga.php';
             setDadosMangas();
@@ -186,20 +195,12 @@ function getValuesMenu() : array {
         ],
         [
             "nome" => "Música",
-            "link" => "",
+            "link" => "musicas",
             "subMenu" => [
                 [
-                    "nome" => "Gênero 1",
-                    "link" => ""
-                ],
-                [
-                    "nome" => "Gênero 2",
-                    "link" => ""
-                ],
-                [
-                    "nome" => "Gênero 3",
-                    "link" => ""
-                ],
+                    "nome" => "POP",
+                    "link" => "musica"
+                ]
             ]
         ],
         [
@@ -256,11 +257,11 @@ function getValuesMenu() : array {
         ],
         [
             "nome" => "Termos",
-            "link" => ""
+            "link" => "termo_uso"
         ],
         [
             "nome" => "O japão",
-            "link" => ""
+            "link" => "japao"
         ],
         [
             "nome" => "A historia",
