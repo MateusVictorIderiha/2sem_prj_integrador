@@ -1,5 +1,6 @@
 <?php
     $dancas = dancatopicos();
+    $visites = visiteoutros();
     $danca = getIdArray($_GET["id"], $dancas);
 ?>
 
@@ -8,15 +9,15 @@
         <div class="col-lg-4">
             <section class="d-none d-lg-block">
                 <picture>
-                    <source media="(min-width: 1200px)" srcset="midia/danca/lateralDesktopDanca_300.jpg">
-                    <img class="img-fluid" src="midia/danca/lateralDesktopDanca_300.jpg" alt="casal japones com guarda chuva tipico de dança" style="width:auto;">
+                    <source media="(min-width: 1200px)" srcset="midia/danca/bluedanca_300.jpg">
+                    <img class="img-fluid" src="midia/danca/bluedanca_300.jpg" alt="casal japones com guarda chuva tipico de dança" style="width:auto;">
                 </picture>
             </section>
         </div>
         
         <div class="col-lg-8 col-md-12 col-xs-12">
             <article>
-                <h1 class="text-danger"><?= $danca["titulo"]; ?></h1>
+                <h1 class="titulo"><?= $danca["titulo"]; ?></h1>
                 <p>
                     <?= $danca["textob"] ?>
                 </p>
@@ -54,13 +55,23 @@
     <div class="row">
         <div class="col-lg-4 d-none d-lg-block">
             <section>
-                <h1 class="text-danger">Visite outras categorias</h1>
+                <h2 class="subtitulo">Visite outras categorias</h2>
             </section>
+            
+            <div class="row">
+                <?php foreach ($visites as $valor) { ?>
+                    <div class="col-lg-6">
+                        <section class="categorias">
+                            <a href="<?= $valor["ref"]; ?>" ><img src="midia/danca/<?= $valor["nome"]; ?><?= $valor["ext"]; ?>" alt="<?= $valor["alt"]; ?>"></a>
+                        </section>  
+                    </div>
+                <?php } ?>
+            </div>
         </div>
 
         <div class="col-lg-8">
             <section>
-                <h1 class="text-danger text-underlined text-center">Dança japonesa</h1>
+                <h2 class="subtitulo text-center">Dança japonesa</h2>
             </section>    
 
             <div class="row">
@@ -81,14 +92,14 @@
                                 </div>
 
                                 <div class="col-lg-8 col-md-8 col-8">
-                                    <h1 class="title"><a href="<?= "index.php?pagina=dancatopico&id=".$valor["id"]; ?>"><?= $valor["titulo"]; ?></a></h1>
+                                    <h2 class="subtitulo"><a href="<?= "index.php?pagina=dancatopico&id=".$valor["id"]; ?>"><?= $valor["titulo"]; ?></a></h2>
                                     <p><?= $valor["texto"]; ?></p>
                                 </div>
                             </div>
                         </section>
                     </div>                
                 <?php
-                    }
+                    };
                 ?>
 
             </div>
