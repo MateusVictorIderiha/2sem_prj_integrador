@@ -5,7 +5,7 @@
     
     <div class="container teatro_content">
     <main>    
-        <h1 class="titulo">Nome: Ator</h1>
+        <h1 class="titulo text-center perfil_titulo">Nome: Ator</h1>
         <div class="row">
         <aside class="col-12 col-lg-6">
             <div class="line line_perfil d-md-none"></div>
@@ -37,27 +37,27 @@
                         <div class="col-12 col-md-6 col-xl-2">
                             <div class="line sub_line"></div>
                             <img class="img_perfil d-block mx-auto" src="midia/teatro/atores/danjuro_ichimura_VIII.jpg" alt="imagem teste" width="300" height="215">
-                            <a href="index.php?pagina=perfil" >Danjuro Ichimura VIII</a>
+                            <a href="index.php?pagina=atores_internas" >Danjuro Ichimura</a>
                         </div>
                         <div class="col-12 col-md-6 col-xl-2">
                             <div class="line sub_line"></div>
                             <img class="img_perfil d-block mx-auto" src="midia/teatro/atores/danzo_ichikawa_V.jpg" alt="imagem teste" width="150" height="215">
-                            <a href="index.php?pagina=perfil" >Danzo Ichikawa</a>
+                            <a href="index.php?pagina=atores_internas" >Danzo Ichikawa</a>
                         </div>
                         <div class="col-12 col-md-6 col-xl-2">
                             <div class="line sub_line"></div>
                             <img class="img_perfil d-block mx-auto" src="midia/teatro/atores/ebijuro_ichikawa_I.jpg" alt="imagem teste" width="150" height="215">
-                            <a href="index.php?pagina=perfil" >Ebijuro Ichikawa I</a>
+                            <a href="index.php?pagina=atores_internas" >Ebijuro Ichikawa</a>
                         </div>
                         <div class="col-12 col-md-6 col-xl-2">
                             <div class="line sub_line"></div>
                             <img class="img_perfil d-block mx-auto" src="midia/teatro/atores/ichikawa_danjuro_VIII.jpg" alt="imagem teste" width="150" height="215">
-                            <a href="index.php?pagina=perfil" >Ichikawa Danjuro VIII</a>
+                            <a href="index.php?pagina=atores_internas" >Ichikawa Danjuro</a>
                         </div>
                         <div class="col-12 col-md-6 col-xl-2">
                         <div class="line sub_line"></div>
                             <img class="img_perfil d-block mx-auto" src="midia/teatro/atores/iwai_hanshiro.jpg" alt="imagem teste" width="150" height="215">
-                            <a href="index.php?pagina=perfil" >Iwai Hanshiro</a>
+                            <a href="index.php?pagina=atores_internas" >Iwai Hanshiro</a>
                         </div>
             </section>   
     </div>

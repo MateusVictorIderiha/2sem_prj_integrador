@@ -194,6 +194,9 @@ a:hover {
 /* FIM SUBPAGINA ATORES */
 
 /* INICIO SUBPAGINA PERFIL_ATOR */
+.perfil_titulo{
+    margin-bottom: 50px;
+}
 .img_perfil {
     max-width: 150px;
     margin: 25px auto;

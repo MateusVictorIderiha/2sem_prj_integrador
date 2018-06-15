@@ -151,10 +151,6 @@ function getValuesMenu() : array {
             "link" => "teatro",
             "subMenu" => [
 			    [
-                    "nome" => "Teatro",
-                    "link" => "teatro"
-                ],
-			    [
                     "nome" => "Atores",
                     "link" => "atores"
                 ],
@@ -180,7 +176,7 @@ function getValuesMenu() : array {
                 ],
                 [
                     "nome" => "Clássicos",
-                    "link" => "obras"
+                    "link" => "classicos",
                 ]
             ],
         ],
