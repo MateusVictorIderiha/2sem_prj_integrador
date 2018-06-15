@@ -306,6 +306,15 @@ a:hover {
     margin: 10px 0px;
 }
 
+.categorias {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.categorias:hover {
+    opacity: 0.7;
+}
+
 /* FIM SUBPAGINA DANCA */
 
 /** FIM PAGINA DANÇA
