@@ -1,14 +1,14 @@
-        <div class="container">
+        <div class="container contato_cont">
             <div class="row">
                 <div class="col-12 col-md-6">
                     <div class="row">
-                        <div class="line"></div>
+                        <div class="line d-md-none"></div>
                     </div>
                     <div class="row">
                         <h1 class="titulo w-100 text-center">Entre em contato conosco</h1>
                     </div>
                     <div class="row">
-                        <div class="line"></div>
+                        <div class="line d-md-none"></div>
                     </div>
                     <form class="form-horizontal">
                         <div class="row">
@@ -24,13 +24,13 @@
                             </label>
                         </div>
                         <div class="row">
-                            <div class="line"></div>
+                            <div class="line d-md-none"></div>
                         </div>
                         <div>
                             <h2 class="subtitulo w-100 text-center">Deixe sua Mensagem</h2>
                         </div>
                         <div class="row">
-                            <div class="line"></div>
+                            <div class="line d-md-none"></div>
                         </div>
                         <div class="row">
                             <label class="inpum">
