@@ -8,6 +8,8 @@ foreach ($infoGrupo["integrantes"] as $integrante) {
             .$integrante["nome"]."</a>";
 }
 ?>
+
+    <hr class="hrDanca">
         <footer class="rodape border-line-top">
             <div class="row">
                 <div class="col-12 col-lg-1">
@@ -62,8 +64,8 @@ foreach ($infoGrupo["integrantes"] as $integrante) {
                     }
                 });
 
-                $(".nav-item").click(function(event) {
-                    if (window.screen.width >= 991) {
+                $(".nav-link.dropdown-toggle").click(function(event) {
+                    if (window.screen.width >= 991 && this.href !== "") {
                         location.href = this.href;
                     }
                 });
@@ -79,6 +81,14 @@ foreach ($infoGrupo["integrantes"] as $integrante) {
 
                 $("#filter-overlay").click(function() {
                     $(".navbar-collapse .navbar-toggler[data-target='#navbarSupportedContent']").trigger("click");
+                });
+                
+                $(".mangas .manga").mouseover(function() {
+                    var img = $(this).find(".containerImg").find("img, object");
+                    var manga = $(this).closest(".manga");
+                    if($(img).width() > $(manga).width() + 100) {
+                        $(this).find(".containerImg").addClass("doubleZoom");
+                    }
                 });
 //                FIM MENU
 

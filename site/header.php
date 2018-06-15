@@ -16,7 +16,7 @@
     </head>
     <body>
         <header class="topo border-line-bottom">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg">
                 <?php $infoGrupo = getInfoGrupo(); ?>
                 <a class="navbar-brand" href="<?= "index.php?pagina=home"; ?>">
                     <img src="midia/geral/<?= $infoGrupo["logo"]; ?>" alt="Logo <?= $infoGrupo["nome_grupo"]; ?>" class="logo">
@@ -72,3 +72,5 @@
                 </div>
             </nav>
         </header>
+        
+        <hr class="hrDanca">

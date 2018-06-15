@@ -29,20 +29,6 @@
     },
     {
         "id": 3,
-        "titulo": "Mangás modernos",
-        "subtitulo": "O início dos mangás modernos, quando iniciou? como foi? quem iníciou? ",
-        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque, sed suscipit nibh ullamcorper. Donec aliquet dapibus eros. Nullam pellentesque velit elit, eget Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque",
-        "categoria": 1,
-        "imagem": {
-            "nome": "osama_tezuka",
-            "ext": ".jpg",
-            "alt": "Imagem de um dos maiores mankagas e mais influente para os mangas modernos Osama Tesuka.",
-            "title": "See page for author [Public domain], via Wikimedia Commons",
-            "credito": "https://commons.wikimedia.org/wiki/File:Osamu_Tezuka_1951_Scan10008-2.JPG"
-        }
-    },
-    {
-        "id": 3,
         "titulo": "Toba-e",
         "subtitulo": "Voce já ouviu faler de toba-e? Conheça o que é toba-e",
         "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque, sed suscipit nibh ullamcorper. Donec aliquet dapibus eros. Nullam pellentesque velit elit, eget Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque",
@@ -74,13 +60,27 @@
         "titulo": "Osama Tezuka Cultural",
         "subtitulo": "Um dos prêmios mais conseituados",
         "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque, sed suscipit nibh ullamcorper. Donec aliquet dapibus eros. Nullam pellentesque velit elit, eget Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque",
-        "categoria": 3,
+        "categoria": 2,
         "imagem": {
             "nome": "tezuka_osamu_cultural",
             "ext": ".jpg",
             "alt": "Imagem do autor Osamu Tezuka 1951 Scan10008-2",
             "title": "See page for author [Public domain], via Wikimedia Commons",
             "credito": "https://commons.wikimedia.org/wiki/File:Tezuka_Osamu_Cultural_Prize_Ribbon.png"
+        }
+    },
+    {
+        "id": 6,
+        "titulo": "Osama Tezuka",
+        "subtitulo": "O criador e mais influente mangaka dos mangás modernos",
+        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque, sed suscipit nibh ullamcorper. Donec aliquet dapibus eros. Nullam pellentesque velit elit, eget Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque",
+        "categoria": 1,
+        "imagem": {
+            "nome": "osama_tezuka",
+            "ext": ".jpg",
+            "alt": "Imagem de um dos maiores mankagas e mais influente para os mangas modernos Osama Tesuka.",
+            "title": "See page for author [Public domain], via Wikimedia Commons",
+            "credito": "https://commons.wikimedia.org/wiki/File:Osamu_Tezuka_1951_Scan10008-2.JPG"
         }
     },
     {
@@ -102,7 +102,7 @@
         "titulo": "Mecha",
         "subtitulo": "Conheça o genero mecha e as principais obras do genero",
         "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque, sed suscipit nibh ullamcorper. Donec aliquet dapibus eros. Nullam pellentesque velit elit, eget Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque",
-        "categoria": 2,
+        "categoria": 1,
         "imagem": {
             "nome": "gundam",
             "ext": ".jpg",
@@ -116,7 +116,7 @@
         "titulo": "One Piece no guiness book",
         "subtitulo": "One Piece bate o record mundial se tornando o mangá mais vendido da historia com mais de 320.866.000 unidades vendidas",
         "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque, sed suscipit nibh ullamcorper. Donec aliquet dapibus eros. Nullam pellentesque velit elit, eget Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque",
-        "categoria": 3,
+        "categoria": 2,
         "imagem": {
             "nome": "one_piece_guinessbook",
             "ext": ".jpg",
@@ -140,6 +140,20 @@
         }
     },
     {
+        "id": 11,
+        "titulo": "Cosplay",
+        "subtitulo": "O que é cosplay? Conhaça essa arte e veja como isso é coisa seria no japão",
+        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque, sed suscipit nibh ullamcorper. Donec aliquet dapibus eros. Nullam pellentesque velit elit, eget Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque",
+        "categoria": 1,
+        "imagem": {
+            "nome": "cosplay",
+            "ext": ".jpg",
+            "alt": "Ciri Cosplay (The Witcher 3 Wild Hunt) • 2",
+            "title": "By Makar Vinogradov [CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)], via Wikimedia Commons",
+            "credito": "https://commons.wikimedia.org/wiki/File:Ciri_Cosplay_(The_Witcher_3_Wild_Hunt)_%E2%80%A2_2.jpg"
+        }
+    },
+    {
         "id": 12,
         "titulo": "One Piece",
         "subtitulo": "Conheça um dos maiores mangás da atualizadade",
@@ -158,7 +172,7 @@
         "titulo": "Estatua de Gundam",
         "subtitulo": "Estatua gigante de gundam com 20 metros em exposição no Japão",
         "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque, sed suscipit nibh ullamcorper. Donec aliquet dapibus eros. Nullam pellentesque velit elit, eget Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque",
-        "categoria": 3,
+        "categoria": 2,
         "imagem": {
             "nome": "gundam",
             "ext": ".jpg",
@@ -172,7 +186,7 @@
         "titulo": "A cidade Akihabara",
         "subtitulo": "A cidade reconhecida internacionalmente como o centro otaku",
         "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque, sed suscipit nibh ullamcorper. Donec aliquet dapibus eros. Nullam pellentesque velit elit, eget Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. \n Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque, sed suscipit nibh ullamcorper. Donec aliquet dapibus eros. Nullam pellentesque velit elit, eget Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. \n Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque, sed suscipit nibh ullamcorper. Donec aliquet dapibus eros. Nullam pellentesque velit elit, eget Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. \n Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque, sed suscipit nibh ullamcorper. Donec aliquet dapibus eros. Nullam pellentesque velit elit, eget Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. \n",
-        "categoria": 3,
+        "categoria": 2,
         "imagem": {
             "nome": "akihabara",
             "ext": ".jpg",
@@ -183,24 +197,10 @@
     },
     {
         "id": 15,
-        "titulo": "Rose of Versailles",
-        "subtitulo": "A mais de 40 anos Rose of Versailles ainda continua no gosto popular dos japoneses",
-        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque, sed suscipit nibh ullamcorper. Donec aliquet dapibus eros. Nullam pellentesque velit elit, eget Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque",
-        "categoria": 2,
-        "imagem": {
-            "nome": "rose_of_versailles",
-            "ext": ".jpg",
-            "alt": "Imagem do manga Rose of Versailles",
-            "title": "from pinterest",
-            "credito": "https://br.pinterest.com/pin/485122191087753719"
-        }
-    },
-    {
-        "id": 16,
         "titulo": "Eiichiro Oda",
         "subtitulo": "Conheça o autor criador de One Piece uma das maiores obras da atualizade",
         "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque, sed suscipit nibh ullamcorper. Donec aliquet dapibus eros. Nullam pellentesque velit elit, eget Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque",
-        "categoria": 2,
+        "categoria": 1,
         "imagem": {
             "nome": "sign_eiichiro_oda",
             "ext": ".svg",
@@ -210,7 +210,7 @@
         }
     },
     {
-        "id": 17,
+        "id": 16,
         "titulo": "Doraemon",
         "subtitulo": "Conheça um dos mais populares no japão o Doraemon",
         "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque, sed suscipit nibh ullamcorper. Donec aliquet dapibus eros. Nullam pellentesque velit elit, eget Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque",
@@ -221,34 +221,6 @@
             "alt": "Logo Doraemon",
             "title": "By Percymanuel [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)], from Wikimedia Commons",
             "credito": "https://commons.wikimedia.org/wiki/File:Logo_Doraemon.jpg"
-        }
-    },
-    {
-        "id": 17,
-        "titulo": "Cosplay",
-        "subtitulo": "O que é cosplay? Conhaça essa arte e veja como isso é coisa seria no japão",
-        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque, sed suscipit nibh ullamcorper. Donec aliquet dapibus eros. Nullam pellentesque velit elit, eget Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque",
-        "categoria": 2,
-        "imagem": {
-            "nome": "cosplay",
-            "ext": ".jpg",
-            "alt": "Ciri Cosplay (The Witcher 3 Wild Hunt) • 2",
-            "title": "By Makar Vinogradov [CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)], via Wikimedia Commons",
-            "credito": "https://commons.wikimedia.org/wiki/File:Ciri_Cosplay_(The_Witcher_3_Wild_Hunt)_%E2%80%A2_2.jpg"
-        }
-    },
-    {
-        "id": 18,
-        "titulo": "Osama Tezuka",
-        "subtitulo": "O mais influente mangaka da historia, conheça mais sobre Osama Tesuka",
-        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque, sed suscipit nibh ullamcorper. Donec aliquet dapibus eros. Nullam pellentesque velit elit, eget Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id libero ac libero interdum luctus sit amet non nisi. Vivamus id eros ultricies, sagittis diam quis, elementum tortor. Suspendisse ut tellus dapibus, mollis erat ut, viverra diam. Proin ultrices efficitur dolor sit amet consectetur. Integer faucibus elit nec augue scelerisque",
-        "categoria": 1,
-        "imagem": {
-            "nome": "osama_tezuka",
-            "ext": ".jpg",
-            "alt": "Imagem de um dos maiores mankagas e mais influente para os mangas modernos Osama Tesuka.",
-            "title": "See page for author [Public domain], via Wikimedia Commons",
-            "credito": "https://commons.wikimedia.org/wiki/File:Osamu_Tezuka_1951_Scan10008-2.JPG"
         }
     }
 ]

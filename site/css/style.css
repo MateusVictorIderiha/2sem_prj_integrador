@@ -59,32 +59,29 @@ body, html {
     width: 300px;
 }
 
-.border-line-top {
-    border-top: 2px solid red;
-}
-
-.border-line-bottom {
-    border-bottom: 2px solid red;
-}
-
 .titulo, .subtitulo {
     font-family: arial, sans-serif;
     font-weight: 600;
 }
 .titulo {
-    font-size: 1.7rem;
+    font-size: 2.5em;
+    color: #EF3341;
+    font-family: sans-serif;
 }
+
 .subtitulo {
-    font-size: 1.3rem;    
+    font-size: 2.3rem;
+    color: #EF3341;
+    font-family: sans-serif;
 }
 
 a {
-    color: inherit;
+    color:black;
 }
 
 a:hover {
     text-decoration: none;
-    color: #ef3341;
+    color: #5F4B8B;
 }
 
 /*INICIO fitler - overlay*/
@@ -197,6 +194,9 @@ a:hover {
 /* FIM SUBPAGINA ATORES */
 
 /* INICIO SUBPAGINA PERFIL_ATOR */
+.perfil_titulo{
+    margin-bottom: 50px;
+}
 .img_perfil {
     max-width: 150px;
     margin: 25px auto;
@@ -313,6 +313,15 @@ a:hover {
     margin: 10px 0px;
 }
 
+.categorias {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.categorias:hover {
+    opacity: 0.7;
+}
+
 /* FIM SUBPAGINA DANCA */
 
 /** FIM PAGINA DANÇA
@@ -362,11 +371,29 @@ section p {
 .mangas .manga {
     display: flex;
     align-items: center;
-    height: 400px;
+}
+.mangas .contentManga {
+    width: 100%;
+}
+.mangas .manga .containerImg {
+    overflow: hidden;
+}
+.mangas .manga .containerImg * {
+    max-width: 100%;
+}
+
+.mangas .manga:hover {
+    color: #EF3341;
+}
+.mangas .manga:hover * {
+    color: #EF3341;
+}
+.mangas .manga:hover .containerImg *, .mangas .manga .containerImg img:hover {
+    transform: scale(0.9);
 }
 
 .mangas .manga .containerImg {
-    height: 300px;
+    height: 263px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -375,6 +402,7 @@ section p {
 
 .mangas .manga .containerImg img {
     max-height: 300px;
+    transform: scale(0.9)
 }
 
 .mangas .manga .subtitulo {
@@ -493,10 +521,27 @@ section p {
     .topo #navbarSupportedContent .navbar-nav .nav-item {
         padding-left: 20px;
         padding-right: 20px;
+        margin-top: 5px;
+    }
+    
+    .topo #navbarSupportedContent .navbar-nav .nav-item:hover {
+        border-top: 2px solid #5F4B8B;
     }
     
     .topo #navbarSupportedContent .nav-item.dropdown:hover .dropdown-menu {
         display: block;
+    }
+    
+    .dropdown-menu{
+        background-color: #5F4B8B;
+    }
+    
+    .dropdown-menu .dropdown-item {
+        color: white;
+    }
+    
+    .dropdown-menu .dropdown-item:hover {
+        color: #5F4B8B;
     }
     /**
     * FIM TOPO TAMANHO LG
@@ -507,6 +552,29 @@ section p {
     */
     .mangas .manga .texto {
         display: none;
+    }
+    
+    .mangas .manga {
+        height: 400px;
+    }
+    
+    .mangas .manga .containerImg {
+        height: 300px;
+        transition: transform .2s;
+    }
+    
+    .mangas .manga .containerImg * {
+        max-width: none
+    }
+    
+    .mangas .manga:hover {
+        transform: scale(0.99);
+    }
+    .mangas .manga:hover .containerImg *, .mangas .manga .containerImg img:hover {
+        transform: scale(0.9);
+    }
+    .mangas .manga:hover .containerImg.doubleZoom *, .mangas .manga .containerImg.doubleZoom img:hover {
+        transform: scale(0.8);
     }
     /**
     * FIM MANGAS
