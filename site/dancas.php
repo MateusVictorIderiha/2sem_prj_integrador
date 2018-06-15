@@ -73,7 +73,7 @@
                 <?php foreach ($visites as $valor) { ?>
                     <div class="col-lg-6">
                         <section class="categorias">
-                            <a href="#" ><img src="midia/danca/<?= $valor["nome"]; ?><?= $valor["ext"]; ?>" alt="<?= $valor["alt"]; ?>"></a>
+                            <a href="<?= $valor["ref"]; ?>" ><img src="midia/danca/<?= $valor["nome"]; ?><?= $valor["ext"]; ?>" alt="<?= $valor["alt"]; ?>"></a>
                         </section>  
                     </div>
                 <?php } ?>

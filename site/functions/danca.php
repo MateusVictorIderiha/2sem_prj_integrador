@@ -13,25 +13,25 @@ function dancatopicos(): array {
 function visiteoutros() {
         $visites = [
             [
-                "ref" => "",
+                "ref" => "index.php?pagina=index_mangas",
                 "nome" => "akihabara_170", 
                 "ext" => ".jpg",
                 "alt" => "area do japao de akihabara muito popular de cultura de animes jogos etc"
             ],
             [
-                "ref" => "",
+                "ref" => "index.php?pagina=teatro",
                 "nome" => "teatro_170", 
                 "ext" => ".jpg",
                 "alt" => "peça de teatro tipica do japão"
             ],
             [
-                "ref" => "",
+                "ref" => "index.php?pagina=index_mangas",
                 "nome" => "akihabara_170", 
                 "ext" => ".jpg",
                 "alt" => "area do japao de akihabara muito popular de cultura de animes jogos etc"
             ],
             [
-                "ref" => "",
+                "ref" => "index.php?pagina=index_mangas",
                 "nome" => "akihabara_170", 
                 "ext" => ".jpg",
                 "alt" => "area do japao de akihabara muito popular de cultura de animes jogos etc"
