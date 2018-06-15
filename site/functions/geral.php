@@ -59,6 +59,10 @@ function setConfigPage($pageName) {
             include './functions/teatroJapones.php';
             setTitleHead($infoGrupo["nome_grupo"]." - Clássicos do Teatro e Mais");
             break;
+        case "japao":
+            include './functions/japao.php';
+            setTitleHead($infoGrupo["nome_grupo"]." - O japão");
+            break;
         case "mangas":
             include './functions/manga.php';
             setDadosMangas();
@@ -256,7 +260,7 @@ function getValuesMenu() : array {
         ],
         [
             "nome" => "O japão",
-            "link" => ""
+            "link" => "japao"
         ],
         [
             "nome" => "A historia",
