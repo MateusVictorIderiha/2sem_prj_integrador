@@ -260,7 +260,7 @@ function getValuesMenu() : array {
         ],
         [
             "nome" => "O japão",
-            "link" => ""
+            "link" => "japao"
         ],
         [
             "nome" => "A historia",
