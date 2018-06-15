@@ -60,7 +60,6 @@ function setConfigPage($pageName) {
             setTitleHead($infoGrupo["nome_grupo"]." - Clássicos do Teatro e Mais");
             break;
         case "japao":
-            include './functions/japao.php';
             setTitleHead($infoGrupo["nome_grupo"]." - Japão");
             break;
         case "termo_uso":

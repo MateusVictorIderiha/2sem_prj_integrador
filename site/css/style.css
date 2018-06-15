@@ -64,7 +64,8 @@ body, html {
     font-weight: 600;
 }
 .titulo {
-    font-size: 1.7rem;
+    font-size: 2rem;
+    color: #EF3341;
 }
 .subtitulo {
     font-size: 1.3rem;    
@@ -595,3 +596,63 @@ section p {
     */
 }
 
+/**
+* INICIO MUSICAS
+*/
+/* Classes customizadas de margin 1em */
+
+.mg-1 {
+	margin: 1em;
+}
+
+.mgr-1 {
+	margin-right: 1em;
+}
+
+.mgl-1 {
+	margin-left: 1em;
+}
+
+.mgb-1 {
+	margin-bottom: 1em;
+}
+
+.mgt-1 {
+	margin-top: 1em;
+}
+
+/* Classes customizadas de padding 1em */
+
+.pd-1 {
+	padding: 1em;
+}
+
+.pdr-1 {
+	padding-right: 1em;
+}
+
+.pdl-1 {
+	padding-left: 1em;
+}
+
+.pdb-1 {
+	padding-bottom: 1em;
+}
+
+.pdt-1 {
+	padding-top: 1em;
+}
+
+
+/* Classe customizada para imagens */
+
+img.c-img {
+	width: 150px;
+	height: 150px;
+	position: relative;
+	float: left;
+}
+
+/**
+* FIM MUSICAS
+*/
