@@ -17,18 +17,27 @@ $dadosGrupo = getInfoGrupo();
             </div>
         </div>
     <?php foreach ($dadosGrupo["integrantes"] as $integrante) { ?>
-    <ul class="border-line-top">
-        <li class="img"><?= returnHtmlImg("geral", $integrante["imagem"]); ?></li>
-        <li><strong>Funções:</strong> <?= $integrante["funcoes"]; ?></li>
-        <li>
-            <strong>Áreas responsável:</strong> 
-            <?php foreach ($integrante["links"] as $link) { ?>
-            <a href="index.php?page=<?= $link["page"]; ?>" title="<?= $link["title"] ?>"><?= $link["nome"]; ?></a> <?= $link["descricao"] ?? ""; ?>
-            <?php } ?>
-        </li>
-        <li><strong>Nome:</strong> <?= $integrante["nome"]." ".$integrante["sobre_nome"]; ?></li>
-        <li><strong>RA:</strong> <?= $integrante["ra"]; ?></li>
-        <li><strong>Mini biografia:</strong> <?= substr($integrante["bibliografia"], 0, 144); ?></li>
-    </ul>
+    <div class="row">
+            
+            <div class="col-lg-2 col-md-4 col-12">
+                <section class="img"><?= returnHtmlImg("geral", $integrante["imagem"]); ?></section>
+            </div>
+
+            <div class ="col-lg-10 col-md-8 col-12">
+                <ul class="border-line-top">        
+                    <li><strong>Funções:</strong> <?= $integrante["funcoes"]; ?></li>
+                    <li>
+                        <strong>Áreas responsável:</strong> 
+                        <?php foreach ($integrante["links"] as $link) { ?>
+                        <a href="index.php?page=<?= $link["page"]; ?>" title="<?= $link["title"] ?>"><?= $link["nome"]; ?></a> <?= $link["descricao"] ?? ""; ?>
+                        <?php } ?>
+                    </li>
+                    <li><strong>Nome:</strong> <?= $integrante["nome"]." ".$integrante["sobre_nome"]; ?></li>
+                    <li><strong>RA:</strong> <?= $integrante["ra"]; ?></li>
+                    <li><strong>Mini biografia:</strong> <?= substr($integrante["bibliografia"], 0, 144); ?></li>
+                </ul>
+            </div>
+                
+    </div>
     <?php } ?>
 </article>
