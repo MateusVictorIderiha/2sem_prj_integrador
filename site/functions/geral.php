@@ -260,7 +260,7 @@ function getValuesMenu() : array {
         ],
         [
             "nome" => "A historia",
-            "link" => ""
+            "link" => "historia"
         ],
         [
             "nome" => "Contato",
