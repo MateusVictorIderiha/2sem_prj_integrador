@@ -320,13 +320,15 @@ function getInfoGrupo() {
  *                  + title
  *                  + credito
  * @param string $tamanho O tamanho da imagem com underline no começo
+ * @param string $class A classe 
+ * 
  * @return string A tag img formatada e se o credito foi definido retorna com um link para os creditos
  */
-function returnHtmlImg(string $path, array $img, string $tamanho = null): string {
+function returnHtmlImg(string $path, array $img, string $tamanho = null, string $class = 'rounded-circle'): string {
     $imagem = $img["nome"].$tamanho.$img["ext"];
     $alt = $img["alt"];
     $title = $img["title"] ?? "";
-    $tag = "<img src='midia/$path/$imagem' class='rounded-circle' alt='$alt' title='$title' />";
+    $tag = "<img src='midia/$path/$imagem' class='$class' alt='$alt' title='$title' />";
     if (isset($img["credito"]) && !empty($img["credito"])) {
         $credito = $img["credito"];
         $tag = "<a href='$credito' title='$title'>$tag</a>";
