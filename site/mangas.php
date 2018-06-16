@@ -21,7 +21,7 @@ $mangas = getMangasCategoria();
                     <a href="index.php?pagina=manga&id=<?= $manga["id"]; ?>" class="">
                     <!--<a href="<?= $img["credito"] ?>" title="<?= $img["title"]; ?>" class="" target="_blank">-->
                     <?php if ($img["ext"] == ".svg") { ?>
-                        <object width="523" height="auto" type="image/svg+xml" data="<?= "midia/manga/".$img["nome"].$img["ext"]; ?>" title="<?= $img["title"]; ?>" alt="<?= $img["alt"]; ?>"></object>
+                        <object width="523" type="image/svg+xml" data="<?= "midia/manga/".$img["nome"].$img["ext"]; ?>" title="<?= $img["alt"].". ".$img["title"]; ?>"></object>
                     <?php } else { ?>
                         <picture class="">
                             <source media="(max-width: 960px)" srcset="<?= "midia/manga/".$img["nome"]."_220".$img["ext"]; ?>">
@@ -33,7 +33,7 @@ $mangas = getMangasCategoria();
                     <!--</a>-->
                 </div>
                 <a href="index.php?pagina=manga&id=<?= $manga["id"]; ?>" class=""><p class="text-justify texto"><?= $texto; ?></p></a>
-                <a href="index.php?pagina=manga&id=<?= $manga["id"]; ?>" class="d-md-none"><button class="btn btn-primary m-auto">Leia +</button></a>
+                <a href="index.php?pagina=manga&id=<?= $manga["id"]; ?>" class="d-md-none btn btn-primary m-auto">Leia +</a>
             </div>
         </section>
         <?php } ?>
