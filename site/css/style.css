@@ -392,8 +392,26 @@ section p {
 .mangas .manga a {
     color: #000;
 }
+.mangas .manga .titulo {
+    font-size: 1.3em;
+}
 .mangas .manga .subtitulo {
-    font-size: 0.9em
+    font-size: 0.9em;
+}
+.mangas .manga:hover * {
+    color: #5F4B8B
+}
+.creditos {
+  position: relative;
+  display: inline-block; 
+}
+.creditos:after {
+  content: ""; 
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left:0;
 }
 /* fim mangas */
 
@@ -656,4 +674,12 @@ img.c-img {
 
 /**
 * FIM MUSICAS
+*/
+
+/**
+* INICIO QUEM SOMOS
+*/
+
+/**
+* FIM QUEM SOMOS
 */

@@ -45,8 +45,10 @@
                             if(!isset($item["subMenu"][0])) {
                         ?>
                                 <li class="nav-item <?= $item["link"] == getActivBtnMenu() ? "active" : ""; ?>">
-                                    <a class="nav-link" href="<?= "index.php?pagina=".$item["link"].$id; ?>"> <?= $item["nome"]; ?></a>
-                                    <?= $item["link"] == getActivBtnMenu() ? ' <span class="sr-only">(current)</span></a>': ""; ?>
+                                    <a class="nav-link" href="<?= "index.php?pagina=".$item["link"].$id; ?>"> 
+                                        <?= $item["nome"]; ?>
+                                        <?= $item["link"] == getActivBtnMenu() ? ' <span class="sr-only">(current)</span>': ""; ?>
+                                    </a>
                                 </li>
                         <?php
                             } else {

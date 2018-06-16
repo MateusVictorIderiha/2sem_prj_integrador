@@ -378,7 +378,7 @@ function setMetaShared(array $dados, string $pathImagem) {
     $nome_grupo = $infoGrupo["nome_grupo"];
     $pathUrlImg = $pathImagem;
     
-    $GLOBALS["metaShare"] = '<meta property="og:url" content="'.$url.' />
+    $GLOBALS["metaShare"] = '<meta property="og:url" content="'.$url.'" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="'.$dados["titulo"].'" />
         <meta property="og:description" content="'.$dados["texto"].'" />
@@ -388,8 +388,6 @@ function setMetaShared(array $dados, string $pathImagem) {
         <meta property="og:site_name" content="'.$nome_grupo.'">
         <meta property="og:title" content="'.$dados["titulo"].'" />
         <meta property="og:description" content="'.$dados["texto"].'" />
-        <meta property="og:image" itemprop="image" content="'.$pathUrlImg.'">
-        <meta property="og:type" content="website" />
         <meta property="og:updated_time" content="'.strtotime("now").'" />';
 }
 

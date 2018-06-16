@@ -18,7 +18,7 @@ $mangas = getMangasCategoria();
                 <a href="index.php?pagina=manga&id=<?= $manga["id"]; ?>" class=""><h2 class="titulo text-center"><?= $manga["titulo"]; ?></h2></a>
                 <a href="index.php?pagina=manga&id=<?= $manga["id"]; ?>" class=""><p class="subtitulo text-center"><?= $manga["subtitulo"]; ?></p></a>
                 <div class="containerImg text-center">
-                    <a href="index.php?pagina=manga&id=<?= $manga["id"]; ?>" class="">
+                    <a href="index.php?pagina=manga&id=<?= $manga["id"]; ?>" class="creditos">
                     <!--<a href="<?= $img["credito"] ?>" title="<?= $img["title"]; ?>" class="" target="_blank">-->
                     <?php if ($img["ext"] == ".svg") { ?>
                         <object width="523" type="image/svg+xml" data="<?= "midia/manga/".$img["nome"].$img["ext"]; ?>" title="<?= $img["alt"].". ".$img["title"]; ?>"></object>

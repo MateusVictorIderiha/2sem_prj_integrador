@@ -6,17 +6,20 @@ $img = $manga["imagem"];
 ?>
 <div class="container">
     <div class="row">
-        <sidebar class="col-12 col-md-3">
-
-        </sidebar>
-        <article class="col-12 col-md-9 contentManga <?= "layoutManga".$manga["layout"]; ?>">
+        <article class="col-12 contentManga <?= "layoutManga".$manga["layout"]; ?>">
             <div class="float-md-left text-center imgManga">
-                <a href="<?= $img["credito"] ?>" title="<?= $img["title"]; ?>" class="" target="_blank">
-                    <picture class="">
+                <a href="<?= $img["credito"] ?>" title="<?= $img["title"]; ?>" class="creditos" target="_blank">
+                    <?php if ($img["ext"] == ".svg") { ?>
+                        <object width="523" type="image/svg+xml" data="<?= "midia/manga/".$img["nome"].$img["ext"]; ?>" title="<?= $img["alt"].". ".$img["title"]; ?>">
+                            <img src="<?= "midia/manga/".$img["nome"].$img["ext"]; ?>" title="<?= $img["title"]; ?>" alt="<?= $img["alt"]; ?>" class="mw-100">
+                        </object>
+                    <?php } else { ?>
+<!--                    <picture class="">
                         <source media="(max-width: 960px)" srcset="<?= "midia/manga/".$img["nome"]."_220".$img["ext"]; ?>">
-                        <source media="(min-width: 960px)" srcset="<?= "midia/manga/".$img["nome"]."_439".$img["ext"]; ?>">
-                        <img src="<?= "midia/manga/".$img["nome"]."_220".$img["ext"]; ?>" title="<?= $img["title"]; ?>" alt="<?= $img["alt"]; ?>" class="mw-100">
-                    </picture>
+                        <source media="(min-width: 960px)" srcset="<?= "midia/manga/".$img["nome"]."_439".$img["ext"]; ?>">-->
+                        <img src="<?= "midia/manga/".$img["nome"]."_439".$img["ext"]; ?>" title="<?= $img["title"]; ?>" alt="<?= $img["alt"]; ?>" class="mw-100">
+                    <!--</picture>-->
+                    <?php } ?>
                 </a>
             </div>
             <header class="titulosManga">
@@ -40,5 +43,8 @@ $img = $manga["imagem"];
                 <a class="d-md-none" href="whatsapp://send?text=<?= $url; ?>" target="_blank"><i class="fab fa-whatsapp"></i></a>
             </div>
         </article>
+        <section>
+            <h2 class="subtitulo"></h2>
+        </section>
     </div>
 </div>

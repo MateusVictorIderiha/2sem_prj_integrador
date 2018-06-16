@@ -4,9 +4,9 @@ $dadosGrupo = getInfoGrupo();
 <article class="container">
     <h1 class="titulo text-center">Quem somos</h1>
         <div class="row">
-            <div class="col-sm-12 col-md-6">
+            <div class="col-sm-12 col-md-3">
                 <figure class="text-center">
-                    <img src="midia/geral/logo.svg" alt="Logo do grupo <?= $dadosGrupo["nome_grupo"]; ?>"/>
+                    <img src="midia/geral/logo.svg" alt="Logo do grupo <?= $dadosGrupo["nome_grupo"]; ?>" class=""/>
                     <figcaption>
                         <?= $dadosGrupo["descricao_logo"]; ?>
                     </figcaption>
