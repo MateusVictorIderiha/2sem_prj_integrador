@@ -50,6 +50,90 @@
                     "title": ""
                 }
             ],
+            "funcoes": "Designer",
+            "ra": "2650831723019",
+            "bibliografia": "Buscando novas oportunidades na área de dese3nvolvimento web, apaixonado por video-games, adora finanças e busca cada vez mais conhecimento.",
+            "imagem": {
+                "nome": "jeiel",
+                "ext": ".jpg",
+                "alt": "Imagem do integrando do grupo jeiel alves",
+                "title": "Foto do Mateus Victor"
+            }
+        },
+        
+        {
+            "nome": "Diego",
+            "sobre_nome": "Alves",
+            "links": [
+                {
+                    "nome": "",
+                    "page": "",
+                    "descricao": "",
+                    "title": ""
+                },
+                {
+                    "nome": "",
+                    "page": "",
+                    "descricao": "",
+                    "title": ""
+                }
+            ],
+            "funcoes": "Designer de wireframe e mockups",
+            "ra": "2650831723009",
+            "bibliografia": "Buscando novas oportunidades na área de dese3nvolvimento web, apaixonado por video-games, adora finanças e busca cada vez mais conhecimento.",
+            "imagem": {
+                "nome": "diego",
+                "ext": ".jpg",
+                "alt": "Imagem do integrando do grupo diego alves",
+                "title": "Foto do Diego Alves"
+            }
+        },
+        
+        {
+            "nome": "Jeiel",
+            "sobre_nome": "Alves de Oliveira",
+            "links": [
+                {
+                    "nome": "",
+                    "page": "",
+                    "descricao": "",
+                    "title": ""
+                },
+                {
+                    "nome": "",
+                    "page": "",
+                    "descricao": "",
+                    "title": ""
+                }
+            ],
+            "funcoes": "Designer de wireframe e mockups",
+            "ra": "2650831723019",
+            "bibliografia": "Buscando novas oportunidades na área de dese3nvolvimento web, apaixonado por video-games, adora finanças e busca cada vez mais conhecimento.",
+            "imagem": {
+                "nome": "jeiel",
+                "ext": ".jpg",
+                "alt": "Imagem do integrando do grupo mateus victor",
+                "title": "Foto do Mateus Victor"
+            }
+        },
+        
+        {
+            "nome": "Jeiel",
+            "sobre_nome": "Alves de Oliveira",
+            "links": [
+                {
+                    "nome": "",
+                    "page": "",
+                    "descricao": "",
+                    "title": ""
+                },
+                {
+                    "nome": "",
+                    "page": "",
+                    "descricao": "",
+                    "title": ""
+                }
+            ],
             "funcoes": "Designer de wireframe e mockups",
             "ra": "2650831723019",
             "bibliografia": "Buscando novas oportunidades na área de dese3nvolvimento web, apaixonado por video-games, adora finanças e busca cada vez mais conhecimento.",

@@ -326,7 +326,7 @@ function returnHtmlImg(string $path, array $img, string $tamanho = null): string
     $imagem = $img["nome"].$tamanho.$img["ext"];
     $alt = $img["alt"];
     $title = $img["title"] ?? "";
-    $tag = "<img src='midia/$path/$imagem' alt='$alt' title='$title' />";
+    $tag = "<img src='midia/$path/$imagem' class='rounded-circle' alt='$alt' title='$title' />";
     if (isset($img["credito"]) && !empty($img["credito"])) {
         $credito = $img["credito"];
         $tag = "<a href='$credito' title='$title'>$tag</a>";
