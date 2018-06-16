@@ -40,7 +40,7 @@
                     <ul class="navbar-nav mr-auto">
                         <?php
                         $itensMenu = getValuesMenu();
-                        foreach ($itensMenu as $item) {
+                        foreach ($itensMenu as $indice => $item) {
                             $id = isset($item["id"]) ? "&id=".$item["id"] : "";
                             if(!isset($item["subMenu"][0])) {
                         ?>
@@ -52,10 +52,10 @@
                             } else {
                         ?>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="<?= "index.php?pagina=".$item["link"].$id; ?>" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <a id="navbarDropdown<?= $indice; ?>" class="nav-link dropdown-toggle" href="<?= "index.php?pagina=".$item["link"].$id; ?>" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <?= $item["nome"]; ?>
                                     </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown<?= $indice; ?>">
                                         <?php 
                                         foreach ($item["subMenu"] as $subItem) { 
                                             $idSubMenu = isset($subItem["id"]) ? "&id=".$subItem["id"] : "";
