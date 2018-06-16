@@ -459,8 +459,8 @@ section p {
 }
 
 .contentManga.layoutManga2 .imgManga {
-    margin-right: 15px;
-    margin-bottom: 9px;
+    margin-right: 21px;
+    margin-bottom: 10px;
 }
 
 /* fim manga interna */
@@ -596,6 +596,10 @@ section p {
     .dropdown-menu .dropdown-item:hover {
         color: red;
     }
+    
+    .topo #navbarSupportedContent .nav-item.dropdown:hover .dropdown-menu {
+        margin-top: -1px;
+    }
     /**
     * FIM TOPO TAMANHO LG
     */
@@ -609,6 +613,7 @@ section p {
     
     .mangas .manga {
         height: 400px;
+        position: relative;
     }
     
     .mangas .manga .containerImg {
@@ -629,14 +634,22 @@ section p {
     .mangas .manga:hover .containerImg.doubleZoom *, .mangas .manga .containerImg.doubleZoom img:hover {
         transform: scale(0.8);
     }
+    .mangas .manga .titulo {
+        
+    }
     .mangas .manga .subtitulo {
         display: none;
         opacity: 0;
         transition: opacity .2s;
     }
+    .mangas .manga .contentManga {
+        padding: 25px 20px;
+        box-shadow: 0 0 4px #000;
+    }
     .mangas .manga:hover .subtitulo {
         display: block;
         opacity: 1;
+        transform: translateY();
     }
     /**
     * FIM MANGAS
