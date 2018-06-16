@@ -64,19 +64,16 @@ body, html {
     font-weight: 600;
 }
 .titulo {
-    font-size: 2.5em;
+    font-size: 2rem;
     color: #EF3341;
-    font-family: sans-serif;
 }
-
 .subtitulo {
-    font-size: 2.3rem;
-    color: #EF3341;
-    font-family: sans-serif;
+    font-size: 1.3rem;    
 }
 
 a {
-    color:black;
+    color: inherit;
+    color: red;
 }
 
 a:hover {
@@ -310,15 +307,6 @@ a:hover {
     margin: 10px 0px;
 }
 
-.categorias {
-    margin-top: 5px;
-    margin-bottom: 10px;
-}
-
-.categorias:hover {
-    opacity: 0.7;
-}
-
 /* FIM SUBPAGINA DANCA */
 
 /** FIM PAGINA DANÇA
@@ -365,6 +353,7 @@ section p {
 /**
 * INICIO MANGAS
 */
+/* mangas */
 .mangas .manga {
     display: flex;
     align-items: center;
@@ -388,7 +377,6 @@ section p {
 .mangas .manga:hover .containerImg *, .mangas .manga .containerImg img:hover {
     transform: scale(0.9);
 }
-
 .mangas .manga .containerImg {
     height: 263px;
     display: flex;
@@ -396,18 +384,48 @@ section p {
     justify-content: center;
     /*box-shadow: 0px 0px 1px hsla(0, 0%, 0%, 0.25);*/
 }
-
 .mangas .manga .containerImg img {
     max-height: 300px;
     transform: scale(0.9)
 }
-
+.mangas .manga a {
+    color: #000;
+}
 .mangas .manga .subtitulo {
     font-size: 0.9em
 }
+/* fim mangas */
 
-.mangas .manga .subtitulo {
+/* manga interna */
+.contentManga.layoutManga1 {
+    display: flex;
+    flex-wrap: wrap;
 }
+.contentManga.layoutManga1 .buttons {
+    order: 4;
+    flex-basis: 100%;
+}
+.contentManga.layoutManga1 .orderTexto {
+    order: 3;
+    flex-basis: 100%;
+}
+.contentManga.layoutManga1 .imgManga {
+    order: 2;
+    margin-left: auto;
+    margin-right: auto;
+    flex-basis: 100%;
+}
+.contentManga.layoutManga1 .titulosManga {
+    order: 1;
+    flex-basis: 100%;
+}
+
+.contentManga.layoutManga2 .imgManga {
+    margin-right: 15px;
+    margin-bottom: 9px;
+}
+
+/* fim manga interna */
 /**
 * FIM MANGAS
 */
@@ -538,7 +556,7 @@ section p {
     }
     
     .dropdown-menu .dropdown-item:hover {
-        color: #5F4B8B;
+        color: red;
     }
     /**
     * FIM TOPO TAMANHO LG
@@ -578,3 +596,63 @@ section p {
     */
 }
 
+/**
+* INICIO MUSICAS
+*/
+/* Classes customizadas de margin 1em */
+
+.mg-1 {
+	margin: 1em;
+}
+
+.mgr-1 {
+	margin-right: 1em;
+}
+
+.mgl-1 {
+	margin-left: 1em;
+}
+
+.mgb-1 {
+	margin-bottom: 1em;
+}
+
+.mgt-1 {
+	margin-top: 1em;
+}
+
+/* Classes customizadas de padding 1em */
+
+.pd-1 {
+	padding: 1em;
+}
+
+.pdr-1 {
+	padding-right: 1em;
+}
+
+.pdl-1 {
+	padding-left: 1em;
+}
+
+.pdb-1 {
+	padding-bottom: 1em;
+}
+
+.pdt-1 {
+	padding-top: 1em;
+}
+
+
+/* Classe customizada para imagens */
+
+img.c-img {
+	width: 150px;
+	height: 150px;
+	position: relative;
+	float: left;
+}
+
+/**
+* FIM MUSICAS
+*/
