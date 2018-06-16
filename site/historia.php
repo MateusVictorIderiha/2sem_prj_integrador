@@ -3,7 +3,7 @@
         <aside>
             <div class="col-lg-12 col-md-12 col-12 d-none d-sm-block">
                 <h3 class="d-none">Imagem da historia do Japao</h3>
-                <figure >
+                <figure>
                     <picture>
                         <source media="(max-width: 720px)" srcset="midia/geral/japao_1200.jpg">
                         <source media="(min-width: 720px)" srcset="midia/geral/japao_1200.jpg">
@@ -17,7 +17,7 @@
         <article>
             <div class="row my-3">
                 
-                <div class="offset-lg-1 col-md-0 offset-sm-0 col-lg-5 col-md-5 col-12">
+                <div class="col-md-0 offset-sm-0 col-lg-4 col-md-5 col-12">
                     <picture>
                         <source media="(max-width: 720px)" srcset="midia/geral/historia_350.jpg">
                         <source media="(min-width: 720px)" srcset="midia/geral/historia_350.jpg">
@@ -26,8 +26,8 @@
                     </picture>
                 </div>
                 
-                <div class=" col-lg-5 col-md-7 col-12">
-                    <h1 class="titulo text-center">Historia da arte no japao</h1>
+                <div class=" col-lg-8 col-md-7 col-12">
+                    <h1 class="titulo text-center mt-3">Historia da arte no japao</h1>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac feugiat lectus.
                         Maecenas at hendrerit justo. Vestibulum ac dui et elit fringilla condimentum id sed felis.
