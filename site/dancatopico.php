@@ -62,7 +62,7 @@
             <div class="row">
                 <?php foreach ($visites as $valor) { ?>
                     <div class="col-lg-6">
-                        <section class="categorias">
+                        <section class="categoriasD">
                             <h3 class="d-none">Catergorias para sem visitadas</h3>
                             <a href="<?= $valor["ref"]; ?>" ><img src="midia/danca/<?= $valor["nome"]; ?><?= $valor["ext"]; ?>" alt="<?= $valor["alt"]; ?>"></a>
                         </section>  

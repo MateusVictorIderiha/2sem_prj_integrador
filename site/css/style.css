@@ -102,6 +102,14 @@ a:hover {
 }
 /*FIM fitler - overlay*/
 
+/* Inicio Historia */
+
+#sectionHistoria {
+    background-color: lightcoral;
+}
+
+/* fim Historia */
+
 /**
 * FIM GERAL
 */
@@ -299,6 +307,13 @@ a:hover {
 }   
 
 .img-fluid.aImgDanca:hover {
+    opacity: 0.8;
+}
+
+.categoriasD {
+    margin-top: 10px;
+}
+.categoriasD:hover {
     opacity: 0.8;
 }
 
