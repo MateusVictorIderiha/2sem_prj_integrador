@@ -625,6 +625,15 @@ section p {
     .mangas .manga:hover .containerImg.doubleZoom *, .mangas .manga .containerImg.doubleZoom img:hover {
         transform: scale(0.8);
     }
+    .mangas .manga .subtitulo {
+        display: none;
+        opacity: 0;
+        transition: opacity .2s;
+    }
+    .mangas .manga:hover .subtitulo {
+        display: block;
+        opacity: 1;
+    }
     /**
     * FIM MANGAS
     */
