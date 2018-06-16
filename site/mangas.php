@@ -1,5 +1,5 @@
 <?php
-$mangas = getDadosMangas();
+$mangas = getMangasCategoria();
 ?>
 <div class="container mangas">
     <div class="row">

@@ -32,17 +32,30 @@ function getDadosMangas(): array {
 }
 
 /**
+ * Retorna um array contendo todas os mangas com uma categoria em especifico
+ * 
+ * @param array $mangas Os mangas
+ * @param int $categoria O id do manga
+ * @return array Os com mangas com o id
+ */
+function getMangasCat(array $mangas, int $categoria): array {
+    $mangasCat = [];
+    foreach ($mangas as $indice => $manga) {
+        if ($manga["categoria"] == $categoria) {
+            $mangasCat[] = $manga;
+        }
+    }
+    return $mangasCat;
+}
+
+/**
  * Retorna os dados de todos os mangas de uma categoria da variavel global mangasCategoria que foi setada pela função setDadosMangas()
  * 
  * @return array[] Todos os mangas
  */
-function setMangasCategoria(int $idCategoria = null): array {
+function setMangasCategoria(int $idCategoria = null) {
     $dadosMangas = getDadosMangas();
-    $categoriaMangas = [];
-    foreach ($dadosMangas as $manga) {
-        $categoriaMangas[] = $manga;
-    }
-
+    $categoriaMangas = getMangasCat($dadosMangas, $idCategoria);
     $GLOBALS["mangasCategoria"] = $categoriaMangas;
 }
 
