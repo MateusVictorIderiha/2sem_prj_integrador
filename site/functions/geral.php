@@ -65,6 +65,9 @@ function setConfigPage($pageName) {
         case "termo_uso":
             setTitleHead($infoGrupo["nome_grupo"]." - Termos de uso");
             break;
+        case "historia":
+            setTitleHead($infoGrupo["nome_grupo"]." - História da arte no japão");
+            break;
         case "musicas":
             setTitleHead($infoGrupo["nome_grupo"]." - Músicas");
             break;
