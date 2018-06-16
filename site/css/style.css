@@ -105,7 +105,11 @@ a:hover {
 /* Inicio Historia */
 
 #sectionHistoria {
-    background-color: lightcoral;
+    background-color: #801515;
+}
+
+.pHistoria {
+    color:white;
 }
 
 /* fim Historia */
