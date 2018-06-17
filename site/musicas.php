@@ -1,10 +1,12 @@
 <?php ?>
-<div class="jumbotron">
-    <div class="container-fluid">
-        <article>
-            <h1 class="text-center titulo">Gêneros Musicais japoneses</h1>
-            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto eius libero accusamus corporis, earum corrupti, quaerat quasi molestiae hic, nobis distinctio dignissimos eos. Aut autem aliquid maxime mollitia, quam illo.</p>
-        </article>
+<div class="container">
+    <div class="jumbotron">
+        <div class="container-fluid">
+            <article>
+                <h1 class="text-center titulo">Gêneros Musicais japoneses</h1>
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto eius libero accusamus corporis, earum corrupti, quaerat quasi molestiae hic, nobis distinctio dignissimos eos. Aut autem aliquid maxime mollitia, quam illo.</p>
+            </article>
+        </div>
     </div>
 </div>
 
@@ -60,4 +62,5 @@
             </section>
         </div>
     </div>
+</div>
 
