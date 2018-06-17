@@ -97,7 +97,7 @@ function setConfigPage($pageName) {
 }
 
 /** 
- * Inclui a pagina
+ * Inclui a pagina, e configura a página usando @see setConfigPage()
  * 
  * @param string $pageName o nome do arquivo sem o .php
  * 
@@ -357,7 +357,7 @@ function returnHtmlImg(string $path, array $img, string $tamanho = null, string 
  * @param string $needle O valor a ser procurado
  * @param string $key A chave do array da matriz a ser comparada
  * @param array $fetch_haystack A matriz a ser comparada
- * @return array | bool Retorna a matriz correspondente a pesquisa, caso não 
+ * @return array|bool Retorna a matriz correspondente a pesquisa, caso não 
  *                      encontrado ou a chave de pesquisa não existir retorna false
  */
 function getSearchArray(string $needle, string $key, array $fetch_haystack) {
@@ -374,7 +374,7 @@ function getSearchArray(string $needle, string $key, array $fetch_haystack) {
  * 
  * @param int $id O id a ser procurado
  * @param array $fetch_haystack A matriz a ser comparada
- * @return array | bool Retorna a matriz correspondente a pesquisa, caso não 
+ * @return array|bool Retorna a matriz correspondente a pesquisa, caso não 
  *                      encontrado ou a chave de pesquisa não existir retorna false
  */
 function getIdArray(int $id, array $fetch_haystack) {
