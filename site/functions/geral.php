@@ -29,6 +29,10 @@ function setConfigPage($pageName) {
 
     setActivBtnMenu($pageName);
     switch ($pageName) {
+        case "home":
+            setTitleHead($infoGrupo["nome_grupo"]." - Home");
+            include './functions/danca.php';            
+            break;
         case "contato":
             setTitleHead($infoGrupo["nome_grupo"]." - Contato");
             break;
