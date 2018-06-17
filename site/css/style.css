@@ -314,9 +314,10 @@ a:hover {
 }
 
 .sectionDanca {
-    border: 2px solid black;
+    border: 3px solid black;
     padding: 10px;
     margin: 5px;
+    background-color: #801515; 
 }   
 
 .img-fluid.aImgDanca:hover {
@@ -328,6 +329,18 @@ a:hover {
 }
 .categoriasD:hover {
     opacity: 0.8;
+}
+
+.dancaText {
+    font-size: 2rem;
+}
+
+.internoDancaA {
+    color: white;
+}
+
+.internoDancaA:hover {
+    color:#d76d6d;
 }
 
 /* SUBPAGINA DANCA */
@@ -739,59 +752,7 @@ section p {
 /**
 * INICIO MUSICAS
 */
-/* Classes customizadas de margin 1em */
 
-.mg-1 {
-	margin: 1em;
-}
-
-.mgr-1 {
-	margin-right: 1em;
-}
-
-.mgl-1 {
-	margin-left: 1em;
-}
-
-.mgb-1 {
-	margin-bottom: 1em;
-}
-
-.mgt-1 {
-	margin-top: 1em;
-}
-
-/* Classes customizadas de padding 1em */
-
-.pd-1 {
-	padding: 1em;
-}
-
-.pdr-1 {
-	padding-right: 1em;
-}
-
-.pdl-1 {
-	padding-left: 1em;
-}
-
-.pdb-1 {
-	padding-bottom: 1em;
-}
-
-.pdt-1 {
-	padding-top: 1em;
-}
-
-
-/* Classe customizada para imagens */
-
-img.c-img {
-	width: 150px;
-	height: 150px;
-	position: relative;
-	float: left;
-}
 
 /**
 * FIM MUSICAS

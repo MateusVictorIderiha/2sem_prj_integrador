@@ -68,7 +68,7 @@
     <div class="row">
         <div class="col-lg-4 d-none d-lg-block">
             <section>
-                <h2 class="subtitulo">Visite outras categorias</h2>
+                <h2 class="subtitulo text-center dancaText">Visite outras categorias</h2>
             </section>
             
             <div class="row">
@@ -85,7 +85,7 @@
 
         <div class="col-lg-8">
             <section>
-                <h2 class="subtitulo text-center">Dança japonesa</h2>
+                <h2 class="subtitulo text-center dancaText">Dança japonesa</h2>
             </section>    
 
             <div class="row">
@@ -108,8 +108,8 @@
                                 </div>
 
                                 <div class="col-lg-8 col-md-8 col-8">
-                                    <h2 class="subtitulo"><a href="<?= "index.php?pagina=dancatopico&id=".$valor["id"]; ?>"><?= $valor["titulo"]; ?></a></h2>
-                                    <p><?= $valor["texto"]; ?></p>
+                                    <h2 class="subtitulo dancaText"><a class="internoDancaA" href="<?= "index.php?pagina=dancatopico&id=".$valor["id"]; ?>"><?= $valor["titulo"]; ?></a></h2>
+                                    <a class="internoDancaA" href="<?= "index.php?pagina=dancatopico&id=".$valor["id"]; ?>"><p><?= $valor["texto"]; ?></p></a>
                                 </div>
                             </div>
                         </section>

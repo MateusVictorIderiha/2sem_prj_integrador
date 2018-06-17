@@ -25,10 +25,10 @@ function visiteoutros() {
                 "alt" => "peça de teatro tipica do japão"
             ],
             [
-                "ref" => "index.php?pagina=index_mangas",
-                "nome" => "akihabara_170", 
+                "ref" => "index.php?pagina=musicas",
+                "nome" => "perfume_170", 
                 "ext" => ".jpg",
-                "alt" => "area do japao de akihabara muito popular de cultura de animes jogos etc"
+                "alt" => "Banda japonesa composta apenas de mulheres"
             ],
             [
                 "ref" => "index.php?pagina=index_mangas",
