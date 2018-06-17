@@ -71,7 +71,7 @@
             <div class="offset-1 offset-lg-0 offset-md-0 col-lg-2 col-md-4 col-10 text-center">
                 <img src="midia/geral/danca_saiba_190.jpg" class="mt-5" alt="dança tipica do japao" style="width:auto;">
                 <h2 class="subtitulo pHistoria pt-2">Dança na arte</h2>
-                <p class="text-justify pHistoria">
+                <p class="text-justify pHistoria" style="border-left:1px polid #fff;">
                     Vestibulum ac dui et elit fringilla condimentum id sed felis. 
                     Donec eu nunc molestie, accumsan dolor sit amet, sagittis felis. 
                     Nullam iaculis purus quam, quis scelerisque sapien bibendum rhoncus. 
