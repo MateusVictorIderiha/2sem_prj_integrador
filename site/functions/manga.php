@@ -23,7 +23,7 @@ function setDadosMangas() {
 }
 
 /**
- * Retorna os dados de todos os mangas da variavel global mangas que foi setada pela função setDadosMangas()
+ * Retorna os dados de todos os mangas da variavel global mangas que foi setada pela função @see setDadosMangas()
  * 
  * @return array[] Todos os mangas
  */
@@ -49,7 +49,8 @@ function getMangasCat(array $mangas, int $categoria): array {
 }
 
 /**
- * Retorna os dados de todos os mangas de uma categoria da variavel global mangasCategoria que foi setada pela função setDadosMangas()
+ * Os dados de todos os mangas de uma categoria da variavel global 
+ * mangasCategoria que foi setada pela função @see setDadosMangas()
  * 
  * @return array[] Todos os mangas
  */
@@ -60,7 +61,8 @@ function setMangasCategoria(int $idCategoria = null) {
 }
 
 /**
- * Retorna os dados de todos os mangas de uma categoria da variavel global mangasCategoria que foi setada pela função setDadosMangas()
+ * Retorna os dados de todos os mangas de uma categoria da variavel global 
+ * mangasCategoria que foi setada pela função @see setDadosMangas()
  * 
  * @return array[] Todos os mangas
  */
@@ -87,11 +89,10 @@ function setDadosManga(int $idManga) {
 }
 
 /**
- * Retorna os dados do manga da variavel global manga que foi setada pela função setDadosManga()
+ * Retorna os dados do manga da variavel global manga que foi setada pela função @see setDadosManga()
  * 
  * @return array[] Todos os mangas
  */
 function getDadosManga(): array {
     return $GLOBALS["manga"] ?? [];
 }
-
