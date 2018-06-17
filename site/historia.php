@@ -10,6 +10,9 @@
                         <source media="(min-width: 1200px)" srcset="midia/geral/japao_1200.jpg.">
                         <img href="https://unsplash.com/@yajiji?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" class="w-100" src="midia/geral/japao_1200.jpg" class="img-fluid big-image-full" alt="#" style="width:auto;">
                     </picture>
+                    
+                    <hr>
+                    
                 </figure>
             </div>
         </aside>
