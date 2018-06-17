@@ -2,7 +2,7 @@
     
     <div class="row">
         <div class="col-lg-6 col-md-12">
-            <h1 class="titulo mt-4">Entre em contato conosco</h1>
+            <h1 class="titulo mt-4" style="border-bottom: 2px solid red;">Entre em contato conosco</h1>
             <h2 class="subtitulo py-2">Duvidas, criticas ou segustões, preencha os campos:</h2>
 
             <article>
@@ -53,9 +53,9 @@
 
         <div class="col-lg-6 col-md-12 d-none d-sm-block">
             <aside class="mt-4">
-                <h1 class="titulo text-center">Saiba um pouco mais sobre o OriArt</h1>
+                <h1 class="titulo text-center" style="border-bottom: 2px solid red;">Saiba um pouco mais sobre o OriArt</h1>
 
-                <p>
+                <p class="mt-3">
                     Fusce ullamcorper eros eget molestie ornare. Proin accumsan augue sed lorem facilisis, 
                     sit amet tristique lacus ultricies. Nunc efficitur laoreet erat, at elementum lorem dictum ut. 
                     Integer ultrices mattis tellus, vel rutrum magna ornare et. Sed in varius arcu, vel auctor mauris.

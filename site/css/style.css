@@ -305,9 +305,10 @@ a:hover {
 }
 
 .sectionDanca {
-    border: 2px solid black;
+    border: 3px solid black;
     padding: 10px;
     margin: 5px;
+    background-color: #801515; 
 }   
 
 .img-fluid.aImgDanca:hover {
@@ -319,6 +320,18 @@ a:hover {
 }
 .categoriasD:hover {
     opacity: 0.8;
+}
+
+.dancaText {
+    font-size: 2rem;
+}
+
+.internoDancaA {
+    color: white;
+}
+
+.internoDancaA:hover {
+    color:#d76d6d;
 }
 
 /* SUBPAGINA DANCA */
