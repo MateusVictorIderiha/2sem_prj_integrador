@@ -198,8 +198,20 @@ function getValuesMenu() : array {
             "link" => "musicas",
             "subMenu" => [
                 [
-                    "nome" => "POP",
-                    "link" => "musica"
+                    "nome" => "J-POP",
+                    "link" => "musica_pop"
+                ],
+                                [
+                    "nome" => "J-ROCK",
+                    "link" => "musica_rock"
+                ],
+                                [
+                    "nome" => "Instrumentos Musicais",
+                    "link" => "musica_inst"
+                ],
+                                [
+                    "nome" => "Música Tradicional",
+                    "link" => "musica_trad"
                 ]
             ]
         ],
