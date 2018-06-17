@@ -105,21 +105,6 @@
         }
     },
     {
-        "id": 8,
-        "titulo": "Mecha",
-        "subtitulo": "Conheça o genero mecha e as principais obras do genero",
-        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis vel nisi suscipit fringilla. Aliquam at maximus ex. Integer sed posuere dui, a pharetra nisi. Fusce eu dapibus ex, sed efficitur nibh. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed vestibulum massa. Maecenas interdum ex sed nunc vulputate tincidunt. Nulla neque massa, ultricies at mollis ac, pretium vitae justo. Sed ac pharetra risus, sed fringilla lectus.\nSuspendisse potenti. Nam vitae nunc pretium, aliquet sapien quis, porttitor augue. Nam sed ligula nibh. Nam lobortis condimentum diam a convallis. Vestibulum luctus facilisis arcu, a viverra orci ultricies et. Suspendisse porta, nibh non ullamcorper maximus, arcu arcu tristique ipsum, imperdiet elementum sem augue eu ligula. Cras imperdiet ac justo eget suscipit. Maecenas non tellus efficitur, dictum libero et, tristique ligula. Phasellus iaculis leo leo, nec dictum lorem imperdiet eget. Quisque dapibus vehicula magna, at laoreet magna venenatis in. Aenean sollicitudin quis eros vitae laoreet. Donec commodo turpis commodo odio consectetur sollicitudin. Duis vitae porttitor velit.\nEtiam imperdiet, leo sed pretium gravida, augue dolor fermentum magna, ac ullamcorper libero dolor nec nibh. Donec massa tellus, mollis a turpis eget, imperdiet faucibus nibh. Curabitur pellentesque rhoncus pellentesque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus et sollicitudin urna. Donec nec ante fringilla, tincidunt nisi at, mollis odio. Curabitur eu eros sapien. Duis sed hendrerit dolor. In tristique, tortor eget luctus pharetra, leo lacus fringilla leo, eu pharetra dui sem at leo. Phasellus et condimentum odio, sit amet pharetra ante. In suscipit lectus eu lacus tincidunt, eu facilisis dolor pulvinar. Etiam diam magna, iaculis non massa ut, tempus dignissim tellus. Morbi ornare aliquam justo vel interdum. Vestibulum vulputate, mi ac eleifend faucibus, est elit porttitor metus, non consequat tortor sem a risus.\nInteger vitae velit gravida, ultricies elit at, auctor augue. Praesent id eros quis lacus vestibulum dignissim. Nulla ut leo et nulla malesuada sodales. Donec sed elit eget arcu lobortis imperdiet eget quis dolor. Sed mollis est purus, vitae convallis tellus vulputate et. Morbi vitae ultrices magna, ut gravida enim. Quisque non mauris a massa lacinia commodo eget ac justo. Mauris pellentesque suscipit tincidunt. Sed cursus leo eget dictum vehicula. Nam egestas eros risus, et interdum arcu auctor non. Nulla non justo viverra, fermentum enim dapibus, euismod neque. Nullam id sagittis sapien. Donec odio ex, imperdiet eget ipsum a, malesuada bibendum nisl. Mauris a pharetra est, a consectetur magna. Etiam eget efficitur lorem, nec lacinia nulla.",
-        "categoria": 1,
-        "layout": 2,
-        "imagem": {
-            "nome": "gundam",
-            "ext": ".jpg",
-            "alt": "Um dos principais mechas Gundam em uma estatua. O Gundam de Odaiba",
-            "title": "By Iscream icecream [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)], from Wikimedia Commons",
-            "credito": "https://commons.wikimedia.org/wiki/File:O_Gundam_de_Odaiba.jpg"
-        }
-    },
-    {
         "id": 9,
         "titulo": "One Piece no guiness book",
         "subtitulo": "One Piece bate o record mundial se tornando o mangá mais vendido da historia com mais de 320.866.000 unidades vendidas",
@@ -135,21 +120,6 @@
         }
     },
     {
-        "id": 10,
-        "titulo": "Dragon ball",
-        "subtitulo": "Um dos maiores sucessos do mundo",
-        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis vel nisi suscipit fringilla. Aliquam at maximus ex. Integer sed posuere dui, a pharetra nisi. Fusce eu dapibus ex, sed efficitur nibh. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed vestibulum massa. Maecenas interdum ex sed nunc vulputate tincidunt. Nulla neque massa, ultricies at mollis ac, pretium vitae justo. Sed ac pharetra risus, sed fringilla lectus.\nSuspendisse potenti. Nam vitae nunc pretium, aliquet sapien quis, porttitor augue. Nam sed ligula nibh. Nam lobortis condimentum diam a convallis. Vestibulum luctus facilisis arcu, a viverra orci ultricies et. Suspendisse porta, nibh non ullamcorper maximus, arcu arcu tristique ipsum, imperdiet elementum sem augue eu ligula. Cras imperdiet ac justo eget suscipit. Maecenas non tellus efficitur, dictum libero et, tristique ligula. Phasellus iaculis leo leo, nec dictum lorem imperdiet eget. Quisque dapibus vehicula magna, at laoreet magna venenatis in. Aenean sollicitudin quis eros vitae laoreet. Donec commodo turpis commodo odio consectetur sollicitudin. Duis vitae porttitor velit.\nEtiam imperdiet, leo sed pretium gravida, augue dolor fermentum magna, ac ullamcorper libero dolor nec nibh. Donec massa tellus, mollis a turpis eget, imperdiet faucibus nibh. Curabitur pellentesque rhoncus pellentesque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus et sollicitudin urna. Donec nec ante fringilla, tincidunt nisi at, mollis odio. Curabitur eu eros sapien. Duis sed hendrerit dolor. In tristique, tortor eget luctus pharetra, leo lacus fringilla leo, eu pharetra dui sem at leo. Phasellus et condimentum odio, sit amet pharetra ante. In suscipit lectus eu lacus tincidunt, eu facilisis dolor pulvinar. Etiam diam magna, iaculis non massa ut, tempus dignissim tellus. Morbi ornare aliquam justo vel interdum. Vestibulum vulputate, mi ac eleifend faucibus, est elit porttitor metus, non consequat tortor sem a risus.\nInteger vitae velit gravida, ultricies elit at, auctor augue. Praesent id eros quis lacus vestibulum dignissim. Nulla ut leo et nulla malesuada sodales. Donec sed elit eget arcu lobortis imperdiet eget quis dolor. Sed mollis est purus, vitae convallis tellus vulputate et. Morbi vitae ultrices magna, ut gravida enim. Quisque non mauris a massa lacinia commodo eget ac justo. Mauris pellentesque suscipit tincidunt. Sed cursus leo eget dictum vehicula. Nam egestas eros risus, et interdum arcu auctor non. Nulla non justo viverra, fermentum enim dapibus, euismod neque. Nullam id sagittis sapien. Donec odio ex, imperdiet eget ipsum a, malesuada bibendum nisl. Mauris a pharetra est, a consectetur magna. Etiam eget efficitur lorem, nec lacinia nulla.",
-        "categoria": 2,
-        "layout": 2,
-        "imagem": {
-            "nome": "dragon_ball_anime_logo",
-            "ext": ".jpg",
-            "alt": "Dragon Ball anime logo",
-            "title": "By Toei Animation [Domínio público Domínio ], from Wikimedia Commons",
-            "credito": "https://commons.wikimedia.org/wiki/File:Dragon_Ball_anime_logo.png"
-        }
-    },
-    {
         "id": 11,
         "titulo": "Cosplay",
         "subtitulo": "O que é cosplay? Conhaça essa arte e veja como isso é coisa seria no japão",
@@ -162,21 +132,6 @@
             "alt": "Ciri Cosplay (The Witcher 3 Wild Hunt) • 2",
             "title": "By Makar Vinogradov [CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)], via Wikimedia Commons",
             "credito": "https://commons.wikimedia.org/wiki/File:Ciri_Cosplay_(The_Witcher_3_Wild_Hunt)_%E2%80%A2_2.jpg"
-        }
-    },
-    {
-        "id": 12,
-        "titulo": "One Piece",
-        "subtitulo": "Conheça um dos maiores mangás da atualizadade",
-        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis vel nisi suscipit fringilla. Aliquam at maximus ex. Integer sed posuere dui, a pharetra nisi. Fusce eu dapibus ex, sed efficitur nibh. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed vestibulum massa. Maecenas interdum ex sed nunc vulputate tincidunt. Nulla neque massa, ultricies at mollis ac, pretium vitae justo. Sed ac pharetra risus, sed fringilla lectus.\nSuspendisse potenti. Nam vitae nunc pretium, aliquet sapien quis, porttitor augue. Nam sed ligula nibh. Nam lobortis condimentum diam a convallis. Vestibulum luctus facilisis arcu, a viverra orci ultricies et. Suspendisse porta, nibh non ullamcorper maximus, arcu arcu tristique ipsum, imperdiet elementum sem augue eu ligula. Cras imperdiet ac justo eget suscipit. Maecenas non tellus efficitur, dictum libero et, tristique ligula. Phasellus iaculis leo leo, nec dictum lorem imperdiet eget. Quisque dapibus vehicula magna, at laoreet magna venenatis in. Aenean sollicitudin quis eros vitae laoreet. Donec commodo turpis commodo odio consectetur sollicitudin. Duis vitae porttitor velit.\nEtiam imperdiet, leo sed pretium gravida, augue dolor fermentum magna, ac ullamcorper libero dolor nec nibh. Donec massa tellus, mollis a turpis eget, imperdiet faucibus nibh. Curabitur pellentesque rhoncus pellentesque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus et sollicitudin urna. Donec nec ante fringilla, tincidunt nisi at, mollis odio. Curabitur eu eros sapien. Duis sed hendrerit dolor. In tristique, tortor eget luctus pharetra, leo lacus fringilla leo, eu pharetra dui sem at leo. Phasellus et condimentum odio, sit amet pharetra ante. In suscipit lectus eu lacus tincidunt, eu facilisis dolor pulvinar. Etiam diam magna, iaculis non massa ut, tempus dignissim tellus. Morbi ornare aliquam justo vel interdum. Vestibulum vulputate, mi ac eleifend faucibus, est elit porttitor metus, non consequat tortor sem a risus.\nInteger vitae velit gravida, ultricies elit at, auctor augue. Praesent id eros quis lacus vestibulum dignissim. Nulla ut leo et nulla malesuada sodales. Donec sed elit eget arcu lobortis imperdiet eget quis dolor. Sed mollis est purus, vitae convallis tellus vulputate et. Morbi vitae ultrices magna, ut gravida enim. Quisque non mauris a massa lacinia commodo eget ac justo. Mauris pellentesque suscipit tincidunt. Sed cursus leo eget dictum vehicula. Nam egestas eros risus, et interdum arcu auctor non. Nulla non justo viverra, fermentum enim dapibus, euismod neque. Nullam id sagittis sapien. Donec odio ex, imperdiet eget ipsum a, malesuada bibendum nisl. Mauris a pharetra est, a consectetur magna. Etiam eget efficitur lorem, nec lacinia nulla.",
-        "categoria": 2,
-        "layout": 2,
-        "imagem": {
-            "nome": "one_piece",
-            "ext": ".jpg",
-            "alt": "Bandeira do bando dos chapeu de palha protagonistas do mangá. Strawhat crew jolly roger",
-            "title": "By Ju gatsu mikka [GFDL or CC BY-SA 3.0], from Wikimedia Commons",
-            "credito": "https://commons.wikimedia.org/wiki/File:Strawhat_crew_jolly_roger.svg"
         }
     },
     {
@@ -222,21 +177,6 @@
             "alt": "Assinatura do autor Eiichiro Oda. Eiichiro Oda sign",
             "title": "By 蘭斯特 [Public domain or CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)], from Wikimedia Commons",
             "credito": "https://commons.wikimedia.org/wiki/File:Eiichiro_Oda_sign.svg"
-        }
-    },
-    {
-        "id": 16,
-        "titulo": "Doraemon",
-        "subtitulo": "Conheça um dos mais populares no japão o Doraemon",
-        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis vel nisi suscipit fringilla. Aliquam at maximus ex. Integer sed posuere dui, a pharetra nisi. Fusce eu dapibus ex, sed efficitur nibh. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed vestibulum massa. Maecenas interdum ex sed nunc vulputate tincidunt. Nulla neque massa, ultricies at mollis ac, pretium vitae justo. Sed ac pharetra risus, sed fringilla lectus.\nSuspendisse potenti. Nam vitae nunc pretium, aliquet sapien quis, porttitor augue. Nam sed ligula nibh. Nam lobortis condimentum diam a convallis. Vestibulum luctus facilisis arcu, a viverra orci ultricies et. Suspendisse porta, nibh non ullamcorper maximus, arcu arcu tristique ipsum, imperdiet elementum sem augue eu ligula. Cras imperdiet ac justo eget suscipit. Maecenas non tellus efficitur, dictum libero et, tristique ligula. Phasellus iaculis leo leo, nec dictum lorem imperdiet eget. Quisque dapibus vehicula magna, at laoreet magna venenatis in. Aenean sollicitudin quis eros vitae laoreet. Donec commodo turpis commodo odio consectetur sollicitudin. Duis vitae porttitor velit.\nEtiam imperdiet, leo sed pretium gravida, augue dolor fermentum magna, ac ullamcorper libero dolor nec nibh. Donec massa tellus, mollis a turpis eget, imperdiet faucibus nibh. Curabitur pellentesque rhoncus pellentesque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus et sollicitudin urna. Donec nec ante fringilla, tincidunt nisi at, mollis odio. Curabitur eu eros sapien. Duis sed hendrerit dolor. In tristique, tortor eget luctus pharetra, leo lacus fringilla leo, eu pharetra dui sem at leo. Phasellus et condimentum odio, sit amet pharetra ante. In suscipit lectus eu lacus tincidunt, eu facilisis dolor pulvinar. Etiam diam magna, iaculis non massa ut, tempus dignissim tellus. Morbi ornare aliquam justo vel interdum. Vestibulum vulputate, mi ac eleifend faucibus, est elit porttitor metus, non consequat tortor sem a risus.\nInteger vitae velit gravida, ultricies elit at, auctor augue. Praesent id eros quis lacus vestibulum dignissim. Nulla ut leo et nulla malesuada sodales. Donec sed elit eget arcu lobortis imperdiet eget quis dolor. Sed mollis est purus, vitae convallis tellus vulputate et. Morbi vitae ultrices magna, ut gravida enim. Quisque non mauris a massa lacinia commodo eget ac justo. Mauris pellentesque suscipit tincidunt. Sed cursus leo eget dictum vehicula. Nam egestas eros risus, et interdum arcu auctor non. Nulla non justo viverra, fermentum enim dapibus, euismod neque. Nullam id sagittis sapien. Donec odio ex, imperdiet eget ipsum a, malesuada bibendum nisl. Mauris a pharetra est, a consectetur magna. Etiam eget efficitur lorem, nec lacinia nulla.",
-        "categoria": 2,
-        "layout": 1,
-        "imagem": {
-            "nome": "doraemon_logo",
-            "ext": ".jpg",
-            "alt": "Logo Doraemon",
-            "title": "By Percymanuel [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)], from Wikimedia Commons",
-            "credito": "https://commons.wikimedia.org/wiki/File:Logo_Doraemon.jpg"
         }
     }
 ]

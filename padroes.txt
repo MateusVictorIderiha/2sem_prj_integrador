@@ -1,3 +1,7 @@
+site: http://oriart-prjintegrador.orgfree.com/ftp/index.php
+login FTP: oriart-prjintegrador.orgfree.com
+senha FTP: OriArt2018
+
 ﻿LOCAIS dos arquuivos: 
     Link GitHub: https://github.com/MateusVictorIderiha/2sem_prj_integrador
     * TODOS OS NOME DE ARQUIVOS E PASTAS NÃO DEVEM CONTER ACENTO OU ESPAÇO

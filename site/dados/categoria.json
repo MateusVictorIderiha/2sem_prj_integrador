@@ -4,25 +4,44 @@
         "nome": "O mangá",
         "area": "mangas",
         "descricao": "Conheça a estrura do mangá, sua história, grandes influenciadores como autores, obras, generos e dentre outras coisas",
-        "imagem": {
-            "nome": "capa1",
-            "ext": ".jpg",
-            "alt": "Emakimono schema",
-            "title": "Imagem de um emakimon, mostrando ele fechado enrrolado e ele aberto. By User:Binabik155 (commons) [CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons",
-            "credito": "https://commons.wikimedia.org/wiki/File:Emakimono_schema.png"
-        }
+        "imagens": [
+            {
+                "nome": "categoria-capa2",
+                "ext": ".jpg",
+                "alt": "Imagem de fundo com os quadros dos mangas",
+                "title": "Imagem de fundo com os quadros dos mangas.via Free pik",
+                "credito": "https://br.freepik.com/vetores-gratis/quatro-vazio-quadrinhos-pagina-modelo-fundo-desenho_1111602.htm"
+            },
+            {
+                "nome": "categoria-capa2-1",
+                "ext": ".jpg",
+                "alt": "Imagem de Osama Tesuka Desenhando",
+                "title": "Imagem de Osama Tesuka Desenhando. Via print Youtube",
+                "credito": "https://www.youtube.com/watch?v=l_y-O6gsi3U"
+            }
+        ]
     },
     {
         "id": 2,
         "nome": "Novidades",
         "area": "mangas",
         "descricao": "As principais novidades e sugestões e de grandes mangas no mundo dos mangás, conheça os principais prêmios dados aos mangakas e suas obras, e também os ganhadores desses prêios e além de algumas curiosidades sobre o mundo dos mangás",
-        "imagem": {
-            "nome": "capa3",
-            "ext": ".jpg",
-            "alt": "Emakimono schema",
-            "title": "Imagem de um emakimon, mostrando ele fechado enrrolado e ele aberto. By User:Binabik155 (commons) [CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons",
-            "credito": "https://commons.wikimedia.org/wiki/File:Emakimono_schema.png"
-        }
+        "imagens": [
+            {
+                "nome": "categoria-capa1",
+                "ext": ".jpg",
+                "alt": "Balão escrito novidades",
+                "title": "Balão escrito novidades.via Free pik",
+                "credito": "https://br.freepik.com/vetores-gratis/jogo-de-caricatura-comic-fala-bolhas-dialog-nuvens-com-palavra-e-som_1118140.htm"
+            },
+            {
+                "nome": "categoria-capa1-1",
+                "ext": ".jpg",
+                "alt": "Um troféu com varias imagens de madrinhos atras",
+                "title": "Um troféu com varias imagens de madrinhos atras. Via Freepik",
+                "credito": "https://br.freepik.com/vetores-gratis/colecao-plana-trophy_843005.htm"
+            }
+        ]
+
     }
 ]

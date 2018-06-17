@@ -34,7 +34,7 @@ $img = $manga["imagem"];
                 <div id="fb-root"></div>
                 <!-- Your share button code -->
                 <?php 
-                $url = "http://".$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];
+                $url = urlencode("http://".$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']);
                 ?>
                 <a href="https://www.facebook.com/sharer/sharer.php?u=<?= $url; ?>" target="_blank">
                     Share on Facebook
