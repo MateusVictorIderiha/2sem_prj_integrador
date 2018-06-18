@@ -126,30 +126,30 @@ a:hover {
 */
 
 /**
-* INICIO PAGINA TEATRO
-**/
+* INICIO TEATRO
+*/
+.teatro_titulo_pos {
+    margin: 25px;
+}
 .teatro_content {
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.teatro_article {
-    margin: 10px auto;
+.teatro_paragrafo {
+    margin: 25px auto; 
 }
 .teatro_heading {
     text-align: center;
     margin: 25px 0;
-}
-.teatro_text {
-    color: #000000;
-    font-size: 16px;
-    margin: 25px 0;
-    text-align: left;
 }
 .thumb_img {
     display: block;
     position: relative;
     width: 100%;
     max-width: 360px;
+}
+.teatro_home_img {
+    width:auto;
 }
 .thumb_nail {
     position: relative;
@@ -188,6 +188,11 @@ a:hover {
 }
 /* INICIO SUBPAGINA ATORES */
 
+.bio_content{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
 .img_atores {
     width: 150px;
     max-width: 150px;
@@ -211,10 +216,20 @@ a:hover {
 /* FIM SUBPAGINA ATORES */
 
 /* INICIO SUBPAGINA PERFIL_ATOR */
-.img_perfil {
+.bio_article_margin{
+    margin: 50px auto;
+}
+.bio_aside_margin{
+    margin: 50px auto;
+}
+.bio_aside_img {
+    width:auto;
+}
+.img_mais_bios {
     max-width: 150px;
     margin: 25px auto;
 }
+
 .line_perfil {
     margin: 30px auto;
     width: 200px;
@@ -230,15 +245,15 @@ a:hover {
 /* FIM SUBPAGINA PERFIL_ATOR */
 
 /* INICIO TEATRO PAGINAS DE REPETIÇÃO */
-.rep_heading {
-    text-align: center;
+.interna_heading {
+    margin-bottom: 25px;
 }
-.rep_paragrafo {
-    margin: 10px 0;
+.intern_img {
+    margin: 15px auto;
+    width:auto;
 }
-.cat_img {
-    display: block;
-    margin: 25px auto;
+.ultimo_paragrafo {
+    margin-top: 0px;
 }
 /* FINAL TEATRO PAGINAS DE REPETIÇÃO */
 

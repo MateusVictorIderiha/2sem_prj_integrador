@@ -15,29 +15,39 @@ function teatroContent() : array {
             "id" => "1",
             "argumento" => "atores",
             "imageSource" => "atores_300",
+	    "alt"=> "",
+	    "credito"=> "",
             "title" => "Atores"
 	],
         [
             "id" => "2",
             "argumento" => "teatro_internas",
             "imageSource" => "bunraku_300",
+	    "imagemUm" => "bunraku_1_450",
+            "imagemDois" => "bunraku_2_450",
             "title" => "Bunraku"
 	],
         [
             "id" => "3",
             "argumento" => "teatro_internas",
             "imageSource" => "kabuki_300",
+            "imagemUm" => "kabuki_1_450",
+            "imagemDois" => "kabuki_2_450",
             "title" => "Kabuki"
 	],
         [
             "id" => "4",
             "argumento" => "teatro_internas",
             "imageSource" => "kyogen_300",
+            "imagemUm" => "kyogen_1_450",
+            "imagemDois" => "kyogen_2_450",	    
             "title" => "Kyogen"
 	],
         [
             "id" => "5",
             "argumento" => "teatro_internas",
+	    "imagemUm" => "noh_1_450",
+            "imagemDois" => "noh_2_450",
             "imageSource" => "noh_300",
             "title" => "Noh"
 	],
@@ -59,34 +69,92 @@ function teatroContent() : array {
  * "imageSource" = Define qual imagem será utilizada 
  * "title" = Define qual será o h2
  */
-function atoresContent() : array {
-    $atoresValues = [
+function pecasContent() : array {
+    $pecasInfo = [
         [
-            "imageSource" => "chojuro_sawamura_V",
-            "titulo" => "Chojuro Sawamura",
+	    "id" => "1",
+            "imageSource" => "peca_yoshitsune_senbon_zakura_300",
+	    "alt" => "",
+	    "credito" => "",
+            "titulo" => "Yoshitsune Senbon Zakura",
             "argumento" => "atores_internas"
         ],
         [
+	    "id" => "2",
             "imageSource" => "iwai_hanshiro",
             "titulo" => "Iwai Hanshiro",
             "argumento" => "atores_internas"
         ],
         [
+	    "id" => "3",
             "imageSource" => "danjuro_ichimura_VIII",
             "titulo" => "Danjuro Ichimura",
             "argumento" => "atores_internas"
         ],
         [
+	    "id" => "4",
             "imageSource" => "danzo_ichikawa_V",
             "titulo" => "Danzo Ichikawa",
             "argumento" => "atores_internas"
         ],
         [
+	    "id" => "5",
             "imageSource" => "ebijuro_ichikawa_I",
             "titulo" => "Ebijuro Ichikawa",
             "argumento" => "atores_internas"
         ],
         [
+	    "id" => "6",
+            "imageSource" => "ichikawa_danjuro_VIII",
+            "titulo" => "Ichikawa Danjuro",
+            "argumento" => "atores_internas"
+        ]
+    ];
+    
+    return $pecasInfo;
+
+}
+/**
+ * Seta os dados das thumbnails dos atores 
+ * "$atoresValues" = recebe um array com as informações
+ * "argumento" = Complemento que irá definir a página destino
+ * "imageSource" = Define qual imagem será utilizada 
+ * "title" = Define qual será o h2
+ */
+function atoresContent() : array {
+    $atoresValues = [
+        [
+	    "id" => "1",
+            "imageSource" => "chojuro_sawamura_V",
+            "titulo" => "Chojuro Sawamura",
+            "argumento" => "atores_internas"
+        ],
+        [
+	    "id" => "2",
+            "imageSource" => "iwai_hanshiro",
+            "titulo" => "Iwai Hanshiro",
+            "argumento" => "atores_internas"
+        ],
+        [
+	    "id" => "3",
+            "imageSource" => "danjuro_ichimura_VIII",
+            "titulo" => "Danjuro Ichimura",
+            "argumento" => "atores_internas"
+        ],
+        [
+	    "id" => "4",
+            "imageSource" => "danzo_ichikawa_V",
+            "titulo" => "Danzo Ichikawa",
+            "argumento" => "atores_internas"
+        ],
+        [
+	    "id" => "5",
+            "imageSource" => "ebijuro_ichikawa_I",
+            "titulo" => "Ebijuro Ichikawa",
+            "argumento" => "atores_internas"
+        ],
+        [
+	    "id" => "6",
             "imageSource" => "ichikawa_danjuro_VIII",
             "titulo" => "Ichikawa Danjuro",
             "argumento" => "atores_internas"
@@ -96,6 +164,8 @@ function atoresContent() : array {
     return $atoresValues;
 
 }
+
+
 
 function outrosAtores() : array {
     $outrosA = [
