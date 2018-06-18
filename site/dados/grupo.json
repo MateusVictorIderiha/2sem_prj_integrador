@@ -105,29 +105,29 @@
         },
         
         {
-            "nome": "Rafael",
-            "sobre_nome": "",
+            "nome": "José Eduardo",
+            "sobre_nome": "Siqueira Carlos",
             "links": [
                 {
-                    "nome": "",
-                    "page": "",
-                    "title": ""
-                },
                 {
-                    "nome": "",
-                    "page": "",
+                    "nome": "Teatro Clássico Japonês",
+                    "page": "teatro",
+                    "descricao": "Biografias, principais formatos que se desenvolveram, e obras importantes.",
                     "title": ""
                 }
             ],
-            "funcoes": "",
-            "ra": "",
-            "bibliografia": "",
             "imagem": {
-                "nome": "rafael",
                 "ext": ".jpg",
-                "alt": "Foto do Rafael",
-                "title": "Foto do Rafael"
             }
         }
     ]
 }
+<<<<<<< HEAD
+            "funcoes": "",
+            "ra": "",
+            "bibliografia": "",
+=======
+            "funcoes": "Programação Back-end",
+            "ra": "2650831723003",
+            "bibliografia": "Marinheiro de primeira viagem no mar do Web Development. Adora ler, indo da ficção histórica ocidental até os mangás do oriente.",
+>>>>>>> origin/master
