@@ -63,6 +63,12 @@ function setConfigPage($pageName) {
             include './functions/teatroJapones.php';
             setTitleHead($infoGrupo["nome_grupo"]." - Clássicos do Teatro e Mais");
             break;
+        case "historia_origame":
+            setTitleHead($infoGrupo["nome_grupo"]." - História do Origame");
+            break;
+        case "historia_origame":
+            setTitleHead($infoGrupo["nome_grupo"]." - História do Origame");
+            break;
         case "japao":
             setTitleHead($infoGrupo["nome_grupo"]." - Japão");
             break;
@@ -236,6 +242,22 @@ function getValuesMenu() : array {
             "subMenu" => [
                 [
                     "nome" => "O mangá",
+                    "link" => "mangas",
+                    "id" => "1"
+                ],
+                [
+                    "nome" => "Novidades",
+                    "link" => "mangas",
+                    "id" => "2"
+                ],
+            ]
+        ],
+        [
+            "nome" => "Origame",
+            "link" => "historia_origame",
+            "subMenu" => [
+                [
+                    "nome" => "",
                     "link" => "mangas",
                     "id" => "1"
                 ],
