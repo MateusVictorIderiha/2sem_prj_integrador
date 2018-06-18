@@ -7,6 +7,7 @@ var_dump($musica);
 <div class="container p-2">
     <div class="row">
         <div class="col-md-4">
+            <!--PARTE PRINCIPAL-->
             <article>
                 <h2 class="text-center subtitulo">J-Pop</h2>
                 <picture>
@@ -27,22 +28,28 @@ var_dump($musica);
             </article>
         </div>
         <div class="col-md-8">
+            <!--PARTE EXTRA-->
             <h2 class="text-center subtitulo">Principais Artistas</h2>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-6">
-                        <h3 class="text-center">Perfume</h3>
-                        <picture>
-                            <source media="(max-width: 720px)" srcset="midia/musicas/perfume.jpg">
-                            <source media="(min-width: 720px)" srcset="midia/musicas/perfume.jpg">
-                            <source media="(min-width: 1200px)" srcset="midia/musicas/perfume.jpg">
-                            <img class="img-fluid img-thumbnail rounded-circle m-2 float-left" style="width: 175px; height: 175px" src="midia/musicas/perfume.jpg" alt="imagem de uma banda de j-pop denominada de Perfume">
-                        </picture>
-                        <p class="text-justify">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor?</p>
-                        <p class="text-justify">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor?</p>
-                    </div>
+                    <!--USAR FOREACH APENAS NO PRIMEIRO NESSE E APAGAR OS OUTROS DEPOIS QUE TUDO ESTIVER PRONTO-->
+                    <!--SECTION EXTRA-->
+                   <div class="col-md-6">
+                       <h3 class="text-center">Perfume</h3>
+                       <picture>
+                           <source media="(max-width: 720px)" srcset="midia/musicas/perfume.jpg">
+                           <source media="(min-width: 720px)" srcset="midia/musicas/perfume.jpg">
+                           <source media="(min-width: 1200px)" srcset="midia/musicas/perfume.jpg">
+                           <img class="img-fluid img-thumbnail rounded-circle m-2 float-left" style="width: 175px; height: 175px" src="midia/musicas/perfume.jpg" alt="imagem de uma banda de j-pop denominada de Perfume">
+                       </picture>
+                       <p class="text-justify">
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor?</p>
+                       <p class="text-justify">
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor?</p>
+                   </div>
+                     
+                     
+                     <!--SECTION EXTRA-->
                     <div class="col-md-6">
                         <h3 class="text-center">Arashi</h3>
                         <picture>
@@ -56,8 +63,8 @@ var_dump($musica);
                         <p class="text-justify">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor?</p>
                     </div>
-                </div>
-                <div class="row">
+
+                     <!--SECTION EXTRA-->
                     <div class="col-md-6">
                         <h3 class="text-center">Ikimono Gakari</h3>
                         <picture>
@@ -71,6 +78,8 @@ var_dump($musica);
                         <p class="text-justify">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor?</p>
                     </div>
+
+                     <!--SECTION EXTRA-->
                     <div class="col-md-6">
                         <h3 class="text-center">Babymetal</h3>
                         <picture>

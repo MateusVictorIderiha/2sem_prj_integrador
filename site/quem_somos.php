@@ -30,8 +30,9 @@ $dadosGrupo = getInfoGrupo();
                 <?php
                 foreach ($integrante["links"] as $link) { 
                     if (!empty($link["nome"])) {
+                        $id = isset($link["id"]) ? "&id=".$link["id"] : "";
                 ?>
-                <a href="index.php?pagina=<?= $link["page"]; ?>" title="<?= $link["title"] ?>"><?= $link["nome"]; ?></a><?= end($integrante["links"]) != $link ? ", " : ""; ?>
+                <a href="index.php?pagina=<?= $link["page"].$id; ?>" title="<?= $link["title"] ?>"><?= $link["nome"]; ?></a><?= end($integrante["links"]) != $link ? ", " : ""; ?>
                 <?php 
                     } 
                 } 

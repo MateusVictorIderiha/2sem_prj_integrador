@@ -10,14 +10,10 @@
             "sobre_nome": "Victor Ideriha Rego",
             "links": [
                 {
-                    "nome": "",
-                    "page": "",
-                    "title": ""
-                },
-                {
-                    "nome": "",
-                    "page": "",
-                    "title": ""
+                    "nome": "mangás",
+                    "page": "mangas",
+                    "id": "1",
+                    "title": "Página dos mangas"
                 }
             ],
             "funcoes": "Gerente",
@@ -79,28 +75,23 @@
         },
         
         {
-            "nome": "Jeiel",
-            "sobre_nome": "Alves de Oliveira",
+            "nome": "Rafael",
+            "sobre_nome": "",
             "links": [
-                {
-                    "nome": "",
-                    "page": "",
-                    "title": ""
-                },
                 {
                     "nome": "",
                     "page": "",
                     "title": ""
                 }
             ],
-            "funcoes": "Designer de wireframe e mockups",
-            "ra": "2650831723019",
-            "bibliografia": "Buscando novas oportunidades na área de dese3nvolvimento web, apaixonado por video-games, adora finanças e busca cada vez mais conhecimento.",
+            "funcoes": "",
+            "ra": "",
+            "bibliografia": "",
             "imagem": {
-                "nome": "jeiel",
+                "nome": "rafael",
                 "ext": ".jpg",
-                "alt": "Imagem do integrando do grupo mateus victor",
-                "title": "Foto do Mateus Victor"
+                "alt": "Imagem do integrando do grupo Rafael",
+                "title": "Foto do Rafael"
             }
         },
         
@@ -109,25 +100,21 @@
             "sobre_nome": "Siqueira Carlos",
             "links": [
                 {
-                {
                     "nome": "Teatro Clássico Japonês",
                     "page": "teatro",
                     "descricao": "Biografias, principais formatos que se desenvolveram, e obras importantes.",
                     "title": ""
                 }
             ],
+            "funcoes": "Programação Back-end",
+            "ra": "2650831723003",
+            "bibliografia": "Marinheiro de primeira viagem no mar do Web Development. Adora ler, indo da ficção histórica ocidental até os mangás do oriente.",
             "imagem": {
+                "nome": "eduardo",
                 "ext": ".jpg",
+                "alt": "Imagem do integrando do grupo josé eduardo",
+                "title": "Foto do José Eduardo"
             }
         }
     ]
 }
-<<<<<<< HEAD
-            "funcoes": "",
-            "ra": "",
-            "bibliografia": "",
-=======
-            "funcoes": "Programação Back-end",
-            "ra": "2650831723003",
-            "bibliografia": "Marinheiro de primeira viagem no mar do Web Development. Adora ler, indo da ficção histórica ocidental até os mangás do oriente.",
->>>>>>> origin/master
