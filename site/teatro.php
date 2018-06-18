@@ -25,7 +25,7 @@
                                         <h3 class="text-danger sub_cab"><?=$teatroInfo["title"];?></h3>
                                     </div>
                                     <div class="over_text">
-                                        <p class="p_text">Lorem ipsum dolor sit amet, consectetur elit. Sed sit amet consequat tellus duis.</p>
+                                        <p class="p_text"><?=$teatroInfo["texto"];?></p>
                                     </div>
                             </div>
                         </a>

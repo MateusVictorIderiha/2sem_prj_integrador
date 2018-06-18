@@ -59,9 +59,26 @@ function setConfigPage($pageName) {
             include './functions/teatroJapones.php';
             setTitleHead($infoGrupo["nome_grupo"]." - Biografias");
             break;
+	case "atores_internas":
+            include './functions/teatroJapones.php';
+            setTitleHead($infoGrupo["nome_grupo"]." - Biografia");
+            break;
         case "classicos":
             include './functions/teatroJapones.php';
             setTitleHead($infoGrupo["nome_grupo"]." - Clássicos do Teatro e Mais");
+            break;
+	case "classicos_internas":
+            include './functions/teatroJapones.php';
+            setTitleHead($infoGrupo["nome_grupo"]." - Clássicos do Teatro e Mais");
+            break;
+        case "japao":
+            setTitleHead($infoGrupo["nome_grupo"]." - Japão");
+            break;
+        case "termo_uso":
+            setTitleHead($infoGrupo["nome_grupo"]." - Termos de uso");
+            break;
+        case "historia":
+            setTitleHead($infoGrupo["nome_grupo"]." - História da arte no japão");
             break;
         case "historia_origame":
             setTitleHead($infoGrupo["nome_grupo"]." - História do Origame");
@@ -74,15 +91,6 @@ function setConfigPage($pageName) {
             break;
         case "curiosidades_origame":
             setTitleHead($infoGrupo["nome_grupo"]." - Curiosidades do Origame");
-            break;
-        case "japao":
-            setTitleHead($infoGrupo["nome_grupo"]." - Japão");
-            break;
-        case "termo_uso":
-            setTitleHead($infoGrupo["nome_grupo"]." - Termos de uso");
-            break;
-        case "historia":
-            setTitleHead($infoGrupo["nome_grupo"]." - História da arte no japão");
             break;
         case "musicas":
             setTitleHead($infoGrupo["nome_grupo"]." - Músicas");
