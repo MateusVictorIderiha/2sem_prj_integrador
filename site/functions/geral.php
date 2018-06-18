@@ -70,9 +70,11 @@ function setConfigPage($pageName) {
             break;
         case "musicas":
             setTitleHead($infoGrupo["nome_grupo"]." - Músicas");
+            include './functions/musica.php';
             break;
         case "musica":
             setTitleHead($infoGrupo["nome_grupo"]." - Música");
+            include './functions/musica.php';
             break;
         case "mangas":
             include './functions/manga.php';
@@ -202,19 +204,23 @@ function getValuesMenu() : array {
             "subMenu" => [
                 [
                     "nome" => "J-POP",
-                    "link" => "musica_pop"
+                    "id" => "1",
+                    "link" => "musica"
                 ],
                                 [
                     "nome" => "J-ROCK",
-                    "link" => "musica_rock"
+                    "id" => "2",
+                    "link" => "musica"
                 ],
                                 [
                     "nome" => "Instrumentos Musicais",
-                    "link" => "musica_inst"
+                    "id" => "3",
+                    "link" => "musica"
                 ],
                                 [
                     "nome" => "Música Tradicional",
-                    "link" => "musica_trad"
+                    "id" => "4",
+                    "link" => "musica"
                 ]
             ]
         ],
