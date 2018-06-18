@@ -66,8 +66,14 @@ function setConfigPage($pageName) {
         case "historia_origame":
             setTitleHead($infoGrupo["nome_grupo"]." - História do Origame");
             break;
-        case "historia_origame":
-            setTitleHead($infoGrupo["nome_grupo"]." - História do Origame");
+        case "aprenda_a_fazer":
+            setTitleHead($infoGrupo["nome_grupo"]." - Aprenda a fazer Origame");
+            break;
+        case "origame":
+            setTitleHead($infoGrupo["nome_grupo"]." - Origame");
+            break;
+        case "curiosidades_origame":
+            setTitleHead($infoGrupo["nome_grupo"]." - Curiosidades do Origame");
             break;
         case "japao":
             setTitleHead($infoGrupo["nome_grupo"]." - Japão");
@@ -172,8 +178,22 @@ function getActivBtnMenu(): string {
 function getValuesMenu() : array {
     $itensMenus = [
         [
-            "nome" => "Quem Somos",
-            "link" => "quem_somos"
+            "nome" => "Ori Art",
+            "link" => "home",
+            "subMenu" => [
+                [
+                    "nome" => "Termos",
+                    "link" => "termo_uso"
+                ],
+                [
+                    "nome" => "Quem Somos",
+                    "link" => "quem_somos"
+                ],
+                [
+                    "nome" => "Contato",
+                    "link" => "contato"
+                ]
+            ]
         ],
         [
             "nome" => "Teatro",
@@ -253,22 +273,6 @@ function getValuesMenu() : array {
             ]
         ],
         [
-            "nome" => "Origame",
-            "link" => "historia_origame",
-            "subMenu" => [
-                [
-                    "nome" => "",
-                    "link" => "mangas",
-                    "id" => "1"
-                ],
-                [
-                    "nome" => "Novidades",
-                    "link" => "mangas",
-                    "id" => "2"
-                ],
-            ]
-        ],
-        [
             "nome" => "Danças",
             "link" => "dancas",
             "subMenu" => [
@@ -300,8 +304,22 @@ function getValuesMenu() : array {
             ]
         ],
         [
-            "nome" => "Termos",
-            "link" => "termo_uso"
+            "nome" => "Origame",
+            "link" => "historia_origame",
+            "subMenu" => [
+                [
+                    "nome" => "Curiosidades",
+                    "link" => "curiosidades_origame",
+                ],
+                [
+                    "nome" => "origame",
+                    "link" => "origame",
+                ],
+                [
+                    "nome" => "Aprenda a fazer",
+                    "link" => "aprenda_a_fazer",
+                ]
+            ]
         ],
         [
             "nome" => "O japão",
@@ -310,10 +328,6 @@ function getValuesMenu() : array {
         [
             "nome" => "A historia",
             "link" => "historia"
-        ],
-        [
-            "nome" => "Contato",
-            "link" => "contato"
         ]
     ];
     
