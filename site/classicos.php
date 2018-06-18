@@ -7,7 +7,7 @@
             <p class="text-left col-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet consequat tellus. Duis congue fermentum libero, vitae dignissim nisl euismod et. Donec est risus, posuere quis Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet consequat tellus. Duis congue fermentum libero.</p>
             <div class="row text-center">
 		    <div class="line line_obras"></div>
-			<h2 class="obras_sub_heading col-12">PeÁas Cl·ssicas</h2>
+			<h2 class="obras_sub_heading col-12">Pe√ßas Cl√°ssicas</h2>
 		<?php 
 		    foreach ($pecas as $dataPecas) {
 		?>

@@ -1,13 +1,5 @@
 <?php 
 
-/**
- * Seta os dados home da seÃ§Ã£o de teatro
- * "$teatroValues" = recebe um array com as informaÃ§Ãµes
- * "argumento" = Complemento que irÃ¡ definir a pÃ¡gina destino
- * "imageSource" = Define qual imagem serÃ¡ utilizada 
- * "title" = Define qual serÃ¡ o h2
- * @return array contendo todos os conteudos das pÃ¡ginas 
- */
 function teatroContent() : array {
 	$teatroValues = 
             [
@@ -111,22 +103,13 @@ function teatroInternas() : array {
 
 	return $teatroValues;
 }
-/**
- * Seta os dados das peças na Página Clássicos 
- * "$pecasInfo" = recebe um array com as informações
- * "id" = Número utilizado na identificação
- * "imageSource" = Define qual imagem será utilizada
- * "alt" = descrição da imagem
- * "credito" = atribuição ao dono da imagem e licença no qual a propriedade é resguardada 
- * "argumento" = Complemento que irá definir a página destino
- * "titulo" = Define qual será o nome no link
- */
+
 function pecasContent() : array {
     $pecasInfo = [
         [
 	    "id" => "1",
             "imageSource" => "peca_yoshitsune_senbon_zakura_300",
-	    "alt" => "ilustração da peça Yoshitsune Senbon Zakura",
+	    "alt" => "ilustraÃ§Ãµes da peÃ§a Yoshitsune Senbon Zakura",
 	    "credito" => "(yoshitsune senbon zakura) [Public domain], via Wikimedia Commons",
             "titulo" => "Yoshitsune Senbon Zakura",
             "argumento" => "classicos_internas"
@@ -134,7 +117,7 @@ function pecasContent() : array {
         [
 	    "id" => "2",
             "imageSource" => "peca_kanade_hon_chushingura_300",
-	    "alt" => "ilustração da peça kanadehon chushingura",
+	    "alt" => "ilustraÃ§Ã£o da pela kanadehon chushingura",
 	    "credito" => "(kanadehon ch?shingura) By Yamazaki Toshinobu II (1866-1903) (Honolulu Museum of Art) [Public domain], via Wikimedia Commons",
             "titulo" => "Kanade-hon Chushingura",
             "argumento" => "classicos_internas"
@@ -142,7 +125,7 @@ function pecasContent() : array {
         [
 	    "id" => "3",
             "imageSource" => "peca_dan_no_ura_kabuto_gunki_300",
-	    "alt" => "ilustração da peça dan no ura kabuto gunki",
+	    "alt" => "ilustraÃ§Ã£o da peÃ§a dan no ura kabuto gunki",
 	    "credito" => "(dan no ura kabuto gunki) [Public domain], via Wikimedia Commons",
             "titulo" => "Dan no Ura Kabuto Gunki",
             "argumento" => "classicos_internas"
@@ -150,7 +133,7 @@ function pecasContent() : array {
         [
 	    "id" => "4",
             "imageSource" => "peca_sugawara_denju_tenarai_kagami_300",
-	    "alt" => "ilustração da peça suguwara denji tenari kagami",
+	    "alt" => "ilustraÃ§Ã£o da peÃ§a suguwara denji tenari kagami",
 	    "credito" => "(suguwara denji tenari kagami) [Public domain], via Wikimedia Commons",
             "titulo" => "Suguwara Denji Tenarai Kagami",
             "argumento" => "classicos_internas"
@@ -160,16 +143,7 @@ function pecasContent() : array {
     return $pecasInfo;
 
 }
-/**
- * Seta os dados das filmes na Página Clássicos 
- * "$cinemaInfo" = recebe um array com as informações
- * "id" = Número utilizado na identificação
- * "imageSource" = Define qual imagem será utilizada
- * "alt" = descrição da imagem
- * "credito" = atribuição ao dono da imagem e licença no qual a propriedade é resguardada 
- * "argumento" = Complemento que irá definir a página destino
- * "titulo" = Define qual será o nome no link
- */
+
 function cinemaContent() : array {
     $cinemaInfo = [
         [
@@ -205,22 +179,12 @@ function cinemaContent() : array {
     return $cinemaInfo;
 
 }
-/**
- * Seta os dados das peças na Página Clássicos 
- * "$pecasInfo" = recebe um array com as informações
- * "id" = Número utilizado na identificação
- * "imageSource" = Define qual imagem será utilizada
- * "alt" = descrição da imagem
- * "credito" = atribuição ao dono da imagem e licença no qual a propriedade é resguardada 
- * "argumento" = Complemento que irá definir a página destino
- * "titulo" = Define qual será o nome no link
- */
 function classicosInterna() : array {
     $classicoInfo = [
         [
 	    "id" => "1",
             "imageSource" => "peca_yoshitsune_senbon_zakura_300",
-	    "alt" => "ilustração da peça Yoshitsune Senbon Zakura",
+	    "alt" => "ilustraÃ§Ã£o da peï¿½a Yoshitsune Senbon Zakura",
 	    "credito" => "(yoshitsune senbon zakura) [Public domain], via Wikimedia Commons",
             "titulo" => "Yoshitsune Senbon Zakura",
             "argumento" => "classicos_internas",
@@ -230,8 +194,8 @@ function classicosInterna() : array {
         [
 	    "id" => "2",
             "imageSource" => "peca_kanade_hon_chushingura_300",
-	    "alt" => "ilustração da peça kanadehon chushingura",
-	    "credito" => "(kanadehon ch?shingura) By Yamazaki Toshinobu II (1866-1903) (Honolulu Museum of Art) [Public domain], via Wikimedia Commons",
+	    "alt" => "ilustraÃ§Ã£o da peÃ§a kanadehon chushingura",
+	    "credito" => "(kanadehon chishingura) By Yamazaki Toshinobu II (1866-1903) (Honolulu Museum of Art) [Public domain], via Wikimedia Commons",
             "titulo" => "Kanade-hon Chushingura",
             "argumento" => "classicos_internas",
 	    "textoUm" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet consequat tellus. Duis congue fermentum libero, vitae dignissim nisl euismod et. Donec est risus, posuere quis consequat nec, tempor in magna. Vivamus dapibus lacus ut elementum mollis. Morbi bibendum lorem ut nulla facilisis hendrerit. Cras commodo congue feugiat. Maecenas feugiat risus sit amet augue tristique malesuada euismod eu sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet consequat tellus. Duis congue fermentum libero, vitae dignissim nisl euismod et. Donec est risus, posuere quis Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet consequat tellus. Duis congue fermentum libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet consequat tellus. Duis congue fermentum libero, vitae dignissim nisl euismod et. Donec est risus, posuere quis Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet consequat tellus. Duis congue fermentum libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet consequat tellus. Duis congue fermentum libero, vitae dignissim nisl euismod et. Donec est risus, posuere quis consequat nec, tempor in magna. Vivamus dapibus lacus ut elementum mollis. Morbi bibendum lorem ut nulla facilisis hendrerit. Cras commodo congue feugiat. Maecenas feugiat risus sit amet augue tristique malesuada euismod eu sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet consequat tellus. Duis congue fermentum libero, vitae dignissim nisl euismod et. Donec est risus, posuere quis Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet consequat tellus. Duis congue fermentum libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet consequat tellus. Duis congue fermentum libero, vitae dignissim nisl euismod et.",
@@ -240,7 +204,7 @@ function classicosInterna() : array {
         [
 	    "id" => "3",
             "imageSource" => "peca_dan_no_ura_kabuto_gunki_300",
-	    "alt" => "ilustração da peça dan no ura kabuto gunki",
+	    "alt" => "ilustraÃ§Ã£o da peÃ§a dan no ura kabuto gunki",
 	    "credito" => "(dan no ura kabuto gunki) [Public domain], via Wikimedia Commons",
             "titulo" => "Dan no Ura Kabuto Gunki",
             "argumento" => "classicos_internas",
@@ -250,7 +214,7 @@ function classicosInterna() : array {
         [
 	    "id" => "4",
             "imageSource" => "peca_sugawara_denju_tenarai_kagami_300",
-	    "alt" => "ilustração da peça suguwara denji tenari kagami",
+	    "alt" => "ilustraÃ§Ã£o da peÃ§a suguwara denji tenari kagami",
 	    "credito" => "(suguwara denji tenari kagami) [Public domain], via Wikimedia Commons",
             "titulo" => "Suguwara Denji Tenarai Kagami",
             "argumento" => "classicos_internas",
@@ -303,19 +267,12 @@ function classicosInterna() : array {
     return $classicoInfo;
 
 }
-/**
- * Seta os dados das thumbnails dos atores 
- * "$atoresValues" = recebe um array com as informaÃ§Ãµes
- * "argumento" = Complemento que irÃ¡ definir a pÃ¡gina destino
- * "imageSource" = Define qual imagem serÃ¡ utilizada 
- * "title" = Define qual serÃ¡ o h2
- */
 function atoresContent() : array {
     $atoresValues = [
         [
 	    "id" => "1",
             "imageSource" => "chojuro_sawamura_V",
-	    "alt" => "ilustração do ator chojuro sawamura",
+	    "alt" => "ilustraÃ§Ã£o do ator chojuro sawamura",
 	    "credito" => "[Public domain or Public domain], via Wikimedia Commons",
             "titulo" => "Chojuro Sawamura",
             "argumento" => "atores_internas",
@@ -326,7 +283,7 @@ function atoresContent() : array {
         [
 	    "id" => "2",
             "imageSource" => "iwai_hanshiro",
-	    "alt" => "ilustração do ator iwai hanshiro",
+	    "alt" => "ilustraÃ§Ã£o do ator iwai hanshiro",
 	    "credito" => " [Public domain or CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)], from Wikimedia Commons",
             "titulo" => "Iwai Hanshiro",
             "argumento" => "atores_internas",
@@ -337,7 +294,7 @@ function atoresContent() : array {
         [
 	    "id" => "3",
             "imageSource" => "danjuro_ichimura_VIII",
-	    "alt" => "ilustração do ator Danjuro Ichimura",
+	    "alt" => "ilustraÃ§Ã£o do ator Danjuro Ichimura",
 	    "credito" => "[Public domain], via Wikimedia Commons",
             "titulo" => "Danjuro Ichimura",
             "argumento" => "atores_internas",
@@ -348,7 +305,7 @@ function atoresContent() : array {
         [
 	    "id" => "4",
             "imageSource" => "danzo_ichikawa_V",
-	    "alt" => "ilustração do ator danzo ichikawa",
+	    "alt" => "ilustraÃ§Ã£o do ator danzo ichikawa",
 	    "credito" => "[Public domain, Public domain or Public domain], via Wikimedia Commons",
             "titulo" => "Danzo Ichikawa",
             "argumento" => "atores_internas",
@@ -359,7 +316,7 @@ function atoresContent() : array {
         [
 	    "id" => "5",
             "imageSource" => "ebijuro_ichikawa_I",
-	    "alt" => "ilustração do ator ebijuro ichikawa",
+	    "alt" => "ilustraÃ§Ã£o do ator ebijuro ichikawa",
 	    "credito" => "[Public domain], via Wikimedia Commons",
             "titulo" => "Ebijuro Ichikawa",
             "argumento" => "atores_internas",
@@ -370,7 +327,7 @@ function atoresContent() : array {
         [
 	    "id" => "6",
             "imageSource" => "ichikawa_danjuro_VIII",
-	    "alt" => "ilustração do ator ichikawa danjuro",
+	    "alt" => "ilustraÃ§Ã£o do ator ichikawa danjuro",
 	    "credito" => "[Public domain or Public domain], via Wikimedia Commons",
             "titulo" => "Ichikawa Danjuro",
             "argumento" => "atores_internas",

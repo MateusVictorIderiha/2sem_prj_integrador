@@ -1,5 +1,5 @@
 <?php
-    $teatros = teatroContent();
+    $teatros = teatroInternas();
     $page_id = $_GET["id"];
     $teatro = getIdArray( $page_id, $teatros);
     
