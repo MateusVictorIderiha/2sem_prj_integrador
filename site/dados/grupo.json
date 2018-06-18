@@ -120,6 +120,8 @@
         {
             "nome": "Jeiel",
             "sobre_nome": "Alves de Oliveira",
+            "nome": "José Eduardo",
+            "sobre_nome": "Siqueira Carlos",
             "links": [
                 {
                     "nome": "",
@@ -131,17 +133,26 @@
                     "nome": "",
                     "page": "",
                     "descricao": "",
+                    "nome": "Teatro Clássico Japonês",
+                    "page": "teatro",
+                    "descricao": "Biografias, principais formatos que se desenvolveram, e obras importantes.",
                     "title": ""
                 }
             ],
             "funcoes": "Designer de wireframe e mockups",
             "ra": "2650831723019",
             "bibliografia": "Buscando novas oportunidades na área de dese3nvolvimento web, apaixonado por video-games, adora finanças e busca cada vez mais conhecimento.",
+            "funcoes": "Programação Back-end",
+            "ra": "2650831723003",
+            "bibliografia": "Marinheiro de primeira viagem no mar do Web Development. Adora ler, indo da ficção histórica ocidental até os mangás do oriente.",
             "imagem": {
                 "nome": "jeiel",
+                "nome": "eduardo",
                 "ext": ".jpg",
                 "alt": "Imagem do integrando do grupo mateus victor",
                 "title": "Foto do Mateus Victor"
+                "alt": "Imagem do integrando do grupo josé eduardo",
+                "title": "Foto do José Eduardo"
             }
         }
     ]
