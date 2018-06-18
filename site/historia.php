@@ -10,6 +10,7 @@
                         <source media="(min-width: 1200px)" srcset="midia/geral/japao_1200.jpg.">
                         <img href="https://unsplash.com/@yajiji?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" class="w-100" src="midia/geral/japao_1200.jpg" class="img-fluid big-image-full" alt="#" style="width:auto;">
                     </picture>
+                   
                 </figure>
             </div>
         </aside>
@@ -56,7 +57,7 @@
         <h3 class="d-none">Categorias de arte a ser visitada</h3>
         <div class="row">
             <div class="offset-lg-1 offset-md-0 offset-1 col-lg-2 col-md-4 col-10 text-center">
-                <img src="midia/geral/manga_saiba_190.jpg" class="mt-5" alt="cosplay de personagens manga" style="width:auto;">
+                <img class="img-fluid mt-5" src="midia/geral/manga_saiba_190.jpg" alt="cosplay de personagens manga" style="width:auto;">
                 <h2 class="subtitulo pHistoria pt-2">Manga na arte</h2>
                 <p class="text-justify pHistoria">
                     Vestibulum ac dui et elit fringilla condimentum id sed felis. 
@@ -69,7 +70,7 @@
             </div>
             
             <div class="offset-1 offset-lg-0 offset-md-0 col-lg-2 col-md-4 col-10 text-center">
-                <img src="midia/geral/danca_saiba_190.jpg" class="mt-5" alt="dança tipica do japao" style="width:auto;">
+                <img class="img-fluid mt-5" src="midia/geral/danca_saiba_190.jpg" alt="dança tipica do japao" style="width:auto;">
                 <h2 class="subtitulo pHistoria pt-2">Dança na arte</h2>
                 <p class="text-justify pHistoria" style="border-left:1px polid #fff;">
                     Vestibulum ac dui et elit fringilla condimentum id sed felis. 
@@ -81,7 +82,7 @@
                 <p><a class="btn btn-danger" href="index.php?pagina=dancas" role="button">Leia mais</a></p>
             </div>
             <div class="offset-1 offset-md-0 offset-lg-0 col-lg-2 col-md-4 col-10 text-center">
-                <img src="midia/geral/teatro_saiba_190.jpg" class="mt-5" alt="fantoche japones" style="width:auto;">
+                <img class="img-fluid mt-5" src="midia/geral/teatro_saiba_190.jpg" alt="fantoche japones" style="width:auto;">
                 <h2 class="subtitulo pHistoria pt-2">Teatro na arte</h2>
                 <p class="text-justify pHistoria">
                     Vestibulum ac dui et elit fringilla condimentum id sed felis. 
@@ -93,7 +94,7 @@
                 <p><a class="btn btn-danger" href="index.php?pagina=teatro" role="button">Leia mais</a></p>
             </div>
             <div class="offset-md-2 offset-lg-0 offset-1 col-lg-2 col-md-4 col-10 text-center">
-                <img src="midia/geral/musica_saiba_190.jpg" class="mt-5" alt="banda japonesa de k-pop" style="width:auto;">
+                <img class="img-fluid mt-5" src="midia/geral/musica_saiba_190.jpg" alt="banda japonesa de k-pop" style="width:auto;">
                 <h2 class="subtitulo pHistoria pt-2">Musica na arte</h2>
                 <p class="text-justify pHistoria">
                     Vestibulum ac dui et elit fringilla condimentum id sed felis. 
@@ -105,7 +106,7 @@
                 <p><a class="btn btn-danger" href="index.php?pagina=musicas" role="button">Leia mais</a></p>
             </div>
             <div class="offset-1 offset-md-0 offset-lg-0 col-lg-2 col-md-4 col-10 text-center">
-                <img src="midia/geral/origami_saiba_190.jpg" class="mt-5" alt="origami classico de cisney" style="width:auto;">
+                <img class="img-fluid mt-5" src="midia/geral/origami_saiba_190.jpg" alt="origami classico de cisney" style="width:auto;">
                 <h2 class="subtitulo pHistoria pt-2">Origami na arte</h2>
                 <p class="text-justify pHistoria">
                     Vestibulum ac dui et elit fringilla condimentum id sed felis. 
