@@ -12,13 +12,11 @@
                 {
                     "nome": "",
                     "page": "",
-                    "descricao": "",
                     "title": ""
                 },
                 {
                     "nome": "",
                     "page": "",
-                    "descricao": "",
                     "title": ""
                 }
             ],
@@ -40,13 +38,11 @@
                 {
                     "nome": "",
                     "page": "",
-                    "descricao": "",
                     "title": ""
                 },
                 {
                     "nome": "",
                     "page": "",
-                    "descricao": "",
                     "title": ""
                 }
             ],
@@ -67,14 +63,7 @@
             "links": [
                 {
                     "nome": "Músicas",
-                    "page": "musica",
-                    "descricao": "",
-                    "title": ""
-                },
-                {
-                    "nome": "",
-                    "page": "",
-                    "descricao": "",
+                    "page": "musicas",
                     "title": ""
                 }
             ],
@@ -96,13 +85,11 @@
                 {
                     "nome": "",
                     "page": "",
-                    "descricao": "",
                     "title": ""
                 },
                 {
                     "nome": "",
                     "page": "",
-                    "descricao": "",
                     "title": ""
                 }
             ],
@@ -124,13 +111,11 @@
                 {
                     "nome": "",
                     "page": "",
-                    "descricao": "",
                     "title": ""
                 },
                 {
                     "nome": "",
                     "page": "",
-                    "descricao": "",
                     "title": ""
                 }
             ],

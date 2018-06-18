@@ -557,6 +557,33 @@ section p {
 * FIM MANGAS
 */
 
+/**
+* INICIO QUEM SOMOS
+*/
+.quem-somos .oriart {
+    align-items: center;
+}
+
+.quem-somos .logo {
+    max-height: 150px; 
+}
+
+.quem-somos .integrante {
+    padding: 30px 10px;
+    border-bottom: 1px solid #ef3341;
+    align-items: center;
+}
+.quem-somos .integrante ul {
+    padding-left: 0;
+    list-style: none;
+}
+.quem-somos .integrante:last-of-type {
+    border-bottom: none;
+}
+/**
+* FIM QUEM SOMOS
+*/
+
 @media screen and (max-width: 991px) {
     /**
     * INICIO TOPO
@@ -667,6 +694,15 @@ section p {
     *  FIM MANGAS
     */
     
+}
+
+@media screen and (max-width: 720px) {
+    .quem-somos .integrante ul {
+        text-align: center;
+    }
+    .quem-somos .integrante ul li strong {
+        display:block;
+    }
 }
 
 @media screen and (min-width: 991px) {
@@ -858,31 +894,4 @@ section p {
 
 /**
 * FIM MUSICAS
-*/
-
-/**
-* INICIO QUEM SOMOS
-*/
-.quem-somos .oriart {
-    align-items: center;
-}
-
-.quem-somos .logo {
-    max-height: 150px; 
-}
-
-.quem-somos .integrante {
-    padding: 30px 10px;
-    border-bottom: 1px solid #ef3341;
-    align-items: center;
-}
-.quem-somos .integrante ul {
-    padding-left: 0;
-    list-style: none;
-}
-.quem-somos .integrante:last-of-type {
-    border-bottom: none;
-}
-/**
-* FIM QUEM SOMOS
 */
