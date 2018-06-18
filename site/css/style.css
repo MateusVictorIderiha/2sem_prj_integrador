@@ -396,6 +396,20 @@ section p {
 * INICIO MANGAS
 */
 /* mangas */
+.mangas .containerCat {
+    display: flex;
+    align-items: center;
+}
+.mangas .containerCat .img-cat1, .mangas .containerCat .img-cat2 {
+    flex-basis: 220px;
+}
+.mangas .containerCat .contentCat {
+    flex-basis: calc(100% - 220px);
+    padding: 0 4%;
+}
+.mangas .containerCat .texto {
+    order: 4;
+}
 .mangas .manga {
     display: flex;
     align-items: center;
@@ -409,7 +423,6 @@ section p {
 .mangas .manga .containerImg * {
     max-width: 100%;
 }
-
 .mangas .manga:hover {
     color: #EF3341;
 }
@@ -454,6 +467,21 @@ section p {
   bottom: 0;
   left:0;
 }
+
+.mangas .borderManga, .mangas .manga .contentManga {
+    max-width: 100%;
+}
+
+.mangas .borderManga {
+    background-color: #000;
+    padding: 1px;
+}
+
+.mangas .manga .contentManga {
+    background-color: #FFF;
+    padding: 25px 20px;
+    border: 1px solid #000;
+}
 /* fim mangas */
 
 /* manga interna */
@@ -485,19 +513,31 @@ section p {
     margin-bottom: 10px;
 }
 
-.mangas .borderManga, .mangas .manga .contentManga {
-    max-width: 100%;
+.relacionados .manga {
+    padding: 15px;
+    border-top: 1px solid #5F4B8B;
+}
+.relacionados .manga .subtitulo {
+    font-size: 1.2rem;
+}
+.relacionados .manga a {
+    color: #000;    
+}
+.relacionados .manga:hover a {
+    color: #5F4B8B;
 }
 
-.mangas .borderManga {
-    background-color: #000;
-    padding: 1px;
+.formBusca {
+    display: flex;
+    justify-content: center;
 }
-
-.mangas .manga .contentManga {
-    background-color: #FFF;
-    padding: 25px 20px;
-    border: 1px solid #000;
+.formBusca .form-control, .formBusca .input-group .input-group-prepend {
+    background-color: #fff;
+    border: 1px solid #EF3341;
+}
+.formBusca .input-group .input-group-prepend {
+    border-left: none;
+    border-radius: 
 }
 /* fim manga interna */
 /**
@@ -564,6 +604,61 @@ section p {
     /**
     * FIM RODAPE
     */
+    
+    /*
+    *  INICIO MANGAS
+    */
+    .mangas .containerCat .img-cat1, .mangas .containerCat .img-cat2 {
+        flex-basis: 80px;
+    }
+    .mangas .containerCat .contentCat .titulo {
+        font-size: 1.7em;
+    }
+    .mangas .containerCat .contentCat .subtitulo {
+        font-size: 1.1em;
+    }
+    .mangas .containerCat .contentCat {
+        flex-basis: calc(100% - 80px);
+        padding: 0 4%;
+    }
+    .mangas .containerCat .texto {        
+        flex-basis: 100%;
+        padding: 0 4%;
+    }
+    .mangas .containerCat .img-cat1, .mangas .containerCat .img-cat2 {
+        flex-basis: 220px;
+    }
+    .mangas .containerCat .contentCat {
+        flex-basis: calc(100% - 220px);
+        padding: 0 4%;
+    }
+
+    .contentManga.layoutManga2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contentManga.layoutManga2 .buttons {
+        order: 4;
+        flex-basis: 100%;
+    }
+    .contentManga.layoutManga2 .orderTexto {
+        order: 3;
+        flex-basis: 100%;
+    }
+    .contentManga.layoutManga2 .imgManga {
+        order: 2;
+        margin-left: auto;
+        margin-right: auto;
+        flex-basis: 100%;
+    }
+    .contentManga.layoutManga2 .titulosManga {
+        order: 1;
+        flex-basis: 100%;
+    }
+    /*
+    *  FIM MANGAS
+    */
+    
 }
 
 @media screen and (min-width: 991px) {

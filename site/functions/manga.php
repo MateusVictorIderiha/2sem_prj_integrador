@@ -96,3 +96,34 @@ function setDadosManga(int $idManga) {
 function getDadosManga(): array {
     return $GLOBALS["manga"] ?? [];
 }
+
+/**
+ * Seta os dados da categoria
+ * 
+ * @param int|null $idCat ID da categoria
+ */
+function setDadosCategoria(int $idCat = null) {
+    $categorias = getDadosJson("dados/categoria.json");
+    $GLOBALS["categoriasDados"] =  $categorias;
+    if (!is_null($idCat)) {
+        $GLOBALS["categoriaDados"] = getIdArray($idCat, $categorias);
+    }
+}
+
+/**
+ * Retorna os dados das categorias
+ * 
+ * @return array[] As categorias
+ */
+function getDadosCategorias() {
+    return $GLOBALS["categoriaDados"] ?? $GLOBALS["categoriasDados"] ?? "";
+}
+
+/**
+ * Retorna da categoria que foi setado por @see setDadosCategoria($id);
+ * 
+ * @return array A categoria com o id
+ */
+function getDadosCategoria() {
+    return $GLOBALS["categoriaDados"] ?? $GLOBALS["categoriasDados"] ?? "";
+}

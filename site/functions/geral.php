@@ -78,6 +78,7 @@ function setConfigPage($pageName) {
             include './functions/manga.php';
             setDadosMangas();
             setMangasCategoria($id);
+            setDadosCategoria($id);
             setTitleHead($infoGrupo["nome_grupo"]." - Artes Cências");
             break;
         case "manga":
@@ -220,7 +221,8 @@ function getValuesMenu() : array {
         ],
         [
             "nome" => "Mangá",
-            "link" => "index_mangas",
+            "link" => "mangas",
+            "id" => "1",
             "subMenu" => [
                 [
                     "nome" => "O mangá",

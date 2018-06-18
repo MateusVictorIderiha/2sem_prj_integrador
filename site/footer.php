@@ -20,14 +20,15 @@ foreach ($infoGrupo["integrantes"] as $integrante) {
                         <?php
                         $itensMenu = getValuesMenu();
                         foreach ($itensMenu as $item) {
-                             if(isset($item["subMenu"])) {
+                            $id = isset($item["id"]) ? "&id=".$item["id"] : "";
+                            if(isset($item["subMenu"])) {
                         ?>
                         <ul class="col-2 d-none d-lg-block">
-                            <li class="foot_li_title"> <a href="#"></a> <?= $item["nome"]; ?> </li>
+                            <li class="foot_li_title"> <a href="<?= "index.php?pagina=".$item["link"].$id; ?>"> <?= $item["nome"]; ?> </a></li>
                             <?php
                                 foreach ($item["subMenu"] as $subItem) { 
                             ?>
-                            <li class="foot_li"> <a href="#"></a><?= $subItem["nome"]; ?></li>
+                            <li class="foot_li"> <a href="<?= "index.php?pagina=".$item["link"].$id; ?>"> <?= $subItem["nome"]; ?> </a></li>
                             <?php } ?>
                         </ul>
                         <?php
@@ -94,7 +95,7 @@ foreach ($infoGrupo["integrantes"] as $integrante) {
 //                FIM MENU
 
 //                INICIO FORM CONTATO
-
+                
 //                FIM FORM CONTATO
             });
         </script>
