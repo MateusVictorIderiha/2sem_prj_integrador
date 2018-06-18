@@ -245,6 +245,9 @@ a:hover {
 /* FIM SUBPAGINA PERFIL_ATOR */
 
 /* INICIO TEATRO PAGINAS DE REPETIÇÃO */
+.car_img {
+    width:auto;
+}
 .interna_heading {
     margin-bottom: 25px;
 }
