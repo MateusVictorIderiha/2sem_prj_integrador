@@ -21,20 +21,18 @@
             <section class="row text-center">
                 <div class="line line_obras d-none"></div>
                 <h2 class="subtitulo obras_sub_heading col-12">Recentes no Banco de Dados</h2>
-		<div class="">
 		    <?php 
 			foreach ($atores as $maisAtores) {
 			    if($maisAtores['titulo'] <> $ator['titulo'] ){
 		    ?>
-                        <section class="text-center float-left col-12 col-md-6 col-lg-3">
+                        <section class="text-center float-left col-12 col-md-6 col-lg-2 section_atores">
                             <div class="line sub_line"></div>
                             <img class="img_mais_bios d-block mx-auto" src="midia/teatro/<?=$maisAtores['imageSource']?>.jpg" alt="<?=$maisAtores['alt']?>" title="<?=$maisAtores['credito']?>" width="150" height="215">
-                            <a href="index.php?pagina=atores_internas&id=<?=$maisAtores['id']?>"><?=$maisAtores['titulo']?></a>
+                            <a href="index.php?pagina=atores_internas&id=<?=$maisAtores['id']?>"><h2 class="heading_atores"><?=$maisAtores['titulo']?></h2></a>
                         </section>
 		    <?php 
 			    }
 			} 
 		    ?>
-		    </div>
             </section>   
     </div>

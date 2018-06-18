@@ -241,7 +241,12 @@ a:hover {
     margin-top: 30px; 
     width: 175px;
 }
-
+.heading_atores{
+    font-size: 16px;
+}
+.section_atores {
+    margin: 0px auto;
+}
 /* FIM SUBPAGINA PERFIL_ATOR */
 
 /* INICIO TEATRO PAGINAS DE REPETIÇÃO */
