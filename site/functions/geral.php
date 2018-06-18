@@ -13,10 +13,10 @@ function formatName($name) {
 }
 
 /** 
- * Cria as configura√ß√µes da pagina como:
+ * Cria as configuraÁıes da pagina como:
  *   Title no Head
- *   Bot√£o ativado no menu
- *   Incluir fun√ß√µes especificas de cada p√°gina
+ *   Bot„o ativado no menu
+ *   Incluir funÁıes especificas de cada p·gina
  * 
  * @param string $pageName o nome do arquivo/pagina a ser configurado
  * 
@@ -40,44 +40,53 @@ function setConfigPage($pageName) {
             setTitleHead($infoGrupo["nome_grupo"]." - Quem Somos");
             break;
         case "dancas":
-            setTitleHead($infoGrupo["nome_grupo"]." - Dan√ßa");
+            setTitleHead($infoGrupo["nome_grupo"]." - DanÁa");
             include './functions/danca.php';
             break;
         case "dancatopico":
-            setTitleHead($infoGrupo["nome_grupo"]." - Dan√ßa topico");
+            setTitleHead($infoGrupo["nome_grupo"]." - DanÁa topico");
             include './functions/danca.php';
             break;
         case "teatro":
             include './functions/teatroJapones.php';
-            setTitleHead($infoGrupo["nome_grupo"]." - Teatro Cl√°ssico");
+            setTitleHead($infoGrupo["nome_grupo"]." - Teatro Cl·ssico");
             break;
         case "teatro_internas":
             include './functions/teatroJapones.php';
+	    setTeatroInfo();
             setTitleHead($infoGrupo["nome_grupo"]." - Teatro Interna");
             break;
         case "atores":
             include './functions/teatroJapones.php';
             setTitleHead($infoGrupo["nome_grupo"]." - Biografias");
             break;
+	case "atores_internas":
+            include './functions/teatroJapones.php';
+            setTitleHead($infoGrupo["nome_grupo"]." - Biografia");
+            break;
         case "classicos":
             include './functions/teatroJapones.php';
-            setTitleHead($infoGrupo["nome_grupo"]." - Cl√°ssicos do Teatro e Mais");
+            setTitleHead($infoGrupo["nome_grupo"]." - Cl·ssicos do Teatro e Mais");
+            break;
+	case "classicos_internas":
+            include './functions/teatroJapones.php';
+            setTitleHead($infoGrupo["nome_grupo"]." - Cl·ssicos do Teatro e Mais");
             break;
         case "japao":
-            setTitleHead($infoGrupo["nome_grupo"]." - Jap√£o");
+            setTitleHead($infoGrupo["nome_grupo"]." - Jap„o");
             break;
         case "termo_uso":
             setTitleHead($infoGrupo["nome_grupo"]." - Termos de uso");
             break;
         case "historia":
-            setTitleHead($infoGrupo["nome_grupo"]." - Hist√≥ria da arte no jap√£o");
+            setTitleHead($infoGrupo["nome_grupo"]." - HistÛria da arte no jap„o");
             break;
         case "musicas":
-            setTitleHead($infoGrupo["nome_grupo"]." - M√∫sicas");
+            setTitleHead($infoGrupo["nome_grupo"]." - M˙sicas");
             include './functions/musica.php';
             break;
         case "musica":
-            setTitleHead($infoGrupo["nome_grupo"]." - M√∫sica");
+            setTitleHead($infoGrupo["nome_grupo"]." - M˙sica");
             include './functions/musica.php';
             break;
         case "mangas":
@@ -85,7 +94,7 @@ function setConfigPage($pageName) {
             setDadosMangas();
             setMangasCategoria($id);
             setDadosCategoria($id);
-            setTitleHead($infoGrupo["nome_grupo"]." - Artes C√™ncias");
+            setTitleHead($infoGrupo["nome_grupo"]." - Artes CÍncias");
             break;
         case "manga":
             include './functions/manga.php';
@@ -95,7 +104,7 @@ function setConfigPage($pageName) {
             $img = $manga["imagem"];
             $pathImg = "midia/manga/".$img["nome"]."_220".$img["ext"];
             setMetaShared($manga, $pathImg);
-            setTitleHead($infoGrupo["nome_grupo"]." - Artes C√™ncias");
+            setTitleHead($infoGrupo["nome_grupo"]." - Artes CÍncias");
             break;
         default:
             setTitleHead($infoGrupo["nome_grupo"]." - Pagina 404");
@@ -104,7 +113,7 @@ function setConfigPage($pageName) {
 }
 
 /** 
- * Inclui a pagina, e configura a p√°gina usando @see setConfigPage()
+ * Inclui a pagina, e configura a p·gina usando @see setConfigPage()
  * 
  * @param string $pageName o nome do arquivo sem o .php
  * 
@@ -139,9 +148,9 @@ function getTitleHead(): string {
 }
 
 /** 
- * escreve o valor do bot√£o ativado no menu
+ * escreve o valor do bot„o ativado no menu
  * 
- * @param string $btn o nome do link do bot√£o para ser ativado
+ * @param string $btn o nome do link do bot„o para ser ativado
  * 
  * @return void
  */
@@ -150,9 +159,9 @@ function setActivBtnMenu(string $btn) {
 }
 
 /** 
- * retorna o valor do bot√£o ativo
+ * retorna o valor do bot„o ativo
  * 
- * @return retorna o valor na variavel global activeBtnMenu que foi setada pela fun√ß√£o setActivBtnMenu()
+ * @return retorna o valor na variavel global activeBtnMenu que foi setada pela funÁ„o setActivBtnMenu()
  */
 function getActivBtnMenu(): string {
     return $GLOBALS["activeBtnMenu"];
@@ -198,13 +207,13 @@ function getValuesMenu() : array {
                     "id" => "5"
                 ],
                 [
-                    "nome" => "Cl√°ssicos",
+                    "nome" => "Cl·ssicos",
                     "link" => "classicos",
                 ]
             ],
         ],
         [
-            "nome" => "M√∫sica",
+            "nome" => "M˙sica",
             "link" => "musicas",
             "subMenu" => [
                 [
@@ -223,19 +232,19 @@ function getValuesMenu() : array {
                     "link" => "musica"
                 ],
                                 [
-                    "nome" => "M√∫sica Tradicional",
+                    "nome" => "M˙sica Tradicional",
                     "id" => "4",
                     "link" => "musica"
                 ]
             ]
         ],
         [
-            "nome" => "Mang√°",
+            "nome" => "Mang·",
             "link" => "mangas",
             "id" => "1",
             "subMenu" => [
                 [
-                    "nome" => "O mang√°",
+                    "nome" => "O mang·",
                     "link" => "mangas",
                     "id" => "1"
                 ],
@@ -247,11 +256,11 @@ function getValuesMenu() : array {
             ]
         ],
         [
-            "nome" => "Dan√ßas",
+            "nome" => "DanÁas",
             "link" => "dancas",
             "subMenu" => [
                 [
-                    "nome" => "Dan√ßas",
+                    "nome" => "DanÁas",
                     "link" => "dancas"
                 ],
                 [
@@ -265,7 +274,7 @@ function getValuesMenu() : array {
                     "id" => "2"
                 ],
                 [
-                    "nome" => "Lenda dan√ßa",
+                    "nome" => "Lenda danÁa",
                     "link" => "dancatopico",
                     "id" => "3"
                 ],
@@ -282,7 +291,7 @@ function getValuesMenu() : array {
             "link" => "termo_uso"
         ],
         [
-            "nome" => "O jap√£o",
+            "nome" => "O jap„o",
             "link" => "japao"
         ],
         [
@@ -301,10 +310,10 @@ function getValuesMenu() : array {
 /** 
  * Usado para retornar os dados de consultas aos arquivos json
  * 
- * @param string  $fileJsonName √© o caminho e o nome do arquivo json
+ * @param string  $fileJsonName È o caminho e o nome do arquivo json
  * @param string $formatArray O formato de retorno dos dados se for true retorna 
  *                            em um array, caso seja false retorna um objeto, 
- *                            o valor padr√£o √© true um array
+ *                            o valor padr„o È true um array
  * 
  * @return array os dados de um arquivo json
  */
@@ -314,13 +323,13 @@ function getDadosJson($fileJsonName, $formatArray = true) {
 }
 
 /** 
- * Seta um array com as inform√ß√µes do grupo e dos integrantes em um array global $GLOBALS["infoGrupo"]
+ * Seta um array com as informÁıes do grupo e dos integrantes em um array global $GLOBALS["infoGrupo"]
  * 
  * @return void
  */
 function setInfoGrupo() {
     /**
-     * contem as informa√ß√µes do grupo
+     * contem as informaÁıes do grupo
      * @global array $GLOBALS['infoGrupo']
      * @name $infoGrupo 
      */
@@ -328,9 +337,9 @@ function setInfoGrupo() {
 }
 
 /** 
- * Retorna o valor setado pela fun√ß√£o setInfoGrupo() de $GLOBALS["infoGrupo"]
+ * Retorna o valor setado pela funÁ„o setInfoGrupo() de $GLOBALS["infoGrupo"]
  * 
- * @return array das informa√ß√µes do grupo como nome do grupo, e informa√ß√µes dos integrantes
+ * @return array das informaÁıes do grupo como nome do grupo, e informaÁıes dos integrantes
  */
 function getInfoGrupo() {
     return $GLOBALS["infoGrupo"];
@@ -346,7 +355,7 @@ function getInfoGrupo() {
  *                  + alt
  *                  + title
  *                  + credito
- * @param string $tamanho O tamanho da imagem com underline no come√ßo
+ * @param string $tamanho O tamanho da imagem com underline no comeÁo
  * @param string $class A classe 
  * 
  * @return string A tag img formatada e se o credito foi definido retorna com um link para os creditos
@@ -369,8 +378,8 @@ function returnHtmlImg(string $path, array $img, string $tamanho = null, string 
  * @param string $needle O valor a ser procurado
  * @param string $key A chave do array da matriz a ser comparada
  * @param array $fetch_haystack A matriz a ser comparada
- * @return array|bool Retorna a matriz correspondente a pesquisa, caso n√£o 
- *                      encontrado ou a chave de pesquisa n√£o existir retorna false
+ * @return array|bool Retorna a matriz correspondente a pesquisa, caso n„o 
+ *                      encontrado ou a chave de pesquisa n„o existir retorna false
  */
 function getSearchArray(string $needle, string $key, array $fetch_haystack) {
     foreach ($fetch_haystack as $indice => $item) {
@@ -386,8 +395,8 @@ function getSearchArray(string $needle, string $key, array $fetch_haystack) {
  * 
  * @param int $id O id a ser procurado
  * @param array $fetch_haystack A matriz a ser comparada
- * @return array|bool Retorna a matriz correspondente a pesquisa, caso n√£o 
- *                      encontrado ou a chave de pesquisa n√£o existir retorna false
+ * @return array|bool Retorna a matriz correspondente a pesquisa, caso n„o 
+ *                      encontrado ou a chave de pesquisa n„o existir retorna false
  */
 function getIdArray(int $id, array $fetch_haystack) {
     return getSearchArray($id, "id", $fetch_haystack);
@@ -419,7 +428,7 @@ function setMetaShared(array $dados, string $pathImagem) {
 }
 
 /**
- * Retorna os metadados setados pela fun√ß√£o setMetaShared()
+ * Retorna os metadados setados pela funÁ„o setMetaShared()
  * 
  * @return string As tags <meta>
  */
