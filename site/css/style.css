@@ -844,15 +844,13 @@ section p {
     
 
     /* borda peimeira linha */
-    .mangas .manga:last-of-type .borderManga, .mangas .manga:last-of-type .contentManga,
-    .mangas .manga:nth-of-type(4n) .borderManga, .mangas .manga:nth-of-type(4n) .contentManga {
+    .mangas .manga:last-of-type .borderManga, .mangas .manga:nth-of-type(4n) .borderManga {
         -webkit-clip-path: none;
-        -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 4% 100%);
-        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 4% 100%);
+        -webkit-clip-path: polygon(4% 0%, 100% 0%, 100% 100%, 0% 100%);
+        clip-path: polygon(4% 0%, 100% 0%, 100% 100%, 0% 100%);
         max-width: 100%;        
     }
-    .mangas .manga:first-of-type .borderManga, .mangas .manga:first-of-type .contentManga,
-    .mangas .manga:nth-of-type(5n) .borderManga, .mangas .manga:nth-of-type(5n) .contentManga {
+    .mangas .manga:first-of-type .borderManga, .mangas .manga:nth-of-type(4n + 1) .contentManga { 
         -webkit-clip-path: none;
         -webkit-clip-path: polygon(0% 0%, 96% 0%, 100% 100%, 0% 100%);
         clip-path: polygon(0% 0%, 96% 0%, 100% 100%, 0% 100%);
@@ -861,18 +859,18 @@ section p {
     /* borda peimeira linha */
 
     /* borda segunda linha */
-    .mangas .manga:last-of-type .borderManga, .mangas .manga:last-of-type .contentManga {
+/*    .mangas .manga:nth-of-type(4n + 1) .borderManga {
         -webkit-clip-path: none;
-        -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 4% 100%);
-        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 4% 100%);
-        max-width: 100%;        
-    }
-    .mangas .manga:first-of-type .borderManga, .mangas .manga:first-of-type .contentManga {
-        -webkit-clip-path: none;
-        -webkit-clip-path: polygon(0% 0%, 96% 0%, 100% 100%, 0% 100%);
-        clip-path: polygon(0% 0%, 96% 0%, 100% 100%, 0% 100%);
+        -webkit-clip-path: polygon(0% 0%, 100% 0%, 96% 100%, 0% 100%);
+        clip-path: polygon(0% 0%, 100% 0%, 96% 100%, 0% 100%);
         max-width: 100%;
     }
+    .mangas .manga:nth-of-type(5n) .borderManga, .mangas .manga:nth-of-type(4n) .contentManga {
+        -webkit-clip-path: none;
+        -webkit-clip-path: polygon(4% 0%, 100% 0%, 100% 100%, 0% 100%);
+        clip-path: polygon(4% 0%, 100% 0%, 100% 100%, 0% 100%);
+        max-width: 100%;        
+    }*/
     /* borda segunda linha */
     
     .mangas .borderManga {
