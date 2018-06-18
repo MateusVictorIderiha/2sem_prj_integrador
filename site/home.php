@@ -2,8 +2,9 @@
     $danca = dancatopicos();
     $visites = visiteoutros();
 ?>
-
 <div class="row">
+    <section>
+        <h1 class="titulo">Danças japonesas</h1>
         <?php
             foreach ($danca as $valor) {
         ?>                
@@ -31,4 +32,5 @@
         <?php
             }
         ?>
+    </section>
 </div>

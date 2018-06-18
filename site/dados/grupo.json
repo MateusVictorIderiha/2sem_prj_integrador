@@ -118,8 +118,8 @@
         },
         
         {
-            "nome": "Jeiel",
-            "sobre_nome": "Alves de Oliveira",
+            "nome": "Rafael",
+            "sobre_nome": "",
             "links": [
                 {
                     "nome": "",
@@ -134,14 +134,14 @@
                     "title": ""
                 }
             ],
-            "funcoes": "Designer de wireframe e mockups",
-            "ra": "2650831723019",
-            "bibliografia": "Buscando novas oportunidades na área de dese3nvolvimento web, apaixonado por video-games, adora finanças e busca cada vez mais conhecimento.",
+            "funcoes": "",
+            "ra": "",
+            "bibliografia": "",
             "imagem": {
-                "nome": "jeiel",
+                "nome": "rafael",
                 "ext": ".jpg",
-                "alt": "Imagem do integrando do grupo mateus victor",
-                "title": "Foto do Mateus Victor"
+                "alt": "Foto do Rafael",
+                "title": "Foto do Rafael"
             }
         }
     ]
