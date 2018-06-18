@@ -1,4 +1,9 @@
-<?php ?>
+<?php
+$musicas= getMusica();
+$id=$_GET["id"];
+$musica= getIdArray($id, $musicas);
+var_dump($musica);
+?>
 <div class="container p-2">
     <div class="row">
         <div class="col-md-4">
@@ -59,7 +64,7 @@
                             <source media="(max-width: 720px)" srcset="midia/musicas/iki_gakari.jpg">
                             <source media="(min-width: 720px)" srcset="midia/musicas/iki_gakari.jpg">
                             <source media="(min-width: 1200px)" srcset="midia/musicas/iki_gakari.jpg">
-                            <img class="img-fluid img-thumbnail rounded-circle m-2 float-left" style="width: 175px; height: 175px" src="midia/musicas/iki_gakari.jpg" alt="imagem de uma banda de j-pop denominada de ...">
+                            <img class="img-fluid img-thumbnail rounded-circle m-2 float-left" style="width: 175px; height: 175px" src="midia/musicas/iki_gakari.jpg" alt="imagem de uma banda de j-pop denominada de Ikimono Gakari">
                         </picture>
                         <p class="text-justify">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor?</p>
@@ -72,7 +77,7 @@
                             <source media="(max-width: 720px)" srcset="midia/musicas/bmtal.jpg">
                             <source media="(min-width: 720px)" srcset="midia/musicas/bmtal.jpg">
                             <source media="(min-width: 1200px)" srcset="imidia/musicas/bmtal.jpg">
-                            <img class="img-fluid img-thumbnail rounded-circle m-2 float-left" style="width: 175px; height: 175px" src="midia/musicas/bmtal.jpg" alt="imagem de uma banda de j-pop denominada de ...">
+                            <img class="img-fluid img-thumbnail rounded-circle m-2 float-left" style="width: 175px; height: 175px" src="midia/musicas/bmtal.jpg" alt="imagem de uma banda de j-pop denominada de BabyMetal">
                         </picture>
                         <p class="text-justify">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor?</p>

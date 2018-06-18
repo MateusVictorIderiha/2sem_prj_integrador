@@ -66,8 +66,8 @@
             "sobre_nome": "Alves",
             "links": [
                 {
-                    "nome": "",
-                    "page": "",
+                    "nome": "Músicas",
+                    "page": "musica",
                     "descricao": "",
                     "title": ""
                 },
@@ -80,7 +80,7 @@
             ],
             "funcoes": "Designer de wireframe e mockups",
             "ra": "2650831723009",
-            "bibliografia": "Buscando novas oportunidades na área de dese3nvolvimento web, apaixonado por video-games, adora finanças e busca cada vez mais conhecimento.",
+            "bibliografia": "Fez curso técnico em informática na ETEC São Roque e atualmente é aluno na FATEC SÃO ROQUE",
             "imagem": {
                 "nome": "diego",
                 "ext": ".jpg",

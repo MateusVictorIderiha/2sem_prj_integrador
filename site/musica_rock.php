@@ -31,7 +31,7 @@
                             <source media="(max-width: 720px)" srcset="midia/musicas/motori.jpg">
                             <source media="(min-width: 720px)" srcset="midia/musicas/motori.jpg">
                             <source media="(min-width: 1200px)" srcset="midia/musicas/motori.jpg">
-                            <img class="img-fluid img-thumbnail rounded-circle m-2 float-left" style="width: 175px; height: 175px" src="midia/musicas/motori.jpg" alt="imagem de uma banda de j-pop denominada de Perfume">
+                            <img class="img-fluid img-thumbnail rounded-circle m-2 float-left" style="width: 175px; height: 175px" src="midia/musicas/motori.jpg" alt="imagem de um cantor de j-rock denominado Hata Motohiro.">
                         </picture>
                         <p class="text-justify">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor?</p>
@@ -44,7 +44,7 @@
                             <source media="(max-width: 720px)" srcset="midia/musicas/moshimo.jpg">
                             <source media="(min-width: 720px)" srcset="midia/musicas/moshimo.jpg">
                             <source media="(min-width: 1200px)" srcset="midia/musicas/moshimo.jpg">
-                            <img class="img-fluid img-thumbnail rounded-circle m-2 float-left" style="width: 175px; height: 175px" src="midia/musicas/moshimo" alt="imagem de uma banda de j-pop denominada de Arashi">
+                            <img class="img-fluid img-thumbnail rounded-circle m-2 float-left" style="width: 175px; height: 175px" src="midia/musicas/moshimo" alt="imagem de uma banda de j-rock denominada de Moshimo.">
                         </picture>
                         <p class="text-justify">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor?</p>
@@ -59,7 +59,7 @@
                             <source media="(max-width: 720px)" srcset="midia/musicas/scandal_cover.jpg">
                             <source media="(min-width: 720px)" srcset="midia/musicas/scandal_cover.jpg">
                             <source media="(min-width: 1200px)" srcset="midia/musicas/scandal_cover.jpg">
-                            <img class="img-fluid img-thumbnail rounded-circle m-2 float-left" style="width: 175px; height: 175px" src="midia/musicas/scandal_cover.jpg" alt="imagem de uma banda de j-pop denominada de ...">
+                            <img class="img-fluid img-thumbnail rounded-circle m-2 float-left" style="width: 175px; height: 175px" src="midia/musicas/scandal_cover.jpg" alt="imagem de uma banda de j-rock denominada de Scandal.">
                         </picture>
                         <p class="text-justify">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor?</p>
