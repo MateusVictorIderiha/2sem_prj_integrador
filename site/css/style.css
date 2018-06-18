@@ -6,10 +6,11 @@
 * INICIO GERAL
 */
 body, html {
-    font-size: 12px;
+    font-size: 12px;   
 }
 
 /* inicio Header e Footer*/
+
 .topo, .rodape {
     background-color: white;
 }
@@ -34,9 +35,8 @@ body, html {
 .title {
     margin-top: 0px;
 }
-.topo {
-    height: 300px;
-}
+
+
 .topo .logo {
     height: 142px;
 }
@@ -508,6 +508,7 @@ section p {
     /**
     * INICIO TOPO
     */
+    
     .topo {
         height: 100px;
     }    
@@ -570,6 +571,11 @@ section p {
     /**
     * INICIO TOPO TAMANHO LG
     */
+    
+    header.topo.border-line-bottom {
+        background: url("../midia/geral/topo_teste.png") no-repeat;
+    }
+    
     .topo {
         height: 230px;
     }
