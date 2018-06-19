@@ -16,7 +16,6 @@ function getMusica(): array {
             "id" => "1",
             "imagem" => "logo_j.jpg",
             "texto" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto eius libero accusamus corporis, earum corrupti, quaerat quasi molestiae hic, nobis distinctio dignissimos eos. Aut autem aliquid maxime mollitia, quam illo..",
-            
 //            PARTE EXTRA
             "extra" => [
                 "tituloExtra" => "Principais Artistas",
@@ -24,24 +23,36 @@ function getMusica(): array {
                 "sectionExtra" => [
                     [
                         "titulo" => "Perfume",
-                        "imagem" => "",
+                        "imagem" => "perfume.jpg",
                         // pode colocar paragrafo no texto mesmo cuidado com as aspas
-                        "texto" => ''
+                        "texto" => "<p class='text-justify'>
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor?</p>
+                       <p class='text-justify'>
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor?</p>"
                     ],
                     [
                         "titulo" => "Arashi",
-                        "imagem" => "",
-                        "texto" => ''
+                        "imagem" => "arashi_2.jpg",
+                        "texto" => "<p class='text-justify'>
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor?</p>
+                       <p class='text-justify'>
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor?</p>"
                     ],
                     [
-                        "titulo" => "Perfume",
-                        "imagem" => "",
-                        "texto" => ''
+                        "titulo" => "Ikimono Gakari",
+                        "imagem" => "iki_gakari.jpg",
+                        "texto" => "<p class='text-justify'>
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor?</p>
+                       <p class='text-justify'>
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor?</p>"
                     ],
                     [
-                        "titulo" => "Perfume",
-                        "imagem" => "",
-                        "texto" => ''
+                        "titulo" => "BabyMetal",
+                        "imagem" => "bmtal.jpg",
+                        "texto" => "<p class='text-justify'>
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor?</p>
+                       <p class='text-justify'>
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore id quia voluptate laboriosam quibusdam in accusamus animi provident neque harum sed eius, consequatur odit quas sint officiis ducimus dolor?</p>"
                     ],
                 ]
             ]
