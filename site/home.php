@@ -9,7 +9,8 @@ $mangas = getDadosMangas();
             <div class="row">
             <?php
                 $teatroValues = teatroContent();
-                    foreach ($teatroValues as $teatroInfo){  ?>
+                    foreach ($teatroValues as $teatroInfo){ 
+            ?>
                 <section class="col-12 col-md-6 col-lg-4 thumb_nail text-center">
                     <a href="index.php?pagina=<?= $teatroInfo["argumento"];?>&id=<?= $teatroInfo["id"];?>">    
                         <div class="circular">

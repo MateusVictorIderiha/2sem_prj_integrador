@@ -19,6 +19,7 @@ function teatroContent() : array {
 	    "imagemUm" => "bunraku_1_450",
             "imagemDois" => "bunraku_2_450",
             "title" => "Bunraku",
+	    "alt"=> "",
 	    "texto" => "Lorem ipsum dolor sit amet, consectetur elit. Sed sit amet consequat tellus duis."
 	],
         [
@@ -28,6 +29,7 @@ function teatroContent() : array {
             "imagemUm" => "kabuki_1_450",
             "imagemDois" => "kabuki_2_450",
             "title" => "Kabuki",
+	    "alt"=> "",
 	    "texto" => "Lorem ipsum dolor sit amet, consectetur elit. Sed sit amet consequat tellus duis."
 	],
         [
@@ -37,6 +39,7 @@ function teatroContent() : array {
             "imagemUm" => "kyogen_1_450",
             "imagemDois" => "kyogen_2_450",	    
             "title" => "Kyogen",
+	    "alt"=> "",
 	    "texto" => "Lorem ipsum dolor sit amet, consectetur elit. Sed sit amet consequat tellus duis."
 	],
         [
@@ -46,6 +49,7 @@ function teatroContent() : array {
             "imagemDois" => "noh_2_450",
             "imageSource" => "noh_300",
             "title" => "Noh",
+	    "alt"=> "",
 	    "texto" => "Lorem ipsum dolor sit amet, consectetur elit. Sed sit amet consequat tellus duis."
 	],
         [
@@ -53,6 +57,7 @@ function teatroContent() : array {
             "argumento" => "classicos",
             "imageSource" => "pecas_300",
             "title" => "Grandes Clássicos",
+	    "alt"=> "",
 	    "texto" => "Lorem ipsum dolor sit amet, consectetur elit. Sed sit amet consequat tellus duis."
 	]
             
