@@ -5,10 +5,12 @@ $texto = "<p class='text-justify'>".implode("</p><p class='text-justify'>", $tex
 $img = $manga["imagem"];
 
 $mangas = getDadosMangas();
-if (count($mangas) > 3) {
-    $mangasRelacionados = array_rand($mangas, 3);
+$mangasCat = getMangasCat($mangasAll, $id_cat);
+
+if (count($mangasCat) > 3) {
+    $mangasRelacionados = array_rand($mangasCat, 3);
 } else {
-    $mangasRelacionados = array_keys($mangas);    
+    $mangasRelacionados = array_keys($mangasCat);    
 }
 ?>
 <div class="container">
@@ -43,11 +45,11 @@ if (count($mangas) > 3) {
                 <?php 
                 $url = urlencode("http://".$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']);
                 ?>
-                <a href="https://www.facebook.com/sharer/sharer.php?u=<?= $url; ?>" target="_blank">
-                    Share on Facebook
+                <a class="btn-lg" href="https://www.facebook.com/sharer/sharer.php?u=<?= $url; ?>" target="_blank">
+                    <i class="fab fa-facebook"></i> Compartilhar
                 </a>
-                <a class="d-none d-md-block" href="https://api.whatsapp.com/send?text=<?= $url; ?>" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                <a class="d-md-none" href="whatsapp://send?text=<?= $url; ?>" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a class="d-none d-md-block btn-lg" href="https://api.whatsapp.com/send?text=<?= $url; ?>" target="_blank"><i class="fab fa-whatsapp"></i> Compartilhar</a>
+                <a class="d-md-none btn-lg" href="whatsapp://send?text=<?= $url; ?>" target="_blank"><i class="fab fa-whatsapp"></i> Compartilhar</a>
             </div>
         </article>
         <aside class="col-12 col-md-3 pl-5 relacionados">

@@ -462,6 +462,7 @@ function setMetaShared(array $dados, string $pathImagem) {
         <meta property="og:site_name" content="'.$nome_grupo.'">
         <meta property="og:title" content="'.$dados["titulo"].'" />
         <meta property="og:description" content="'.$dados["texto"].'" />
+        <meta property="og:image" itemprop="image" content="'.$pathUrlImg.'">
         <meta property="og:updated_time" content="'.strtotime("now").'" />';
 }
 

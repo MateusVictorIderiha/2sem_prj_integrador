@@ -1,6 +1,11 @@
-site: http://oriart-prjintegrador.orgfree.com/ftp/index.php
-login FTP: oriart-prjintegrador.orgfree.com
-senha FTP: OriArt2018
+SERVIDOR: 
+    ------ LEMBRANDO CRIAR UM PROJETO NO NETBEANS APENAS PARA O SITE NA HORA DE SUBIR ------
+    site: http://oriart-prjintegrador.orgfree.com/ftp/index.php
+    login FTP: oriart-prjintegrador.orgfree.com
+    senha FTP: OriArt2018
+    IR em projetos modificar, executar configuração e colocar WEB SITE REMOTE; 
+    em coneção clicar em gerenciar, COLOCAR UM NOME para conexão, colocar host e usuario e o nome
+    Para subir os arquivos clicar na pasta que deseja subir com o botão direito ou em arquivos de codigo fonte
 
 ﻿LOCAIS dos arquuivos: 
     Link GitHub: https://github.com/MateusVictorIderiha/2sem_prj_integrador

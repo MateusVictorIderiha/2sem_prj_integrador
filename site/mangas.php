@@ -1,7 +1,9 @@
 <?php
 $id_cat = $_GET["id"] ?? 1;
 
-$mangas = getDadosMangas();
+$mangasAll = getDadosMangas();
+$mangasCat = getMangasCat($mangasAll, $id_cat);
+
 $categorias = getDadosCategoria();
 $imgsCat = $categorias["imagens"];
 ?>
@@ -40,7 +42,7 @@ $imgsCat = $categorias["imagens"];
     <div class="container">
         <div class="row">
             <?php
-            foreach ($mangas as $manga) {
+            foreach ($mangasCat as $manga) {
                 $texto = substr($manga["texto"], 0, 175);
                 $img = $manga["imagem"];
             ?>
