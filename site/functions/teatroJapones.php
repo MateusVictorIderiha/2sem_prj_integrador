@@ -1,4 +1,4 @@
-<?php 
+<?php  
 
 function teatroContent() : array {
 	$teatroValues = 
