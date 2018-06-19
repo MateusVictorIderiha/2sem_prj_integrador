@@ -32,6 +32,9 @@ function setConfigPage($pageName) {
         case "home":
             setTitleHead($infoGrupo["nome_grupo"]." - Home");
             include './functions/danca.php';            
+            include './functions/manga.php';            
+            include './functions/teatroJapones.php';    
+            setDadosMangas();
             break;
         case "contato":
             setTitleHead($infoGrupo["nome_grupo"]." - Contato");

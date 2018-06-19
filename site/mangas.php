@@ -1,7 +1,7 @@
 <?php
 $id_cat = $_GET["id"] ?? 1;
 
-$mangas = getMangasCategoria();
+$mangas = getDadosMangas();
 $categorias = getDadosCategoria();
 $imgsCat = $categorias["imagens"];
 ?>
