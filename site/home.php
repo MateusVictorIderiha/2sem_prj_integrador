@@ -4,7 +4,7 @@ $visites = visiteoutros();
 $mangas = getDadosMangas();
 ?>
     <div class="container-fluid">
-        <section>
+        <section class="mb-5">
             <h1 class="titulo text-center">Teatro japones</h1>
             <div class="row">
             <?php

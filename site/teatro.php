@@ -20,7 +20,7 @@
                     <section class="col-12 col-md-6 col-lg-4 thumb_nail text-center">
                         <a href="index.php?pagina=<?=$teatroInfo["argumento"];?>&id=<?=$teatroInfo["id"];?>">    
                             <div class="circular">
-                                <img class="thumb_img m-auto" src="midia/teatro/<?=$teatroInfo["imageSource"];?>.jpg" alt="<?=$teatroInfo["alt"];?>" title="<?=$teatroInfo["credito"];?>">
+                                <img class="thumb_img m-auto" src="midia/teatro/<?=$teatroInfo["imageSource"];?>.jpg" alt="<?= $teatroInfo["alt"] ?? ""; ?>" title="<?=$teatroInfo["credito"];?>">
                                     <div class="over_title">
                                         <h3 class="text-danger sub_cab"><?=$teatroInfo["title"];?></h3>
                                     </div>
