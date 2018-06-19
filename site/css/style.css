@@ -77,7 +77,7 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: #5F4B8B;
+    color: #801515;
 }
 
 
@@ -241,10 +241,18 @@ a:hover {
     margin-top: 30px; 
     width: 175px;
 }
-
+.heading_atores{
+    font-size: 16px;
+}
+.section_atores {
+    margin: 0px auto;
+}
 /* FIM SUBPAGINA PERFIL_ATOR */
 
 /* INICIO TEATRO PAGINAS DE REPETIÇÃO */
+.car_img {
+    width:auto;
+}
 .interna_heading {
     margin-bottom: 25px;
 }
@@ -758,7 +766,7 @@ section p {
     }
     
     .topo #navbarSupportedContent .navbar-nav .nav-item:hover {
-        border-top: 2px solid #5F4B8B;
+        border-top: 2px solid #801515;
     }
     
     .topo #navbarSupportedContent .nav-item.dropdown:hover .dropdown-menu {
@@ -766,7 +774,7 @@ section p {
     }
     
     .dropdown-menu{
-        background-color: #5F4B8B;
+        background-color: #801515;
     }
     
     .dropdown-menu .dropdown-item {
@@ -844,13 +852,15 @@ section p {
     
 
     /* borda peimeira linha */
-    .mangas .manga:last-of-type .borderManga, .mangas .manga:nth-of-type(4n) .borderManga {
+    .mangas .manga:last-of-type .borderManga, .mangas .manga:nth-of-type(4n) .borderManga,
+    .mangas .manga:last-of-type .contentManga, .mangas .manga:nth-of-type(4n) .contentManga {
         -webkit-clip-path: none;
         -webkit-clip-path: polygon(4% 0%, 100% 0%, 100% 100%, 0% 100%);
         clip-path: polygon(4% 0%, 100% 0%, 100% 100%, 0% 100%);
         max-width: 100%;        
     }
-    .mangas .manga:first-of-type .borderManga, .mangas .manga:nth-of-type(4n + 1) .contentManga { 
+    .mangas .manga:first-of-type .borderManga, .mangas .manga:nth-of-type(4n + 1) .borderManga,
+    .mangas .manga:first-of-type .contentManga, .mangas .manga:nth-of-type(4n + 1) .contentManga { 
         -webkit-clip-path: none;
         -webkit-clip-path: polygon(0% 0%, 96% 0%, 100% 100%, 0% 100%);
         clip-path: polygon(0% 0%, 96% 0%, 100% 100%, 0% 100%);
@@ -859,27 +869,27 @@ section p {
     /* borda peimeira linha */
 
     /* borda segunda linha */
-/*    .mangas .manga:nth-of-type(4n + 1) .borderManga {
+    .mangas .manga:nth-of-type(8n + 1) .borderManga, .mangas .manga:nth-of-type(8n + 1) .contentManga {
         -webkit-clip-path: none;
         -webkit-clip-path: polygon(0% 0%, 100% 0%, 96% 100%, 0% 100%);
         clip-path: polygon(0% 0%, 100% 0%, 96% 100%, 0% 100%);
         max-width: 100%;
     }
-    .mangas .manga:nth-of-type(5n) .borderManga, .mangas .manga:nth-of-type(4n) .contentManga {
+    .mangas .manga:nth-of-type(8n) .borderManga, .mangas .manga:nth-of-type(8n) .contentManga {
         -webkit-clip-path: none;
-        -webkit-clip-path: polygon(4% 0%, 100% 0%, 100% 100%, 0% 100%);
-        clip-path: polygon(4% 0%, 100% 0%, 100% 100%, 0% 100%);
+        -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 4% 100%);
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 4% 100%);
         max-width: 100%;        
-    }*/
+    }
     /* borda segunda linha */
     
-    .mangas .borderManga {
+/*    .mangas .borderManga {
         padding-left: 2px;
         padding-right: 2px;
     }
     .mangas .borderManga:nth-of-type(4), .mangas .borderManga:last-of-type {
         padding-right: 1px;
-    }
+    }*/
     /**
     * FIM MANGAS
     */
