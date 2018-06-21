@@ -1,0 +1,120 @@
+{
+    "nome_grupo": "Ori Art",
+    "descricao": "É um portal sobre a arte japonesa, desenvolvido para o projeto integrador da turma do 2º Semestre de sistemas para internet. O grupo se chama Ori Art composto pelos seguintes integrantes:",
+    "logo": "logo.svg", 
+    "logo2": "logo2.svg",
+    "descricao_logo": "O logo foi baseado na cultura japonesa, o circulo da bandeira japonesa, a fonte utilizado foi baseado na grande abrangencia de arvores e natureza da cultura japonesa.",
+    "integrantes": [
+        {
+            "nome": "Mateus",
+            "sobre_nome": "Victor Ideriha Rego",
+            "links": [
+                {
+                    "nome": "mangás",
+                    "page": "mangas",
+                    "id": "1",
+                    "title": "Página dos mangas"
+                }
+            ],
+            "funcoes": "Gerente",
+            "ra": "2650831723021",
+            "bibliografia": "Fez curso técnico em informática e em informática para internet na ETEC FERNANDO PRESTES e atualmente aluno na FATEC SÃO ROQUE",
+            "imagem": {
+                "nome": "mateus",
+                "ext": ".jpg",
+                "alt": "Imagem do integrando do grupo mateus victor",
+                "title": "Foto do Mateus Victor"
+            }
+        },
+        
+        {
+            "nome": "Jeiel",
+            "sobre_nome": "Alves de Oliveira",
+            "links": [
+                {
+                    "nome": "",
+                    "page": "",
+                    "title": ""
+                },
+                {
+                    "nome": "",
+                    "page": "",
+                    "title": ""
+                }
+            ],
+            "funcoes": "Designer",
+            "ra": "2650831723019",
+            "bibliografia": "Buscando novas oportunidades na área de dese3nvolvimento web, apaixonado por video-games, adora finanças e busca cada vez mais conhecimento.",
+            "imagem": {
+                "nome": "jeiel",
+                "ext": ".jpg",
+                "alt": "Imagem do integrando do grupo jeiel alves",
+                "title": "Foto do Mateus Victor"
+            }
+        },
+        
+        {
+            "nome": "Diego",
+            "sobre_nome": "Alves",
+            "links": [
+                {
+                    "nome": "Músicas",
+                    "page": "musicas",
+                    "title": ""
+                }
+            ],
+            "funcoes": "Designer de wireframe e mockups",
+            "ra": "2650831723009",
+            "bibliografia": "Fez curso técnico em informática na ETEC São Roque e atualmente é aluno na FATEC SÃO ROQUE",
+            "imagem": {
+                "nome": "diego",
+                "ext": ".jpg",
+                "alt": "Imagem do integrando do grupo diego alves",
+                "title": "Foto do Diego Alves"
+            }
+        },
+        
+        {
+            "nome": "Rafael",
+            "sobre_nome": "",
+            "links": [
+                {
+                    "nome": "",
+                    "page": "",
+                    "title": ""
+                }
+            ],
+            "funcoes": "",
+            "ra": "",
+            "bibliografia": "",
+            "imagem": {
+                "nome": "rafael",
+                "ext": ".jpg",
+                "alt": "Imagem do integrando do grupo Rafael",
+                "title": "Foto do Rafael"
+            }
+        },
+        
+        {
+            "nome": "José Eduardo",
+            "sobre_nome": "Siqueira Carlos",
+            "links": [
+                {
+                    "nome": "Teatro Clássico Japonês",
+                    "page": "teatro",
+                    "descricao": "Biografias, principais formatos que se desenvolveram, e obras importantes.",
+                    "title": ""
+                }
+            ],
+            "funcoes": "Programação Back-end",
+            "ra": "2650831723003",
+            "bibliografia": "Marinheiro de primeira viagem no mar do Web Development. Adora ler, indo da ficção histórica ocidental até os mangás do oriente.",
+            "imagem": {
+                "nome": "eduardo",
+                "ext": ".jpg",
+                "alt": "Imagem do integrando do grupo josé eduardo",
+                "title": "Foto do José Eduardo"
+            }
+        }
+    ]
+}
