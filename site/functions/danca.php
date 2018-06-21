@@ -13,7 +13,7 @@ function dancatopicos(): array {
 function visiteoutros() {
         $visites = [
             [
-                "ref" => "index.php?pagina=index_mangas",
+                "ref" => "index.php?pagina=mangas&id=1",
                 "nome" => "akihabara_170", 
                 "ext" => ".jpg",
                 "alt" => "area do japao de akihabara muito popular de cultura de animes jogos etc"
@@ -31,10 +31,10 @@ function visiteoutros() {
                 "alt" => "Banda japonesa composta apenas de mulheres"
             ],
             [
-                "ref" => "index.php?pagina=index_mangas",
-                "nome" => "akihabara_170", 
+                "ref" => "index.php?pagina=historia_origame",
+                "nome" => "origami_170", 
                 "ext" => ".jpg",
-                "alt" => "area do japao de akihabara muito popular de cultura de animes jogos etc"
+                "alt" => "origami de um dragão feito com uma folha branca"
             ]
         ];
         

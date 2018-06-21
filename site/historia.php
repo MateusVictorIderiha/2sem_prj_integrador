@@ -115,7 +115,7 @@
                     Donec condimentum est in lacinia ultrices. Suspendisse potenti. 
                     Donec massa urna, mattis id volutpat at, convallis at nisi. Proin iaculis tortor eget luctus facilisis.
                 </p>
-                <p><a class="btn btn-danger" href="#" role="button">Leia mais</a></p>
+                <p><a class="btn btn-danger" href="index.php?pagina=historia_origame" role="button">Leia mais</a></p>
             </div>
         </div>
     </section>

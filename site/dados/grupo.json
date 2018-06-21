@@ -32,23 +32,18 @@
             "sobre_nome": "Alves de Oliveira",
             "links": [
                 {
-                    "nome": "",
-                    "page": "",
-                    "title": ""
-                },
-                {
-                    "nome": "",
-                    "page": "",
-                    "title": ""
+                    "nome": "Dancas",
+                    "page": "dancas",
+                    "title": "Dancas"
                 }
             ],
             "funcoes": "Designer",
             "ra": "2650831723019",
-            "bibliografia": "Buscando novas oportunidades na área de dese3nvolvimento web, apaixonado por video-games, adora finanças e busca cada vez mais conhecimento.",
+            "bibliografia": "Buscando novas oportunidades na área de desenvolvimento web, apaixonado por video-games, adora finanças e busca cada vez mais conhecimento.",
             "imagem": {
                 "nome": "jeiel",
                 "ext": ".jpg",
-                "alt": "Imagem do integrando do grupo jeiel alves",
+                "alt": "Imagem do aluno Jeiel Alves do grupo turma do origami",
                 "title": "Foto do Mateus Victor"
             }
         },
