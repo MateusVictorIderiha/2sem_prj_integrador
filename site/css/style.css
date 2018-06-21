@@ -419,7 +419,7 @@ section p {
 /* mangas */
 .mangas .containerCat {
     display: flex;
-    align-items: center;
+    align-items: stretch;
 }
 .mangas .containerCat .img-cat1, .mangas .containerCat .img-cat2 {
     flex-basis: 220px;
@@ -865,8 +865,8 @@ section p {
     }
     .mangas .containerCat .contentCat, .mangas .containerCat .contentCat .clip {
         -webkit-clip-path: none;
-        -webkit-clip-path: polygon(6% 0%, 100% 0%, 100% 100%, 0% 100%);
-        clip-path: polygon(6% 0%, 100% 0%, 100% 100%, 0% 100%);
+        -webkit-clip-path: polygon(0% 0%, 100% 0%, 99% 100%, 1% 100%);
+        clip-path: polygon(0% 0%, 100% 0%, 99% 100%, 1% 100%);
     }
     
     /* INICIO CATEGORIA MANGAS LEFT */
