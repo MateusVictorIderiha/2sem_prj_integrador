@@ -849,7 +849,7 @@ section p {
     }
     .mangas .manga:hover .texto {
         bottom: 0;
-        transform: translateY(-50px;)
+        transform: translateY(-50px);
     }
 
     .mangas .containerCat {
