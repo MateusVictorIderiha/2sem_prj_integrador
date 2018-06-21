@@ -4,8 +4,8 @@ $textoLista = explode("\n", $manga["texto"]);
 $texto = "<p class='text-justify'>".implode("</p><p class='text-justify'>", $textoLista)."</p>";
 $img = $manga["imagem"];
 
-$mangas = getDadosMangas();
-$mangasCat = getMangasCat($mangasAll, $id_cat);
+$mangasAll = getDadosMangas();
+$mangasCat = getMangasCat($mangasAll, $manga["categoria"]);
 
 if (count($mangasCat) > 3) {
     $mangasRelacionados = array_rand($mangasCat, 3);
@@ -45,18 +45,18 @@ if (count($mangasCat) > 3) {
                 <?php 
                 $url = urlencode("http://".$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']);
                 ?>
-                <a class="btn-lg" href="https://www.facebook.com/sharer/sharer.php?u=<?= $url; ?>" target="_blank">
-                    <i class="fab fa-facebook"></i> Compartilhar
+                <a class="btn btn-lg" href="https://www.facebook.com/sharer/sharer.php?u=<?= $url; ?>" target="_blank">
+                    <i class="fab fa-facebook-f"></i> Compartilhar
                 </a>
-                <a class="d-none d-md-block btn-lg" href="https://api.whatsapp.com/send?text=<?= $url; ?>" target="_blank"><i class="fab fa-whatsapp"></i> Compartilhar</a>
-                <a class="d-md-none btn-lg" href="whatsapp://send?text=<?= $url; ?>" target="_blank"><i class="fab fa-whatsapp"></i> Compartilhar</a>
+                <a class="d-none d-md-block btn btn-lg" href="https://api.whatsapp.com/send?text=<?= $url; ?>" target="_blank"><i class="fab fa-whatsapp"></i> Compartilhar</a>
+                <a class="d-md-none btn btn-lg" href="whatsapp://send?text=<?= $url; ?>" target="_blank"><i class="fab fa-whatsapp"></i> Compartilhar</a>
             </div>
         </article>
         <aside class="col-12 col-md-3 pl-5 relacionados">
             <h2 class="subtitulo text-center">Materias Relacionadas</h2>
             <?php
             foreach ($mangasRelacionados as $indice) {
-                $mangaRelacionado = $mangas[$indice];
+                $mangaRelacionado = $mangasCat[$indice];
                 $textoRelacionado = substr($mangaRelacionado["texto"], 0, 175);
             ?>
                 <section class="manga">
