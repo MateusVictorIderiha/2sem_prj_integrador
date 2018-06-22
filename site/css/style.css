@@ -250,15 +250,12 @@ a:hover {
 /* FIM SUBPAGINA PERFIL_ATOR */
 
 /* INICIO TEATRO PAGINAS DE REPETIÇÃO */
-.car_img {
+.tea_int_img {
+    margin: 15px auto;
     width:auto;
 }
 .interna_heading {
     margin-bottom: 25px;
-}
-.intern_img {
-    margin: 15px auto;
-    width:auto;
 }
 .ultimo_paragrafo {
     margin-top: 0px;
@@ -653,7 +650,7 @@ section p {
     *  INICIO MANGAS
     */
     .mangas .containerCat .img-cat1, .mangas .containerCat .img-cat2 {
-        display: none;
+        flex-basis: 80px;
     }
     .mangas .containerCat .contentCat .titulo {
         font-size: 1.7em;
@@ -673,7 +670,7 @@ section p {
         flex-basis: 220px;
     }
     .mangas .containerCat .contentCat {
-        flex-basis: 100%;
+        flex-basis: calc(100% - 220px);
         padding: 0 4%;
     }
 

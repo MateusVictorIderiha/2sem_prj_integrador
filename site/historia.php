@@ -13,7 +13,7 @@
                    
                 </figure>
             </div>
-        </aside>
+        </aside> 
 
         <article>
             <div class="row my-3">
