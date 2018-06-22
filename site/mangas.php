@@ -7,7 +7,7 @@ $mangasCat = getMangasCat($mangasAll, $id_cat);
 $categorias = getDadosCategoria();
 $imgsCat = $categorias["imagens"];
 ?>
-<div class="mangas">
+<section class="mangas">
     <header class="containerCat">
         <div class="img-cat1">
             <div class="clip">
@@ -74,4 +74,4 @@ $imgsCat = $categorias["imagens"];
             <?php } ?>
         </div>
     </div>
-</div>
+</section>
