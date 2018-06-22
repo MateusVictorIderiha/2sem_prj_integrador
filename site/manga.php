@@ -13,7 +13,7 @@ if (count($mangasCat) > 3) {
     $mangasRelacionados = array_keys($mangasCat);    
 }
 ?>
-<div class="container">
+<div class="container mt-5">
     <main class="row">
         <article class="col-12 col-md-9 contentManga <?= "layoutManga".$manga["layout"]; ?>">
             <div class="float-md-left text-center imgManga">
