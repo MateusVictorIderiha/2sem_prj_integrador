@@ -21,7 +21,7 @@ $imgsCat = $categorias["imagens"];
             </div>
         </div>
         <div class="contentCat">
-            <div class="clip">
+            <div class="clip pt-5">
                 <h1 class="titulo text-center"><?= $categorias["nome"]; ?></h1>
                 <p class="subtitulo text-center"><?= $categorias["subtitulo"]; ?></p>
                 <p class="texto"><?= $categorias["texto"]; ?></p>
