@@ -702,7 +702,10 @@ section p {
     /*
     *  FIM MANGAS
     */
-    
+
+    .mangas .manga .col-md-6 {
+        margin-bottom: 10px;
+    }
 }
 
 @media screen and (max-width: 720px) {
@@ -711,6 +714,14 @@ section p {
     }
     .quem-somos .integrante ul li strong {
         display:block;
+    }
+    .mangas .manga .col-12 {
+        margin-bottom: 10px;
+    }
+    .mangas .manga {
+        margin: 0 auto;
+        display: block;
+        text-align: center;
     }
 }
 
