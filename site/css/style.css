@@ -653,7 +653,7 @@ section p {
     *  INICIO MANGAS
     */
     .mangas .containerCat .img-cat1, .mangas .containerCat .img-cat2 {
-        flex-basis: 80px;
+        display: none;
     }
     .mangas .containerCat .contentCat .titulo {
         font-size: 1.7em;
@@ -673,7 +673,7 @@ section p {
         flex-basis: 220px;
     }
     .mangas .containerCat .contentCat {
-        flex-basis: calc(100% - 220px);
+        flex-basis: 100%;
         padding: 0 4%;
     }
 

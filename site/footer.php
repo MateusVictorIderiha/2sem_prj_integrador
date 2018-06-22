@@ -49,56 +49,6 @@ foreach ($infoGrupo["integrantes"] as $integrante) {
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-
-        <script>
-            $(document).ready(function() {
-//                INICIO MENU
-                $(".nav-item").mouseover(function () {
-                    if (window.screen.width >= 991) {
-                        var currentNav = this;
-                        $(".nav-item").each(function (i, domNavItem) {
-                            if (domNavItem !== currentNav) {
-                                $(domNavItem).removeClass("show");
-                                $(domNavItem).find(".dropdown-menu").removeClass("show");
-                                $(domNavItem).find(".nav-link.dropdown-toggle").attr("aria-expanded", false);
-                            }
-                        });
-                        $(this).find(".nav-link.dropdown-toggle").attr("aria-expanded", true);
-                    }
-                });
-
-                $(".nav-link.dropdown-toggle").click(function(event) {
-                    if (window.screen.width >= 991 && this.href !== "") {
-                        location.href = this.href;
-                    }
-                });
-
-                $(".navbar-toggler[data-target='#navbarSupportedContent']").click(function(e) {
-                    var targetMenu = $(this).data("target");
-                    if(!$(targetMenu).hasClass("show")) {
-                        $("#filter-overlay").addClass("show");
-                    } else {
-                        $("#filter-overlay").removeClass("show");
-                    }
-                });
-
-                $("#filter-overlay").click(function() {
-                    $(".navbar-collapse .navbar-toggler[data-target='#navbarSupportedContent']").trigger("click");
-                });
-                
-                $(".mangas .manga").mouseover(function() {
-                    var img = $(this).find(".containerImg").find("img, object");
-                    var manga = $(this).closest(".manga");
-                    if($(img).width() > $(manga).width() + 100) {
-                        $(this).find(".containerImg").addClass("doubleZoom");
-                    }
-                });
-//                FIM MENU
-
-//                INICIO FORM CONTATO
-                
-//                FIM FORM CONTATO
-            });
-        </script>
+        <script src="js/scripts.min.js"></script>
     </body>
 </html>

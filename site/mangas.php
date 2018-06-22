@@ -46,7 +46,7 @@ $imgsCat = $categorias["imagens"];
                 $texto = substr($manga["texto"], 0, 175);
                 $img = $manga["imagem"];
             ?>
-            <section class="col-12 col-sm-6 col-md-3 manga">
+            <section class="col-12 col-md-6 col-lg-3 manga">
                 <div class="borderManga">
                     <div class="contentManga">
                         <a href="index.php?pagina=manga&id=<?= $manga["id"]; ?>" class=""><h2 class="titulo text-center"><?= $manga["titulo"]; ?></h2></a>
