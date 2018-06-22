@@ -9,7 +9,7 @@
                     <section class="col-12 col-md-6 col-lg-4 border border-danger content_border">
                         <div class="row">
                             <div class="left_content text-center col-6">
-                                <img clas="img_atores" src="midia/teatro/<?= $atoresInfo["imageSource"] ?>.jpg" width="150" height="200">
+                                <img clas="img_atores" src="midia/teatro/<?= $atoresInfo["imagem"] ?>.jpg" alt="<?= $atoresInfo["alt"] ?>" title="<?= $atoresInfo["credito"] ?>" width="150" height="200">
                             </div>
                             <div class="right_content col-6">
                                 <h2 class="subtitulo hDoisNome"><?= $atoresInfo["titulo"] ?></h2>
