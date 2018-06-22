@@ -47,8 +47,14 @@ function setConfigPage($pageName) {
             include './functions/danca.php';
             break;
         case "dancatopico":
-            setTitleHead($infoGrupo["nome_grupo"]." - Dança topico");
             include './functions/danca.php';
+            dancatopicos();
+            $dancas = dancatopicos();
+            $danca = getIdArray($_GET["id"], $dancas);
+            $img = $danca["imagem"];
+            $pathImg = "midia/danca/".$img["nome"]."_100".$img["ext"];
+            setMetaShared($danca, $pathImg);
+            setTitleHead($infoGrupo["nome_grupo"]." - ".$danca['titulo']);
             break;
         case "teatro":
             include './functions/teatroJapones.php';
