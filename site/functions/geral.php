@@ -32,6 +32,9 @@ function setConfigPage($pageName) {
         case "home":
             setTitleHead($infoGrupo["nome_grupo"]." - Home");
             include './functions/danca.php';            
+            include './functions/manga.php';            
+            include './functions/teatroJapones.php';    
+            setDadosMangas();
             break;
         case "contato":
             setTitleHead($infoGrupo["nome_grupo"]." - Contato");
@@ -44,8 +47,14 @@ function setConfigPage($pageName) {
             include './functions/danca.php';
             break;
         case "dancatopico":
-            setTitleHead($infoGrupo["nome_grupo"]." - Dança topico");
             include './functions/danca.php';
+            dancatopicos();
+            $dancas = dancatopicos();
+            $danca = getIdArray($_GET["id"], $dancas);
+            $img = $danca["imagem"];
+            $pathImg = "midia/danca/".$img["nome"]."_100".$img["ext"];
+            setMetaShared($danca, $pathImg);
+            setTitleHead($infoGrupo["nome_grupo"]." - ".$danca['titulo']);
             break;
         case "teatro":
             include './functions/teatroJapones.php';
@@ -214,22 +223,22 @@ function getValuesMenu() : array {
                 [
                     "nome" => "Bunraku",
                     "link" => "teatro_internas",
-                    "id" => "2"
+                    "id" => "1"
                 ],
                 [
                     "nome" => "Kabuki",
                     "link" => "teatro_internas",
-                    "id" => "3"
+                    "id" => "2"
                 ],
                 [
                     "nome" => "Kyogen",
                     "link" => "teatro_internas",
-                    "id" => "4"
+                    "id" => "3"
                 ],
                 [
                     "nome" => "Noh",
                     "link" => "teatro_internas",
-                    "id" => "5"
+                    "id" => "4"
                 ],
                 [
                     "nome" => "Clássicos",
@@ -459,6 +468,7 @@ function setMetaShared(array $dados, string $pathImagem) {
         <meta property="og:site_name" content="'.$nome_grupo.'">
         <meta property="og:title" content="'.$dados["titulo"].'" />
         <meta property="og:description" content="'.$dados["texto"].'" />
+        <meta property="og:image" itemprop="image" content="'.$pathUrlImg.'">
         <meta property="og:updated_time" content="'.strtotime("now").'" />';
 }
 
