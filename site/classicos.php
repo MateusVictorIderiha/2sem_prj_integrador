@@ -12,7 +12,7 @@
 		    foreach ($pecas as $dataPecas) {
 		?>
 		    <section class="col-12 col-sm-12 col-md-6 col-xl-3">
-			<img class="pecas_img col-12" src="midia/teatro/<?= $dataPecas['imageSource'] ?>.jpg" title="<?= $dataPecas['credito'] ?>" alt="<?= $dataPecas['alt'] ?>" width="300" height="185">
+			<img class="pecas_img col-12" src="midia/teatro/<?= $dataPecas['imagem'] ?>.jpg" title="<?= $dataPecas['credito'] ?>" alt="<?= $dataPecas['alt'] ?>" width="300" height="185">
 			<a class="obra_nome col-12" href="index.php?pagina=classicos_internas&id=<?= $dataPecas['id'] ?>"><?= $dataPecas['titulo'] ?></a>                        
 		    </section>
 		<?php
@@ -26,7 +26,7 @@
 		    foreach ($cinema as $dataCinema) {
 		?>
 		    <section class="col-12 col-sm-12 col-md-6 col-xl-3">
-			<img class="pecas_img col-12" src="midia/teatro/<?= $dataCinema['imageSource'] ?>.jpg" alt="<?= $dataCinema['alt'] ?>" width="300" height="185">
+			<img class="pecas_img col-12" src="midia/teatro/<?= $dataCinema['imagem'] ?>.jpg" alt="<?= $dataCinema['alt'] ?>" width="300" height="185">
                         <a class="obra_nome col-12" href="index.php?pagina=classicos_internas&id=<?= $dataCinema['id'] ?>"><?= $dataCinema['titulo'] ?></a>                        
                     </section>
 		<?php

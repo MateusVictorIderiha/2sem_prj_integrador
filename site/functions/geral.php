@@ -223,22 +223,22 @@ function getValuesMenu() : array {
                 [
                     "nome" => "Bunraku",
                     "link" => "teatro_internas",
-                    "id" => "2"
+                    "id" => "1"
                 ],
                 [
                     "nome" => "Kabuki",
                     "link" => "teatro_internas",
-                    "id" => "3"
+                    "id" => "2"
                 ],
                 [
                     "nome" => "Kyogen",
                     "link" => "teatro_internas",
-                    "id" => "4"
+                    "id" => "3"
                 ],
                 [
                     "nome" => "Noh",
                     "link" => "teatro_internas",
-                    "id" => "5"
+                    "id" => "4"
                 ],
                 [
                     "nome" => "Clássicos",
