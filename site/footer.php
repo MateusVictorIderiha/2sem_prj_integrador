@@ -10,8 +10,8 @@ foreach ($infoGrupo["integrantes"] as $integrante) {
 ?>
 
     <hr class="hrDanca">
-        <footer class="rodape border-line-top">
-            <div class="row">
+        <footer class="rodape border-line-top pb-4">
+            <div class="row ml-0 mr-0">
                 <div class="col-12 col-lg-1">
                     <img class="simu_logo" src="midia/geral/<?= $infoGrupo["logo"]; ?>" alt="Logo <?= $infoGrupo["nome_grupo"]; ?>" />
                 </div>
@@ -26,9 +26,10 @@ foreach ($infoGrupo["integrantes"] as $integrante) {
                         <ul class="col-2 d-none d-lg-block">
                             <li class="foot_li_title"> <a href="<?= "index.php?pagina=".$item["link"].$id; ?>"> <?= $item["nome"]; ?> </a></li>
                             <?php
-                                foreach ($item["subMenu"] as $subItem) { 
+                            foreach ($item["subMenu"] as $subItem) { 
+                                $subItemId = isset($subItem["id"]) ? "&id=".$subItem["id"] : "";
                             ?>
-                            <li class="foot_li"> <a href="<?= "index.php?pagina=".$item["link"].$id; ?>"> <?= $subItem["nome"]; ?> </a></li>
+                            <li class="foot_li"> <a href="<?= "index.php?pagina=".$subItem["link"].$subItemId; ?>"> <?= $subItem["nome"]; ?> </a></li>
                             <?php } ?>
                         </ul>
                         <?php
@@ -38,8 +39,8 @@ foreach ($infoGrupo["integrantes"] as $integrante) {
                     </div>
                 </nav>
             </div>
-            <div class="row">
-                <h3 class="direito">Copyright <?= $infoGrupo["nome_grupo"].". ".implode(", ", $integrantes)."." ?></h3>
+            <div class="row ml-0 mr-0">
+                <small class="direito col-12">Copyright <?= $infoGrupo["nome_grupo"].". ".implode(", ", $integrantes)."." ?></small>
             </div>
         </footer>
 
