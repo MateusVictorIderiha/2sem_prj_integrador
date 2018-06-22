@@ -51,7 +51,7 @@
                     Praesent viverra eget sem sit amet blandit. 
                     Maecenas pellentesque malesuada nibh, volutpat tincidunt lorem cursus eu. 
                     Duis commodo quis ipsum sed rhoncus. Maecenas ultrices risus dui, in s
-                    odales sem porta quis. Proin ipsum tortor, convallis ut varius.</p>
+                    odales sem porta quis.</p>
                 <p class="text-justify"> volutpat at est. Sed eu elit finibus, aliquet quam quis, pellentesque quam.
                     Vestibulum tincidunt est ut consequat suscipit. Suspendisse ligula nulla, 
                     convallis vel varius vitae, euismod vel leo. Nulla nunc lacus, ultrices at 
@@ -77,8 +77,7 @@
                     platea dictumst. Praesent fringilla tempor mattis. Cras at mattis leo. 
                     Praesent viverra eget sem sit amet blandit. 
                     Maecenas pellentesque malesuada nibh, volutpat tincidunt lorem cursus eu. 
-                    Duis commodo quis ipsum sed rhoncus. Maecenas ultrices risus dui, in s
-                    odales sem porta quis. Proin ipsum tortor, convallis ut varius.</p>
+                    Duis commodo quis ipsum sed rhoncus, maecenas ultrices risus dui.</p>
                 <p class="text-justify"> volutpat at est. Sed eu elit finibus, aliquet quam quis, pellentesque quam.
                     Vestibulum tincidunt est ut consequat suscipit. Suspendisse ligula nulla, 
                     convallis vel varius vitae, euismod vel leo. Nulla nunc lacus, ultrices at 
