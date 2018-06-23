@@ -2,6 +2,7 @@
 $danca = dancatopicos();
 $visites = visiteoutros();
 $mangas = getDadosMangas();
+array_reverse($mangas);
 $musicas = getMusica();
 $teatroValues = teatroContent();
 ?>
@@ -39,6 +40,7 @@ $teatroValues = teatroContent();
         </div>                
     </section>
 </div>
+<hr class="hrDanca">
 <div class="container-fluid mb-5">
     <section class="">
         <h1 class="titulo text-center">Músicas</h1>
@@ -62,6 +64,7 @@ $teatroValues = teatroContent();
         </div>
     </section>
 </div>
+<hr class="hrDanca">
 <div class="container mb-5">
     <section class="">
         <h1 class="titulo text-center">Teatro japones</h1>
@@ -84,13 +87,16 @@ $teatroValues = teatroContent();
         </div>
     </section>
 </div>
+<hr class="hrDanca">
 <div class="container mb-5">
     <section class="mangas">
         <h1 class="titulo text-center">Mangás</h1>
         <div class="row">
             <?php
-            $mangasInd = array_rand($mangas, 4);
-            foreach ($mangasInd as $ind) {
+            foreach ($mangas as $ind => $manga) {
+                if ($ind == 8) {
+                    break;
+                }
                 $manga = $mangas[$ind];
                 $texto = substr($manga["texto"], 0, 175);
                 $img = $manga["imagem"];
