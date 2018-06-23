@@ -34,6 +34,7 @@ function setConfigPage($pageName) {
             include './functions/danca.php';            
             include './functions/manga.php';            
             include './functions/teatroJapones.php';    
+            include './functions/musica.php';    
             setDadosMangas();
             break;
         case "contato":
