@@ -3,33 +3,89 @@ $danca = dancatopicos();
 $visites = visiteoutros();
 $mangas = getDadosMangas();
 $musicas = getMusica();
+$teatroValues = teatroContent();
 ?>
-<div class="container-fluid">
-   <div class="container-fluid">
-        <section class="mb-5">
-            <h1 class="titulo text-center">Teatro japones</h1>
-            <div class="row">
+<div class="container-fluid mb-5">
+    <section class="">
+        <h1 class="titulo text-center">Danças japonesas</h1>
+        <div class="row">
             <?php
-                $teatroValues = teatroContent();
-                    foreach ($teatroValues as $teatroInfo){ 
+            foreach ($danca as $valor) {
+                ?>                
+                <div class="col-lg-3 col-md-6 col-12">
+                    <section class="sectionDanca">
+                        <div class="row">
+                            <div class="col-lg- col-md-4 col-4">
+                                <a href="<?= "index.php?pagina=dancatopico&id=" . $valor["id"]; ?>">
+                                    <picture>
+                                        <source media="(max-width: 720px)" srcset="midia/danca/<?= $valor["imagem"]["nome"] . "_100" . $valor["imagem"]["ext"]; ?>">
+                                        <source media="(min-width: 720px)" srcset="midia/danca/<?= $valor["imagem"]["nome"] . "_100" . $valor["imagem"]["ext"]; ?>">
+                                        <source media="(min-width: 1200px)" srcset="midia/danca/<?= $valor["imagem"]["nome"] . "_100" . $valor["imagem"]["ext"]; ?>">
+                                        <img class="img-fluid aImgDanca" src="midia/danca/<?= $valor["imagem"]["nome"] . "_100" . $valor["imagem"]["ext"]; ?>" alt="<?= $valor["imagem"]["alt"]; ?>" style="width:auto;">
+                                    </picture>
+                                </a>
+                            </div>
+
+                            <div class="col-lg-8 col-md-8 col-8">
+                                <h2 class="subtitulo dancaText"><a class="internoDancaA" href="<?= "index.php?pagina=dancatopico&id=" . $valor["id"]; ?>"><?= $valor["titulo"]; ?></a></h2>
+                                <a class="internoDancaA" href="<?= "index.php?pagina=dancatopico&id=" . $valor["id"]; ?>"><p><?= $valor["texto"]; ?></p></a>
+                            </div>
+                        </div>
+                    </section>
+                </div>                
+                <?php
+            }
             ?>
+        </div>                
+    </section>
+</div>
+<div class="container-fluid mb-5">
+    <section class="">
+        <h1 class="titulo text-center">Músicas</h1>
+        <div class="row text-center">   
+            <?php foreach ($musicas as $musica) { ?> 
+                <div class="col-lg-3 col-md-3 col-12">
+                    <section>  
+                        <h2 class="text-center subtitulo"><?= $musica["titulo"]; ?></h2>
+                        <picture>
+                            <source media="(max-width: 720px)" srcset="<?= "midia/musicas/" . $musica["imagem"]; ?>">
+                            <source media="(min-width: 720px)" srcset="<?= "midia/musicas/" . $musica["imagem"]; ?>">
+                            <source media="(min-width: 1200px)" srcset="<?= "midia/musicas/" . $musica["imagem"]; ?>">
+                            <img class="img-rounded img-fluid" style="height: 140px; width: 250px;" src="<?= "midia/musicas/" . $musica["imagem"]; ?>" alt="imagem relacionada ao gênero musical j-pop">
+                        </picture>
+
+                        <p class="text-justify"><?= substr($musica["texto"], 0, 225); ?><a href="index.php?pagina=musica&id=<?= $musica["id"]; ?>"> Continuar lendo</a></p>
+
+                    </section>
+                </div>
+            <?php } ?>
+        </div>
+    </section>
+</div>
+<div class="container mb-5">
+    <section class="">
+        <h1 class="titulo text-center">Teatro japones</h1>
+        <div class="row">
+            <?php foreach ($teatroValues as $teatroInfo) { ?>
                 <section class="col-12 col-md-6 col-lg-4 thumb_nail text-center">
-                    <a href="index.php?pagina=<?= $teatroInfo["argumento"];?>&id=<?= $teatroInfo["id"];?>">    
+                    <a href="index.php?pagina=<?= $teatroInfo["argumento"]; ?>&id=<?= $teatroInfo["id"]; ?>">    
                         <div class="circular">
-                            <img class="thumb_img m-auto" src="midia/teatro/<?= $teatroInfo["imagem"];?>.jpg" alt="<?= $teatroInfo["alt"];?>" title="<?= $teatroInfo["credito"];?>">
-                                <div class="over_title">
-                                    <h3 class="text-danger sub_cab"><?= $teatroInfo["title"];?></h3>
-                                </div>
-                                <div class="over_text">
-                                    <p class="p_text"><?= $teatroInfo["texto"];?></p>
-                                </div>
+                            <img class="thumb_img m-auto" src="midia/teatro/<?= $teatroInfo["imagem"]; ?>.jpg" alt="<?= $teatroInfo["alt"]; ?>" title="<?= $teatroInfo["credito"]; ?>">
+                            <div class="over_title">
+                                <h3 class="text-danger sub_cab"><?= $teatroInfo["title"]; ?></h3>
+                            </div>
+                            <div class="over_text">
+                                <p class="p_text"><?= $teatroInfo["texto"]; ?></p>
+                            </div>
                         </div>
                     </a>
                 </section>
             <?php } ?>
-                </div>
-        </section>
-    <section class="mangas container mb-5">
+        </div>
+    </section>
+</div>
+<div class="container mb-5">
+    <section class="mangas">
         <h1 class="titulo text-center">Mangás</h1>
         <div class="row">
             <?php
@@ -66,59 +122,5 @@ $musicas = getMusica();
                 </section>
             <?php } ?>
     </section>
-    <section class="mb-5">
-        <h1 class="titulo text-center">Danças japonesas</h1>
-        <div class="row">
-            <?php
-            foreach ($danca as $valor) {
-                ?>                
-                <div class="col-lg-3 col-md-6 col-12">
-                    <section class="sectionDanca">
-                        <div class="row">
-                            <div class="col-lg- col-md-4 col-4">
-                                <a href="<?= "index.php?pagina=dancatopico&id=" . $valor["id"]; ?>">
-                                    <picture>
-                                        <source media="(max-width: 720px)" srcset="midia/danca/<?= $valor["imagem"]["nome"] . "_100" . $valor["imagem"]["ext"]; ?>">
-                                        <source media="(min-width: 720px)" srcset="midia/danca/<?= $valor["imagem"]["nome"] . "_100" . $valor["imagem"]["ext"]; ?>">
-                                        <source media="(min-width: 1200px)" srcset="midia/danca/<?= $valor["imagem"]["nome"] . "_100" . $valor["imagem"]["ext"]; ?>">
-                                        <img class="img-fluid aImgDanca" src="midia/danca/<?= $valor["imagem"]["nome"] . "_100" . $valor["imagem"]["ext"]; ?>" alt="<?= $valor["imagem"]["alt"]; ?>" style="width:auto;">
-                                    </picture>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-8">
-                                <h2 class="subtitulo dancaText"><a class="internoDancaA" href="<?= "index.php?pagina=dancatopico&id=" . $valor["id"]; ?>"><?= $valor["titulo"]; ?></a></h2>
-                                <a class="internoDancaA" href="<?= "index.php?pagina=dancatopico&id=" . $valor["id"]; ?>"><p><?= $valor["texto"]; ?></p></a>
-                            </div>
-                        </div>
-                    </section>
-                </div>                
-                <?php
-            }
-            ?>
-        </div>                
-    </section>
-
-    <section class="mb-5">
-        <h1 class="titulo text-center">Músicas</h1>
-        <div class="row text-center">   
-            <?php foreach ($musicas as $musica) { ?> 
-                <div class="col-lg-3 col-md-3 col-12">
-                    <section>  
-                        <h2 class="text-center subtitulo"><?= $musica["titulo"]; ?></h2>
-                        <picture>
-                            <source media="(max-width: 720px)" srcset="<?= "midia/musicas/" . $musica["imagem"]; ?>">
-                            <source media="(min-width: 720px)" srcset="<?= "midia/musicas/" . $musica["imagem"]; ?>">
-                            <source media="(min-width: 1200px)" srcset="<?= "midia/musicas/" . $musica["imagem"]; ?>">
-                            <img class="img-rounded img-fluid" style="height: 140px; width: 250px;" src="<?= "midia/musicas/" . $musica["imagem"]; ?>" alt="imagem relacionada ao gênero musical j-pop">
-                        </picture>
-
-                        <p class="text-justify"><?= substr($musica["texto"], 0, 225); ?><a href="index.php?pagina=musica&id=<?= $musica["id"]; ?>"> Continuar lendo</a></p>
-
-                    </section>
-                </div>
-            <?php } ?>
-            </div>
-          
-    </section>
 </div>
+
