@@ -1,7 +1,7 @@
 <?php
 
 /**
- * 
+ * retorna o array com os valores do danca topico
  * 
  * @return array
  */
@@ -10,6 +10,11 @@ function dancatopicos(): array {
     return $dancas;
 }
 
+/**
+ * retorna o array com os valores do viste outros
+ * 
+ * @return array
+ */
 function visiteoutros() {
         $visites = [
             [
