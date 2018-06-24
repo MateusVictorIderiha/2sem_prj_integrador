@@ -24,8 +24,9 @@ Tarefas:
         WIREFRAME home (PQN, MD, GRD)
         manga (pagina individual)
         Quem somos (HTML e php)
-        Definindo padrões do projeto, incluindo a estrutura da logica de das paginas gerais
+        Definindo padrões do projeto, incluindo a estrutura da logica das paginas gerais
         busca
+        Logica e html do menu
 
 
     Rafael:
