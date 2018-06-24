@@ -57,11 +57,13 @@
                                 <li class="nav-item dropdown">
                                     <a id="navbarDropdown<?= $indice; ?>" class="nav-link dropdown-toggle" href="<?= "index.php?pagina=".$item["link"].$id; ?>" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <?= $item["nome"]; ?>
+                                        <?= $item["link"] == getActivBtnMenu() ? ' <span class="sr-only">(current)</span>': ""; ?>
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown<?= $indice; ?>">
                                         <?php 
                                         foreach ($item["subMenu"] as $subItem) { 
                                             $idSubMenu = isset($subItem["id"]) ? "&id=".$subItem["id"] : "";
+                                            echo $subItem["link"] == getActivBtnMenu() ? ' <span class="sr-only">(current)</span>': "";
                                         ?>
                                         <a class="dropdown-item" href="<?= "index.php?pagina=".$subItem["link"].$idSubMenu; ?>"><?= $subItem["nome"]; ?></a>
                                         <?php } ?>
