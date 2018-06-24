@@ -7,9 +7,8 @@
                 <figure class="ml-auto mr-auto">  
                     <picture>
                         <source media="(max-width: 720px)" srcset="">
-                        <source media="(min-width: 720px)" srcset="midia/geral/japao-header.gif">
+                        <source media="(min-width: 720px)" srcset="midia/geral/japao-header.jpg">
                         <img  class="mw-100 d-none d-sm-block ml-auto mr-auto" src="" alt="imagem de um vulcão que se localiza no japão">
-
                     </picture>
                 </figure>
 
@@ -44,7 +43,7 @@
         <div class="row">
             <div class="col-12 col-md-6">
                 <h1>Templo</h1>
-                <figure class="float-md-left"><img class="mr-4" src="midia/geral/templo2.gif" alt="foto de um templo no japão localizado ao lado de um lago"> </figure>
+                <figure class="float-md-left"><img class="mr-4" src="midia/geral/templo2.jpg" alt="foto de um templo no japão localizado ao lado de um lago"> </figure>
                 <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget
                     tempus magna, nec eleifend ipsum. Nulla facilisi. In hac habitasse 
                     platea dictumst. Praesent fringilla tempor mattis. Cras at mattis leo. 
@@ -70,7 +69,7 @@
             <div class="col-12 col-md-6">
 
                 <h1>Jardim em Tatebayashi</h1>
-                <figure class="float-md-left"><img class="mr-4" src="midia/geral/rosa.gif" alt="foto de um compo coberto de flores rosas com um vulc'ao ao fundo"> </figure>
+                <figure class="float-md-left"><img class="mr-4" src="midia/geral/rosa.jpg" alt="foto de um compo coberto de flores rosas com um vulc'ao ao fundo"> </figure>
 
                 <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget
                     tempus magna, nec eleifend ipsum. Nulla facilisi. In hac habitasse 

@@ -3,6 +3,8 @@
  * Formata a string para permitir apenas letras no nome do arquivo e removendo 
  * possiveis formas de trocar o caminho de origem como um "../" para sair da pasta site
  * 
+ * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
+ * 
  * @param string $name a variavel a ser ser formatada com apenas letras
  * 
  * @return string o valor formatado apenas com letras 
@@ -17,6 +19,8 @@ function formatName($name) {
  *   Title no Head
  *   Botão ativado no menu
  *   Incluir funções especificas de cada página
+ * 
+ * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
  * 
  * @param string $pageName o nome do arquivo/pagina a ser configurado
  * 
@@ -136,6 +140,8 @@ function setConfigPage($pageName) {
 /** 
  * Inclui a pagina, e configura a página usando @see setConfigPage()
  * 
+ * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
+ * 
  * @param string $pageName o nome do arquivo sem o .php
  * 
  * @return void 
@@ -151,6 +157,8 @@ function includePage($pageName) {
 /** 
  * escreve o valor do title para head e deixa ela global
  * 
+ * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
+ * 
  * @param string o valor a ser setado na variavel global titlehead
  * 
  * @return void
@@ -161,6 +169,8 @@ function setTitleHead(string $title) {
 
 /** 
  * retorna o valor do title para o head
+ * 
+ * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
  *  
  * @return string O valor da variavel global titleHead
  */
@@ -170,6 +180,8 @@ function getTitleHead(): string {
 
 /** 
  * escreve o valor do botão ativado no menu
+ * 
+ * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
  * 
  * @param string $btn o nome do link do botão para ser ativado
  * 
@@ -182,6 +194,8 @@ function setActivBtnMenu(string $btn) {
 /** 
  * retorna o valor do botão ativo
  * 
+ * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
+ * 
  * @return retorna o valor na variavel global activeBtnMenu que foi setada pela função setActivBtnMenu()
  */
 function getActivBtnMenu(): string {
@@ -190,6 +204,8 @@ function getActivBtnMenu(): string {
 
 /** 
  * Retorna um arrai com todos os itens do menu
+ * 
+ * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
  * 
  * @return string[] com todos os links do menu
  */
@@ -355,6 +371,8 @@ function getValuesMenu() : array {
 /** 
  * Usado para retornar os dados de consultas aos arquivos json
  * 
+ * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
+ * 
  * @param string  $fileJsonName é o caminho e o nome do arquivo json
  * @param string $formatArray O formato de retorno dos dados se for true retorna 
  *                            em um array, caso seja false retorna um objeto, 
@@ -370,6 +388,8 @@ function getDadosJson($fileJsonName, $formatArray = true) {
 /** 
  * Seta um array com as informções do grupo e dos integrantes em um array global $GLOBALS["infoGrupo"]
  * 
+ * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
+ * 
  * @return void
  */
 function setInfoGrupo() {
@@ -384,6 +404,8 @@ function setInfoGrupo() {
 /** 
  * Retorna o valor setado pela função setInfoGrupo() de $GLOBALS["infoGrupo"]
  * 
+ * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
+ * 
  * @return array das informações do grupo como nome do grupo, e informações dos integrantes
  */
 function getInfoGrupo() {
@@ -392,6 +414,8 @@ function getInfoGrupo() {
 
 /**
  * Formata o array da imagem e retorna a tag img
+ * 
+ * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
  * 
  * @param string $path O nome da pasta em midia
  * @param array $img O array da imagem com os indices
@@ -420,6 +444,8 @@ function returnHtmlImg(string $path, array $img, string $tamanho = null, string 
 /**
  * Pega uma matriz e retorna o array correspondente da chave e o valor procurado
  * 
+ * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
+ * 
  * @param string $needle O valor a ser procurado
  * @param string $key A chave do array da matriz a ser comparada
  * @param array $fetch_haystack A matriz a ser comparada
@@ -438,6 +464,8 @@ function getSearchArray(string $needle, string $key, array $fetch_haystack) {
 /**
  * Procura por um id em uma matriz e retorna o array correspondente
  * 
+ * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
+ * 
  * @param int $id O id a ser procurado
  * @param array $fetch_haystack A matriz a ser comparada
  * @return array|bool Retorna a matriz correspondente a pesquisa, caso não 
@@ -449,6 +477,8 @@ function getIdArray(int $id, array $fetch_haystack) {
 
 /**
  * Retorna os meta dados para o compartilhamento
+ * 
+ * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
  * 
  * @param array $dados Os dados a serem setados
  * @param string $pathImagem O caminho da imagem
@@ -475,6 +505,8 @@ function setMetaShared(array $dados, string $pathImagem) {
 
 /**
  * Retorna os metadados setados pela função setMetaShared()
+ * 
+ * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
  * 
  * @return string As tags <meta>
  */

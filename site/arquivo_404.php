@@ -2,12 +2,7 @@
     <div class="row">
         <div class="col-lg-12 text-center">
             <aside class="asideImg404">
-                <picture>
-                    <source media="(max-width: 720px)" srcset="midia/geral/404_800.png">
-                    <source media="(min-width: 720px)" srcset="midia/geral/404_800.png">
-                    <source media="(min-width: 1200px)" srcset="midia/geral/404_800.png">
-                    <img class="img-fluid" src="midia/geral/404_800.png" alt="imagem simples 404 erro">
-                </picture>
+                <img class="img-fluid" src="midia/geral/404_800.jpg" alt="imagem simples 404 erro">
             </aside>
         </div>
     </div>

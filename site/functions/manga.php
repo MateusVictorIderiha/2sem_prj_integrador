@@ -1,6 +1,10 @@
 <?php
+
+
 /** 
- * Retorna um arrai com todos os itens do menu
+ * Retorna um array com todos os itens do menu
+ * 
+ * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
  * 
  * @return string[] com todos os links do menu
  */
@@ -11,6 +15,8 @@ function getJsonMangas(): array {
 
 /**
  * Seta os dados de todos os mangas na variavel
+ * 
+ * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
  */
 function setDadosMangas() {
     if (!isset($GLOBALS["mangas"])) {
@@ -25,6 +31,8 @@ function setDadosMangas() {
 /**
  * Retorna os dados de todos os mangas da variavel global mangas que foi setada pela função @see setDadosMangas()
  * 
+ * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
+ * 
  * @return array[] Todos os mangas
  */
 function getDadosMangas(): array {
@@ -33,6 +41,8 @@ function getDadosMangas(): array {
 
 /**
  * Retorna um array contendo todas os mangas com uma categoria em especifico
+ * 
+ * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
  * 
  * @param array $mangas Os mangas
  * @param int $categoria O id do manga
@@ -52,6 +62,8 @@ function getMangasCat(array $mangas, int $categoria): array {
  * Os dados de todos os mangas de uma categoria da variavel global 
  * mangasCategoria que foi setada pela função @see setDadosMangas()
  * 
+ * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
+ * 
  * @return array[] Todos os mangas
  */
 function setMangasCategoria(int $idCategoria = null) {
@@ -64,6 +76,8 @@ function setMangasCategoria(int $idCategoria = null) {
  * Retorna os dados de todos os mangas de uma categoria da variavel global 
  * mangasCategoria que foi setada pela função @see setDadosMangas()
  * 
+ * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
+ * 
  * @return array[] Todos os mangas
  */
 function getMangasCategoria(): array {
@@ -72,6 +86,8 @@ function getMangasCategoria(): array {
 
 /**
  * Seta os dados de um manga
+ * 
+ * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
  * 
  * @param int $idManga O id do manga
  * 
@@ -91,6 +107,8 @@ function setDadosManga(int $idManga) {
 /**
  * Retorna os dados do manga da variavel global manga que foi setada pela função @see setDadosManga()
  * 
+ * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
+ * 
  * @return array[] Todos os mangas
  */
 function getDadosManga(): array {
@@ -99,6 +117,8 @@ function getDadosManga(): array {
 
 /**
  * Seta os dados da categoria
+ * 
+ * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
  * 
  * @param int|null $idCat ID da categoria
  */
@@ -113,6 +133,8 @@ function setDadosCategoria(int $idCat = null) {
 /**
  * Retorna os dados das categorias
  * 
+ * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
+ * 
  * @return array[] As categorias
  */
 function getDadosCategorias() {
@@ -121,6 +143,8 @@ function getDadosCategorias() {
 
 /**
  * Retorna da categoria que foi setado por @see setDadosCategoria($id);
+ * 
+ * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
  * 
  * @return array A categoria com o id
  */
