@@ -1,8 +1,11 @@
 <?php
 $danca = dancatopicos();
 $visites = visiteoutros();
+
 $mangas = getDadosMangas();
 array_reverse($mangas);
+$mangasDestaque = getMangasDestaque($mangas, 3);
+
 $musicas = getMusica();
 $teatroValues = teatroContent();
 ?>
@@ -151,9 +154,9 @@ $teatroValues = teatroContent();
 <hr class="hrDanca">
 
 <div class="container mb-5">
-    <article class="mangas">
+    <section class="mangas">
         <div class="row">
-            <div class="col-lg-4 col-md-12 text-center">
+            <div class="col-lg-3 col-md-3 text-center">
                 <h1 class="titulo text-center">Mangás</h1>
                 <picture class="d-none d-sm-block">
                     <source media="(min-width: 1200px)" srcset="midia/danca/akihabara_170.jpg">
@@ -168,19 +171,15 @@ $teatroValues = teatroContent();
                     iaculis ac diam ut, elementum facilisis nibh.
                 </p>
             </div>
-
-            <div class="col-lg-8">
+            <section class="col-lg-9 col-md-9 text-center">
+                <h2 class="subtitulo">Destaque</h2>
                 <div class="row">
                     <?php
-                    foreach ($mangas as $ind => $manga) {
-                        if ($ind == 4) {
-                            break;
-                        }
-                        $manga = $mangas[$ind];
+                    foreach ($mangasDestaque as $manga) {
                         $texto = substr($manga["texto"], 0, 175);
                         $img = $manga["imagem"];
-                        ?>
-                        <aside class="col-12 col-sm-6 col-md-6 col-lg-3 manga mt-4">
+                    ?>
+                        <section class="col-12 col-sm-6 col-lg-4 manga">
                             <div class="borderManga">
                                 <div class="contentManga">
                                     <a href="index.php?pagina=manga&id=<?= $manga["id"]; ?>"><h2 class="titulo text-center"><?= $manga["titulo"]; ?></h2></a>
@@ -204,10 +203,52 @@ $teatroValues = teatroContent();
                                     <a href="index.php?pagina=manga&id=<?= $manga["id"]; ?>" class="d-md-none btn btn-outline-primary btn-lg">Leia +</a>
                                 </div>
                             </div>
-                        </aside>
+                        </section>
                     <?php } ?>
                 </div>
-            </div>
+            </section>            
         </div>
-    </article>
+
+        <div class="row">
+            <section class="col-12 text-center">
+                <h2 class="subtitulo">Mais recentes</h2>
+                <div class="row">
+                    <?php
+                    foreach ($mangas as $indManga => $manga) {
+                        if ($indManga == 4) {
+                            break;
+                        }
+                        $texto = substr($manga["texto"], 0, 175);
+                        $img = $manga["imagem"];
+                    ?>
+                        <section class="col-12 col-sm-6 col-md-6 col-lg-3 manga">
+                            <div class="borderManga">
+                                <div class="contentManga">
+                                    <a href="index.php?pagina=manga&id=<?= $manga["id"]; ?>"><h2 class="titulo text-center"><?= $manga["titulo"]; ?></h2></a>
+                                    <a href="index.php?pagina=manga&id=<?= $manga["id"]; ?>"><p class="subtitulo text-center"><?= $manga["subtitulo"]; ?></p></a>
+                                    <div class="containerImg text-center">
+                                        <a href="index.php?pagina=manga&id=<?= $manga["id"]; ?>" class="creditos">
+                                        <!--<a href="<?= $img["credito"] ?>" title="<?= $img["title"]; ?>" class="" target="_blank">-->
+                                            <?php if ($img["ext"] == ".svg") { ?>
+                                                <object width="523" type="image/svg+xml" data="<?= "midia/manga/" . $img["nome"] . $img["ext"]; ?>" title="<?= $img["alt"] . ". " . $img["title"]; ?>"></object>
+                                            <?php } else { ?>
+                                                <picture>
+                                                    <source media="(max-width: 960px)" srcset="<?= "midia/manga/" . $img["nome"] . "_220" . $img["ext"]; ?>">
+                                                    <source media="(min-width: 960px)" srcset="<?= "midia/manga/" . $img["nome"] . "_439" . $img["ext"]; ?>">
+                                                    <img src="<?= "midia/manga/" . $img["nome"] . "_220" . $img["ext"]; ?>" title="<?= $img["title"]; ?>" alt="<?= $img["alt"]; ?>">
+                                                </picture>
+                                            <?php } ?>
+                                        </a>
+                                        <!--</a>-->
+                                    </div>
+                                    <a href="index.php?pagina=manga&id=<?= $manga["id"]; ?>" class=""><p class="text-justify texto"><?= $texto; ?></p></a>
+                                    <a href="index.php?pagina=manga&id=<?= $manga["id"]; ?>" class="d-md-none btn btn-outline-primary btn-lg">Leia +</a>
+                                </div>
+                            </div>
+                        </section>
+                    <?php } ?>
+                </div>
+            </section>
+        </div>
+    </section>
 </div>

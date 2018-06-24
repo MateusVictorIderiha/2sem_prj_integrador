@@ -1,6 +1,4 @@
 <?php
-
-
 /** 
  * Retorna um array com todos os itens do menu
  * 
@@ -37,6 +35,29 @@ function setDadosMangas() {
  */
 function getDadosMangas(): array {
     return $GLOBALS["mangas"] ?? [];
+}
+
+/**
+ * Retorna um array contendo os mangas em destaque, e remove os de mangas
+ * 
+ * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
+ * 
+ * @param array $mangas Os mangas
+ * @param int $qtdDestaque A quantidade de itens em destaque
+ * @return IteratorIterator Os mangas em destaque
+ */
+function getMangasDestaque(array &$mangas, int $qtdDestaque): Iterator {
+    $nQtd = 0;
+    foreach ($mangas as $indice => $manga) {
+        if (isset($manga["destaque"]) && $manga["destaque"] == 1) {
+            yield $manga;
+            unset($mangas[$indice]);
+            $nQtd++;
+        }
+        if ($nQtd >= $qtdDestaque) {
+            break;
+        }
+    }
 }
 
 /**
