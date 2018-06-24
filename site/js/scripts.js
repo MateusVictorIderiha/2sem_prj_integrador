@@ -52,9 +52,9 @@ $(document).ready(function () {
             "dataType": "json",
             success: function (data) {
                 if (data.status === 1) {
-                    $(thisForm).siblings(".msg").addClass("alert-success").removeClass("alert-danger").html(data.msg).fadeIn("show");
+                    $(thisForm).siblings(".msg").addClass("alert-success").removeClass("alert-danger").html(data.msg).show().focus();
                 } else {
-                    $(thisForm).siblings(".msg").addClass("alert-danger").removeClass("alert-success").html(data.msg).fadeIn("show");
+                    $(thisForm).siblings(".msg").addClass("alert-danger").removeClass("alert-success").html(data.msg).show().focus();
                 }
             }
         });
