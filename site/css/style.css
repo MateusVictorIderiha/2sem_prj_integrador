@@ -593,6 +593,31 @@ section p {
 * FIM QUEM SOMOS
 */
 
+/**
+* Inicio origame
+*/
+/**
+* ajusta as imagens: 1-superior esquerda 2-inferior esquerda e direita
+*/ 
+.imgHome{
+    padding: 2px 2px 2px 2px;
+    margin: 0px 2px 3px 20px;       
+    border:#000 solid thick;
+}
+imgHome2{
+    padding: 2px 2px 2px 10px;
+    margin: 2px 2px 2px 10px;    
+    border:#000 solid thick;
+}
+
+.imgModelo:hover{
+    
+    border:#000 solid thick;
+}
+/**
+ * FIM ORIGAMI
+*/
+
 @media screen and (max-width: 991px) {
     /**
     * INICIO TOPO
@@ -972,12 +997,3 @@ section p {
     * FIM MANGAS
     */
 }
-
-/**
-* INICIO MUSICAS
-*/
-
-
-/**
-* FIM MUSICAS
-*/

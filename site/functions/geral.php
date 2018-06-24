@@ -522,25 +522,43 @@ function getMetaShared(): string {
     return $GLOBALS["metaShare"] ?? "";
 }
 
-function searchBuscaDados(array $contents, $search): array {
+
+function markText(string $needle, string $haystack, int $posicao): string {
+    if (strlen($haystack) > 150) {
+        if ($posicao < 150) {
+            $haystack = substr($haystack, 0, 150);
+        } elseif ($posicao > 150) {
+            $posInicial = $posicao - 75;
+            $posFinal = $posicao + 75;
+            $haystack = substr($haystack, $posInicial, $posFinal);
+        }
+    }
+    return str_replace($needle, "<mark>".$needle."</mark>", $haystack);
+}
+
+function searchBuscaDados(array $contents, $search) {
     foreach ($contents as $content) {
         if (isset($content["titulo"]) && strpos($content["titulo"], $search) !== false) {
             $posicao = strpos($content["titulo"], $search);
-        } elseif (isset($content["texto"]) && strpos($content["texto"], $search) !== false) {
+            $content["titulo"] = markText($search, $content["titulo"], $posicao);
+        } 
+        if (isset($content["texto"]) && strpos($content["texto"], $search) !== false) {
             $posicao = strpos($content["texto"], $search);
-        } elseif (isset($content["subtitulo"]) && strpos($content["subtitulo"], $search) !== false) {
+            $content["texto"] = markText($search, $content["texto"], $posicao);
+        } 
+        if (isset($content["subtitulo"]) && strpos($content["subtitulo"], $search) !== false) {
             $posicao = strpos($content["subtitulo"], $search);
-        } else {
-            $posicao = false;
+            $content["subtitulo"] = markText($search, $content["subtitulo"], $posicao);
         }
 
-        if ($posicao !== false) {
-            
+        if (isset($posicao)) {
+            yield $content;
+            unset($posicao);
         }
     }
 }
 
-function getDadosBusca(string $search): array {
+function getDadosBusca(string $search): Iterator {
     $dadosHaystack = [];
     $dadosHaystack["mangas"] = getDadosMangas();
     $dadosHaystack["dancas"] = dancatopicos();
@@ -548,6 +566,9 @@ function getDadosBusca(string $search): array {
     $dadosHaystack["teatro"] = teatroContent();
 
     foreach ($dadosHaystack as $name => $contents) {
-        searchBuscaDados($contents, $search);
+        $dadosSearch = searchBuscaDados($contents, $search);
+        if ($dadosSearch->valid()) {
+            yield $name => $dadosSearch;
+        }
     }
 }
