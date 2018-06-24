@@ -44,6 +44,7 @@ Tarefas:
         WIREFRAME menu footer (PQN, MD, GRD)
         Logo e cores
         mokups
+        Imagem do topo no desktop
         dança(pagina individual)
         A historia (HTML)
 
