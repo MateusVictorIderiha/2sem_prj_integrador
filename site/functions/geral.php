@@ -34,6 +34,7 @@ function setConfigPage($pageName) {
             include './functions/danca.php';            
             include './functions/manga.php';            
             include './functions/teatroJapones.php';    
+            include './functions/musica.php';    
             setDadosMangas();
             break;
         case "contato":
@@ -90,16 +91,16 @@ function setConfigPage($pageName) {
             setTitleHead($infoGrupo["nome_grupo"]." - História da arte no japão");
             break;
         case "historia_origame":
-            setTitleHead($infoGrupo["nome_grupo"]." - História do Origame");
+            setTitleHead($infoGrupo["nome_grupo"]." - História do Origami");
             break;
         case "aprenda_a_fazer":
-            setTitleHead($infoGrupo["nome_grupo"]." - Aprenda a fazer Origame");
+            setTitleHead($infoGrupo["nome_grupo"]." - Aprenda a fazer Origami");
             break;
         case "origame":
-            setTitleHead($infoGrupo["nome_grupo"]." - Origame");
+            setTitleHead($infoGrupo["nome_grupo"]." - Origami");
             break;
         case "curiosidades_origame":
-            setTitleHead($infoGrupo["nome_grupo"]." - Curiosidades do Origame");
+            setTitleHead($infoGrupo["nome_grupo"]." - Curiosidades do Origami");
             break;
         case "musicas":
             setTitleHead($infoGrupo["nome_grupo"]." - Músicas");
@@ -321,7 +322,7 @@ function getValuesMenu() : array {
             ]
         ],
         [
-            "nome" => "Origame",
+            "nome" => "Origami",
             "link" => "historia_origame",
             "subMenu" => [
                 [
@@ -329,7 +330,7 @@ function getValuesMenu() : array {
                     "link" => "curiosidades_origame",
                 ],
                 [
-                    "nome" => "origame",
+                    "nome" => "Origami",
                     "link" => "origame",
                 ],
                 [
