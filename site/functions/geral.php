@@ -53,7 +53,6 @@ function setConfigPage($pageName) {
             break;
         case "dancatopico":
             include './functions/danca.php';
-            dancatopicos();
             $dancas = dancatopicos();
             $danca = getIdArray($_GET["id"], $dancas);
             $img = $danca["imagem"];
@@ -130,6 +129,15 @@ function setConfigPage($pageName) {
             $pathImg = "midia/manga/".$img["nome"]."_220".$img["ext"];
             setMetaShared($manga, $pathImg);
             setTitleHead($infoGrupo["nome_grupo"]." - Artes Cências");
+            break;
+        case "busca":
+            include './functions/manga.php';
+            include './functions/musica.php';
+            include './functions/danca.php';
+            include './functions/teatroJapones.php';
+            setDadosMangas();
+            $busca = $_GET["busca"] ?? "";
+            setTitleHead($infoGrupo["nome_grupo"]." - Busca: $busca");
             break;
         default:
             setTitleHead($infoGrupo["nome_grupo"]." - Pagina 404");
@@ -512,4 +520,34 @@ function setMetaShared(array $dados, string $pathImagem) {
  */
 function getMetaShared(): string {
     return $GLOBALS["metaShare"] ?? "";
+}
+
+function searchBuscaDados(array $contents, $search): array {
+    foreach ($contents as $content) {
+        if (isset($content["titulo"]) && strpos($content["titulo"], $search) !== false) {
+            $posicao = strpos($content["titulo"], $search);
+        } elseif (isset($content["texto"]) && strpos($content["texto"], $search) !== false) {
+            $posicao = strpos($content["texto"], $search);
+        } elseif (isset($content["subtitulo"]) && strpos($content["subtitulo"], $search) !== false) {
+            $posicao = strpos($content["subtitulo"], $search);
+        } else {
+            $posicao = false;
+        }
+
+        if ($posicao !== false) {
+            
+        }
+    }
+}
+
+function getDadosBusca(string $search): array {
+    $dadosHaystack = [];
+    $dadosHaystack["mangas"] = getDadosMangas();
+    $dadosHaystack["dancas"] = dancatopicos();
+    $dadosHaystack["muscias"] = getMusica();
+    $dadosHaystack["teatro"] = teatroContent();
+
+    foreach ($dadosHaystack as $name => $contents) {
+        searchBuscaDados($contents, $search);
+    }
 }
