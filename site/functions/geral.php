@@ -32,9 +32,9 @@ function setConfigPage($pageName) {
     $id = $_GET["id"] ?? 0;
 
     setActivBtnMenu($pageName);
-    setActivBtnSubMenu($pageName);
     switch ($pageName) {
         case "home":
+            setActivBtnSubMenu($pageName);
             setTitleHead($infoGrupo["nome_grupo"]." - Home");
             include './functions/danca.php';            
             include './functions/manga.php';            
@@ -43,10 +43,12 @@ function setConfigPage($pageName) {
             setDadosMangas();
             break;
         case "contato":
+            setActivBtnSubMenu($pageName);
             setActivBtnMenu("home");
             setTitleHead($infoGrupo["nome_grupo"]." - Contato");
             break;
         case "quem_somos":
+            setActivBtnSubMenu($pageName);
             setActivBtnMenu("home");
             setTitleHead($infoGrupo["nome_grupo"]." - Quem Somos");
             break;
@@ -97,6 +99,7 @@ function setConfigPage($pageName) {
             setTitleHead($infoGrupo["nome_grupo"]." - Japão");
             break;
         case "termo_uso":
+            setActivBtnSubMenu($pageName);
             setTitleHead($infoGrupo["nome_grupo"]." - Termos de uso");
             break;
         case "historia":
@@ -107,15 +110,18 @@ function setConfigPage($pageName) {
             break;
         case "aprenda_a_fazer":
         case "aprenda_a_fazer2":
+            setActivBtnSubMenu($pageName);
             setActivBtnMenu("historia_origami");
             setTitleHead($infoGrupo["nome_grupo"]." - Aprenda a fazer Origami");
             break;
         case "origami":
         case "origami2":
+            setActivBtnSubMenu($pageName);
             setActivBtnMenu("historia_origami");
             setTitleHead($infoGrupo["nome_grupo"]." - Origami");
             break;
         case "curiosidades_origami":
+            setActivBtnSubMenu($pageName);
             setActivBtnMenu("historia_origami");
             setTitleHead($infoGrupo["nome_grupo"]." - Curiosidades do Origami");
             break;

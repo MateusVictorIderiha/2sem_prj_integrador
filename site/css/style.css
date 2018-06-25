@@ -690,7 +690,7 @@ imgHome2{
     *  INICIO MANGAS
     */
     .mangas .containerCat .img-cat1, .mangas .containerCat .img-cat2 {
-        flex-basis: 80px;
+        flex-basis: 0px;
     }
     .mangas .containerCat .contentCat .titulo {
         font-size: 1.7em;
@@ -706,11 +706,8 @@ imgHome2{
         flex-basis: 100%;
         padding: 0 4%;
     }
-    .mangas .containerCat .img-cat1, .mangas .containerCat .img-cat2 {
-        flex-basis: 220px;
-    }
     .mangas .containerCat .contentCat {
-        flex-basis: calc(100% - 220px);
+        flex-basis: calc(100%);
         padding: 0 4%;
     }
 
