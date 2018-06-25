@@ -100,6 +100,8 @@ function setConfigPage($pageName) {
 	    $classicos = classicosInterna();
 	    $page_id = $_GET["id"];
 	    $classico = getIdArray( $page_id, $classicos);
+	    $pathImg = "midia/teatro/".$classico["imagem"].".jpg";
+            setMetaShared($classico, $pathImg);
             setTitleHead($infoGrupo["nome_grupo"]." - ".$classico["titulo"]);
             break;
         case "japao":

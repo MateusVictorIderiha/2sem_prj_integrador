@@ -7,7 +7,7 @@ $classico = getIdArray($page_id, $classicos);
     <main class="bio_content">
         <h1 class="titulo text-center"><?= $classico['titulo'] ?></h1>
         <div class="row">
-            <aside class="col-12 col-lg-4 bio_aside_margin">
+            <aside class="col-12 col-lg-4">
                 <div class="line line_perfil d-md-none"></div>
                 <img class="d-block mx-auto img-fluid cla_aside_img" src="midia/teatro/<?= $classico['imagem'] ?>.jpg" alt="<?= $classico['alt'] ?>" title="<?= $classico['credito'] ?>">
                 <div class="line line_perfil d-md-none"></div>
@@ -17,6 +17,19 @@ $classico = getIdArray($page_id, $classicos);
             </article>
         </div>
     </main>
+            <div class="buttons text-center">
+                <!-- Load Facebook SDK for JavaScript -->
+                <div id="fb-root"></div>
+                <!-- Your share button code -->
+                <?php 
+                $url = urlencode("http://".$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']);
+                ?>
+                <a class="btn btn-lg" href="https://www.facebook.com/sharer/sharer.php?u=<?= $url; ?>" target="_blank">
+                    <i class="fab fa-facebook-f"></i> Compartilhar
+                </a>
+                <a class="d-none d-md-inline btn btn-lg" href="https://api.whatsapp.com/send?text=<?= $url; ?>" target="_blank"><i class="fab fa-whatsapp"></i> Compartilhar</a>
+                <a class="d-md-none btn btn-lg" href="whatsapp://send?text=<?= $url; ?>" target="_blank"><i class="fab fa-whatsapp"></i> Compartilhar</a>
+            </div>
     <section class="row text-center">
         <div class="line line_obras d-none"></div>
         <h2 class="subtitulo obras_sub_heading col-12">Outros Clássicos</h2>
