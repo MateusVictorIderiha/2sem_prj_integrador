@@ -558,9 +558,6 @@ section p {
     justify-content: center;
     flex-basis: 100%;
 }
-.formBusca .form-inline .input-group {
-    width: 100%;
-}
 .formBusca .form-control, .formBusca .input-group .input-group-prepend {
     background-color: #fff;
     border: 1px solid #5F4B8B;
@@ -847,6 +844,10 @@ imgHome2{
     /**
     * FIM TOPO TAMANHO LG
     */
+    
+    .formBusca.form-inline .input-group {
+        width: 80%;
+    }
     
     /**
     * INICIO MANGAS

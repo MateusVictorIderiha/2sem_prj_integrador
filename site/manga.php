@@ -38,7 +38,7 @@ if (count($mangasCat) > 3) {
             <div class="orderTexto">
                 <?= $texto; ?>
             </div>
-            <div class="buttons">
+            <div class="buttons text-center">
                 <!-- Load Facebook SDK for JavaScript -->
                 <div id="fb-root"></div>
                 <!-- Your share button code -->
@@ -48,7 +48,7 @@ if (count($mangasCat) > 3) {
                 <a class="btn btn-lg" href="https://www.facebook.com/sharer/sharer.php?u=<?= $url; ?>" target="_blank">
                     <i class="fab fa-facebook-f"></i> Compartilhar
                 </a>
-                <a class="d-none d-md-block btn btn-lg" href="https://api.whatsapp.com/send?text=<?= $url; ?>" target="_blank"><i class="fab fa-whatsapp"></i> Compartilhar</a>
+                <a class="d-none d-md-inline btn btn-lg" href="https://api.whatsapp.com/send?text=<?= $url; ?>" target="_blank"><i class="fab fa-whatsapp"></i> Compartilhar</a>
                 <a class="d-md-none btn btn-lg" href="whatsapp://send?text=<?= $url; ?>" target="_blank"><i class="fab fa-whatsapp"></i> Compartilhar</a>
             </div>
         </article>
