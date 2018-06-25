@@ -37,7 +37,7 @@
             </div>
         </aside>
     <hr class="hrOrigami">
-    <h2 class="text-center">Topicos</h2>
+        <h2 class="text-center">Topicos</h2>
         <aside class="row">
             <div class="col-md-3 col-12">
                  <a href="index.php?pagina=aprenda_a_fazer2"> <h3 class="text-center">Aprenda a fazer o Tsuru </h3>

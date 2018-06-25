@@ -6,25 +6,25 @@
             <h2 class="subtitulo py-2">Duvidas, criticas ou segustões, preencha os campos:</h2>
 
             <article>
-                <form>
+                <form action="save-msg.php" method="post" class="save-form">
                     <div class="form-row">
                         <div class="col-lg-6">
                             <label for="elementoNome"><strong>Nome:</strong></label>
-                            <input type="text" class="form-control" id="elementoNome" placeholder="Digite seu nome">
+                            <input type="text" class="form-control" id="elementoNome" placeholder="Digite seu nome" name="nome">
                         </div>
 
                         <div class="col-lg-6">
                             <label for="elementoSobrenome"><strong>Sobrenome:</strong></label>
-                            <input type="text" class="form-control" id="elementoSobrenome" placeholder="Digite seu sobrenome">
+                            <input type="text" class="form-control" id="elementoSobrenome" placeholder="Digite seu sobrenome" name="sobreNome">
                         </div>
                     </div>
 
                     <div class="form-group mt-2">
                         <label for="email01"><strong>Email:</strong></label>
-                        <input type="email" class="form-control" id="email01" placeholder="email@provedor.com.br">
+                        <input type="email" class="form-control" id="email01" placeholder="email@provedor.com.br" name="e-mail">
 
                         <label class="mt-2"><strong>O que voce deseja?</strong></label>
-                        <select class="custom-select">
+                        <select class="custom-select" name="objetivo">
                             <option value="">Escolha</option>
                             <option value="1">Duvida</option>
                             <option value="2">critica</option>
@@ -34,7 +34,7 @@
 
                     <div class="form-group">
                         <label for="textoArea"><strong>Digite sua mensagem:</strong></label>
-                        <textarea class="form-control" id="textoArea" rows="5"></textarea>
+                        <textarea class="form-control" id="textoArea" rows="5" name="mensagem"></textarea>
                     </div>
 
                     <div class="form-group">
@@ -48,6 +48,7 @@
 
                     <p class="text-center"><button type="submit" class="btn btn-danger">Enviar</button></p>
                 </form>
+                <div class="alert alert-success msg"></div>
             </article>
         </div>
 

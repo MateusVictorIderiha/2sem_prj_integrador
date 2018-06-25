@@ -53,4 +53,7 @@ $musica = getIdArray($id, $musicas);
             </div>
         </div>
     </div>
+    <section class="row mb-4 mt-4">
+        <?php include 'sidebar-busca.php'; ?>
+    </section>
 </div>

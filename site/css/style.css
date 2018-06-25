@@ -556,6 +556,10 @@ section p {
 .formBusca {
     display: flex;
     justify-content: center;
+    flex-basis: 100%;
+}
+.formBusca .form-inline .input-group {
+    width: 100%;
 }
 .formBusca .form-control, .formBusca .input-group .input-group-prepend {
     background-color: #fff;

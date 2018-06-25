@@ -43,13 +43,15 @@ $(document).ready(function () {
 // FIM MENU
 
     // INICIO FORM CONTATO
+    $(".save-form").siblings(".msg").hide();
     $(".save-form").submit(function () {
         var dados = $(this).serialize();
         var thisForm = $(this);
         $.ajax({
-            "url": "save-msg.php",
-            "data": dados,
-            "dataType": "json",
+            url: "save-msg.php",
+            type: 'POST',
+            data: dados,
+            dataType: 'json',
             success: function (data) {
                 if (data.status === 1) {
                     $(thisForm).siblings(".msg").addClass("alert-success").removeClass("alert-danger").html(data.msg).show().focus();

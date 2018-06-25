@@ -56,6 +56,7 @@ function setConfigPage($pageName) {
             break;
         case "dancatopico":
             include './functions/danca.php';
+            setActivBtnMenu("dancas");
             $dancas = dancatopicos();
             $danca = getIdArray($_GET["id"], $dancas);
             $img = $danca["imagem"];
@@ -68,22 +69,27 @@ function setConfigPage($pageName) {
             setTitleHead($infoGrupo["nome_grupo"]." - Teatro Clássico");
             break;
         case "teatro_internas":
+            setActivBtnMenu("teatro");
             include './functions/teatroJapones.php';
             setTitleHead($infoGrupo["nome_grupo"]." - Teatro Interna");
             break;
         case "atores":
+            setActivBtnMenu("teatro");
             include './functions/teatroJapones.php';
             setTitleHead($infoGrupo["nome_grupo"]." - Biografias");
             break;
 	case "atores_internas":
+            setActivBtnMenu("teatro");
             include './functions/teatroJapones.php';
             setTitleHead($infoGrupo["nome_grupo"]." - Biografia");
             break;
         case "classicos":
+            setActivBtnMenu("teatro");
             include './functions/teatroJapones.php';
             setTitleHead($infoGrupo["nome_grupo"]." - Clássicos do Teatro e Mais");
             break;
 	case "classicos_internas":
+            setActivBtnMenu("teatro");
             include './functions/teatroJapones.php';
             setTitleHead($infoGrupo["nome_grupo"]." - Clássicos do Teatro e Mais");
             break;
@@ -96,18 +102,21 @@ function setConfigPage($pageName) {
         case "historia":
             setTitleHead($infoGrupo["nome_grupo"]." - História da arte no japão");
             break;
-        case "historia_origame":
+        case "historia_origami":
             setTitleHead($infoGrupo["nome_grupo"]." - História do Origami");
             break;
         case "aprenda_a_fazer":
         case "aprenda_a_fazer2":
+            setActivBtnMenu("historia_origami");
             setTitleHead($infoGrupo["nome_grupo"]." - Aprenda a fazer Origami");
             break;
         case "origami":
         case "origami2":
+            setActivBtnMenu("historia_origami");
             setTitleHead($infoGrupo["nome_grupo"]." - Origami");
             break;
         case "curiosidades_origami":
+            setActivBtnMenu("historia_origami");
             setTitleHead($infoGrupo["nome_grupo"]." - Curiosidades do Origami");
             break;
         case "musicas":
@@ -115,6 +124,7 @@ function setConfigPage($pageName) {
             include './functions/musica.php';
             break;
         case "musica":
+            setActivBtnMenu("musicas");
             setTitleHead($infoGrupo["nome_grupo"]." - Música");
             include './functions/musica.php';
             break;
@@ -576,6 +586,12 @@ function markText(string $needle, string $haystack, int $posicao): string {
     return str_replace($needle, "<mark>".$needle."</mark>", $haystack);
 }
 
+/**
+ * Procura pelo alvo nos indices titulo, subtitulo e texto se existirem
+ * 
+ * @param array $contents o array contendo todos dados para serem pesquisados
+ * @param type $search A string de pesquisa
+ */
 function searchBuscaDados(array $contents, $search) {
     foreach ($contents as $content) {
         if (isset($content["titulo"]) && strpos($content["titulo"], $search) !== false) {
@@ -585,7 +601,10 @@ function searchBuscaDados(array $contents, $search) {
         if (isset($content["texto"]) && strpos($content["texto"], $search) !== false) {
             $posicao = strpos($content["texto"], $search);
             $content["texto"] = markText($search, $content["texto"], $posicao);
-        } 
+        } else {
+            $texto = $content["texto"];
+            $content["texto"] = strlen($texto) > 160 ? substr($texto, 0, 160)."..." : "";
+        }
         if (isset($content["subtitulo"]) && strpos($content["subtitulo"], $search) !== false) {
             $posicao = strpos($content["subtitulo"], $search);
             $content["subtitulo"] = markText($search, $content["subtitulo"], $posicao);
@@ -598,6 +617,11 @@ function searchBuscaDados(array $contents, $search) {
     }
 }
 
+/**
+ * Procura pelo valor em mangas, dancas, musica, e teatro internas.
+ * 
+ * @param string $search O valor procurado
+ */
 function getDadosBusca(string $search): Iterator {
     $dadosHaystack = [];
     $dadosHaystack["manga"] = getDadosMangas();

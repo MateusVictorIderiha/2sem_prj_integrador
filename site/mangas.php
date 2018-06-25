@@ -67,7 +67,7 @@ $imgsCat = $categorias["imagens"];
                             <!--</a>-->
                         </div>
                         <a href="index.php?pagina=manga&id=<?= $manga["id"]; ?>" class=""><p class="text-justify texto"><?= $texto; ?></p></a>
-                        <a href="index.php?pagina=manga&id=<?= $manga["id"]; ?>" class="d-md-none btn btn-outline-primary btn-lg">Leia +</a>
+                        <a href="index.php?pagina=manga&id=<?= $manga["id"]; ?>" class="d-md-none btn btn-outline-primary btn-lg  pl-4 pr-4">Leia +</a>
                     </div>
                 </div>
             </section>
