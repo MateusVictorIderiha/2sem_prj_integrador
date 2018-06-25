@@ -121,6 +121,10 @@ a:hover {
 }
 /* fim Historia */
 
+#navbarSupportedContent > ul > li.nav-item.active, #navbarSupportedContent > ul > li.nav-item.active > a {
+    color: #801515;
+}
+
 /**
 * FIM GERAL
 */
@@ -609,10 +613,17 @@ imgHome2{
     margin: 2px 2px 2px 10px;    
     border:#000 solid thick;
 }
-
 .imgModelo:hover{
     
     border:#000 solid thick;
+}
+.clear { clear: both; }
+.bcjapao{
+    background-color: #905;
+}
+.hrOrigami{
+    background-color: #ef3341;
+    height: 1.5px;
 }
 /**
  * FIM ORIGAMI
@@ -825,6 +836,10 @@ imgHome2{
     .topo #navbarSupportedContent .nav-item.dropdown:hover .dropdown-menu {
         margin-top: -1px;
     }
+    
+    #navbarSupportedContent > ul > li.nav-item.active {
+        border-top: 2px solid #801515;
+    }
     /**
     * FIM TOPO TAMANHO LG
     */
@@ -985,14 +1000,7 @@ imgHome2{
     }
     /* borda segunda linha */
     /* FIM ITENS MANGAS RIGHT */
-    
-/*    .mangas .borderManga {
-        padding-left: 2px;
-        padding-right: 2px;
-    }
-    .mangas .borderManga:nth-of-type(4), .mangas .borderManga:last-of-type {
-        padding-right: 1px;
-    }*/
+
     /**
     * FIM MANGAS
     */

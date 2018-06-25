@@ -1,8 +1,8 @@
-<div class="countanier">
+<div class="container">
     <article class="row">
         <div class="col-md-4 col-12" class="text-center">
-            <h1 class="text-center">Historia do Origami</h1>
-            <img class="imgHome"  style="width: 300px;" class="img-rounded img-responsive" style="height: 860px; width: 540px; padiwng" src="midia/origame/origameHome1.jpg" alt="Origami de um passaro">
+            <h1 class="text-center titulo">Historia do Origami</h1>
+            <img style="width: 300px;" class="img-rounded img-responsive imgHome" style="height: 860px; width: 540px; padiwng" src="midia/origame/origameHome1.jpg" alt="Origami de um passaro">
         </div>
         <div class="col-md-6 col-12" class="text-center"> 
             <h2 class="text-center"> Inicio </h2>
@@ -14,9 +14,10 @@
 
         </div>
     </article>
-   
+    <hr class="hrOrigami">
     <a href="index.php?pagina=curiosidades_origami"> <h2 class="text-center">Curiosidades</h2></a>
-        <aside class="row">
+        <hr class="hrOrigami">   
+    <aside class="row">
             <div class="col-md-3 col-12">
                 <a href="index.php?pagina=origami"> <img class="img-rounded img-responsive center-block imgHome  mw-100" style="height: 160px; width: 280px;" src="midia/origame/origameHome2.jpg" alt="Origami de um passaro feito em papel da cor roxa">
             </div>
@@ -35,6 +36,7 @@
                 <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto eius libero accusamus corporis, earum corrupti, quaerat quasi molestiae hic, nobis distinctio dignissimos</p>
             </div>
         </aside>
+    <hr class="hrOrigami">
     <h2 class="text-center">Topicos</h2>
         <aside class="row">
             <div class="col-md-3 col-12">
@@ -48,7 +50,7 @@
                 </a><p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto eius libero accusamus corporis, earum corrupti, quaerat quasi molestiae hic, nobis distinctio dignissimos</p>
             </div>
             <div class="col-md-3 col-12">
-                 <a href="index.php?pagina=aprenda_a_fazer"> <h3 class="text-center"> Aprenda a fazer as Borboletas </h3>
+                 <a href="index.php?pagina=aprenda_a_fazer"> <h3 class="text-center">Faça Borboletas </h3>
                 <img class="img-rounded img-responsive center-block imgHome" style="height: 140px; width: 250px;" src="midia/origame/aprendaafazerborboletashome.jpg" alt="Origami representando borboletas feito em papel colorido">
                 </a><p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto eius libero accusamus corporis, earum corrupti, quaerat quasi molestiae hic, nobis distinctio dignissimos</p>
             </div>

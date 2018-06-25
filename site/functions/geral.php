@@ -3,7 +3,7 @@
  * Formata a string para permitir apenas letras no nome do arquivo e removendo 
  * possiveis formas de trocar o caminho de origem como um "../" para sair da pasta site
  * 
- * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
+ * @author Mateus Victor <mateus.rego@fatec.sp.gov.br>
  * 
  * @param string $name a variavel a ser ser formatada com apenas letras
  * 
@@ -20,7 +20,7 @@ function formatName($name) {
  *   Botão ativado no menu
  *   Incluir funções especificas de cada página
  * 
- * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
+ * @author Mateus Victor <mateus.rego@fatec.sp.gov.br>
  * 
  * @param string $pageName o nome do arquivo/pagina a ser configurado
  * 
@@ -32,6 +32,7 @@ function setConfigPage($pageName) {
     $id = $_GET["id"] ?? 0;
 
     setActivBtnMenu($pageName);
+    setActivBtnSubMenu($pageName);
     switch ($pageName) {
         case "home":
             setTitleHead($infoGrupo["nome_grupo"]." - Home");
@@ -42,9 +43,11 @@ function setConfigPage($pageName) {
             setDadosMangas();
             break;
         case "contato":
+            setActivBtnMenu("home");
             setTitleHead($infoGrupo["nome_grupo"]." - Contato");
             break;
         case "quem_somos":
+            setActivBtnMenu("home");
             setTitleHead($infoGrupo["nome_grupo"]." - Quem Somos");
             break;
         case "dancas":
@@ -97,12 +100,14 @@ function setConfigPage($pageName) {
             setTitleHead($infoGrupo["nome_grupo"]." - História do Origami");
             break;
         case "aprenda_a_fazer":
+        case "aprenda_a_fazer2":
             setTitleHead($infoGrupo["nome_grupo"]." - Aprenda a fazer Origami");
             break;
-        case "origame":
+        case "origami":
+        case "origami2":
             setTitleHead($infoGrupo["nome_grupo"]." - Origami");
             break;
-        case "curiosidades_origame":
+        case "curiosidades_origami":
             setTitleHead($infoGrupo["nome_grupo"]." - Curiosidades do Origami");
             break;
         case "musicas":
@@ -118,17 +123,19 @@ function setConfigPage($pageName) {
             setDadosMangas();
             setMangasCategoria($id);
             setDadosCategoria($id);
-            setTitleHead($infoGrupo["nome_grupo"]." - Artes Cências");
+            $cat = getDadosCategoria();
+            setTitleHead($infoGrupo["nome_grupo"]." - Mangas - ".$cat["nome"]);
             break;
         case "manga":
             include './functions/manga.php';
+            setActivBtnMenu("mangas");
             setDadosMangas();
             setDadosManga($id);
             $manga = getDadosManga();
             $img = $manga["imagem"];
             $pathImg = "midia/manga/".$img["nome"]."_220".$img["ext"];
             setMetaShared($manga, $pathImg);
-            setTitleHead($infoGrupo["nome_grupo"]." - Artes Cências");
+            setTitleHead($infoGrupo["nome_grupo"]." - Manga - ".$manga["titulo"]);
             break;
         case "busca":
             include './functions/manga.php';
@@ -148,7 +155,7 @@ function setConfigPage($pageName) {
 /** 
  * Inclui a pagina, e configura a página usando @see setConfigPage()
  * 
- * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
+ * @author Mateus Victor <mateus.rego@fatec.sp.gov.br>
  * 
  * @param string $pageName o nome do arquivo sem o .php
  * 
@@ -165,7 +172,7 @@ function includePage($pageName) {
 /** 
  * escreve o valor do title para head e deixa ela global
  * 
- * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
+ * @author Mateus Victor <mateus.rego@fatec.sp.gov.br>
  * 
  * @param string o valor a ser setado na variavel global titlehead
  * 
@@ -178,7 +185,7 @@ function setTitleHead(string $title) {
 /** 
  * retorna o valor do title para o head
  * 
- * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
+ * @author Mateus Victor <mateus.rego@fatec.sp.gov.br>
  *  
  * @return string O valor da variavel global titleHead
  */
@@ -189,7 +196,7 @@ function getTitleHead(): string {
 /** 
  * escreve o valor do botão ativado no menu
  * 
- * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
+ * @author Mateus Victor <mateus.rego@fatec.sp.gov.br>
  * 
  * @param string $btn o nome do link do botão para ser ativado
  * 
@@ -202,18 +209,42 @@ function setActivBtnMenu(string $btn) {
 /** 
  * retorna o valor do botão ativo
  * 
- * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
+ * @author Mateus Victor <mateus.rego@fatec.sp.gov.br>
  * 
  * @return retorna o valor na variavel global activeBtnMenu que foi setada pela função setActivBtnMenu()
  */
 function getActivBtnMenu(): string {
-    return $GLOBALS["activeBtnMenu"];
+    return $GLOBALS["activeBtnMenu"] ?? false;
+}
+
+/** 
+ * escreve o valor do botão ativado no submenu
+ * 
+ * @author Mateus Victor <mateus.rego@fatec.sp.gov.br>
+ * 
+ * @param string $btn o nome do link do botão do submenu para ser ativado
+ * 
+ * @return void
+ */
+function setActivBtnSubMenu(string $btn) {
+    $GLOBALS["activeBtnSubMenu"] = $btn;
+}
+
+/** 
+ * retorna o valor do submenu botão ativo
+ * 
+ * @author Mateus Victor <mateus.rego@fatec.sp.gov.br>
+ * 
+ * @return retorna o valor na variavel global activeBtnSubMenu que foi setada pela função setActivBtnSubMenu()
+ */
+function getActivBtnSubMenu(): string {
+    return $GLOBALS["activeBtnSubMenu"] ?? false;
 }
 
 /** 
  * Retorna um arrai com todos os itens do menu
  * 
- * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
+ * @author Mateus Victor <mateus.rego@fatec.sp.gov.br>
  * 
  * @return string[] com todos os links do menu
  */
@@ -347,15 +378,15 @@ function getValuesMenu() : array {
         ],
         [
             "nome" => "Origami",
-            "link" => "historia_origame",
+            "link" => "historia_origami",
             "subMenu" => [
                 [
                     "nome" => "Curiosidades",
-                    "link" => "curiosidades_origame",
+                    "link" => "curiosidades_origami",
                 ],
                 [
                     "nome" => "Origami",
-                    "link" => "origame",
+                    "link" => "origami",
                 ],
                 [
                     "nome" => "Aprenda a fazer",
@@ -379,7 +410,7 @@ function getValuesMenu() : array {
 /** 
  * Usado para retornar os dados de consultas aos arquivos json
  * 
- * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
+ * @author Mateus Victor <mateus.rego@fatec.sp.gov.br>
  * 
  * @param string  $fileJsonName é o caminho e o nome do arquivo json
  * @param string $formatArray O formato de retorno dos dados se for true retorna 
@@ -396,7 +427,7 @@ function getDadosJson($fileJsonName, $formatArray = true) {
 /** 
  * Seta um array com as informções do grupo e dos integrantes em um array global $GLOBALS["infoGrupo"]
  * 
- * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
+ * @author Mateus Victor <mateus.rego@fatec.sp.gov.br>
  * 
  * @return void
  */
@@ -412,7 +443,7 @@ function setInfoGrupo() {
 /** 
  * Retorna o valor setado pela função setInfoGrupo() de $GLOBALS["infoGrupo"]
  * 
- * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
+ * @author Mateus Victor <mateus.rego@fatec.sp.gov.br>
  * 
  * @return array das informações do grupo como nome do grupo, e informações dos integrantes
  */
@@ -423,7 +454,7 @@ function getInfoGrupo() {
 /**
  * Formata o array da imagem e retorna a tag img
  * 
- * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
+ * @author Mateus Victor <mateus.rego@fatec.sp.gov.br>
  * 
  * @param string $path O nome da pasta em midia
  * @param array $img O array da imagem com os indices
@@ -452,7 +483,7 @@ function returnHtmlImg(string $path, array $img, string $tamanho = null, string 
 /**
  * Pega uma matriz e retorna o array correspondente da chave e o valor procurado
  * 
- * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
+ * @author Mateus Victor <mateus.rego@fatec.sp.gov.br>
  * 
  * @param string $needle O valor a ser procurado
  * @param string $key A chave do array da matriz a ser comparada
@@ -472,7 +503,7 @@ function getSearchArray(string $needle, string $key, array $fetch_haystack) {
 /**
  * Procura por um id em uma matriz e retorna o array correspondente
  * 
- * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
+ * @author Mateus Victor <mateus.rego@fatec.sp.gov.br>
  * 
  * @param int $id O id a ser procurado
  * @param array $fetch_haystack A matriz a ser comparada
@@ -486,7 +517,7 @@ function getIdArray(int $id, array $fetch_haystack) {
 /**
  * Retorna os meta dados para o compartilhamento
  * 
- * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
+ * @author Mateus Victor <mateus.rego@fatec.sp.gov.br>
  * 
  * @param array $dados Os dados a serem setados
  * @param string $pathImagem O caminho da imagem
@@ -514,7 +545,7 @@ function setMetaShared(array $dados, string $pathImagem) {
 /**
  * Retorna os metadados setados pela função setMetaShared()
  * 
- * @author Mateus Victor <mateus.rego@etec.sp.gov.br>
+ * @author Mateus Victor <mateus.rego@fatec.sp.gov.br>
  * 
  * @return string As tags <meta>
  */
@@ -522,15 +553,24 @@ function getMetaShared(): string {
     return $GLOBALS["metaShare"] ?? "";
 }
 
-
+/**
+ * Marca um texto que é procurado e corta a string texto se for maior que 160 caracteres
+ * 
+ * @author Mateus Victor <mateus.rego@fatec.sp.gov.br>
+ * 
+ * @param string $needle
+ * @param string $haystack
+ * @param int $posicao
+ * @return string
+ */
 function markText(string $needle, string $haystack, int $posicao): string {
-    if (strlen($haystack) > 150) {
-        if ($posicao < 150) {
-            $haystack = substr($haystack, 0, 150);
-        } elseif ($posicao > 150) {
-            $posInicial = $posicao - 75;
-            $posFinal = $posicao + 75;
-            $haystack = substr($haystack, $posInicial, $posFinal);
+    if (strlen($haystack) > 160) {
+        if ($posicao < 160) {
+            $haystack = substr($haystack, 0, 160)."...";
+        } elseif ($posicao > 160) {
+            $posInicial = $posicao - 80;
+            $posFinal = $posicao + 80;
+            $haystack = "...".substr($haystack, $posInicial, $posFinal)."...";
         }
     }
     return str_replace($needle, "<mark>".$needle."</mark>", $haystack);
@@ -560,10 +600,10 @@ function searchBuscaDados(array $contents, $search) {
 
 function getDadosBusca(string $search): Iterator {
     $dadosHaystack = [];
-    $dadosHaystack["mangas"] = getDadosMangas();
+    $dadosHaystack["manga"] = getDadosMangas();
     $dadosHaystack["dancas"] = dancatopicos();
-    $dadosHaystack["muscias"] = getMusica();
-    $dadosHaystack["teatro"] = teatroContent();
+    $dadosHaystack["musica"] = getMusica();
+    $dadosHaystack["classicos_internas"] = classicosInterna();
 
     foreach ($dadosHaystack as $name => $contents) {
         $dadosSearch = searchBuscaDados($contents, $search);
