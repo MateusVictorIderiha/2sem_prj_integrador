@@ -71,7 +71,10 @@ function setConfigPage($pageName) {
         case "teatro_internas":
             setActivBtnMenu("teatro");
             include './functions/teatroJapones.php';
-            setTitleHead($infoGrupo["nome_grupo"]." - Teatro Interna");
+	    $teatros = teatroInternas();
+	    $page_id = $_GET["id"];
+	    $teatro = getIdArray( $page_id, $teatros);
+            setTitleHead($infoGrupo["nome_grupo"]." - ".$teatro['title']);
             break;
         case "atores":
             setActivBtnMenu("teatro");
@@ -81,7 +84,10 @@ function setConfigPage($pageName) {
 	case "atores_internas":
             setActivBtnMenu("teatro");
             include './functions/teatroJapones.php';
-            setTitleHead($infoGrupo["nome_grupo"]." - Biografia");
+	    $atores = atoresContent();
+	    $page_id = $_GET['id'];
+	    $ator = getIdArray( $page_id, $atores);
+            setTitleHead($infoGrupo["nome_grupo"]." - ".$ator['titulo']);
             break;
         case "classicos":
             setActivBtnMenu("teatro");
@@ -91,7 +97,10 @@ function setConfigPage($pageName) {
 	case "classicos_internas":
             setActivBtnMenu("teatro");
             include './functions/teatroJapones.php';
-            setTitleHead($infoGrupo["nome_grupo"]." - Clássicos do Teatro e Mais");
+	    $classicos = classicosInterna();
+	    $page_id = $_GET["id"];
+	    $classico = getIdArray( $page_id, $classicos);
+            setTitleHead($infoGrupo["nome_grupo"]." - ".$classico["titulo"]);
             break;
         case "japao":
             setTitleHead($infoGrupo["nome_grupo"]." - Japão");
