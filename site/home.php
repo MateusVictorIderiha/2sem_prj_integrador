@@ -10,7 +10,7 @@ $musicas = getMusica();
 $teatroValues = teatroContent();
 ?>
 <div class="container">
-    <article>
+    <section>
         <div class="row">
             <div class="col-lg-4 col-md-12 text-center">
                 <h1 class="titulo text-center">Danças japonesas</h1>
@@ -33,7 +33,7 @@ $teatroValues = teatroContent();
                     foreach ($danca as $valor) {
                         ?>                
                         <div class="col-lg-6 col-md-6 col-12">
-                            <aside class="sectionDanca">
+                            <section class="sectionDanca">
                                 <div class="row">
                                     <div class=" col-md-4 col-4">
                                         <a href="<?= "index.php?pagina=dancatopico&id=" . $valor["id"]; ?>">
@@ -51,7 +51,7 @@ $teatroValues = teatroContent();
                                         <a class="internoDancaA" href="<?= "index.php?pagina=dancatopico&id=" . $valor["id"]; ?>"><p><?= $valor["texto"]; ?></p></a>
                                     </div>
                                 </div>
-                            </aside>
+                            </section>
                         </div>                
                         <?php
                     }
@@ -59,13 +59,13 @@ $teatroValues = teatroContent();
                 </div>
             </div>
         </div>                
-    </article>
+    </section>
 </div>
 
 <hr class="hrDanca">
 
 <div class="container mb-5">
-    <article>
+    <section>
         <div class="row"> 
             <div class="col-lg-4 col-md-12 text-center">
                 <h1 class="titulo text-center">Músicas</h1>
@@ -87,7 +87,7 @@ $teatroValues = teatroContent();
                 <div class="row text-center">   
                     <?php foreach ($musicas as $musica) { ?>
                         <div class="col-lg-6 col-md-6 col-12">
-                            <aside class="sectionDanca">  
+                            <section class="sectionDanca">  
                                 <h2 class="text-center subtitulo"><a class="internoDancaA" href="index.php?pagina=musica&id=<?= $musica["id"]; ?>"><?= $musica["titulo"]; ?></a></h2>
                                 <picture>
                                     <source media="(max-width: 720px)" srcset="<?= "midia/musicas/" . $musica["imagem"]; ?>">
@@ -96,13 +96,13 @@ $teatroValues = teatroContent();
                                     <img class="img-rounded img-fluid" style="height: 140px; width: 250px;" src="<?= "midia/musicas/" . $musica["imagem"]; ?>" alt="imagem relacionada ao gênero musical j-pop">
                                 </picture>
                                 <p class="text-justify text-center mt-2"><a class="internoDancaA" href="index.php?pagina=musica&id=<?= $musica["id"]; ?>">Continuar lendo</a></p>
-                            </aside>
+                            </section>
                         </div>
                     <?php } ?>
                 </div>
             </div>
         </div>
-    </article>
+    </section>
 </div>
 
 
@@ -221,7 +221,7 @@ $teatroValues = teatroContent();
 <hr class="hrDanca">
 
 <div class="container mb-5">
-    <article>
+    <section>
         <div class="row">
             <div class="col-lg-4 col-md-12 text-center">
                 <h1 class="titulo text-center">Teatro japones</h1>
@@ -244,7 +244,7 @@ $teatroValues = teatroContent();
             <div class="col-lg-8">
                 <div class="row">
                     <?php for ($i = 0; $i <= 3; $i++) { ?>
-                        <aside class="col-12 col-md-6 col-lg-6 thumb_nail text-center">
+                        <section class="col-12 col-md-6 col-lg-6 thumb_nail text-center">
                             <a href="index.php?pagina=<?= $teatroValues[$i]["argumento"]; ?>&id=<?= $teatroValues[$i]["id"]; ?>">    
                                 <div class="circular">
                                     <img class="thumb_img m-auto" src="midia/teatro/<?= $teatroValues[$i]["imagem"]; ?>.jpg" alt="<?= $teatroValues[$i]["alt"]; ?>" title="<?= $teatroValues[$i]["credito"]; ?>">
@@ -256,12 +256,12 @@ $teatroValues = teatroContent();
                                     </div>
                                 </div>
                             </a>
-                        </aside>
+                        </section>
                     <?php } ?>
                 </div>
             </div>
         </div>
-    </article>
+    </section>
 </div>
 
 <hr class="hrDanca">
