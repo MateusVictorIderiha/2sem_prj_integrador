@@ -12,7 +12,7 @@
                     </picture>
                 </figure>
 
-                <h1 class="titulo"> O JapÃ£o </h1><br>
+                <h1 class="titulo"> O Japão </h1><br>
 
 
                 <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget
