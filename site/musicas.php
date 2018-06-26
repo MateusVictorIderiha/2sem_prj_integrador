@@ -10,25 +10,19 @@ $musicas = getMusica();
             </article>
         </div>
     </div>
-</div>
-<div class="container">
     <div class="row">
         <?php foreach ($musicas as $musica) { ?> 
             <div class="col-md-3">
-
                 <section>  
                     <h2 class="text-center subtitulo"><?= $musica["titulo"]; ?></h2>
                     <picture>
                         <source media="(max-width: 720px)" srcset="<?= "midia/musicas/" . $musica["imagem"]; ?>">
                         <source media="(min-width: 720px)" srcset="<?= "midia/musicas/" . $musica["imagem"]; ?>">
                         <source media="(min-width: 1200px)" srcset="<?= "midia/musicas/" . $musica["imagem"]; ?>">
-                        <img class="img-rounded img-fluid center-block" style="height: 140px; width: 250px;" src="<?= "midia/musicas/" . $musica["imagem"]; ?>" alt="imagem relacionada ao gênero musical j-pop">
+                        <img class="img-rounded img-fluid center-block" style="height: 140px; width: 250px;" src="<?= "midia/musicas/" . $musica["imagem"]; ?>" alt="imagem relacionada ao gÃªnero musical j-pop">
                     </picture>
-
                     <p><?= substr($musica["texto"], 0, 225); ?><a href="index.php?pagina=musica&id=<?= $musica["id"]; ?>"> Continuar lendo</a></p>
-
                 </section>
-
             </div>
         <?php } ?>
     </div>

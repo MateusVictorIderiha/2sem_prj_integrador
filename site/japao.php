@@ -8,11 +8,11 @@
                     <picture>
                         <source media="(max-width: 720px)" srcset="">
                         <source media="(min-width: 720px)" srcset="midia/geral/japao-header.jpg">
-                        <img  class="mw-100 d-none d-sm-block ml-auto mr-auto" src="" alt="imagem de um vulcão que se localiza no japão">
+                        <img  class="mw-100 d-none d-sm-block ml-auto mr-auto" src="" alt="imagem de um vulcÃ£o que se localiza no japÃ£o">
                     </picture>
                 </figure>
 
-                <h1 class="titulo"> O Japão </h1><br>
+                <h1 class="titulo"> O JapÃ£o </h1><br>
 
 
                 <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget
@@ -43,7 +43,7 @@
         <div class="row">
             <div class="col-12 col-md-6">
                 <h1>Templo</h1>
-                <figure class="float-md-left"><img class="mr-4" src="midia/geral/templo2.jpg" alt="foto de um templo no japão localizado ao lado de um lago"> </figure>
+                <figure class="float-md-left"><img class="mr-4" src="midia/geral/templo2.jpg" alt="foto de um templo no japÃ£o localizado ao lado de um lago"> </figure>
                 <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget
                     tempus magna, nec eleifend ipsum. Nulla facilisi. In hac habitasse 
                     platea dictumst. Praesent fringilla tempor mattis. Cras at mattis leo. 

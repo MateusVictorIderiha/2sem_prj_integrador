@@ -3,7 +3,7 @@
     <div class="row">
         <div class="col-lg-6 col-md-12">
             <h1 class="titulo mt-4" style="border-bottom: 2px solid red;">Entre em contato conosco</h1>
-            <h2 class="subtitulo py-2">Duvidas, criticas ou segustões, preencha os campos:</h2>
+            <h2 class="subtitulo py-2">Duvidas, criticas ou segustÃµes, preencha os campos:</h2>
 
             <article>
                 <form action="save-msg.php" method="post" class="save-form">
@@ -28,7 +28,7 @@
                             <option value="">Escolha</option>
                             <option value="1">Duvida</option>
                             <option value="2">critica</option>
-                            <option value="3">Sugestão</option>
+                            <option value="3">SugestÃ£o</option>
                         </select>
                     </div>
 
@@ -74,7 +74,7 @@
                     molestie nisi, nec rhoncus dolor feugiat et.
                 </p>
 
-                <h2 class="subtitulo text-center mt-4">Dê uma olhada em nossos termos de uso</h2>
+                <h2 class="subtitulo text-center mt-4">DÃª uma olhada em nossos termos de uso</h2>
                 <p class="text-center mt-3"><a class="btn btn-danger" href="index.php?pagina=termo_uso" role="button">Visitar termos de uso</a></p>
             </aside>
         </div>

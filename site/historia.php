@@ -70,8 +70,8 @@
             </div>
             
             <div class="offset-1 offset-lg-0 offset-md-0 col-lg-2 col-md-4 col-10 text-center">
-                <img class="img-fluid mt-5" src="midia/geral/danca_saiba_190.jpg" alt="dança tipica do japao" style="width:auto;">
-                <h2 class="subtitulo pHistoria pt-2">Dança na arte</h2>
+                <img class="img-fluid mt-5" src="midia/geral/danca_saiba_190.jpg" alt="danÃ§a tipica do japao" style="width:auto;">
+                <h2 class="subtitulo pHistoria pt-2">DanÃ§a na arte</h2>
                 <p class="text-justify pHistoria" style="border-left:1px polid #fff;">
                     Vestibulum ac dui et elit fringilla condimentum id sed felis. 
                     Donec eu nunc molestie, accumsan dolor sit amet, sagittis felis. 
@@ -120,4 +120,3 @@
         </div>
     </section>
 </div>
-

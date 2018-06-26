@@ -24,9 +24,9 @@ $dadosGrupo = getInfoGrupo();
         <ul class="col-lg-10 col-md-8 col-12">
             <li><strong>Nome:</strong> <?= $integrante["nome"]." ".$integrante["sobre_nome"]; ?></li>
             <li><strong>RA:</strong> <?= $integrante["ra"]; ?></li>
-            <li><strong>Funções:</strong> <?= $integrante["funcoes"]; ?></li>
+            <li><strong>FunÃ§Ãµes:</strong> <?= $integrante["funcoes"]; ?></li>
             <li>
-                <strong>Áreas responsável:</strong> 
+                <strong>Ã�reas responsÃ¡vel:</strong> 
                 <?php
                 foreach ($integrante["links"] as $link) { 
                     if (!empty($link["nome"])) {

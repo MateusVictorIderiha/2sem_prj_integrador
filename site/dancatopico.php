@@ -11,7 +11,7 @@
                 <h3 class="d-none">Imagem lateral</h3>
                 <picture>
                     <source media="(min-width: 1200px)" srcset="midia/danca/bluedanca_300.jpg">
-                    <img class="img-fluid" src="midia/danca/bluedanca_300.jpg" alt="casal japones com guarda chuva tipico de dança" style="width:auto;">
+                    <img class="img-fluid" src="midia/danca/bluedanca_300.jpg" alt="casal japones com guarda chuva tipico de danÃ§a" style="width:auto;">
                 </picture>
             </section>
         </div>
@@ -31,7 +31,7 @@
                             <source media="(max-width: 720px)" srcset="midia/danca/<?= $danca["imagem"]["nome"] . "_350" . $danca["imagem"]["ext"]; ?>">
                             <source media="(min-width: 720px)" srcset="midia/danca/<?= $danca["imagem"]["nome"] . "_700" . $danca["imagem"]["ext"]; ?>">
                             <source media="(min-width: 1200px)" srcset="midia/danca/<?= $danca["imagem"]["nome"] . "_700" . $danca["imagem"]["ext"]; ?>">
-                            <img class="img-fluid imgTopicoDanca" src="midia/danca/<?= $danca["imagem"]["nome"] . "_700" . $danca["imagem"]["ext"]; ?>" alt="duas moças moças japonesas com roupas tipicas de dança japonesa" style="width:auto;">	
+                            <img class="img-fluid imgTopicoDanca" src="midia/danca/<?= $danca["imagem"]["nome"] . "_700" . $danca["imagem"]["ext"]; ?>" alt="duas moÃ§as moÃ§as japonesas com roupas tipicas de danÃ§a japonesa" style="width:auto;">	
                         </picture>
                     </aside>
                 </div>
@@ -88,7 +88,7 @@
 
         <div class="col-lg-8">
             <section>
-                <h2 class="subtitulo text-center dancaText">Dança japonesa</h2>
+                <h2 class="subtitulo text-center dancaText">DanÃ§a japonesa</h2>
             </section>    
 
             <div class="row">

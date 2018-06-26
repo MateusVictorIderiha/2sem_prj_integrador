@@ -13,10 +13,10 @@ $teatroValues = teatroContent();
     <section>
         <div class="row">
             <div class="col-lg-4 col-md-12 text-center">
-                <h1 class="titulo text-center">Danças japonesas</h1>
+                <h1 class="titulo text-center">danças japonesas</h1>
                 <picture class="d-none d-sm-block">
                     <source media="(min-width: 1200px)" srcset="midia/danca/danca_170.jpg">
-                    <img class="rounded-circle my-3" src="midia/danca/danca_170.jpg" alt="Mulher ajoelhada em dança tipica do japão, usando yukata (vestido usado em eventos tradicionais)">
+                    <img class="rounded-circle my-3" src="midia/danca/danca_170.jpg" alt="Mulher ajoelhada em danÃ§a tipica do japÃ£o, usando yukata (vestido usado em eventos tradicionais)">
                 </picture>
                 <p class="d-none d-md-block">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mauris quam, 
@@ -68,7 +68,7 @@ $teatroValues = teatroContent();
     <section>
         <div class="row"> 
             <div class="col-lg-4 col-md-12 text-center">
-                <h1 class="titulo text-center">Músicas</h1>
+                <h1 class="titulo text-center">músicas</h1>
                 <picture class="d-none d-sm-block">
                     <source media="(min-width: 1200px)" srcset="midia/danca/perfume_170.jpg">
                     <img class="rounded-circle my-3" src="midia/danca/perfume_170.jpg" alt="Banda japonesa composta apenas de mulheres">
@@ -93,7 +93,7 @@ $teatroValues = teatroContent();
                                     <source media="(max-width: 720px)" srcset="<?= "midia/musicas/" . $musica["imagem"]; ?>">
                                     <source media="(min-width: 720px)" srcset="<?= "midia/musicas/" . $musica["imagem"]; ?>">
                                     <source media="(min-width: 1200px)" srcset="<?= "midia/musicas/" . $musica["imagem"]; ?>">
-                                    <img class="img-rounded img-fluid" style="height: 140px; width: 250px;" src="<?= "midia/musicas/" . $musica["imagem"]; ?>" alt="imagem relacionada ao gênero musical j-pop">
+                                    <img class="img-rounded img-fluid" style="height: 140px; width: 250px;" src="<?= "midia/musicas/" . $musica["imagem"]; ?>" alt="imagem relacionada ao gÃªnero musical j-pop">
                                 </picture>
                                 <p class="text-justify text-center mt-2"><a class="internoDancaA" href="index.php?pagina=musica&id=<?= $musica["id"]; ?>">Continuar lendo</a></p>
                             </section>
@@ -112,7 +112,7 @@ $teatroValues = teatroContent();
     <section class="mangas">
         <div class="row">
             <div class="col-12 text-center">
-                <h1 class="titulo text-center">Mangás</h1>
+                <h1 class="titulo text-center">mangás</h1>
                 <p class="text-justify">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mauris quam, 
                     eleifend eget tempor ut, tempor tempor purus. Aliquam vestibulum, eros vel 
@@ -224,10 +224,10 @@ $teatroValues = teatroContent();
     <section>
         <div class="row">
             <div class="col-lg-4 col-md-12 text-center">
-                <h1 class="titulo text-center">Teatro japones</h1>
+                <h1 class="titulo text-center">Teatro japonês</h1>
                 <picture class="d-none d-sm-block">
                     <source media="(min-width: 1200px)" srcset="midia/danca/teatro_170.jpg">
-                    <img class="rounded-circle my-3" src="midia/danca/teatro_170.jpg" alt="peça de teatro tipica do japão">
+                    <img class="rounded-circle my-3" src="midia/danca/teatro_170.jpg" alt="peÃ§a de teatro tipica do japÃ£o">
                 </picture>
                 <p class="d-none d-md-block text-justify">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mauris quam, 
@@ -280,23 +280,30 @@ $teatroValues = teatroContent();
             </p>
             <div class="row">
                 <section class="col-md-3 col-12">
-                     <a href="index.php?pagina=aprenda_a_fazer2"> <h2 class="subtitulo text-center">Aprenda a fazer o Tsuru </h2>
-                    <img class="img-rounded img-responsive center-block imgHome" style="height: 140px; width: 250px;" src="midia/origame/HomeCuriosidades1.jpg" alt="Origami representando um passaro feito em papel colorido">
-                     </a><p class="text-justify ml-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto eius libero accusamus corporis, earum corrupti, quaerat quasi molestiae hic, nobis distinctio dignissimos</p>
+                    <a href="index.php?pagina=aprenda_a_fazer2">
+			<h2 class="subtitulo text-center">Aprenda a fazer o Tsuru </h2>
+			<img class="img-rounded img-responsive center-block imgHome" style="height: 140px; width: 250px;" src="midia/origame/HomeCuriosidades1.jpg" alt="Origami representando um passaro feito em papel colorido">
+                    </a>
+			<p class="text-justify ml-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto eius libero accusamus corporis, earum corrupti, quaerat quasi molestiae hic, nobis distinctio dignissimos</p>
                 </section>
                 <section class="col-md-3 col-12">
-                    <a href="index.php?pagina=origami2">  <h2 class="subtitulo text-center"> Modelo pronto  </h2>
-                    <img class="img-rounded img-responsive center-block imgHome" style="height: 140px; width: 250px;" src="midia/origame/modeloprontohome.jpg" alt="Origami representando um passaro feito em papel branco">
-                    </a><p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto eius libero accusamus corporis, earum corrupti, quaerat quasi molestiae hic, nobis distinctio dignissimos</p>
+                    <a href="index.php?pagina=origami2">
+			<h2 class="subtitulo text-center"> Modelo pronto  </h2>
+			<img class="img-rounded img-responsive center-block imgHome" style="height: 140px; width: 250px;" src="midia/origame/modeloprontohome.jpg" alt="Origami representando um passaro feito em papel branco">
+                    </a>
+			<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto eius libero accusamus corporis, earum corrupti, quaerat quasi molestiae hic, nobis distinctio dignissimos</p>
                 </section>
                 <section class="col-md-3 col-12">
-                     <a href="index.php?pagina=aprenda_a_fazer"> <h2 class="subtitulo text-center">Faça Borboletas </h2>
-                    <img class="img-rounded img-responsive center-block imgHome" style="height: 140px; width: 250px;" src="midia/origame/aprendaafazerborboletashome.jpg" alt="Origami representando borboletas feito em papel colorido">
-                    </a><p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto eius libero accusamus corporis, earum corrupti, quaerat quasi molestiae hic, nobis distinctio dignissimos</p>
+                    <a href="index.php?pagina=aprenda_a_fazer">
+			<h2 class="subtitulo text-center">Faça Borboletas </h2>
+			<img class="img-rounded img-responsive center-block imgHome" style="height: 140px; width: 250px;" src="midia/origame/aprendaafazerborboletashome.jpg" alt="Origami representando borboletas feito em papel colorido">
+                    </a>
+			<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto eius libero accusamus corporis, earum corrupti, quaerat quasi molestiae hic, nobis distinctio dignissimos</p>
                 </section>
                 <section class="col-md-3 col-12">
-                   <a href="index.php?pagina=origami"> <h2 class="subtitulo text-center"> Modelo pronto</h2>
-                    <img class="img-rounded img-responsive center-block imgHome" style="height: 140px; width: 250px;" src="midia/origame/vermelho.jpg" alt="Origami representando um passaro feito em papel colorido">
+                    <a href="index.php?pagina=origami">
+			<h2 class="subtitulo text-center"> Modelo pronto</h2>
+			<img class="img-rounded img-responsive center-block imgHome" style="height: 140px; width: 250px;" src="midia/origame/vermelho.jpg" alt="Origami representando um passaro feito em papel colorido">
                     </a><p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto eius libero accusamus corporis, earum corrupti, quaerat quasi molestiae hic, nobis distinctio dignissimos</p>
                 </section>
             </div>

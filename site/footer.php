@@ -4,7 +4,7 @@ $infoGrupo = getInfoGrupo();
 $integrantes = [];
 foreach ($infoGrupo["integrantes"] as $integrante) {
     $integrantes[] = "<a href='index.php?pagina=quem_somos#".formatName($integrante["nome"])
-            ."' title='Integrante do grupo ".$infoGrupo["nome_grupo"]." com as funcões de: ".$integrante["funcoes"]."'>"
+            ."' title='Integrante do grupo ".$infoGrupo["nome_grupo"]." com as funcÃµes de: ".$integrante["funcoes"]."'>"
             .$integrante["nome"]."</a>";
 }
 ?>

@@ -6,13 +6,13 @@ $classico = getIdArray($page_id, $classicos);
 <div class="container teatro_content">
     <main class="bio_content">
         <h1 class="titulo text-center"><?= $classico['titulo'] ?></h1>
-        <div class="row">
+        <div class="row mt-5">
             <aside class="col-12 col-lg-4">
                 <div class="line line_perfil d-md-none"></div>
-                <img class="d-block mx-auto img-fluid cla_aside_img" src="midia/teatro/<?= $classico['imagem'] ?>.jpg" alt="<?= $classico['alt'] ?>" title="<?= $classico['credito'] ?>">
+                <img class="d-block mx-auto img-fluid" src="midia/teatro/<?= $classico['imagem'] ?>.jpg" alt="<?= $classico['alt'] ?>" title="<?= $classico['credito'] ?>">
                 <div class="line line_perfil d-md-none"></div>
             </aside>
-            <article class="bio_article_margin text-justify text-md-left col-12 col-lg-8">
+            <article class="text-justify text-md-left col-12 col-lg-8">
                 <p><?= $classico['texto'] ?></p>
             </article>
         </div>
@@ -32,7 +32,7 @@ $classico = getIdArray($page_id, $classicos);
             </div>
     <section class="row text-center">
         <div class="line line_obras d-none"></div>
-        <h2 class="subtitulo obras_sub_heading col-12">Outros Clássicos</h2>
+        <h2 class="subtitulo obras_sub_heading col-12">Mais Clássicos</h2>
         <?php
         foreach ($classicos as $maisClassicos) {
             if ($maisClassicos['titulo'] <> $classico['titulo']) {

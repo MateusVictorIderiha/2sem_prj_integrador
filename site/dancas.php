@@ -5,7 +5,7 @@
                 <h3 class="d-none">Imagem do desktop</h3>
                 <picture>
                     <source media="(min-width: 1200px)" srcset="midia/danca/topoDesktopDanca_1200.jpg">
-                    <img class="img-fluid" src="midia/danca/topoDesktopDanca_1200.jpg" alt="Dança tradicional japonesa, mulheres com roupa tradicional" style="width:auto;">
+                    <img class="img-fluid" src="midia/danca/topoDesktopDanca_1200.jpg" alt="DanÃ§a tradicional japonesa, mulheres com roupa tradicional" style="width:auto;">
                 </picture>
             </section>
         </div>
@@ -24,7 +24,7 @@ $visites = visiteoutros();
                 <h3 class="d-none">Imagem do desktop</h3>
                 <picture>
                     <source media="(min-width: 1200px)" srcset="midia/danca/lateralDesktopDanca_300.jpg">
-                    <img class="img-fluid" src="midia/danca/lateralDesktopDanca_300.jpg" alt="casal japones com guarda chuva tipico de dança" style="width:auto;">
+                    <img class="img-fluid" src="midia/danca/lateralDesktopDanca_300.jpg" alt="casal japones com guarda chuva tipico de danÃ§a" style="width:auto;">
                 </picture>
             </section>
         </div>
@@ -45,7 +45,7 @@ $visites = visiteoutros();
                             <source media="(max-width: 720px)" srcset="midia/danca/meioDesktopDanca_400.jpg">
                             <source media="(min-width: 720px)" srcset="midia/danca/meioDesktopDanca_400.jpg">
                             <source media="(min-width: 1200px)" srcset="midia/danca/meioDesktopDanca_400.jpg.">
-                            <img class="img-fluid" src="midia/danca/meioDesktopDanca_400.jpg" alt="duas moças moças japonesas com roupas tipicas de dança japonesa" style="width:auto;">	
+                            <img class="img-fluid" src="midia/danca/meioDesktopDanca_400.jpg" alt="duas moÃ§as moÃ§as japonesas com roupas tipicas de danÃ§a japonesa" style="width:auto;">	
                         </picture>
                     </aside>
                 </div>
