@@ -28,7 +28,7 @@
                 </div>
                 
                 <div class=" col-lg-8 col-md-7 col-12">
-                    <h1 class="titulo text-center mt-3">Historia da arte no japao</h1>
+                    <h1 class="titulo text-center mt-3">História da arte no Japão</h1>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac feugiat lectus.
                         Maecenas at hendrerit justo. Vestibulum ac dui et elit fringilla condimentum id sed felis.
@@ -58,7 +58,7 @@
         <div class="row">
             <div class="offset-lg-1 offset-md-0 offset-1 col-lg-2 col-md-4 col-10 text-center">
                 <img class="img-fluid mt-5" src="midia/geral/manga_saiba_190.jpg" alt="cosplay de personagens manga" style="width:auto;">
-                <h2 class="subtitulo pHistoria pt-2">Manga na arte</h2>
+                <h2 class="subtitulo pHistoria pt-2">Mangá na arte</h2>
                 <p class="text-justify pHistoria">
                     Vestibulum ac dui et elit fringilla condimentum id sed felis. 
                     Donec eu nunc molestie, accumsan dolor sit amet, sagittis felis. 
@@ -71,7 +71,7 @@
             
             <div class="offset-1 offset-lg-0 offset-md-0 col-lg-2 col-md-4 col-10 text-center">
                 <img class="img-fluid mt-5" src="midia/geral/danca_saiba_190.jpg" alt="danÃ§a tipica do japao" style="width:auto;">
-                <h2 class="subtitulo pHistoria pt-2">DanÃ§a na arte</h2>
+                <h2 class="subtitulo pHistoria pt-2">Dança na arte</h2>
                 <p class="text-justify pHistoria" style="border-left:1px polid #fff;">
                     Vestibulum ac dui et elit fringilla condimentum id sed felis. 
                     Donec eu nunc molestie, accumsan dolor sit amet, sagittis felis. 
@@ -95,7 +95,7 @@
             </div>
             <div class="offset-md-2 offset-lg-0 offset-1 col-lg-2 col-md-4 col-10 text-center">
                 <img class="img-fluid mt-5" src="midia/geral/musica_saiba_190.jpg" alt="banda japonesa de k-pop" style="width:auto;">
-                <h2 class="subtitulo pHistoria pt-2">Musica na arte</h2>
+                <h2 class="subtitulo pHistoria pt-2">Música na arte</h2>
                 <p class="text-justify pHistoria">
                     Vestibulum ac dui et elit fringilla condimentum id sed felis. 
                     Donec eu nunc molestie, accumsan dolor sit amet, sagittis felis. 

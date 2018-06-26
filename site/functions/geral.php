@@ -426,7 +426,7 @@ function getValuesMenu() : array {
             "link" => "japao"
         ],
         [
-            "nome" => "A historia",
+            "nome" => "A história",
             "link" => "historia"
         ]
     ];
