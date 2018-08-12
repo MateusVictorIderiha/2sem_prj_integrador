@@ -107,6 +107,7 @@ será estabelecidos este padrão.
             };		
     <----------- // ------------->
 
+
     -> Todas as funções devem ser comentadas, não há necessidade de comentar funções nativas do php.
     os padrões a serem seguidos do comentario das funções são, esse estilo de documentação é feito pelo phpDocumentor ele gera 
     e ajuda a gerenciar a documentação do php mais tarde veremos como fica, mas ja para adiantar seria algo mais ou menos assim:
