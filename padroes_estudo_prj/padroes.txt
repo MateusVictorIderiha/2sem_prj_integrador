@@ -134,3 +134,9 @@ SERVIDOR:
     IR em projetos modificar, executar configuração e colocar WEB SITE REMOTE; 
     em coneção clicar em gerenciar, COLOCAR UM NOME para conexão, colocar host e usuario e o nome
     Para subir os arquivos clicar na pasta que deseja subir com o botão direito ou em arquivos de codigo fonte
+    
+    
+   
+   Link para Planilha
+   
+   https://onedrive.live.com/view.aspx?resid=BD40D158351941F2!3121&ithint=file%2cxlsx&app=Excel&authkey=!AFOIR_zQOic0QQc
