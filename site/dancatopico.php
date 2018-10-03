@@ -91,8 +91,7 @@
                 <h2 class="subtitulo text-center dancaText">DanÃ§a japonesa</h2>
             </section>    
 
-            <div class="row">
-                
+            <div class="row">                
                 <?php
                     foreach ($dancas as $valor) {
                 ?>                
@@ -120,7 +119,6 @@
                 <?php
                     };
                 ?>
-
             </div>
         </div>    
     </div>
