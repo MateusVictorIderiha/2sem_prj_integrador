@@ -16,11 +16,12 @@ $(document).ready(function () {
 
     $(".nav-link.dropdown-toggle").click(function (event) {
         if (window.screen.width >= 991 && this.href !== "") {
-            window.location.href = this.href;
+            location.href = this.href;
         }
     });
+    
     $(".nav-link.dropdown-toggle").keypress(function (event) {
-        let keycode = event.which || event.keycode;
+        var keycode = event.which || event.keycode;
         if (keycode === 40 || keycode === 13) {
             event.preventDefault();
         }
