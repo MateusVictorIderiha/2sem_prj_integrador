@@ -1,0 +1,48 @@
+                                                                      
+                                                                     PERSONAS
+                               ===================================================================================
+
+
+ Ricardo
+ --------
+     . 17 anos de idade;
+     . 3º ano do ensino médio;
+     . Mora com os pais eo irmão;
+     . Gosta de programação, tecnologia e animes;
+     . Tablet e Computador.
+         
+  . HABILIDADES: Nasceu com fotofobia, baixa visão e alteração de cone , causadas pela pouca pigmentação na retina ocular.
+  . APTIDÃO: Autodidata, gosta de estudar inglês e programação através de vídeos no youtube.
+  . ATITUDE: Problemas com acessibilidade quando o site não disponibiliza a opção de aumentar o tamanho da fonte, quando pensam que tema noturno é só para uso noturno e quando
+ as cores do site são despadronizadas.
+  . TECNOLOGIA ASSISTIVA: Adaptação das cores e tipos de fontes mais confortáveis, sendo mais espaçadas facilitando na leitura (padrão 16px).
+
+                           ========================================================================================== 
+
+ Alessandro
+ ----------
+     . 50 anos de idade;
+     . Mora com sua esposa e dois filhos;
+     . Gosta de jogar futebol e assistir esportes em geral;
+     . Celular e computador.
+
+   . HABILIDADE: Surdo desde o nascimento por consequência da surdês não conseguiu desenvolver a fala e por isso ficou mudo.
+   . APTIDÃO: Formado em jornalismo no ramo esportivo.
+   . Atitude: Se sente excluído pela sociedade e até por membros da família já que poucos sabem libras dificultando sua interação com as demais pessoas.
+   .TECNOLOGIA ASSISTIVA: O que mais lhe frustra ao mexer em um site que contenha vídeos e esses vídeos não tenham legendas.
+
+                          ========================================================================================== 
+
+ Jéssica
+ -------
+     . 38 anos de idade;
+     . 2º ano do doutorado de matemática;
+     . Mora com seu marido e dois filhos;
+     . Gosta de jogar futebol e assistir esportes em geral;
+     . Celular e computador.
+
+   . HABILIDADE: Certo grau de autismo.
+   . APTIDÃO: Mestra na área da matemática e fluente em inglês, trabalha na área de contabilidade de um banco.
+   . Atitude: Tem muita dificuldade de se comunicar com seus amigos e colegas de trabalho por conta do autismo.
+   .TECNOLOGIA ASSISTIVA: Usa programas para esconder a página focando no conteúdo da página, não gosta de sites com muitas informações em uma única página e se incomoda com sites que
+ utilizam cores vibrantes.
