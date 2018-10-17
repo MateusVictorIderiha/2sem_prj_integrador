@@ -16,7 +16,7 @@ $teatroValues = teatroContent();
                 <h1 class="titulo text-center">danças japonesas</h1>
                 <picture class="d-none d-sm-block">
                     <source media="(min-width: 1200px)" srcset="midia/danca/danca_170.jpg">
-                    <img class="rounded-circle my-3" src="midia/danca/danca_170.jpg" alt="Mulher ajoelhada em danÃ§a tipica do japÃ£o, usando yukata (vestido usado em eventos tradicionais)">
+                    <img class="rounded-circle my-3" src="midia/danca/danca_170.jpg" alt="Mulher ajoelhada com penteado tipico japonês e e yukata azul (vestido usado em eventos tradicionais)">
                 </picture>
                 <p class="d-none d-md-block">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mauris quam, 
@@ -71,7 +71,7 @@ $teatroValues = teatroContent();
                 <h1 class="titulo text-center">músicas</h1>
                 <picture class="d-none d-sm-block">
                     <source media="(min-width: 1200px)" srcset="midia/danca/perfume_170.jpg">
-                    <img class="rounded-circle my-3" src="midia/danca/perfume_170.jpg" alt="Banda japonesa composta apenas de mulheres">
+                    <img class="rounded-circle my-3" src="midia/danca/perfume_170.jpg" alt="Banda japonesa composta apenas de mulheres com roupa laranja e amarela">
                 </picture>
                 <p class="d-none d-md-block text-justify">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mauris quam, 
@@ -227,7 +227,7 @@ $teatroValues = teatroContent();
                 <h1 class="titulo text-center">Teatro japonês</h1>
                 <picture class="d-none d-sm-block">
                     <source media="(min-width: 1200px)" srcset="midia/danca/teatro_170.jpg">
-                    <img class="rounded-circle my-3" src="midia/danca/teatro_170.jpg" alt="peÃ§a de teatro tipica do japÃ£o">
+                    <img class="rounded-circle my-3" src="midia/danca/teatro_170.jpg" alt="teatro japonês executado de noite, com luz e personagens tipicos japonês, no momento da cena apenas um homem de yukata apresenta.">
                 </picture>
                 <p class="d-none d-md-block text-justify">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mauris quam, 
