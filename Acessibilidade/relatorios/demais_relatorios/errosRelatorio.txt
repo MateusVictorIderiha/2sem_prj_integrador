@@ -1,0 +1,51 @@
+HOME -- Desktop
+  Não da pra abrir o menu direito na versão desktop, ao clicar na categoria ele vai direto para a pagina e nao mostra as escolhas
+  Não esta lendo a imagem e o texto lateral
+  Não está lendo as imagens da sessão música.
+  A sessão música as imagens estão replicadas('alt').
+  Esta pulando o titulo e o texto do mangá
+  Na parte do teatro não esta lendo o titulo, apenas a imagem e o lorem
+  Na sessão mangá tem dois links desnecessarios entre o titulo e imagem
+  Pulando o titulo e o texto da parte do origami
+  Não esta lendo a parte do texto das categorias na parte do origami
+  
+TEATRO -- Desktop
+  Esta pulando direto para as categorias
+  Mesmo problema com as categorias na Home
+  
+  TEATRO -- Atores
+    Pulando o titulo da biografia
+    pulando a imagem e o texto de cada categoria
+    pulando o texto tambem nas internas
+
+MUSICA -- Destop
+  Pulando tudo e indo direto para o continuar lendo
+  
+  MUSICA -- topico
+    Na categoria pulando tudo e indo direto para a busca
+
+MANGA -- Desktop
+  Indo ate as duas imagens porem pula a parte de cima da tela
+  Mesmo problema que esta na home, 2 links no meio das imagens
+  Erro no software ao chegar no ultimo link antes de entrar no footer
+
+  MANGA -- Topico
+    Pulando o titulo, descrição e o texto da pagina
+
+DANCA -- Desktop
+    Pulou todo o conteúdo e foi direto para a seção Visite outras categorias
+
+DANÇA -- Topico
+   Todos os Tópicos --  Ele pulou o conteúdo inicial e foi para o compartilhar 
+
+ORIGAMI -- Desktop
+   Pulou todos os textos
+
+ORIGAMI -- Topico 
+   Todos os Topicos -- Ele pula todos os titulos e os textos
+      
+JAPÃO -- Desktop
+   Pulou todo o conteúdo, indo direto para o rodapé
+
+HISTÓRIA -- Desktop
+   Ele pula todas as imagens, textos e titulos, preservando somente os botões e pulando para o rodapé em seguida
