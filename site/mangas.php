@@ -49,13 +49,13 @@ $imgsCat = $categorias["imagens"];
             <section class="col-12 col-md-6 col-lg-3 manga">
                 <div class="borderManga">
                     <div class="contentManga">
-                        <a href="index.php?pagina=manga&id=<?= $manga["id"]; ?>" class=""><h2 class="titulo text-center"><?= $manga["titulo"]; ?></h2></a>
-                        <a href="index.php?pagina=manga&id=<?= $manga["id"]; ?>" class=""><p class="subtitulo text-center"><?= $manga["subtitulo"]; ?></p></a>
+                        <a href="index.php?pagina=manga&id=<?= $manga["id"]; ?>" class="<?= $manga["titulo"]; ?>"><h2 class="titulo text-center"><?= $manga["titulo"]; ?></h2></a>
+                        <a tabindex="-1" href="index.php?pagina=manga&id=<?= $manga["id"]; ?>" class=""><p class="subtitulo text-center"><?= $manga["subtitulo"]; ?></p></a>
                         <div class="containerImg text-center">
-                            <a href="index.php?pagina=manga&id=<?= $manga["id"]; ?>" class="creditos">
+                            <a tabindex="-1" href="index.php?pagina=manga&id=<?= $manga["id"]; ?>" class="creditos">
                             <!--<a href="<?= $img["credito"] ?>" title="<?= $img["title"]; ?>" class="" target="_blank">-->
                             <?php if ($img["ext"] == ".svg") { ?>
-                                <object width="523" type="image/svg+xml" data="<?= "midia/manga/".$img["nome"].$img["ext"]; ?>" title="<?= $img["alt"].". ".$img["title"]; ?>"></object>
+                                <object tabindex="-1" width="523" type="image/svg+xml" data="<?= "midia/manga/".$img["nome"].$img["ext"]; ?>" title="<?= $img["alt"].". ".$img["title"]; ?>"></object>
                             <?php } else { ?>
                                 <picture>
                                     <source media="(max-width: 960px)" srcset="<?= "midia/manga/".$img["nome"]."_220".$img["ext"]; ?>">
@@ -66,8 +66,8 @@ $imgsCat = $categorias["imagens"];
                             </a>
                             <!--</a>-->
                         </div>
-                        <a href="index.php?pagina=manga&id=<?= $manga["id"]; ?>" class=""><p class="text-justify texto"><?= $texto; ?></p></a>
-                        <a href="index.php?pagina=manga&id=<?= $manga["id"]; ?>" class="d-md-none btn btn-outline-primary btn-lg  pl-4 pr-4">Leia +</a>
+                        <a tabindex="-1" href="index.php?pagina=manga&id=<?= $manga["id"]; ?>" class=""><p class="text-justify texto"><?= $texto; ?></p></a>
+                        <a tabindex="-1" href="index.php?pagina=manga&id=<?= $manga["id"]; ?>" class="d-md-none btn btn-outline-primary btn-lg  pl-4 pr-4">Leia +</a>
                     </div>
                 </div>
             </section>
