@@ -20,6 +20,15 @@ $(document).ready(function () {
         }
     });
 
+    $(".nav-link.dropdown-toggle").on("keypress, keyup, keydown", function (event) {
+        var keycode = event.which || event.keycode;
+        if (keycode === 40 || keycode === 13 || keycode === 38) {
+            event.preventDefault();
+            $(this).dropdown('toggle');
+            $(this).siblings(".dropdown-menu").find(".dropdown-item:first-of-type()").focus();
+        }
+    });
+
     $(".navbar-toggler[data-target='#navbarSupportedContent']").click(function (e) {
         var targetMenu = $(this).data("target");
         if (!$(targetMenu).hasClass("show")) {

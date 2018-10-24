@@ -15,20 +15,12 @@
         </div>
         <section class="row">
                 <?php
-                    $teatroValues = teatroContent();
-                        foreach ($teatroValues as $teatroInfo){  ?>
-                    <section class="col-12 col-md-6 col-lg-4 thumb_nail text-center">
-                        <a href="index.php?pagina=<?=$teatroInfo["argumento"]?>&id=<?=$teatroInfo["id"]?>">    
-                            <div class="circular">
-                                <img class="thumb_img m-auto" src="midia/teatro/<?=$teatroInfo["imagem"]?>.jpg" alt="<?= $teatroInfo["alt"]?>" title="<?=$teatroInfo["credito"]?>">
-                                    <div class="over_title">
-                                        <h3 class="text-danger sub_cab"><?=$teatroInfo["title"]?></h3>
-                                    </div>
-                                    <div class="over_text">
-                                        <p class="p_text"><?=$teatroInfo["texto"]?></p>
-                                    </div>
-                            </div>
-                        </a>
+                $teatroValues = teatroContent();
+                    foreach ($teatroValues as $teatroInfo) { ?>
+                    <section class="thumb-holder col-12 col-md-6 col-lg-4">
+                        <h3 class="thumb-heading"><a href="index.php?pagina=<?=$teatroInfo["argumento"]?>&id=<?=$teatroInfo["id"]?>"><?=$teatroInfo["title"]?></a></h3>
+                        <img class="thumb-img" src="midia/teatro/<?=$teatroInfo["imagem"]?>.jpg" alt="<?= $teatroInfo["alt"]?>" title="<?=$teatroInfo["credito"]?>">
+                        <p class="thumb-text"><a href="index.php?pagina=<?=$teatroInfo["argumento"]?>&id=<?=$teatroInfo["id"]?>"><?=$teatroInfo["texto"]?></a></p>
                     </section>
                 <?php } ?>
         </section>
