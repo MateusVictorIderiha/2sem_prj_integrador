@@ -13,7 +13,7 @@ $musica = getIdArray($id, $musicas);
                     <source media="(max-width: 720px)" srcset="<?= "midia/musicas/" .$musica["imagem"]; ?>">
                     <source media="(min-width: 720px)" srcset="<?= "midia/musicas/" .$musica["imagem"]; ?>">
                     <source media="(min-width: 1200px)" srcset="<?= "midia/musicas/" .$musica["imagem"]; ?>">
-                    <img class="img-fluid img-thumbnail" src="<?= "midia/musicas/" .$musica["imagem"]; ?>" alt="Imagem/logo da pagina relacionada ao gÃªnero musical ...">
+                    <img class="img-fluid img-thumbnail" src="<?= "midia/musicas/" .$musica["imagem"]; ?>" alt="<?= $musica["alt"]; ?>">
                 </picture>
                 <p class="text-justify"><?= $musica["texto"]; ?>...</p>
                 <p class="text-justify"><?= $musica["texto"]; ?>...</p>
