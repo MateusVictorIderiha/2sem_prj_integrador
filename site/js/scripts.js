@@ -21,7 +21,7 @@ $(document).ready(function () {
     });
 
     $(".nav-link.dropdown-toggle").on("keypress, keyup, keydown", function (event) {
-        var keycode = event.which || event.keycode;
+        var keycode = event.which || event.keyCode || event.charCode;
         if (keycode === 40 || keycode === 13 || keycode === 38) {
             event.preventDefault();
             $(this).dropdown('toggle');
