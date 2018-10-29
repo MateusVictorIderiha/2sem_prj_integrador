@@ -128,7 +128,8 @@ será estabelecidos este padrão.
 
 SERVIDOR: 
     ------ LEMBRANDO CRIAR UM PROJETO NO NETBEANS APENAS PARA O SITE NA HORA DE SUBIR ------
-    site: http://oriart-prjintegrador.orgfree.com/ftp/index.php
+    FTP: http://oriart-prjintegrador.orgfree.com/ftp/index.php
+    SITE: oriart-prjintegrador.orgfree.com
     login FTP: oriart-prjintegrador.orgfree.com
     senha FTP: OriArt2018
     IR em projetos modificar, executar configuração e colocar WEB SITE REMOTE; 
@@ -138,5 +139,4 @@ SERVIDOR:
     
    
    Link para Planilha
-   
-   https://onedrive.live.com/view.aspx?resid=BD40D158351941F2!3121&ithint=file%2cxlsx&app=Excel&authkey=!AFOIR_zQOic0QQc
+   https://fatecspgov.sharepoint.com/sites/PRJ_integrador_3sem/Documentos%20Compartilhados/Forms/AllItems.aspx
