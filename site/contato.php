@@ -25,10 +25,10 @@
 
                         <label class="mt-2"><strong>O que voce deseja?</strong></label>
                         <select class="custom-select" name="objetivo">
-                            <option value="">Escolha</option>
-                            <option value="1">Duvida</option>
-                            <option value="2">critica</option>
-                            <option value="3">SugestÃ£o</option>
+                            <option value="">Clique para Escolher</option>
+                            <option value="1">Dúvida</option>
+                            <option value="2">Crítica</option>
+                            <option value="3">Sugestão</option>
                         </select>
                     </div>
 
