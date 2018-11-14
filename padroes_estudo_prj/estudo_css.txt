@@ -1,0 +1,55 @@
+site para verificar suporte de tag e regras do css nos navegadores: https://caniuse.com/
+
+Antes de começarmos esclarecendo alguns termos:
+    Um elemento é uma tag html
+    Um "elemento filho" é o elemento que está contido dentro de uma determinada tag
+    Um "elemento pai" é o elemento que contém a tag
+    Um "elemento irmao" são os elementos que são filhos do mesmo pai e estão no mesmo nivel na arvore
+
+As pseudo-classes vem depois de um ou dois "dois pontos" (":" ou "::")
+selecionar elementos de forma estrutural:
+    Criar efeito de listras:
+        -> nth-child: https://www.w3schools.com/cssref/sel_nth-child.asp
+        -> nth-of-type (Seleciona o ): https://www.w3schools.com/cssref/sel_nth-of-type.asp
+
+Limitar tamanho do texto e se ele passar mostrar "...":
+    https://www.w3schools.com/cssref/css3_pr_text-overflow.asp
+
+background:
+    background-color: linear-gradient(cor_1, cor_2);
+    background-color: radial-gradient(cor_1, cor_2);
+    https://www.w3schools.com/css/css3_gradients.asp
+
+    criar efeito que a imagem se mexe junto com o scroll do mouse:
+        background-attachment: fixed;
+        https://www.w3schools.com/CSSref/pr_background-attachment.asp
+
+Formatando o texto para maiusculas ou minusculas:
+    https://www.w3schools.com/CSSref/pr_text_text-transform.asp
+
+aplicar sombras em elementos: https://www.w3schools.com/CSSref/css3_pr_box-shadow.asp
+aplicar sombras em textos: https://www.w3schools.com/CSSref/css3_pr_box-shadow.asp
+
+Opacity, diminui a opacidade de um elemento:
+    https://www.w3schools.com/CSSref/css3_pr_opacity.asp
+
+z-index, essa propriedade se os elementos estiverem no mesmo nivel e com a propriedade position alterada
+ele pode alterar a ordem de empilhamento dos elementos.
+    https://www.w3schools.com/CSSref/pr_pos_z-index.asp
+
+filter, aplica um filtro a uma foto, ele tem varios valores interessantes:
+    https://www.w3schools.com/CSSref/playit.asp?filename=playcss_filter&preval=blur(5px)
+
+Transform é uma propriedade muito incrivel, ela é uma propriedade que aplica uma transformação 2D ou 3d 
+a um elemento, podendo mover, girar, dimensionar, inclinar etc..
+    https://www.w3schools.com/CSSref/css3_pr_transform.asp    
+    valor de transform scale, aumenta o tamanho de um elemento:
+        https://www.w3schools.com/CSSref/playit.asp?filename=playcss_transform_scale
+
+Transition cria um efeito de transição de efeitos, ou seja se voce coloca para ele dar um efeito no transition
+para color a cor, e adicona uma regra para pseudo classe hover mudando a cor dele, quando a cor for mudada será
+mudada com um efeito de transição um pouco mais lento ou mais rapido, dando um leve efeito de animação
+
+Key frames e anitions para animações um pouco mais complexas:
+    https://www.w3schools.com/CSSref/css3_pr_animation-keyframes.asp
+
