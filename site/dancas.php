@@ -34,7 +34,7 @@ $visites = visiteoutros();
                 <h1 class="titulo">Dança como arte</h1>
                 <p>
                     Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel, maximus pretium est. Donec non gravida ligula. Fusce ac imperdiet lorem. Mauris feugiat tortor libero, non tempus nibh mattis eu. Quisque rhoncus libero bibendum sodales dapibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer fermentum cursus pellentesque. Mauris eget elit rutrum, eleifend tortor sed, vehicula ante. Cras sed orci vel purus malesuada ultricies. Sed quis porttitor nibh. Praesent in massa tellus. In eget hendrerit massa. Mauris ut leo a purus aliquet rutrum.
-                    Sed tristique lectus commodo, scelerisque mauris a, porta odio. Vestibulum tincidunt libero id mi auctor, a elementum ligula pharetra. Ut finibus nibh a arcu suscipit, et vulputate leo semper. Fusce vulputate ipsum ac pellentesque hendrerit. Nullam pretium tincidunt mollis. Praesent nec lectus ac est commodo gravida ac ac orci. In elit arcu, porttitor in arcu et, ultrices viverra risus. Mauris a ante nibh. Praesent id sollicitudin magna, et eleifend elit. Aliquam a magna non tortor venenatis sollicitudin. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris a ante nibh. Praesent id sollicitudin magna, et eleifend elit. Aliquam a magna non tortor venenatis sollicitudin. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                    Sed tristique lectus commodo, scelerisque mauris a, porta odio. Vestibulum tincidunt libero id mi auctor, a elementum ligula pharetra. Ut finibus nibh a arcu suscipit, et vulputate leo semper. Fusce vulputate ipsum ac pellentesque hendrerit. 
                 </p>
             </article>
 
@@ -53,7 +53,7 @@ $visites = visiteoutros();
                 <div class="col-lg-6 col-md-6">
                     <aside class="d-none d-sm-block">
                         <p>
-                            Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel, maximus pretium est. Donec non gravida ligula. Fusce ac imperdiet lorem. Mauris feugiat tortor libero, non tempus nibh mattis eu. Quisque rhoncus libero bibendum sodales dapibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer fermentum cursus pellentesque. Mauris eget elit rutrum, eleifend tortor sed, Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel, maximus pretium est. Donec non gravida ligula. Fusce ac imperdiet lorem. Mauris feugiat tortor libero, non tempus nibh mattis eu. Quisque rhoncus libero bibendum sodales dapibus. Orci.
+                            Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel, maximus pretium est. Donec non gravida ligula. Fusce ac imperdiet lorem. Mauris feugiat tortor libero, non tempus nibh mattis eu. Quisque rhoncus libero bibendum sodales dapibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer fermentum cursus pellentesque. Mauris eget elit rutrum, eleifend tortor sed, Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci.
                         </p>
                     </aside>
                 </div>
@@ -68,7 +68,7 @@ $visites = visiteoutros();
     <div class="row">
         <div class="col-lg-4 d-none d-lg-block">
             <section>
-                <h2 class="subtitulo text-center dancaText">Visite outras categorias</h2>
+                <h2 class="subtitulo text-center dancaText">Outras categorias</h2>
             </section>
 
             <div class="row">
@@ -107,7 +107,7 @@ $visites = visiteoutros();
                                     </a>
                                 </div>
 
-                                <div class="col-lg-8 col-md-8 col-8">
+                                <div class="col-lg-8 col-md-8 col-8 HiddenText-163">
                                     <h2 class="subtitulo dancaText"><a class="internoDancaA" href="<?= "index.php?pagina=dancatopico&id=" . $valor["id"]; ?>"><?= $valor["titulo"]; ?></a></h2>
                                     <a class="internoDancaA" href="<?= "index.php?pagina=dancatopico&id=" . $valor["id"]; ?>"><p><?= $valor["texto"]; ?></p></a>
                                 </div>

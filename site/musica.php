@@ -26,7 +26,7 @@ $musica = getIdArray($id, $musicas);
             <div class="container-fluid">
                 <div class="row">
                     <?php foreach ($musica["extra"]["sectionExtra"] as $valor) { ?>
-                        <div class="col-md-6">
+                        <div class="col-md-6  HiddenText-345">
                             <section>
                                 <h2 class="text-center subtitulo"><?= $valor["titulo"]; ?></h2>
                               <?php if (isset($valor["imagem"])){ ?>

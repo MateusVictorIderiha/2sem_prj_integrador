@@ -14,7 +14,7 @@
 			    <div class="right_content col-6">
 				<h2 class="subtitulo hDoisNome"><?= $atoresInfo["titulo"] ?></h2>
 				<div class="line lineAtor"></div>
-				<p class="descriPara text-justify"><?= $atoresInfo["descricao"] ?></p>
+				<p class="descriPara text-justify HiddenText-120"><?= $atoresInfo["descricao"] ?></p>
 				<div class="line lineAtor"></div>                    
 				<a class="leiaMais" href="index.php?pagina=<?= $atoresInfo["argumento"]?>&id=<?= $atoresInfo["id"]?>">Leia Mais..</a>
 			    </div>
