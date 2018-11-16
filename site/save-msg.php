@@ -19,20 +19,46 @@ include 'functions/geral.php';
 $data = getDadosJson('dados/mensagens.json');
 
 $data[] = $InfoPessoal;
-
+$mensagemErro = [];
+        
 $re_json = json_encode($data);
 file_put_contents('dados/mensagens.json', $re_json);
 
-if (file_put_contents('dados/mensagens.json', $re_json) !== false) {
-   $dados_resposta = [
-	    "status" => 1,
-	    "msg" => "<strong>Obrigado, mensagem enviada com sucesso!</strong> Obrigado, logo entraremos em contato"
-	];
+
+if (empty($nome)) {
+    $mensagemErro[] = "nome";
+}
+if (empty($sobrenome)) {
+    $mensagemErro[] = "sobrenome";
+}
+if (empty($email)) {
+    $mensagemErro[] = "e-mail";
+}
+if (empty($objetivo)){
+    $mensagemErro[] = "objetivo";
+}
+if (empty($mensagem)) {
+    $mensagemErro[] = "Mensagem";
+}
+
+if (count($mensagemErro) > 0) {
+        $campoFalha = implode(", ", $mensagemErro);
+        $dados_resposta = [
+            "status" => 0,
+            "msg" => "<strong>Um erro ocorreu nos seguintes campos: $campoFalha!</strong> Por favor, tente novamente!"
+        ];
 } else {
-   $dados_resposta = [
-	    "status" => 0,
-	    "msg" => "<strong>Desculpe, um erro ocorreu com o envio!</strong> Por favor, tente mais tarde!"
-	];    
+    if (file_put_contents('dados/mensagens.json', $re_json) !== false){
+        $dados_resposta = [
+        "status" => 1,
+        "msg" => "<strong>Obrigado, mensagem enviada com sucesso!</strong> Obrigado, logo entraremos em contato"
+        ];
+    } else {
+        $dados_resposta = [
+            "status" => 0,
+            "msg" => "<strong>Um erro ocorreu no envio!</strong> Por favor, tente mais tarde!"
+        ];
+    }
 }
 
 $resposta = json_encode($dados_resposta);

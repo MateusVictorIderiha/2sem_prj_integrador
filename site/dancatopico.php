@@ -88,7 +88,7 @@
 
         <div class="col-lg-8">
             <section>
-                <h2 class="subtitulo text-center dancaText">DanÃ§a japonesa</h2>
+                <h2 class="subtitulo text-center dancaText">Danças japonesa</h2>
             </section>    
 
             <div class="row">                
