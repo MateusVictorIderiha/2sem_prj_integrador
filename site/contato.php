@@ -10,18 +10,18 @@
                     <div class="form-row">
                         <div class="col-lg-6">
                             <label for="elementoNome"><strong>Nome:</strong></label>
-                            <input type="text" class="form-control" id="elementoNome" placeholder="Digite seu nome" name="nome">
+                            <input type="text" class="form-control" id="elementoNome" placeholder="Digite seu nome" name="nome" required>
                         </div>
 
                         <div class="col-lg-6">
                             <label for="elementoSobrenome"><strong>Sobrenome:</strong></label>
-                            <input type="text" class="form-control" id="elementoSobrenome" placeholder="Digite seu sobrenome" name="sobreNome">
+                            <input type="text" class="form-control" id="elementoSobrenome" placeholder="Digite seu sobrenome" name="sobreNome" required>
                         </div>
                     </div>
 
                     <div class="form-group mt-2">
                         <label for="email01"><strong>Email:</strong></label>
-                        <input type="email" class="form-control" id="email01" placeholder="email@provedor.com.br" name="e-mail">
+                        <input type="email" class="form-control" id="email01" placeholder="email@provedor.com.br" name="e-mail" required>
 
                         <label class="mt-2"><strong>O que voce deseja?</strong></label>
                         <select class="custom-select" name="objetivo">
