@@ -46,7 +46,7 @@ $teatroValues = teatroContent();
                                         </a>
                                     </div>
 
-                                    <div class="col-lg-8 col-md-8 col-8">
+                                    <div class="col-lg-8 col-md-8 col-8 HiddenText-163">
                                         <h2 class="subtitulo dancaText"><a class="internoDancaA" href="<?= "index.php?pagina=dancatopico&id=" . $valor["id"]; ?>"><?= $valor["titulo"]; ?></a></h2>
                                         <a class="internoDancaA" href="<?= "index.php?pagina=dancatopico&id=" . $valor["id"]; ?>"><p><?= $valor["texto"]; ?></p></a>
                                     </div>
