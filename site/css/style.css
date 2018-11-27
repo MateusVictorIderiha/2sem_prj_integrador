@@ -167,7 +167,7 @@ a:hover {
 .thumb-holder p {
     position: absolute;
     max-width: 100%;
-    bottom: 2px;
+    bottom: -2px;
     padding: 5px 10px;
     background-color: rgba(0, 0, 0, 0.9);
     left: 15px;
