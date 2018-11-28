@@ -44,9 +44,7 @@
                         tortor eget luctus facilisis. Sed mattis metus sed magna rhoncus ullamcorper nec vel purus. 
                         Morbi in metus pellentesque, dapibus elit vel, pellentesque nunc.
                     </p>
-                </div>
-
-                
+                </div>               
             </div>
         </article>
     </div>
@@ -55,67 +53,77 @@
 <div class="container-fluid" id="sectionHistoria">
     <section>
         <h3 class="d-none">Categorias de arte a ser visitada</h3>
-        <div class="row">
-            <div class="offset-lg-1 offset-md-0 offset-1 col-lg-2 col-md-4 col-10 text-center">
-                <img class="img-fluid mt-5" src="midia/geral/manga_saiba_190.jpg" alt="cosplay de personagens manga" style="width:auto;">
-                <h2 class="subtitulo pHistoria pt-2">Mangá na arte</h2>
-                <p class="text-justify pHistoria">
-                    Vestibulum ac dui et elit fringilla condimentum id sed felis. 
-                    Donec eu nunc molestie, accumsan dolor sit amet, sagittis felis. 
-                    Nullam iaculis purus quam, quis scelerisque sapien bibendum rhoncus. 
-                    Donec condimentum est in lacinia ultrices. Suspendisse potenti. 
-                    Donec massa urna, mattis id volutpat at, convallis at nisi. Proin iaculis tortor eget luctus facilisis.
-                </p>
-                <p><a class="btn btn-danger" href="index.php?pagina=mangas&id=1" role="button">Leia mais</a></p>
+        <div class="row groupHistoria">
+            <div class="offset-lg-1 offset-md-0 offset-1 col-lg-2 col-md-4 col-10 text-center p-0">
+                <div class="borderHistoria">
+                    <img class="img-fluid" src="midia/geral/manga_saiba_190.jpg" alt="cosplay de personagens manga" style="width:auto;">                
+                    <h2 class="subtitulo pHistoria pt-2">Mangá na arte</h2>
+                    <p class="text-justify pHistoria">
+                        Vestibulum ac dui et elit fringilla condimentum id sed felis. 
+                        Donec eu nunc molestie, accumsan dolor sit amet, sagittis felis. 
+                        Nullam iaculis purus quam, quis scelerisque sapien bibendum rhoncus. 
+                        Donec condimentum est in lacinia ultrices. Suspendisse potenti. 
+                        Donec massa urna, mattis id volutpat at, convallis at nisi. Proin iaculis tortor eget luctus facilisis.
+                    </p>
+                    <p><a class="btn btn-danger" href="index.php?pagina=mangas&id=1" role="button">Leia mais</a></p>
+                </div>
             </div>
             
-            <div class="offset-1 offset-lg-0 offset-md-0 col-lg-2 col-md-4 col-10 text-center">
-                <img class="img-fluid mt-5" src="midia/geral/danca_saiba_190.jpg" alt="danÃ§a tipica do japao" style="width:auto;">
-                <h2 class="subtitulo pHistoria pt-2">Dança na arte</h2>
-                <p class="text-justify pHistoria" style="border-left:1px polid #fff;">
-                    Vestibulum ac dui et elit fringilla condimentum id sed felis. 
-                    Donec eu nunc molestie, accumsan dolor sit amet, sagittis felis. 
-                    Nullam iaculis purus quam, quis scelerisque sapien bibendum rhoncus. 
-                    Donec condimentum est in lacinia ultrices. Suspendisse potenti. 
-                    Donec massa urna, mattis id volutpat at, convallis at nisi. Proin iaculis tortor eget luctus facilisis.
-                </p>
-                <p><a class="btn btn-danger" href="index.php?pagina=dancas" role="button">Leia mais</a></p>
+            <div class="offset-1 offset-lg-0 offset-md-0 col-lg-2 col-md-4 col-10 text-center p-0">
+                <div class="borderHistoria">
+                    <img class="img-fluid" src="midia/geral/danca_saiba_190.jpg" alt="danÃ§a tipica do japao" style="width:auto;">
+                    <h2 class="subtitulo pHistoria pt-2">Dança na arte</h2>
+                    <p class="text-justify pHistoria" style="border-left:1px polid #fff;">
+                        Vestibulum ac dui et elit fringilla condimentum id sed felis. 
+                        Donec eu nunc molestie, accumsan dolor sit amet, sagittis felis. 
+                        Nullam iaculis purus quam, quis scelerisque sapien bibendum rhoncus. 
+                        Donec condimentum est in lacinia ultrices. Suspendisse potenti. 
+                        Donec massa urna, mattis id volutpat at, convallis at nisi. Proin iaculis tortor eget luctus facilisis.
+                    </p>
+                    <p><a class="btn btn-danger" href="index.php?pagina=dancas" role="button">Leia mais</a></p>
+                </div>
             </div>
-            <div class="offset-1 offset-md-0 offset-lg-0 col-lg-2 col-md-4 col-10 text-center">
-                <img class="img-fluid mt-5" src="midia/geral/teatro_saiba_190.jpg" alt="fantoche japones" style="width:auto;">
-                <h2 class="subtitulo pHistoria pt-2">Teatro na arte</h2>
-                <p class="text-justify pHistoria">
-                    Vestibulum ac dui et elit fringilla condimentum id sed felis. 
-                    Donec eu nunc molestie, accumsan dolor sit amet, sagittis felis. 
-                    Nullam iaculis purus quam, quis scelerisque sapien bibendum rhoncus. 
-                    Donec condimentum est in lacinia ultrices. Suspendisse potenti. 
-                    Donec massa urna, mattis id volutpat at, convallis at nisi. Proin iaculis tortor eget luctus facilisis.
-                </p>
-                <p><a class="btn btn-danger" href="index.php?pagina=teatro" role="button">Leia mais</a></p>
+            <div class="offset-1 offset-md-0 offset-lg-0 col-lg-2 col-md-4 col-10 text-center p-0">
+                <div class="borderHistoria">
+                    <img class="img-fluid" src="midia/geral/teatro_saiba_190.jpg" alt="fantoche japones" style="width:auto;">
+                    <h2 class="subtitulo pHistoria pt-2">Teatro na arte</h2>
+                    <p class="text-justify pHistoria">
+                        Vestibulum ac dui et elit fringilla condimentum id sed felis. 
+                        Donec eu nunc molestie, accumsan dolor sit amet, sagittis felis. 
+                        Nullam iaculis purus quam, quis scelerisque sapien bibendum rhoncus. 
+                        Donec condimentum est in lacinia ultrices. Suspendisse potenti. 
+                        Donec massa urna, mattis id volutpat at, convallis at nisi. Proin iaculis tortor eget luctus facilisis.
+                    </p>
+                    <p><a class="btn btn-danger" href="index.php?pagina=teatro" role="button">Leia mais</a></p>
+                </div>
             </div>
-            <div class="offset-md-2 offset-lg-0 offset-1 col-lg-2 col-md-4 col-10 text-center">
-                <img class="img-fluid mt-5" src="midia/geral/musica_saiba_190.jpg" alt="banda japonesa de k-pop" style="width:auto;">
-                <h2 class="subtitulo pHistoria pt-2">Música na arte</h2>
-                <p class="text-justify pHistoria">
-                    Vestibulum ac dui et elit fringilla condimentum id sed felis. 
-                    Donec eu nunc molestie, accumsan dolor sit amet, sagittis felis. 
-                    Nullam iaculis purus quam, quis scelerisque sapien bibendum rhoncus. 
-                    Donec condimentum est in lacinia ultrices. Suspendisse potenti. 
-                    Donec massa urna, mattis id volutpat at, convallis at nisi. Proin iaculis tortor eget luctus facilisis.
-                </p>
-                <p><a class="btn btn-danger" href="index.php?pagina=musicas" role="button">Leia mais</a></p>
+            <div class="offset-md-2 offset-lg-0 offset-1 col-lg-2 col-md-4 col-10 text-center p-0">
+                <div class="borderHistoria">
+                    <img class="img-fluid" src="midia/geral/musica_saiba_190.jpg" alt="banda japonesa de k-pop" style="width:auto;">
+                    <h2 class="subtitulo pHistoria pt-2">Música na arte</h2>
+                    <p class="text-justify pHistoria">
+                        Vestibulum ac dui et elit fringilla condimentum id sed felis. 
+                        Donec eu nunc molestie, accumsan dolor sit amet, sagittis felis. 
+                        Nullam iaculis purus quam, quis scelerisque sapien bibendum rhoncus. 
+                        Donec condimentum est in lacinia ultrices. Suspendisse potenti. 
+                        Donec massa urna, mattis id volutpat at, convallis at nisi. Proin iaculis tortor eget luctus facilisis.
+                    </p>
+                    <p><a class="btn btn-danger" href="index.php?pagina=musicas" role="button">Leia mais</a></p>
+                </div>
             </div>
-            <div class="offset-1 offset-md-0 offset-lg-0 col-lg-2 col-md-4 col-10 text-center">
-                <img class="img-fluid mt-5" src="midia/geral/origami_saiba_190.jpg" alt="origami classico de cisney" style="width:auto;">
-                <h2 class="subtitulo pHistoria pt-2">Origami na arte</h2>
-                <p class="text-justify pHistoria">
-                    Vestibulum ac dui et elit fringilla condimentum id sed felis. 
-                    Donec eu nunc molestie, accumsan dolor sit amet, sagittis felis. 
-                    Nullam iaculis purus quam, quis scelerisque sapien bibendum rhoncus. 
-                    Donec condimentum est in lacinia ultrices. Suspendisse potenti. 
-                    Donec massa urna, mattis id volutpat at, convallis at nisi. Proin iaculis tortor eget luctus facilisis.
-                </p>
-                <p><a class="btn btn-danger" href="index.php?pagina=historia_origame" role="button">Leia mais</a></p>
+            <div class="offset-1 offset-md-0 offset-lg-0 col-lg-2 col-md-4 col-10 text-center p-0">
+                <div class="borderHistoria">
+                    <img class="img-fluid" src="midia/geral/origami_saiba_190.jpg" alt="origami classico de cisney" style="width:auto;">
+                    <h2 class="subtitulo pHistoria pt-2">Origami na arte</h2>
+                    <p class="text-justify pHistoria">
+                        Vestibulum ac dui et elit fringilla condimentum id sed felis. 
+                        Donec eu nunc molestie, accumsan dolor sit amet, sagittis felis. 
+                        Nullam iaculis purus quam, quis scelerisque sapien bibendum rhoncus. 
+                        Donec condimentum est in lacinia ultrices. Suspendisse potenti. 
+                        Donec massa urna, mattis id volutpat at, convallis at nisi. Proin iaculis tortor eget luctus facilisis.
+                    </p>
+                    <p><a class="btn btn-danger" href="index.php?pagina=historia_origame" role="button">Leia mais</a></p>
+                </div>
             </div>
         </div>
     </section>
