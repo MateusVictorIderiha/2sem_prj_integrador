@@ -2,7 +2,7 @@
     
     <div class="row">
         <div class="col-lg-6 col-md-12">
-            <h1 class="titulo mt-4" style="border-bottom: 2px solid red;">Entre em contato conosco</h1>
+            <h1 class="titulo mt-4">Entre em contato conosco</h1>
             <h2 class="subtitulo py-2">Dúvidas, críticas ou sugestões, preencha os campos:</h2>
 
             <article>
@@ -10,18 +10,18 @@
                     <div class="form-row">
                         <div class="col-lg-6">
                             <label for="elementoNome"><strong>Nome:</strong></label>
-                            <input type="text" class="form-control" id="elementoNome" placeholder="Digite seu nome" name="nome">
+                            <input type="text" class="form-control" id="elementoNome" placeholder="Digite seu nome" name="nome" required>
                         </div>
 
                         <div class="col-lg-6">
                             <label for="elementoSobrenome"><strong>Sobrenome:</strong></label>
-                            <input type="text" class="form-control" id="elementoSobrenome" placeholder="Digite seu sobrenome" name="sobreNome">
+                            <input type="text" class="form-control" id="elementoSobrenome" placeholder="Digite seu sobrenome" name="sobreNome" required>
                         </div>
                     </div>
 
                     <div class="form-group mt-2">
                         <label for="email01"><strong>Email:</strong></label>
-                        <input type="email" class="form-control" id="email01" placeholder="email@provedor.com.br" name="e-mail">
+                        <input type="email" class="form-control" id="email01" placeholder="email@provedor.com.br" name="e-mail" required>
 
                         <label class="mt-2"><strong>O que voce deseja?</strong></label>
                         <select class="custom-select" name="objetivo">
@@ -54,7 +54,7 @@
 
         <div class="col-lg-6 col-md-12 d-none d-sm-block">
             <aside class="mt-4">
-                <h1 class="titulo text-center" style="border-bottom: 2px solid red;">Saiba um pouco mais sobre o OriArt</h1>
+                <h1 class="titulo text-center">Saiba um pouco mais sobre o OriArt</h1>
 
                 <p class="mt-3">
                     Fusce ullamcorper eros eget molestie ornare. Proin accumsan augue sed lorem facilisis, 

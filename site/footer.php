@@ -8,7 +8,6 @@ foreach ($infoGrupo["integrantes"] as $integrante) {
             .$integrante["nome"]."</a>";
 }
 ?>
-
     <hr class="hrDanca">
         <footer class="rodape border-line-top pb-4">
             <div class="row ml-0 mr-0">
