@@ -125,7 +125,37 @@ a:hover {
 }
 
 #sectionHistoria {
-    background-color: #801515
+    background-color: #801515;
+}
+
+.borderHistoria {    
+    margin-right: 10px;
+    padding-right: 15px;
+    border-right: solid 2px white;
+}
+
+.groupHistoria{
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.groupHistoria .col-10:last-of-type
+.borderHistoria {    
+    border: 0px;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px){
+   .groupHistoria .col-10:nth-of-type(3)
+   .borderHistoria{
+       border:0;
+   } 
+}
+
+@media screen and (max-width: 500px){
+   .groupHistoria .col-10
+   .borderHistoria{
+       border:0;
+   }
 }
 
 .pHistoria {
