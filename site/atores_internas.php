@@ -17,6 +17,18 @@ $ator = getIdArray($page_id, $atores);
                 <p><?= $ator['textoDois'] ?></p>
             </article>
         </div>
+       <div class="buttons text-center">
+            <!-- Load Facebook SDK for JavaScript -->
+            <div id="fb-root"></div>
+            <!-- Your share button code -->
+            <?php 
+            $url = urlencode("http://".$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']);
+            ?>
+            <a class="btn btn-lg" href="https://www.facebook.com/sharer/sharer.php?u=<?= $url; ?>" target="_blank"><i class="fab fa-facebook-f"></i> Compartilhar </a>
+            <a class="d-none d-md-inline btn btn-lg" href="https://api.whatsapp.com/send?text=<?= $url; ?>" target="_blank"><i class="fab fa-whatsapp"></i> Compartilhar</a>
+            <a class="d-md-none btn btn-lg" href="whatsapp://send?text=<?= $url; ?>" target="_blank"><i class="fab fa-whatsapp"></i> Compartilhar</a>
+            <a class="btn btn-lg" href="http://www.twitter.com/share?url=<?= $url; ?>" target="_blank"><i class="fab fa-twitter"></i>Compartilhar</a>
+        </div>
     </main>
     <section class="row text-center">
         <div class="line line_obras d-none"></div>

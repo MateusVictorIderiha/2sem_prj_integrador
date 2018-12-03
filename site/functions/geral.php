@@ -566,7 +566,16 @@ function setMetaShared(array $dados, string $pathImagem) {
         <meta property="og:title" content="'.$dados["titulo"].'" />
         <meta property="og:description" content="'.$dados["texto"].'" />
         <meta property="og:image" itemprop="image" content="'.$pathUrlImg.'">
-        <meta property="og:updated_time" content="'.strtotime("now").'" />';
+        <meta property="og:updated_time" content="'.strtotime("now").'" />
+        
+        <!--twitter-->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@'.$nome_grupo.'">
+        <meta name="twitter:title" content="'.$dados["texto"].'">
+        <meta name="twitter:creator" content="@OriArtProject">
+        <meta name="twitter:description" content="'.$dados["texto"].'">
+        <meta name="twitter:url" content="'.$url.'">
+        <meta name="twitter:image" content="'.$pathUrlImg.'">';
     
 }
 
