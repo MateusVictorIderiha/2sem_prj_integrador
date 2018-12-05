@@ -5,7 +5,7 @@ $dadosBusca = !empty($busca) ? getDadosBusca($busca) : [];
 <section class="container">
     <div class="row">
         <div class="col-12">
-            <h1 class="titulo text-center">VocÃª buscou por: <?= $busca; ?></h1>
+            <h1 class="titulo text-center">Você buscou por: <?= $busca; ?></h1>
         </div>
     </div>
     <div class="row">
