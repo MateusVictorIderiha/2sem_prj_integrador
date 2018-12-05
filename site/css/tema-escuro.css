@@ -10,8 +10,8 @@
 }
 body,
 html {    
-    background-color: black;
-    color: #fff
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria)
 }
 
 img {
@@ -20,11 +20,11 @@ img {
 
 .topo,
 .rodape {
-    background-color: black
+    background-color: var(--cor-primaria)
 }
 
 .foot_li_title {
-    color: white
+    color: var(--cor-secundaria)
 }
 
 .direito {
@@ -77,7 +77,7 @@ a:hover {
 }
 
 .pHistoria {
-    color: white
+    color: var(--cor-secundaria)
 }
 
 #navbarSupportedContent>ul>li.nav-item.active,
@@ -101,11 +101,11 @@ section .col-12.col-md-6.col-lg-4.border.border-danger.content_border {
 }
 
 .content_border {
-    border-color: var( --cor-secundaria);
+    border-color: var(--cor-secundaria);
 }
 
 .hrDanca {
-    background-color: #fff;
+    background-color: var(--cor-secundaria);
     height: 1.5px
 }
 
@@ -114,7 +114,7 @@ section .col-12.col-md-6.col-lg-4.border.border-danger.content_border {
 }
 
 .internoDancaA {
-    color: white
+    color: var(--cor-secundaria)
 }
 
 .internoDancaA:hover {
@@ -122,37 +122,41 @@ section .col-12.col-md-6.col-lg-4.border.border-danger.content_border {
 }
 
 .sec_um {
-    background-color: white;
-    color: black;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
 }
 
 .clip.pt-5 {
-    color : var(--cor-primaria);
+    color : var(--cor-secundaria);
 }
 
 .mangas .manga:hover {
-    color: #ef3341
+    color: var(--hover-claro);
 }
 
 .mangas .manga:hover * {
-    color: var(--cor-primaria);
+    color: var(--hover-claro);
 }
 
 .mangas .manga a {
-    color: var( --cor-primaria);
+    color: var(--cor-secundaria);
 }
 
 .mangas .manga:hover * {
-    color: var(--cor-primaria);
+    color: var(--hover-claro);
 }
 
 .mangas .manga .contentManga {
-    background-color: #FFF;
-    border: 1px solid var( --cor-primaria);
+    background-color: var(--cor-primaria);
+    border: 1px solid var(--cor-primaria);
+}
+
+.mangas .borderManga {
+    background-color: var(--cor-secundaria);
 }
 
 .relacionados .manga a {
-    color: var( --cor-primaria);
+    color: var(--cor-primaria);
 }
 
 .relacionados .manga:hover a {
@@ -161,8 +165,8 @@ section .col-12.col-md-6.col-lg-4.border.border-danger.content_border {
 
 .formBusca .form-control,
 .formBusca .input-group .input-group-prepend {
-    background-color: #fff;
-    color: #5f4b8b
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
 }
 
 .quem-somos .integrante {
@@ -186,12 +190,12 @@ imgHome2 {
 }
 
 .hrOrigami {
-    background-color: var( --cor-secundaria);
+    background-color: var(--cor-secundaria);
 }
 
 @media screen and (max-width:991px) {    
     .topo #navbarSupportedContent {        
-        background-color: white;      
+        background-color: var(--cor-secundaria);      
     }
     
     .topo>.navbar button.navbar-toggler {
@@ -220,7 +224,7 @@ imgHome2 {
 
 @media screen and (min-width:991px) {   
     .dropdown-menu {
-        background-color: #fff
+        background-color: var(--cor-secundaria)
     }
     .dropdown-menu .dropdown-item {
         color: var(--cor-primaria);
@@ -232,7 +236,7 @@ imgHome2 {
         border-top: 2px solid var(--hover-escuro);
     }
     .dropdown-item.active, .dropdown-item:active {
-        background-color: var( --hover-escuro);
+        background-color: var(--hover-escuro);
     }
     .dropdown-item:hover {
         background-color: var(--hover-escuro);
@@ -240,18 +244,18 @@ imgHome2 {
     
     .mangas .manga:hover .subtitulo,
     .mangas .manga:hover .texto {
-        background-color: #FFF;
+        background-color: var(--cor-primaria);
     }
     .mangas .containerCat .contentCat .clip {
-        background-color: #FFF;
+        background-color: var(--cor-primaria);
     }
     .mangas .containerCat .contentCat {
-        background-color: var( --cor-primaria);
+        background-color: var(--cor-secundaria);
     }  
     .mangas .containerCat .img-cat2 {
-        background-color: var( --cor-primaria);
+        background-color: var(--cor-primaria);
     }  
     .mangas .containerCat .img-cat1 {
-        background-color: var( --cor-primaria);
+        background-color: var(--cor-primaria);
     }            
 }

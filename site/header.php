@@ -14,11 +14,36 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/tema-escuro.css">
+        <link id="changeTema" rel="stylesheet" href="#">
         
         <link rel=icon href="midia/geral/logo.ico">
     </head>
     <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light menuTopo">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navAcessibilidade" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navAcessibilidade">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link nav-target" href="#conteudo_principal">Conteúdo principal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link changeTema" href="#" title="Trocar para tema escuro"><i class="fas fa-sun" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link addTamanhoFonte" href="#" title="Aumentar tamanho da fonte"><i class="fas fa-search-plus"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link tamanhoFonteOriginal" href="#" title="Tamanho da fonte original"><i class="fas fa-font"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link diminuiTamanhoFonte" href="#" title="Diminuir tamanho da fonte"><i class="fas fa-search-minus"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
         <header class="topo border-line-bottom">
             <nav class="navbar navbar-expand-lg">
                 <?php $infoGrupo = getInfoGrupo(); ?>

@@ -472,7 +472,7 @@ a:hover {
 }
 
 .mangas .manga:hover * {
-    color: #5f4b8b
+    color: #000;
 }
 
 .creditos {
