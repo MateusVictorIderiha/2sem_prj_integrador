@@ -35,6 +35,7 @@ $(document).ready(function () {
             domHtml.style.setProperty("--hover-escuro", "#3d3d3d");
             $(this).attr("title", "Trocar para tema claro");
             $(this).find("svg").removeClass("fa-sun, fa-moon, fa-adjust").addClass("fa-moon");
+            localStorage.setItem("myTemaSite", tema);
         } else if (tema === 2) {
             $("#changeTema").prop("href", "css/tema-escuro.css");
             domHtml.style.setProperty("--cor-primaria", "#FFF");
@@ -43,16 +44,17 @@ $(document).ready(function () {
             domHtml.style.setProperty("--hover-escuro", "#bababa");
             $(this).attr("title", "Trocar para tema original");
             $(this).find("svg").removeClass("fa-sun, fa-moon, fa-adjust").addClass("fa-sun");
-        } else if (tema === 3) {            
+            localStorage.setItem("myTemaSite", tema);
+        } else if (tema === 3) {
             $("#changeTema").prop("href", "#");
             $(this).attr("title", "Trocar para tema escuro");
             $(this).find("svg").removeClass("fa-sun, fa-moon, fa-adjust").addClass("fa-adjust");
             tema = 0;
+            localStorage.setItem("myTemaSite", tema + 1);
         }
-        localStorage.setItem("myTemaSite", tema);
     }).click();
 
-    let size = parseFloat(localStorage.getItem("sizeAtual") || 0);
+    let size = parseFloat(localStorage.getItem("sizeAtual") || 13);
     $("body").css({ "fontSize": size + "px" });
     $(".addTamanhoFonte").click(function () {
         let domBody = $(this).closest("body")[0];
