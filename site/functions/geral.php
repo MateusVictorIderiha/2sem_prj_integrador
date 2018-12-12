@@ -62,7 +62,7 @@ function setConfigPage($pageName) {
             $dancas = dancatopicos();
             $danca = getIdArray($_GET["id"], $dancas);
             $img = $danca["imagem"];
-            $pathImg = "midia/danca/".$img["nome"]."_100".$img["ext"];
+            $pathImg = "/midia/danca/".$img["nome"]."_100".$img["ext"];
             setMetaShared($danca, $pathImg);
             setTitleHead($infoGrupo["nome_grupo"]." - ".$danca['titulo']);
             break;
@@ -76,7 +76,9 @@ function setConfigPage($pageName) {
 	    $teatros = teatroInternas();
 	    $page_id = $_GET["id"];
 	    $teatro = getIdArray( $page_id, $teatros);
-            setTitleHead($infoGrupo["nome_grupo"]." - ".$teatro['title']);
+            $pathImg = "/midia/teatro/".$teatro["imagem"].".jpg";
+            setMetaShared($teatro, $pathImg);
+            setTitleHead($infoGrupo["nome_grupo"]." - ".$teatro['titulo']);
             break;
         case "atores":
             setActivBtnMenu("teatro");
@@ -89,6 +91,8 @@ function setConfigPage($pageName) {
 	    $atores = atoresContent();
 	    $page_id = $_GET['id'];
 	    $ator = getIdArray( $page_id, $atores);
+            $pathImg = "/midia/teatro/".$ator["imagem"].".jpg";
+            setMetaShared($ator, $pathImg);
             setTitleHead($infoGrupo["nome_grupo"]." - ".$ator['titulo']);
             break;
         case "classicos":
@@ -102,7 +106,7 @@ function setConfigPage($pageName) {
 	    $classicos = classicosInterna();
 	    $page_id = $_GET["id"];
 	    $classico = getIdArray( $page_id, $classicos);
-	    $pathImg = "midia/teatro/".$classico["imagem"].".jpg";
+	    $pathImg = "/midia/teatro/".$classico["imagem"].".jpg";
             setMetaShared($classico, $pathImg);
             setTitleHead($infoGrupo["nome_grupo"]." - ".$classico["titulo"]);
             break;
@@ -142,8 +146,13 @@ function setConfigPage($pageName) {
             break;
         case "musica":
             setActivBtnMenu("musicas");
-            setTitleHead($infoGrupo["nome_grupo"]." - Música");
             include './functions/musica.php';
+            $musics = getMusica();
+            $page_id = $_GET["id"];
+            $music = getIdArray($page_id, $musics);
+            $pathImg = "/midia/teatro/".$music["imagem"].".jpg";
+            setMetaShared($music, $pathImg);
+            setTitleHead($infoGrupo["nome_grupo"]." - Música");
             break;
         case "mangas":
             include './functions/manga.php';
@@ -160,7 +169,7 @@ function setConfigPage($pageName) {
             setDadosManga($id);
             $manga = getDadosManga();
             $img = $manga["imagem"];
-            $pathImg = "midia/manga/".$img["nome"]."_220".$img["ext"];
+            $pathImg = "/midia/manga/".$img["nome"]."_220".$img["ext"];
             setMetaShared($manga, $pathImg);
             setTitleHead($infoGrupo["nome_grupo"]." - Manga - ".$manga["titulo"]);
             break;

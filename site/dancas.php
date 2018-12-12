@@ -30,7 +30,7 @@ $visites = visiteoutros();
         </div>
 
         <div class="col-lg-8 col-md-12 col-xs-12">
-            <article  id="conteudo_principal">
+            <article id="conteudo_principal">
                 <h1 class="titulo">Dança como arte</h1>
                 <p>
                     Pellentesque molestie diam lacus, ut sollicitudin mauris cursus vitae. Sed est orci, facilisis eu metus vel, maximus pretium est. Donec non gravida ligula. Fusce ac imperdiet lorem. Mauris feugiat tortor libero, non tempus nibh mattis eu. Quisque rhoncus libero bibendum sodales dapibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer fermentum cursus pellentesque. Mauris eget elit rutrum, eleifend tortor sed, vehicula ante. Cras sed orci vel purus malesuada ultricies. Sed quis porttitor nibh. Praesent in massa tellus. In eget hendrerit massa. Mauris ut leo a purus aliquet rutrum.
