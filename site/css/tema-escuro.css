@@ -1,0 +1,271 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto|Sanchez');
+@import url('https://fonts.googleapis.com/css?family=Yrsa');
+
+:root {
+    --cor-primaria: #000;
+    --cor-secundaria: #fff;
+    --hover-claro: #bababa ;
+    --hover-escuro: #3d3d3d; 
+}
+body,
+html {    
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria)
+}
+
+img {
+    filter: grayscale(1);
+}
+
+.topo,
+.rodape {
+    background-color: var(--cor-primaria)
+}
+
+.foot_li_title {
+    color: var(--cor-secundaria)
+}
+
+.direito {
+    color: var(--cor-secundaria);
+}
+
+.line {
+    background-color: var(--cor-secundaria);
+}
+
+.titulo {
+    color: var(--cor-secundaria);
+}
+
+a {
+    color: inherit;
+    color: var(--cor-secundaria);
+}
+
+a:hover {
+    color: var(--hover-claro);
+}
+
+.btn-outline-primary {
+    color: #5f4b8b;
+}
+
+.btn-outline-primary:hover {
+    background-color: #5f4b8b;
+    color: var(--cor-primaria);
+}
+/*Botão Vermelho*/
+.btn.btn-danger {
+    background-color: var(--cor-primaria);
+    border-color: var(--cor-secundaria);
+}
+
+.btn.btn-danger:hover {
+    background-color: var(--cor-secundaria);
+    border-color: var(--cor-primaria);
+    color: var(--cor-primaria);
+} 
+
+#filter-overlay.show {
+    background-color: rgba(0, 0, 0, 0.75)
+}
+
+#sectionHistoria {
+    background-color: var(--cor-primaria);
+}
+
+.pHistoria {
+    color: var(--cor-secundaria)
+}
+
+#navbarSupportedContent>ul>li.nav-item.active,
+#navbarSupportedContent>ul>li.nav-item.active>a {
+    color: var(--hover-claro)
+}
+
+.titulo.mt-4 {
+    border-bottom: 2px solid var(--cor-secundaria);
+}
+aside .titulo.text-center {
+    border-bottom: 2px solid var(--cor-secundaria);
+}
+
+section .col-12.col-md-6.col-lg-4.border.border-danger.content_border {
+    border-color: var(--cor-secundaria);
+}
+
+.thumb-holder p {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.content_border {
+    border-color: var(--cor-secundaria);
+}
+
+.hrDanca {
+    background-color: var(--cor-secundaria);
+    height: 1.5px
+}
+
+.sectionDanca {
+    background-color: var(--cor-primaria);
+}
+
+.internoDancaA {
+    color: var(--cor-secundaria)
+}
+
+.internoDancaA:hover {
+    color: #939393
+}
+
+.sec_um {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+}
+
+.clip.pt-5 {
+    color : var(--cor-secundaria);
+}
+
+.mangas .manga:hover {
+    color: var(--hover-claro);
+}
+
+.mangas .manga:hover * {
+    color: var(--hover-claro);
+}
+
+.mangas .manga a {
+    color: var(--cor-secundaria);
+}
+
+.mangas .manga:hover * {
+    color: var(--hover-claro);
+}
+
+.mangas .manga .contentManga {
+    background-color: var(--cor-primaria);
+    border: 1px solid var(--cor-primaria);
+}
+
+.mangas .borderManga {
+    background-color: var(--cor-secundaria);
+}
+
+.relacionados .manga {
+    padding: 15px;
+    border-top: 1px solid var(--cor-secundaria);
+}
+
+.relacionados .manga a {
+    color: var(--cor-secundaria);
+}
+
+.relacionados .manga:hover a {
+    color: var(--hover-claro);
+}
+
+.formBusca .form-control,
+.formBusca .input-group .input-group-prepend {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+}
+
+.quem-somos .integrante {
+    border-bottom: 1px solid var(--cor-secundaria);
+}
+
+.jumbotron {
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.imgHome {
+    border: var(--cor-secundaria) solid thick;
+}
+
+imgHome2 {
+    border: var(--cor-secundaria) solid thick
+}
+
+.imgModelo:hover {
+    border: var(--cor-secundaria) solid thick
+}
+
+.bcjapao {
+    background-color: var(--cor-secundaria)
+}
+
+.hrOrigami {
+    background-color: var(--cor-secundaria);
+}
+
+@media screen and (max-width:991px) {    
+    .topo #navbarSupportedContent {        
+        background-color: var(--cor-secundaria);      
+    }
+    
+    .topo>.navbar button.navbar-toggler {
+        background-color: var(--cor-secundaria);
+        color: var(--cor-primaria);
+    }
+
+    .topo>.navbar>button.navbar-toggler>.fas.fa-bars {
+        color: var(--cor-primaria)
+    }
+    
+    .navbar-nav .nav-link{
+        color: var(--cor-primaria);
+    }
+}
+
+@media screen and (min-width:991px) {
+    header.topo.border-line-bottom {
+        background: url("../midia/geral/topo_teste.png") no-repeat;
+        position: relative;
+        z-index: 9;
+        filter: grayscale(1);
+
+    }
+}    
+
+@media screen and (min-width:991px) {   
+    .dropdown-menu {
+        background-color: var(--cor-secundaria)
+    }
+    .dropdown-menu .dropdown-item {
+        color: var(--cor-primaria);
+    }
+    .dropdown-menu .dropdown-item:hover {
+        color: var(--cor-secundaria);
+    }    
+    #navbarSupportedContent>ul>li.nav-item.active {
+        border-top: 2px solid var(--hover-escuro);
+    }
+    .dropdown-item.active, .dropdown-item:active {
+        background-color: var(--hover-escuro);
+    }
+    .dropdown-item:hover {
+        background-color: var(--hover-escuro);
+    }
+    
+    .mangas .manga:hover .subtitulo,
+    .mangas .manga:hover .texto {
+        background-color: var(--cor-primaria);
+    }
+    .mangas .containerCat .contentCat .clip {
+        background-color: var(--cor-primaria);
+    }
+    .mangas .containerCat .contentCat {
+        background-color: var(--cor-secundaria);
+    }  
+    .mangas .containerCat .img-cat2 {
+        background-color: var(--cor-primaria);
+    }  
+    .mangas .containerCat .img-cat1 {
+        background-color: var(--cor-primaria);
+    }            
+}
