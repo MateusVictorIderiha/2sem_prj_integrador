@@ -6,7 +6,7 @@
     --cor-primaria: #000;
     --cor-secundaria: #fff;
     --hover-claro: #bababa ;
-    --hover-escuro: #3d3d3d;
+    --hover-escuro: #3d3d3d; 
 }
 body,
 html {    
@@ -155,12 +155,17 @@ section .col-12.col-md-6.col-lg-4.border.border-danger.content_border {
     background-color: var(--cor-secundaria);
 }
 
+.relacionados .manga {
+    padding: 15px;
+    border-top: 1px solid var(--cor-secundaria);
+}
+
 .relacionados .manga a {
-    color: var(--cor-primaria);
+    color: var(--cor-secundaria);
 }
 
 .relacionados .manga:hover a {
-    color: #5f4b8b
+    color: var(--hover-claro);
 }
 
 .formBusca .form-control,
@@ -173,20 +178,25 @@ section .col-12.col-md-6.col-lg-4.border.border-danger.content_border {
     border-bottom: 1px solid var(--cor-secundaria);
 }
 
+.jumbotron {
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
 .imgHome {
-    border: #000 solid thick;
+    border: var(--cor-secundaria) solid thick;
 }
 
 imgHome2 {
-    border: #000 solid thick
+    border: var(--cor-secundaria) solid thick
 }
 
 .imgModelo:hover {
-    border: #000 solid thick
+    border: var(--cor-secundaria) solid thick
 }
 
 .bcjapao {
-    background-color: #905
+    background-color: var(--cor-secundaria)
 }
 
 .hrOrigami {
