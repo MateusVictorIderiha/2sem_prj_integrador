@@ -96,8 +96,8 @@ section .col-12.col-md-6.col-lg-4.border.border-danger.content_border {
     border-color: var(--cor-secundaria);
 }
 
-.thumb-holder p {
-    background-color: rgba(0, 0, 0, 0.9);
+.thumb-text a {
+    color: #fff;
 }
 
 .content_border {
